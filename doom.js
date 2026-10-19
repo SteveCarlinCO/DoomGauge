@@ -226,9 +226,9 @@
       var pct = max ? (100 * r.avg / max) : 0;
       return '<div class="src-row"><span class="src-rank">' + (i + 1) +
         '</span><span class="src-name">' + esc(r.name) +
-        '</span><span class="src-bar"><span class="src-fill" style="width:' +
+        '</span><div class="src-bar"><div class="src-fill" style="width:' +
         pct.toFixed(1) + "%;background:" + bandColor(r.avg) +
-        '"></span></span><span class="src-val">' + r.avg.toFixed(1) + "%</span></div>";
+        '"></div></div><span class="src-val">' + r.avg.toFixed(1) + "%</span></div>";
     }).join("") + '<div class="note">Average daily share of bleakness, last ' +
       days.length + " day" + (days.length === 1 ? "" : "s") + ".</div>";
   }
