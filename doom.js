@@ -86,9 +86,35 @@
       '" stroke-width="1.5"/></svg>';
   }
 
+  var LOGOS = {
+    "NPR": "npr.org", "BBC": "bbc.com", "Al Jazeera": "aljazeera.com",
+    "CBS": "cbsnews.com", "PBS": "pbs.org", "ABC": "abcnews.go.com",
+    "NBC": "nbcnews.com", "Sky": "news.sky.com", "DW": "dw.com",
+    "France24": "france24.com", "Guardian": "theguardian.com",
+    "The Hill": "thehill.com", "ZeroHedge": "zerohedge.com",
+    "ReliefWeb": "reliefweb.int", "TOI": "timesofindia.indiatimes.com",
+    "ABC-AU": "abc.net.au", "Slate": "slate.com",
+    "Times of Israel": "timesofisrael.com", "Vox": "vox.com",
+    "Euronews": "euronews.com", "CNBC": "cnbc.com", "Politico": "politico.com",
+    "ProPublica": "propublica.org", "Dawn": "dawn.com",
+    "Japan Times": "japantimes.co.jp", "The Diplomat": "thediplomat.com",
+    "Reason": "reason.com", "The Hindu": "thehindu.com",
+    "Jerusalem Post": "jpost.com", "FOX News": "foxnews.com",
+    "CNN": "cnn.com", "MSNBC": "msnbc.com", "CBC": "cbc.ca"
+  };
+  function logoFor(name) {
+    var d = LOGOS[name];
+    if (!d) return '<span class="src-name">' + esc(name) + "</span>";
+    return '<img class="src-logo" alt="' + esc(name) + '" title="' + esc(name) + '"' +
+      ' src="https://www.google.com/s2/favicons?domain=' + d + '&sz=64"' +
+      " onerror=\"this.style.display='none';this.nextElementSibling.style.display='inline'\">" +
+      '<span class="src-name" style="display:none">' + esc(name) + "</span>";
+  }
+
   function renderSources(sources, history) {
     var el = document.getElementById("sources");
-    var rows = sources.slice().sort(function (a, b) { return b.score - a.score; });
+    var rows = sources.filter(function (s) { return s.score > 0; })
+      .slice().sort(function (a, b) { return b.score - a.score; });
     el.innerHTML = rows.map(function (s) {
       var c = bandColor(s.score);
       var trail = [];
@@ -97,7 +123,7 @@
           trail.push(day.sources[s.name]);
         }
       });
-      return '<div class="src-row"><span class="src-name">' + esc(s.name) + "</span>" +
+      return '<div class="src-row">' + logoFor(s.name) +
         '<div class="src-bar"><div class="src-fill" style="width:' +
         Math.min(100, s.score).toFixed(1) + "%;background:" + c + ';"></div></div>' +
         sparkline(trail) +
@@ -220,13 +246,14 @@
     });
     var rows = Object.keys(sums).map(function (name) {
       return { name: name, avg: sums[name] / counts[name] };
-    }).sort(function (a, b) { return b.avg - a.avg; });
+    }).filter(function (r) { return r.avg > 0; })
+      .sort(function (a, b) { return b.avg - a.avg; });
     var max = rows.length ? rows[0].avg : 0;
     el.innerHTML = rows.map(function (r, i) {
       var pct = max ? (100 * r.avg / max) : 0;
       return '<div class="src-row"><span class="src-rank">' + (i + 1) +
-        '</span><span class="src-name">' + esc(r.name) +
-        '</span><div class="src-bar"><div class="src-fill" style="width:' +
+        "</span>" + logoFor(r.name) +
+        '<div class="src-bar"><div class="src-fill" style="width:' +
         pct.toFixed(1) + "%;background:" + bandColor(r.avg) +
         '"></div></div><span class="src-val">' + r.avg.toFixed(1) + "%</span></div>";
     }).join("") + '<div class="note">Average daily share of bleakness, last ' +
@@ -330,17 +357,56 @@
     });
   }
 
+  var feedHealthData = [];
   function renderHealth(health, fetchedAt) {
+    feedHealthData = health;
     var el = document.getElementById("health");
-    el.innerHTML = health.map(function (h) {
+    el.innerHTML = health.map(function (h, i) {
       var sub = h.ok ? h.headlines + " headlines" : esc(h.error || "failed");
-      return '<div class="pill' + (h.ok ? "" : " bad") + '">' +
-        '<span class="dot"></span><span class="pill-name">' + esc(h.name) +
-        '</span><span class="pill-sub">' + sub + "</span></div>";
+      return '<button class="pill' + (h.ok ? "" : " bad") + '" data-i="' + i + '">' +
+        '<span class="dot"></span>' + logoFor(h.name) +
+        '<span class="pill-sub">' + sub + "</span></button>";
     }).join("");
     document.getElementById("healthNote").textContent =
       "Last checked " + (fetchedAt || "—") + ".";
+    el.querySelectorAll("button.pill").forEach(function (b) {
+      b.addEventListener("click", function () {
+        showFeed(feedHealthData[+b.getAttribute("data-i")]);
+      });
+    });
   }
+
+  function showFeed(h) {
+    if (!h) return;
+    var modal = document.getElementById("feedModal");
+    document.getElementById("feedTitle").textContent = h.name.toUpperCase();
+    var html = '<div class="feed-meta">' +
+      (h.ok ? h.headlines + " headlines fetched" : "Failed: " + esc(h.error || "unknown")) +
+      "</div>";
+    if (h.url) {
+      html += '<div class="feed-url"><a href="' + esc(h.url) +
+        '" target="_blank" rel="noopener">' + esc(h.url) + "</a></div>";
+    }
+    html += (h.sample && h.sample.length) ? h.sample.map(function (s) {
+      var row = '<div class="feed-story"><span class="feed-score">' + s.score + "</span>";
+      row += s.link
+        ? '<a href="' + esc(s.link) + '" target="_blank" rel="noopener">' + esc(s.title) + "</a>"
+        : "<span>" + esc(s.title) + "</span>";
+      return row + "</div>";
+    }).join("") : '<div class="empty">No headlines sampled.</div>';
+    document.getElementById("feedBody").innerHTML = html;
+    modal.hidden = false;
+  }
+
+  function initFeedModal() {
+    var modal = document.getElementById("feedModal");
+    var close = document.getElementById("feedClose");
+    function shut() { modal.hidden = true; }
+    close.addEventListener("click", shut);
+    modal.addEventListener("click", function (e) { if (e.target === modal) shut(); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") shut(); });
+  }
+  initFeedModal();
 
   function getJSON(path) {
     return fetch(path, { cache: "no-store" }).then(function (r) {
@@ -364,7 +430,8 @@
         document.getElementById("feedCount").textContent = feeds.length;
         list.innerHTML = feeds.map(function (f) {
           return '<div class="feed-row"><div class="feed-name">' + esc(f.name) +
-            '</div><div class="feed-url">' + esc(f.url) + "</div></div>";
+            '</div><div class="feed-url"><a href="' + esc(f.url) +
+            '" target="_blank" rel="noopener">' + esc(f.url) + "</a></div></div>";
         }).join("");
       }).catch(function () {
         list.innerHTML = '<div class="empty">Could not load feeds.json.</div>';

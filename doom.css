@@ -30,6 +30,7 @@ h2 { font-size: 11px; letter-spacing: 2px; color: #8b93a7; font-weight: 600; mar
 .sources { font-size: 12.5px; color: #aab0c2; }
 .src-row { display: flex; align-items: center; gap: 10px; line-height: 2.2; }
 .src-name { width: 84px; flex: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.src-logo { width: 22px; height: 22px; border-radius: 5px; flex: none; background: rgba(255,255,255,0.06); }
 .src-rank { width: 18px; flex: none; color: #8b93a7; }
 .src-bar { flex: 1; height: 8px; background: rgba(255,255,255,0.08); border-radius: 4px; }
 .src-fill { height: 8px; border-radius: 4px; }
@@ -76,6 +77,8 @@ footer p { margin: 8px 0; }
 .delta.flat { color: #8b93a7; }
 .health { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 8px; }
 .pill { display: flex; align-items: center; gap: 8px; background: #161d33; border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 8px 10px; font-size: 12px; }
+button.pill { cursor: pointer; font: inherit; color: inherit; text-align: left; width: 100%; }
+button.pill:hover { border-color: rgba(255,255,255,0.28); background: #1a2338; }
 .pill-name { color: #e8eaf0; font-weight: 600; }
 .pill-sub { color: #8b93a7; margin-left: auto; font-size: 11px; white-space: nowrap; }
 .dot { width: 8px; height: 8px; border-radius: 50%; background: #7ee2a8; flex: none; }
@@ -116,6 +119,13 @@ footer p { margin: 8px 0; }
 .feed-row:last-child { border-bottom: none; }
 .feed-name { color: #e8eaf0; font-weight: 600; }
 .feed-url { color: #8b93a7; font-size: 11px; word-break: break-all; }
+.feed-url a { color: #7aa2ff; }
+.feed-meta { color: #8b93a7; font-size: 12px; margin-bottom: 6px; }
+.feed-story { display: flex; gap: 10px; align-items: baseline; padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px; }
+.feed-story:last-child { border-bottom: none; }
+.feed-story a { color: #e8eaf0; text-decoration: none; }
+.feed-story a:hover { text-decoration: underline; }
+.feed-score { color: #ffb020; font-weight: 700; min-width: 30px; text-align: right; flex-shrink: 0; }
 .tz-btn {
   background: none; border: none; padding: 0 2px; cursor: pointer;
   color: inherit; font: inherit; text-decoration: underline dotted;

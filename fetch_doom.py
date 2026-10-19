@@ -347,13 +347,16 @@ def main():
                 items = [(clean_gnews_title(t, url), l) for t, l in items]
         except Exception as ex:  # noqa: BLE001 - one bad feed must not kill the run
             print(f"FEED FAIL {name}: {type(ex).__name__}: {ex}", file=sys.stderr)
-            health.append({"name": name, "ok": False, "headlines": 0,
-                           "error": type(ex).__name__})
+            health.append({"name": name, "url": url, "ok": False, "headlines": 0,
+                           "error": type(ex).__name__, "sample": []})
             continue
-        health.append({"name": name, "ok": True, "headlines": len(items),
-                       "error": None})
         scored = [{"title": t, "link": l, "score": score_headline(t, patterns),
                    "source": name} for t, l in items]
+        health.append({"name": name, "url": url, "ok": True, "headlines": len(items),
+                       "error": None,
+                       "sample": [{"title": h["title"], "score": h["score"],
+                                   "link": h["link"]}
+                                  for h in sorted(scored, key=lambda h: -h["score"])[:8]]})
         all_heads.extend(scored)
         prev = (round(100 * sum(1 for h in scored if h["score"] >= DOOM_CUTOFF)
                       / len(scored), 1) if scored else 0.0)

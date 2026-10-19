@@ -1,13 +1,13 @@
 [
   {
     "date": "2026-10-19",
-    "score": 9.7,
+    "score": 9.9,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
       "BBC": 9.7,
       "Al Jazeera": 12.0,
-      "CBS": 3.3,
+      "CBS": 6.7,
       "PBS": 30.0,
       "ABC": 12.0,
       "NBC": 8.0,
@@ -16,7 +16,7 @@
       "France24": 8.3,
       "Guardian": 15.6,
       "The Hill": 6.0,
-      "ZeroHedge": 12.0,
+      "ZeroHedge": 16.0,
       "ReliefWeb": 5.0,
       "TOI": 4.3,
       "ABC-AU": 12.0,
@@ -36,10 +36,10 @@
       "CNN": 13.0
     },
     "topics": {
-      "War": 36.8,
-      "Crime": 8.5,
-      "Disaster": 4.7,
-      "Economy": 3.8,
+      "War": 37.0,
+      "Crime": 9.3,
+      "Disaster": 4.6,
+      "Economy": 3.7,
       "Politics": 1.9
     },
     "top": [

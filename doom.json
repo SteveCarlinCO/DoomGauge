@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T23:13:57.167784+00:00",
-  "fetched_at": "2026-10-19 17:13 MDT",
+  "generated_at": "2026-10-19T23:20:49.751655+00:00",
+  "fetched_at": "2026-10-19 17:20 MDT",
   "date": "2026-10-19",
-  "score": 9.7,
+  "score": 9.9,
   "stale": false,
   "verdict": "Mostly survivable.",
   "delta": null,
@@ -28,9 +28,9 @@
     },
     {
       "name": "CBS",
-      "score": 3.3,
+      "score": 6.7,
       "count": 30,
-      "doom": 1
+      "doom": 2
     },
     {
       "name": "PBS",
@@ -82,9 +82,9 @@
     },
     {
       "name": "ZeroHedge",
-      "score": 12.0,
+      "score": 16.0,
       "count": 25,
-      "doom": 3
+      "doom": 4
     },
     {
       "name": "ReliefWeb",
@@ -204,23 +204,23 @@
   "topics": [
     {
       "name": "War",
-      "count": 39,
-      "share": 36.8
+      "count": 40,
+      "share": 37.0
     },
     {
       "name": "Crime",
-      "count": 9,
-      "share": 8.5
+      "count": 10,
+      "share": 9.3
     },
     {
       "name": "Disaster",
       "count": 5,
-      "share": 4.7
+      "share": 4.6
     },
     {
       "name": "Economy",
       "count": 4,
-      "share": 3.8
+      "share": 3.7
     },
     {
       "name": "Politics",
@@ -348,6 +348,25 @@
       ]
     },
     {
+      "title": "Brookfield, NextEra To Build $100 Billion AI Hub On Cold War Nuclear Site",
+      "score": 42,
+      "source": "ZeroHedge",
+      "link": "https://www.zerohedge.com/ai/brookfield-nextera-build-100-billion-ai-hub-cold-war-nuclear-site",
+      "topics": [
+        "War"
+      ],
+      "hits": [
+        {
+          "keyword": "war",
+          "weight": 22
+        },
+        {
+          "keyword": "nuclear",
+          "weight": 20
+        }
+      ]
+    },
+    {
       "title": "China reveals advanced nuclear sub was used to test-fire missile",
       "score": 40,
       "source": "Japan Times",
@@ -365,231 +384,1592 @@
           "weight": 20
         }
       ]
-    },
-    {
-      "title": "160 people reported killed in escalating drone attacks across Sudan",
-      "score": 39,
-      "source": "Al Jazeera",
-      "link": "https://www.aljazeera.com/news/2026/10/19/160-reported-killed-in-escalating-drone-attacks-across-sudan?traffic_source=rss",
-      "topics": [],
-      "hits": [
-        {
-          "keyword": "killed",
-          "weight": 25
-        },
-        {
-          "keyword": "attack",
-          "weight": 14
-        }
-      ]
     }
   ],
   "top_contributor": {
     "name": "The Diplomat",
-    "share": 11.7
+    "share": 11.5
   },
   "streak_days": 0,
   "feed_health": [
     {
       "name": "NPR",
+      "url": "https://feeds.npr.org/1001/rss.xml",
       "ok": true,
       "headlines": 10,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Solar power is changing agriculture in Pakistan, but some fear it could cause issues",
+          "score": 6,
+          "link": "https://www.npr.org/2026/10/19/nx-s1-5993523/solar-power-is-changing-agriculture-in-pakistan-but-some-fear-it-could-cause-issues"
+        },
+        {
+          "title": "Judge chastises Trump administration plan to push ahead overhaul of DC golf course",
+          "score": 0,
+          "link": "https://www.npr.org/2026/10/19/nx-s1-6007746/golf-course-potomac-white-house-tree-removal"
+        },
+        {
+          "title": "Australian prime minister says lawmaker critically injured by car is 'no accident'",
+          "score": 0,
+          "link": "https://www.npr.org/2026/10/19/g-s1-148737/australia-lawmaker-critically-injured"
+        },
+        {
+          "title": "2026 midterms could be the most expensive on record. And, Macron condemns protests",
+          "score": 0,
+          "link": "https://www.npr.org/2026/10/19/g-s1-148733/up-first-newsletter-ukraine-russia-campaign-finances-france-protests"
+        },
+        {
+          "title": "The real reason it's going to take a while to know who won in some midterm races",
+          "score": 0,
+          "link": "https://www.npr.org/2026/10/19/nx-s1-5982027/california-vote-counting-margins"
+        },
+        {
+          "title": "A Kelvin wave raised sea levels on the West Coast. More are coming",
+          "score": 0,
+          "link": "https://www.npr.org/2026/10/19/nx-s1-6001744/el-nino-kelvin-wave-west-coast"
+        },
+        {
+          "title": "Morning news brief",
+          "score": 0,
+          "link": "https://www.npr.org/2026/10/19/nx-s1-6003499/morning-news-brief"
+        },
+        {
+          "title": "Michigan's Democratic Senate candidate Abdul El-Sayed campaigns in GOP stronghold",
+          "score": 0,
+          "link": "https://www.npr.org/2026/10/19/nx-s1-6005195/michigans-democratic-senate-candidate-abdul-el-sayed-campaigns-in-gop-stronghold"
+        }
+      ]
     },
     {
       "name": "BBC",
+      "url": "https://feeds.bbci.co.uk/news/rss.xml",
       "ok": true,
       "headlines": 31,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
+          "score": 30,
+          "link": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title": "Warning signs over threats to Australian politicians were rising before MP hit by car",
+          "score": 22,
+          "link": "https://www.bbc.co.uk/news/articles/cq398rk4p3exo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title": "Tennis star Svitolina says emotional toll of Ukraine war led to Monfils separation",
+          "score": 22,
+          "link": "https://www.bbc.co.uk/news/articles/ckd7qy12j148o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+          "score": 0,
+          "link": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title": "Watch: Clean up begins after French riots but police remain",
+          "score": 0,
+          "link": "https://www.bbc.co.uk/news/videos/cwr7y0e57r50o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
+          "score": 0,
+          "link": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title": "Burnham vows end to 'rip-off parking charges' under new rules",
+          "score": 0,
+          "link": "https://www.bbc.co.uk/news/articles/ck87ze7wl4qno?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title": "Woman says she 'closed eyes and tried not to be there' during alleged Russell Brand rape",
+          "score": 0,
+          "link": "https://www.bbc.co.uk/news/articles/cvj6jylk3456o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     },
     {
       "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
       "ok": true,
       "headlines": 25,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "One killed in US shooting near mosque in Columbus, Ohio",
+          "score": 49,
+          "link": "https://www.aljazeera.com/news/2026/10/19/us-federal-authorities-responding-to-shooting-at-mosque-in-columbus-ohio?traffic_source=rss"
+        },
+        {
+          "title": "160 people reported killed in escalating drone attacks across Sudan",
+          "score": 39,
+          "link": "https://www.aljazeera.com/news/2026/10/19/160-reported-killed-in-escalating-drone-attacks-across-sudan?traffic_source=rss"
+        },
+        {
+          "title": "Residents hoisted from rooftops amid Spain’s deadly flooding",
+          "score": 22,
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/residents-hoisted-from-rooftops-amid-spains-deadly-flooding?traffic_source=rss"
+        },
+        {
+          "title": "Israeli police say they arrested 10 in connection with settler attacks",
+          "score": 14,
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/israeli-police-say-they-arrested-10-in-connection-with-settler-attacks?traffic_source=rss"
+        },
+        {
+          "title": "Injured Ukrainian soldier rescued in first-ever drone evacuation mission",
+          "score": 14,
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/aje-onl-nf_ukrainian-soldier-rescued-in-drone-evacuation-191026?traffic_source=rss"
+        },
+        {
+          "title": "Finland seeking one million land mines as it eyes Russian threat",
+          "score": 12,
+          "link": "https://www.aljazeera.com/news/2026/10/19/finland-seeking-one-million-land-mines-as-it-eyes-russian-threat?traffic_source=rss"
+        },
+        {
+          "title": "Florida issues arrest warrant for Cuban leader Raul Castro",
+          "score": 8,
+          "link": "https://www.aljazeera.com/news/2026/10/19/florida-issues-arrest-warrant-for-cuban-leader-raul-castro?traffic_source=rss"
+        },
+        {
+          "title": "Trump: ‘Paris is going to be a Muslim city very soon’",
+          "score": 0,
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/trump-paris-is-going-to-be-a-muslim-city-very?traffic_source=rss"
+        }
+      ]
     },
     {
       "name": "CBS",
+      "url": "https://www.cbsnews.com/latest/rss/main",
       "ok": true,
       "headlines": 30,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "1 person killed in shooting near Columbus, Ohio, mosque",
+          "score": 49,
+          "link": "https://www.cbsnews.com/news/shooting-mosque-columbus-ohio/"
+        },
+        {
+          "title": "Gun used in Bend school shooting was birthday gift from shooter's mom",
+          "score": 24,
+          "link": "https://www.cbsnews.com/news/bend-oregon-elementary-school-shooting-gun-birthday-gift-mom/"
+        },
+        {
+          "title": "Zelenskyy says Trump is on wrong side of history after dealings with Russia",
+          "score": 0,
+          "link": "https://www.cbsnews.com/video/zelenskyy-says-trump-is-on-wrong-side-of-history-after-dealings-with-russia/"
+        },
+        {
+          "title": "Early voting begins in Texas as Trump campaigns in Kansas amid tight Senate race",
+          "score": 0,
+          "link": "https://www.cbsnews.com/video/early-voting-begins-in-texas-as-trump-campaigns-in-kansas-where-senate-race/"
+        },
+        {
+          "title": "Transcript: Rep. Mike Turner on \"Face the Nation with Margaret Brennan,\" Oct. 18, 2026",
+          "score": 0,
+          "link": "https://www.cbsnews.com/news/mike-turner-ohio-republican-face-the-nation-transcript-10-18-2026/"
+        },
+        {
+          "title": "Dana Bash on the elections that reverberate through time",
+          "score": 0,
+          "link": "https://www.cbsnews.com/video/dana-bash-elections-reverberate-through-time/"
+        },
+        {
+          "title": "Sen. Raphael Warnock calls on Democrats to focus on the South",
+          "score": 0,
+          "link": "https://www.cbsnews.com/video/raphael-warnock-calls-on-democrats-focus-on-south/"
+        },
+        {
+          "title": "What to know about election security 15 days out from midterms",
+          "score": 0,
+          "link": "https://www.cbsnews.com/video/what-to-know-election-security-15-days-midterms/"
+        }
+      ]
     },
     {
       "name": "PBS",
+      "url": "https://www.pbs.org/newshour/feeds/rss/headlines",
       "ok": true,
       "headlines": 20,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Trump escalates clash with Zelenskyy as Russia continues deadly attacks on Ukraine",
+          "score": 46,
+          "link": "https://www.pbs.org/newshour/show/trump-escalates-clash-with-zelenskyy-as-russia-continues-deadly-attacks-on-ukraine"
+        },
+        {
+          "title": "How Iran war votes in Congress became a focal point for campaign ad attacks",
+          "score": 36,
+          "link": "https://www.pbs.org/newshour/politics/how-iran-war-votes-in-congress-became-a-focal-point-for-campaign-ad-attacks"
+        },
+        {
+          "title": "Minnesota teen accused of plotting terror attack at Mall of America to remain jailed",
+          "score": 34,
+          "link": "https://www.pbs.org/newshour/nation/minnesota-teen-accused-of-plotting-terror-attack-at-mall-of-america-to-remain-jailed"
+        },
+        {
+          "title": "U.S. must put pressure on Russia so Putin ends the war, Ukrainian official says",
+          "score": 22,
+          "link": "https://www.pbs.org/newshour/show/u-s-must-put-pressure-on-russia-so-putin-ends-the-war-ukrainian-official-says"
+        },
+        {
+          "title": "A bitter Michigan Senate race rattles Jewish and Muslim voters already on edge over the war in Gaza",
+          "score": 22,
+          "link": "https://www.pbs.org/newshour/politics/a-bitter-michigan-senate-race-rattles-jewish-and-muslim-voters-already-on-edge-over-the-war-in-gaza"
+        },
+        {
+          "title": "Mississippi attorney general says officer's force was justified in death of 1-year-old Kohen Wiley",
+          "score": 20,
+          "link": "https://www.pbs.org/newshour/nation/mississippi-attorney-general-says-officers-force-was-justified-in-death-of-1-year-old-kohen-wiley"
+        },
+        {
+          "title": "News Wrap: Federal judge clashes with DOJ over D.C. golf course",
+          "score": 10,
+          "link": "https://www.pbs.org/newshour/show/news-wrap-federal-judge-clashes-with-doj-over-d-c-golf-course"
+        },
+        {
+          "title": "French authorities impose curfews after weekend rioting",
+          "score": 0,
+          "link": "https://www.pbs.org/newshour/show/french-authorities-impose-curfews-after-weekend-rioting"
+        }
+      ]
     },
     {
       "name": "ABC",
+      "url": "https://abcnews.go.com/abcnews/topstories",
       "ok": true,
       "headlines": 25,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "WATCH:  Authorities: Fatal alligator attack in Winter Garden, Florida",
+          "score": 32,
+          "link": "https://abcnews.com/video/137338151/"
+        },
+        {
+          "title": "WATCH:  Hero who stopped Oregon elementary school shooting suspect identified",
+          "score": 24,
+          "link": "https://abcnews.com/video/137332472/"
+        },
+        {
+          "title": "Shawn Oliver pleads not guilty to OUI charge after crash",
+          "score": 16,
+          "link": "https://abcnews.com/International/wireStory/shawn-oliver-pleads-guilty-oui-charge-after-crash-137392161"
+        },
+        {
+          "title": "5 North Carolina police officers resign amid probe into alleged racist texts",
+          "score": 6,
+          "link": "https://abcnews.com/US/5-north-carolina-police-officers-resign-amid-probe/story?id=137388332"
+        },
+        {
+          "title": "Eagles coach defends handling of Jalen Hurts' blood clots diagnosis: What to know",
+          "score": 0,
+          "link": "https://abcnews.com/US/eagles-jalen-hurts-blood-clots-leg-lungs-timeline/story?id=137387183"
+        },
+        {
+          "title": "LIVE:  ABC News Live",
+          "score": 0,
+          "link": "https://abcnews.com/video/41463246/"
+        },
+        {
+          "title": "Ronaldo suspended for 30 days and fined for walking out on Portugal camp",
+          "score": 0,
+          "link": "https://abcnews.com/Sports/wireStory/ronaldo-suspended-30-days-fined-walking-portugal-camp-137395782"
+        },
+        {
+          "title": "WATCH:  Teen on how he turned 3D printing idea into a profitable business",
+          "score": 0,
+          "link": "https://abcnews.com/video/137392601/"
+        }
+      ]
     },
     {
       "name": "NBC",
+      "url": "https://feeds.nbcnews.com/nbcnews/public/news",
       "ok": true,
       "headlines": 25,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Mississippi AG says police shooting that killed 1-year-old was ‘justified’",
+          "score": 49,
+          "link": "https://www.nbcnews.com/news/us-news/mississippi-ag-says-police-shooting-killed-1-year-old-was-justified-rcna604424"
+        },
+        {
+          "title": "Mystery Surrounds Deadly Vehicle Crash at Youth Soccer Game",
+          "score": 38,
+          "link": "https://www.today.com/video/mystery-surrounds-deadly-vehicle-accident-at-kids-soccer-game-271807557853"
+        },
+        {
+          "title": "Ukraine claims world’s first drone evacuation of wounded soldier",
+          "score": 14,
+          "link": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310"
+        },
+        {
+          "title": "Kansas voters stress affordability as key issue in competitive Senate race",
+          "score": 0,
+          "link": "https://www.nbcnews.com/now/video/kansas-voters-stress-affordability-as-key-issue-in-competitive-senate-race-271824453567"
+        },
+        {
+          "title": "Texas Democratic candidate for governor sues to review emails between Elon Musk and Greg Abbott",
+          "score": 0,
+          "link": "https://www.nbcnews.com/politics/2026-election/texas-democrat-gina-hinojosa-sues-review-emails-elon-musk-greg-abbott-rcna604443"
+        },
+        {
+          "title": "Russians locked out of bank accounts and apartments as Ukraine hits data centers",
+          "score": 0,
+          "link": "https://www.nbcnews.com/world/russia/russia-ukraine-yandex-data-centers-attacks-trump-rcna602753"
+        },
+        {
+          "title": "Dramatic images show violent unrest sweeping across France",
+          "score": 0,
+          "link": "https://www.nbcnews.com/world/france/france-unrest-photos-looting-violence-macron-rcna604299"
+        },
+        {
+          "title": "Richard Riehle, character actor best known for ‘Office Space,’ dies at 78",
+          "score": 0,
+          "link": "https://www.nbcnews.com/pop-culture/pop-culture-news/richard-riehle-office-space-dies-78-rcna604412"
+        }
+      ]
     },
     {
       "name": "Sky",
+      "url": "https://feeds.skynews.com/feeds/rss/world.xml",
       "ok": true,
       "headlines": 10,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Four Canadian soldiers killed after grass fire spread 'a kilometre in 36 seconds'",
+          "score": 25,
+          "link": "https://news.sky.com/story/four-canadian-soldiers-killed-after-grass-fire-spread-a-kilometre-in-36-seconds-13600915"
+        },
+        {
+          "title": "Arrests over Israeli settler attacks on US photojournalist and European diplomats in West Bank",
+          "score": 22,
+          "link": "https://news.sky.com/story/arrests-over-israeli-settler-attacks-on-us-photojournalist-and-european-diplomats-in-west-bank-13600842"
+        },
+        {
+          "title": "UN cuts food aid to half a million Gazans over funding shortages",
+          "score": 8,
+          "link": "https://news.sky.com/story/un-cuts-food-aid-to-half-a-million-gazans-over-funding-shortages-13600991"
+        },
+        {
+          "title": "Japan launches mission to Mars to bring back samples from its moon",
+          "score": 0,
+          "link": "https://news.sky.com/story/japan-launches-mission-to-mars-to-bring-back-samples-from-one-of-its-moons-13601139"
+        },
+        {
+          "title": "Doomsday cult leader found guilty of murdering 190 children and one adult",
+          "score": 0,
+          "link": "https://news.sky.com/story/cult-leader-found-guilty-of-ordered-followers-to-starve-their-children-to-death-13600891"
+        },
+        {
+          "title": "UEFA writes to FIFA demanding answers on Trump-Infantino dealings",
+          "score": 0,
+          "link": "https://news.sky.com/story/uefa-writes-to-fifa-demanding-answers-on-trump-infantino-dealings-13601000"
+        },
+        {
+          "title": "Object thought to be Amelia Earhart’s missing plane likely just 'large trees', researchers find",
+          "score": 0,
+          "link": "https://news.sky.com/story/object-thought-to-be-amelia-earharts-missing-plane-likely-a-collection-of-large-trees-researchers-find-13601021"
+        },
+        {
+          "title": "King Charles 'sends books about soil' to Aung San Suu Kyi",
+          "score": 0,
+          "link": "https://news.sky.com/story/king-charles-sends-books-and-letters-to-detained-aung-san-suu-kyi-officials-say-13601026"
+        }
+      ]
     },
     {
       "name": "DW",
+      "url": "https://rss.dw.com/rdf/rss-en-all",
       "ok": true,
       "headlines": 135,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "The Bundestag has debated the genocide Germany carried out in Namibia a century ago. But will it spur progress on addressing colonial crimes?",
+          "score": 30,
+          "link": "https://www.dw.com/en/the-bundestag-has-debated-the-genocide-germany-carried-out-in-namibia-a-century-ago-but-will-it-spur-progress-on-addressing-colonial-crimes/a-79682388?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "title": "Can diplomacy stop another Ethiopia-Eritrea war?",
+          "score": 22,
+          "link": "https://www.dw.com/en/can-diplomacy-stop-another-ethiopia-eritrea-war/a-79705435?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "title": "West Bank: Israel arrests 10 suspects over settler attacks on US journalist, European diplomats",
+          "score": 22,
+          "link": "https://www.dw.com/en/west-bank-israel-arrests-10-suspects-over-settler-attacks-on-us-journalist-european-diplomats/a-79696514?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "title": "Ukraine got 'no warning' of Russian ballistic strikes, Zelenskyy says",
+          "score": 20,
+          "link": "https://www.dw.com/en/ukraine-got-no-warning-of-russian-ballistic-strikes-zelenskyy-says/a-79697476?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "title": "German spy scandal threatens national security",
+          "score": 20,
+          "link": "https://www.dw.com/en/german-spy-scandal-threatens-national-security/a-79580000?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "title": "El Nino is a 'postcard from the future' — and could cause 451,000 excess heat deaths",
+          "score": 20,
+          "link": "https://www.dw.com/en/el-nino-is-a-postcard-from-the-future-and-could-cause-451-000-excess-heat-deaths/a-79430945?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "title": "Author or artificial intelligence? Literature in crisis",
+          "score": 16,
+          "link": "https://www.dw.com/en/author-or-artificial-intelligence-literature-in-crisis/a-79618610?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "title": "Euro plummets against US dollar: Has the next financial crisis begun?",
+          "score": 16,
+          "link": "https://www.dw.com/en/euro-plummets-against-us-dollar-has-the-next-financial-crisis-begun/a-79549031?maca=en-rss-en-all-1573-rdf"
+        }
+      ]
     },
     {
       "name": "France24",
+      "url": "https://www.france24.com/en/rss",
       "ok": true,
       "headlines": 24,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Russia-China-US summit would prolong the war, Kyiv says",
+          "score": 22,
+          "link": "https://www.france24.com/en/russia-china-us-summit-would-prolong-the-war-kyiv-says"
+        },
+        {
+          "title": "Macron kicks off three-day Gulf tour, seeks securing fuel supplies amid crisis",
+          "score": 16,
+          "link": "https://www.france24.com/en/video/20261019-macron-kicks-off-three-day-gulf-tour-seeks-securing-fuel-supplies-amid-crisis"
+        },
+        {
+          "title": "Drone attacks kill scores in Sudan's West Kordofan state and capital Khartoum",
+          "score": 14,
+          "link": "https://www.france24.com/en/africa/20261019-drone-attack-near-southern-sudan-market-kills-scores"
+        },
+        {
+          "title": "Spain floods kill four as torrential rain inundates eastern regions",
+          "score": 12,
+          "link": "https://www.france24.com/en/europe/20261019-spain-floods-kill-four-as-torrential-rain-inundates-eastern-regions"
+        },
+        {
+          "title": "Art crime detective Arthur Brand warns: 'All museums have been, and will be, victims of theft'",
+          "score": 10,
+          "link": "https://www.france24.com/en/tv-shows/spotlight/20261019-art-crime-detective-arthur-brand-warns-all-museums-have-been-and-will-be-victims-of-theft"
+        },
+        {
+          "title": "France tells online marketplaces to crack down on resale of looted items",
+          "score": 0,
+          "link": "https://www.france24.com/en/tv-shows/business/20261019-france-tells-online-marketplaces-to-crack-down-on-resale-of-looted-items"
+        },
+        {
+          "title": "Le Pen 'trying to use these events to push her popularity', expert says",
+          "score": 0,
+          "link": "https://www.france24.com/en/tv-shows/a-propos/20261019-le-pen-trying-to-use-these-events-to-push-her-popularity-expert-says"
+        },
+        {
+          "title": "Le Pen 'trying to use these events to push her popularity', expert says",
+          "score": 0,
+          "link": "https://www.france24.com/en/le-pen-trying-to-use-these-events-to-push-her-popularity-expert-says"
+        }
+      ]
     },
     {
       "name": "Guardian",
+      "url": "https://www.theguardian.com/world/rss",
       "ok": true,
       "headlines": 45,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+          "score": 48,
+          "link": "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods"
+        },
+        {
+          "title": "Houthi attack kills 53 in biggest single loss of life since Yemen civil war reignited",
+          "score": 36,
+          "link": "https://www.theguardian.com/world/2026/oct/19/houthi-attack-yemen-al-alam-camp-biggest-single-loss-of-life-civil-war"
+        },
+        {
+          "title": "Four people killed in ‘violent, fast-moving’ fire at Canadian military base",
+          "score": 25,
+          "link": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
+        },
+        {
+          "title": "Oregon man who killed school shooter reportedly took part in military drills with Iraq veterans",
+          "score": 25,
+          "link": "https://www.theguardian.com/us-news/2026/oct/19/oregon-school-shooter"
+        },
+        {
+          "title": "Three deaths from float crushes raise safety concerns over Japanese festivals",
+          "score": 20,
+          "link": "https://www.theguardian.com/world/2026/oct/19/safety-concerns-japan-traditional-festivals-fatal-accidents"
+        },
+        {
+          "title": "North Sea strikes could severely disrupt UK fuel supplies, union warns",
+          "score": 20,
+          "link": "https://www.theguardian.com/uk-news/2026/oct/19/north-sea-strikes-could-severely-disrupt-uk-fuel-supplies-union-warns"
+        },
+        {
+          "title": "Pakistan school roof collapse kills at least 34 children and teacher",
+          "score": 16,
+          "link": "https://www.theguardian.com/world/2026/oct/15/pakistan-peshawar-school-roof-collapse-leaves-students-dead"
+        },
+        {
+          "title": "Drone attack near market kills 80 in Sudan",
+          "score": 14,
+          "link": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan"
+        }
+      ]
     },
     {
       "name": "The Hill",
+      "url": "https://thehill.com/feed/",
       "ok": true,
       "headlines": 100,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Husband of soldier killed in Iranian drone strike grills Vance on ‘fundamental failures’",
+          "score": 35,
+          "link": "https://thehill.com/homenews/administration/6158464-husband-of-soldier-killed-in-iranian-drone-strike-grills-vance-on-fundamental-failures/"
+        },
+        {
+          "title": "Slotkin accuses Trump ally of ‘mobilizing death threats’ against her, staff",
+          "score": 32,
+          "link": "https://thehill.com/homenews/senate/6159035-slotkin-accuses-mike-davis-threats/"
+        },
+        {
+          "title": "Iran warns US against renewed attack, says it has ‘unfinished jobs’ too",
+          "score": 24,
+          "link": "https://thehill.com/policy/international/6157194-iran-minister-warns-us-attacks/"
+        },
+        {
+          "title": "91 percent in Texas poll say Iran war raising oil and gas prices",
+          "score": 22,
+          "link": "https://thehill.com/homenews/campaign/6158897-texas-voters-iran-war-oil/"
+        },
+        {
+          "title": "Putin proposing summit with Trump, Xi in push to end Ukraine war: WSJ",
+          "score": 22,
+          "link": "https://thehill.com/policy/international/6157609-putin-proposes-trump-xi-summit/"
+        },
+        {
+          "title": "Don’t let history repeat: The next Congress must end the Iran War",
+          "score": 22,
+          "link": "https://thehill.com/opinion/campaign/6155154-congress-must-end-iran-war/"
+        },
+        {
+          "title": "Live updates: Obama condemns Omar investigation; Ukraine attacks St Petersburg oil depot",
+          "score": 14,
+          "link": "https://thehill.com/homenews/administration/6156403-live-updates-ukraine-attacks-st-petersburg-oil-depot/"
+        },
+        {
+          "title": "Trump says security cameras installed at Reflecting Pool, threatens to jail future vandals",
+          "score": 12,
+          "link": "https://thehill.com/homenews/administration/6158770-trump-installs-reflecting-pool-cameras/"
+        }
+      ]
     },
     {
       "name": "ZeroHedge",
+      "url": "https://cms.zerohedge.com/fullrss2.xml",
       "ok": true,
       "headlines": 25,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Brookfield, NextEra To Build $100 Billion AI Hub On Cold War Nuclear Site",
+          "score": 42,
+          "link": "https://www.zerohedge.com/ai/brookfield-nextera-build-100-billion-ai-hub-cold-war-nuclear-site"
+        },
+        {
+          "title": "Putin's Hometown: Biggest Ukrainian Attack On St. Petersburg Since War's Start",
+          "score": 36,
+          "link": "https://www.zerohedge.com/geopolitical/putins-hometown-biggest-ukrainian-attack-st-petersburg-wars-start"
+        },
+        {
+          "title": "Marc Elias' Legal Team Threatens Media With Lawsuit For Questioning Roy Cooper's Health",
+          "score": 18,
+          "link": "https://www.zerohedge.com/political/marc-elias-legal-team-threatens-media-lawsuit-questioning-roy-coopers-health"
+        },
+        {
+          "title": "Communism, Berlin Edition: Adler Bonds Crash To Record Low As Left Coalition Plans To Socialize 152,000 Apartments",
+          "score": 16,
+          "link": "https://www.zerohedge.com/political/communism-berlin-edition-adler-bonds-crash-record-low-left-coalition-plans-socialize"
+        },
+        {
+          "title": "Saudi Arabia Cancels In-Person 'Davos In The Desert' Event Amid Houthi Attacks",
+          "score": 14,
+          "link": "https://www.zerohedge.com/geopolitical/growing-list-major-events-saudi-arabia-forced-cancel-postpone"
+        },
+        {
+          "title": "Trump Admin, US Businesses 'Need To Be Wary' Of AI Espionage, Intelligence Chief Warns",
+          "score": 10,
+          "link": "https://www.zerohedge.com/geopolitical/trump-admin-us-businesses-need-be-wary-ai-espionage-intelligence-chief-warns"
+        },
+        {
+          "title": "House Panel Warns Singham-Linked Nonprofits Of Possible Depositions Over Subpoenas",
+          "score": 10,
+          "link": "https://www.zerohedge.com/political/house-panel-warns-singham-linked-nonprofits-possible-depositions-over-subpoenas"
+        },
+        {
+          "title": "Uber Warns Proposed DC Rules Could Spark Driver Exodus And Fare Spike",
+          "score": 10,
+          "link": "https://www.zerohedge.com/political/uber-warns-proposed-dc-rules-could-spark-driver-exodus-and-fare-spike"
+        }
+      ]
     },
     {
       "name": "ReliefWeb",
+      "url": "https://reliefweb.int/updates/rss.xml",
       "ok": true,
       "headlines": 20,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Thailand: ASEAN Weekly Disaster Update Week 42 | 12 - 18 Oct 2026",
+          "score": 18,
+          "link": "https://reliefweb.int/report/thailand/asean-weekly-disaster-update-week-42-12-18-oct-2026"
+        },
+        {
+          "title": "South Sudan — Population Mobility Mapping (PMM) Report for Mobility Related Public Health Emergency Preparedness — Maiwut County, South Sudan (June 2026)",
+          "score": 14,
+          "link": "https://reliefweb.int/report/south-sudan/south-sudan-population-mobility-mapping-pmm-report-mobility-related-public-health-emergency-preparedness-maiwut-county-south-sudan-june-2026"
+        },
+        {
+          "title": "oPt: Education under attack in the West Bank - September 2026",
+          "score": 14,
+          "link": "https://reliefweb.int/report/occupied-palestinian-territory/education-under-attack-west-bank-september-2026"
+        },
+        {
+          "title": "Anticipatory Action Implementation Plan Somalia - Floods",
+          "score": 12,
+          "link": "https://reliefweb.int/report/somalia/anticipatory-action-implementation-plan-somalia-floods"
+        },
+        {
+          "title": "Mali : Liste de Contacts des Clusters Octobre 2026",
+          "score": 0,
+          "link": "https://reliefweb.int/report/mali/mali-liste-de-contacts-des-clusters-octobre-2026"
+        },
+        {
+          "title": "WFP Sierra Leone Country Brief, October 2026",
+          "score": 0,
+          "link": "https://reliefweb.int/report/sierra-leone/wfp-sierra-leone-country-brief-october-2026"
+        },
+        {
+          "title": "WFP Niger Country Brief, October 2026",
+          "score": 0,
+          "link": "https://reliefweb.int/report/niger/wfp-niger-country-brief-october-2026"
+        },
+        {
+          "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 19th October 2026)",
+          "score": 0,
+          "link": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-19th-october-2026"
+        }
+      ]
     },
     {
       "name": "TOI",
+      "url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
       "ok": true,
       "headlines": 47,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Over 50 killed as Houthis target Yemen military camp with ballistic missiles",
+          "score": 45,
+          "link": "https://timesofindia.indiatimes.com/world/middle-east/at-least-20-yemeni-fighters-killed-as-houthis-target-military-camp-with-ballistic-missiles/articleshow/135047351.cms"
+        },
+        {
+          "title": "Tiger Shroff shooting: The Salman connection &amp; a trail of threats linked to Bishnoi",
+          "score": 36,
+          "link": "https://timesofindia.indiatimes.com/india/tiger-shroff-shooting-the-salman-khan-connection-and-a-trail-of-threats-linked-to-lawrence-bishnoi/articleshow/135040995.cms"
+        },
+        {
+          "title": "France unrest: PM orders curfews, hints at declaring emergency; over 2,400 arrested",
+          "score": 14,
+          "link": "https://timesofindia.indiatimes.com/world/europe/france-unrest-pm-orders-curfews-hints-at-declaring-emergency-over-2400-arrested-top-developments/articleshow/135047682.cms"
+        },
+        {
+          "title": "Why students are on strike at 3 universities in Delhi",
+          "score": 10,
+          "link": "https://timesofindia.indiatimes.com/city/delhi/escalating-unrest-at-delhi-univs-as-students-turn-to-hunger-strikes/articleshow/135054990.cms"
+        },
+        {
+          "title": "6 ops in 48 hrs: Houthis claim to strike Saudi airports, oil field &amp; military sites",
+          "score": 10,
+          "link": "https://timesofindia.indiatimes.com/world/middle-east/6-ops-in-48-hours-houthis-claim-to-strike-saudi-airports-aramco-site-oil-field-military-facilities/articleshow/135053874.cms"
+        },
+        {
+          "title": "After ditching Mamata Banerjee, Yusuf Pathan gets a gift from Gujarat govt",
+          "score": 0,
+          "link": "https://timesofindia.indiatimes.com/city/vadodara/disputed-plot-now-govt-togift-yusuf-pathan-500sqm/articleshow/135055710.cms"
+        },
+        {
+          "title": "'Paris is going to be a Muslim city very soon': Trump slams Macron as riots spiral",
+          "score": 0,
+          "link": "https://timesofindia.indiatimes.com/world/us/paris-is-going-to-be-a-muslim-city-very-soon-trump-slams-macron-as-riots-spiral/articleshow/135056496.cms"
+        },
+        {
+          "title": "Inside Lawrence Bishnoi gang’s ‘shadow cabinet’: 5 key aides running global operations",
+          "score": 0,
+          "link": "https://timesofindia.indiatimes.com/india/ringleader-lawrence-bishnoi-in-jail-shadow-cabinet-runs-gang-tiger-shroff-attack-anil-pandit/articleshow/135058470.cms"
+        }
+      ]
     },
     {
       "name": "CBC",
+      "url": "https://www.cbc.ca/webfeed/rss/rss-topstories",
       "ok": false,
       "headlines": 0,
-      "error": "TimeoutError"
+      "error": "TimeoutError",
+      "sample": []
     },
     {
       "name": "ABC-AU",
+      "url": "https://www.abc.net.au/news/feed/51120/rss.xml",
       "ok": true,
       "headlines": 25,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Driver killed, bus and car engulfed in flames on Phillip Island",
+          "score": 25,
+          "link": "https://www.abc.net.au/news/2026-10-20/fatal-bus-crash-phillip-island-engulfed-in-flames/107286018"
+        },
+        {
+          "title": "Toll of war in Ukraine cited as Svitolina, Monfils announce end of marriage",
+          "score": 22,
+          "link": "https://www.abc.net.au/news/2026-10-20/elina-svitolina-gael-monfils-end-marriage-cite-ukraine-war/107286014"
+        },
+        {
+          "title": "LNP says 'a long way to go to reverse' Queensland's youth crime crisis",
+          "score": 16,
+          "link": "https://www.abc.net.au/news/2026-10-20/queensland-two-years-lnp-government-youth-crime/107238492"
+        },
+        {
+          "title": "Breaking: Man in custody over attack against Helen Haines named",
+          "score": 14,
+          "link": "https://www.abc.net.au/news/2026-10-20/brendan-nugent-in-custody-attack-against-helen-haines/107286318"
+        },
+        {
+          "title": "Five NT community pools have closed and report warns there are more to come",
+          "score": 10,
+          "link": "https://www.abc.net.au/news/2026-10-20/royal-life-saving-many-remote-nt-communities-lack-pool-amenities/107282636"
+        },
+        {
+          "title": "Ten songs named after famous people from Nicole Kidman to Elon Musk",
+          "score": 0,
+          "link": "https://www.abc.net.au/news/2026-10-20/ten-songs-named-after-famous-people-nicole-kidman-elon-musk/107283250"
+        },
+        {
+          "title": "NAB to slash up to 2,500 jobs in massive restructure",
+          "score": 0,
+          "link": "https://www.abc.net.au/news/2026-10-20/nab-slashes-jobs-in-massive-restructure/107286316"
+        },
+        {
+          "title": "NFL QB in hospital at 4am before London game due to blood clots",
+          "score": 0,
+          "link": "https://www.abc.net.au/news/2026-10-20/philadelphia-eagles-qb-jalen-hurts-blood-clots-in-lungs/107286260"
+        }
+      ]
     },
     {
       "name": "Slate",
+      "url": "https://slate.com/feeds/all.rss",
       "ok": true,
       "headlines": 25,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Abdul El-Sayed’s Viral Moment With a Heckler Was Revealing—but Not in the Way the Heckler Intended",
+          "score": 0,
+          "link": "https://slate.com/news-and-politics/2026/10/abdul-el-sayed-muslim-brotherhood-tommy-heckler.html?via=rss"
+        },
+        {
+          "title": "Putin Is Throwing Trump a Bone—but It’s Laced With Poison",
+          "score": 0,
+          "link": "https://slate.com/news-and-politics/2026/10/putin-trump-ukraine-russia-china-xi-jinping-summit.html?via=rss"
+        },
+        {
+          "title": "I Faced Huge Hurdles to Get Veteran Benefits. The Supreme Court Has a Chance to Make Things Better.",
+          "score": 0,
+          "link": "https://slate.com/news-and-politics/2026/10/supreme-court-news-why-veteran-benefits-so-difficult.html?via=rss"
+        },
+        {
+          "title": "I Think I Know the Real Reason Elon Unveiled the Flying Tesla",
+          "score": 0,
+          "link": "https://slate.com/technology/2026/10/tesla-spacex-elon-musk-flying-car.html?via=rss"
+        },
+        {
+          "title": "Slate Pears Game 431: Oct. 19, 2026",
+          "score": 0,
+          "link": "https://slate.com/life/2026/10/word-game-slate-pears-431-for-october-19-2026.html?via=rss"
+        },
+        {
+          "title": "Slate Crossword: There’s a Sweet Reason Why They Get Whacked (Seven Letters)",
+          "score": 0,
+          "link": "https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-19-2026.html?via=rss"
+        },
+        {
+          "title": "My Wife and Our Neighbor Got Into a Screaming Match. She Didn’t Know She Would Forever Regret What She Said.",
+          "score": 0,
+          "link": "https://slate.com/advice/2026/10/marriage-advice-wife-neighbor-fight.html?via=rss"
+        },
+        {
+          "title": "My Wife Makes Six Times What I Make. I Plan to Change That by Training for a New Career—but There’s a Catch.",
+          "score": 0,
+          "link": "https://slate.com/advice/2026/10/money-advice-lucrative-career-training.html?via=rss"
+        }
+      ]
     },
     {
       "name": "Times of Israel",
+      "url": "https://www.timesofisrael.com/feed/",
       "ok": true,
       "headlines": 15,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Houthi ballistic missile strike on Yemeni military camp said to kill over 50 soldiers",
+          "score": 30,
+          "link": "https://www.timesofisrael.com/houthi-ballistic-missile-strike-on-yemeni-military-camp-said-to-kill-over-50-soldiers/"
+        },
+        {
+          "title": "Israel to resume entry of private-sector goods to Gaza; 5 reportedly killed in Strip",
+          "score": 25,
+          "link": "https://www.timesofisrael.com/israel-to-resume-entry-of-private-sector-goods-to-gaza-as-5-reportedly-killed-in-strip/"
+        },
+        {
+          "title": "Palestinians attack pro-settlement group including right-wing politician, her party says",
+          "score": 14,
+          "link": "https://www.timesofisrael.com/palestinians-attack-pro-settlement-group-including-right-wing-politician-her-party-says/"
+        },
+        {
+          "title": "‘Wanted dead or alive’: Golan campaign billboard vandalized, amid fears of political violence",
+          "score": 6,
+          "link": "https://www.timesofisrael.com/wanted-dead-or-alive-golan-campaign-billboard-vandalized-amid-fears-of-political-violence/"
+        },
+        {
+          "title": "France announces curfews in Paris and other cities as country grapples with unrest",
+          "score": 0,
+          "link": "https://www.timesofisrael.com/france-announces-curfews-in-paris-and-other-cities-as-country-grapples-with-unrest/"
+        },
+        {
+          "title": "Anti-Israel activist Mahmoud Khalil asks US Supreme Court to hear immigration case",
+          "score": 0,
+          "link": "https://www.timesofisrael.com/anti-israel-activist-mahmoud-khalil-asks-us-supreme-court-to-hear-immigration-case/"
+        },
+        {
+          "title": "Report: PM’s aide Urich admitted he kept working for Qatar after Oct. 7, saw no moral problem",
+          "score": 0,
+          "link": "https://www.timesofisrael.com/report-pms-key-aide-urich-admitted-to-receiving-hundreds-of-thousands-of-shekels-from-qatar/"
+        },
+        {
+          "title": "Standing with those who stood for us: Help a reservist family rebuild - Sponsored Content",
+          "score": 0,
+          "link": "https://toi.li/mva2W7"
+        }
+      ]
     },
     {
       "name": "Vox",
+      "url": "https://www.vox.com/rss/index.xml",
       "ok": true,
       "headlines": 10,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "How the Iran war is ruining Saudi Arabia’s plans",
+          "score": 22,
+          "link": "https://www.vox.com/podcasts/506853/saudi-arabia-airport-houthis-yemen-iran-war"
+        },
+        {
+          "title": "Why the Trump administration is fighting over a golf course",
+          "score": 0,
+          "link": "https://www.vox.com/the-logoff-newsletter-trump/506955/trump-east-potomac-golf-links-takeover"
+        },
+        {
+          "title": "The French youth revolt",
+          "score": 0,
+          "link": "https://www.vox.com/today-explained-newsletter/506346/2026-france-protests"
+        },
+        {
+          "title": "We all want to offload our most tedious tasks. But what do we lose in the process?",
+          "score": 0,
+          "link": "https://www.vox.com/advice/506547/muse-instinct-chatgpt-dots-ai-personal-agent"
+        },
+        {
+          "title": "The Republicans worried that AI will bring an “age of darkness”",
+          "score": 0,
+          "link": "https://www.vox.com/politics/505319/ron-desantis-ai-james-uthmeier-openai-lawsuit"
+        },
+        {
+          "title": "A door to single-payer healthcare could open after November 3",
+          "score": 0,
+          "link": "https://www.vox.com/politics/506637/amanda-janoo-single-payer-primary-care-vermont-governor"
+        },
+        {
+          "title": "America’s empty bedrooms are up for grabs",
+          "score": 0,
+          "link": "https://www.vox.com/the-highlight/502859/padsplit-sros-housing-affordable-bedroom-adult-dorms-homelessness"
+        },
+        {
+          "title": "America’s next big healthcare reform might already be underway",
+          "score": 0,
+          "link": "https://www.vox.com/policy/506744/healthcare-democrats-public-option-obamacare-aca-insurance-colorado"
+        }
+      ]
     },
     {
       "name": "Euronews",
+      "url": "https://www.euronews.com/rss?level=theme&name=news",
       "ok": true,
       "headlines": 50,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Deadly floods sweep through eastern Spain after torrential rain",
+          "score": 34,
+          "link": "https://www.euronews.com/video/2026/10/19/deadly-floods-sweep-through-eastern-spain-after-torrential-rain"
+        },
+        {
+          "title": "Qatar plans new defence partnership and warns of energy crisis 'peak'",
+          "score": 26,
+          "link": "https://www.euronews.com/2026/10/19/qatar-plans-new-defence-partnership-and-warns-of-energy-crisis-peak"
+        },
+        {
+          "title": "Four Canadian service members killed, dozens injured in fire at Alberta military base",
+          "score": 25,
+          "link": "https://www.euronews.com/2026/10/18/canada-reports-fatalities-and-injuries-following-incident-at-military-base"
+        },
+        {
+          "title": "Gulf states top disaster resilience as Lebanon and Iraq lag far behind",
+          "score": 18,
+          "link": "https://www.euronews.com/2026/10/19/gulf-states-top-disaster-resilience-as-lebanon-and-iraq-lag-far-behind"
+        },
+        {
+          "title": "Tents fill Lisbon square as protesters highlight Portugal’s housing crisis",
+          "score": 16,
+          "link": "https://www.euronews.com/video/2026/10/19/tents-fill-lisbon-square-as-protesters-highlight-portugals-housing-crisis"
+        },
+        {
+          "title": "Russia woos Asian tourists in attempt to counter European visits collapse",
+          "score": 16,
+          "link": "https://www.euronews.com/2026/10/19/russia-woos-asian-tourists-in-attempt-to-counter-european-visits-collapse"
+        },
+        {
+          "title": "Australian MP Helen Haines 'critically' hurt in car ramming attack, officials say",
+          "score": 14,
+          "link": "https://www.euronews.com/2026/10/19/australian-mp-helen-haines-critically-hurt-in-car-ramming-attack-officials-say"
+        },
+        {
+          "title": "Roads and cars submerged as heavy rain floods eastern Spain",
+          "score": 12,
+          "link": "https://www.euronews.com/2026/10/19/roads-and-cars-submerged-as-heavy-rain-floods-eastern-spain"
+        }
+      ]
     },
     {
       "name": "CNBC",
+      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
       "ok": true,
       "headlines": 30,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall",
+          "score": 22,
+          "link": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html"
+        },
+        {
+          "title": "Putin reportedly proposes three-way summit with Trump and Xi on Ukraine war — without Zelenskyy",
+          "score": 22,
+          "link": "https://www.cnbc.com/2026/10/19/putin-trump-xi-ukraine-war-energy.html"
+        },
+        {
+          "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
+          "score": 20,
+          "link": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html"
+        },
+        {
+          "title": "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
+          "score": 14,
+          "link": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html"
+        },
+        {
+          "title": "Bessent warns Zelenskyy to 'be very careful' about claims U.S. is throttling Starlink",
+          "score": 10,
+          "link": "https://www.cnbc.com/2026/10/18/bessent-zelenskyy-starlink-ukarine-war.html"
+        },
+        {
+          "title": "Cornell sexual assault case has some prospective students rethinking plans, consultants say",
+          "score": 8,
+          "link": "https://www.cnbc.com/2026/10/19/cornell-sexual-assault-case-concerns-applicants.html"
+        },
+        {
+          "title": "Women may be at greater risk of AI job losses. Telephone switch operators and PCs show why",
+          "score": 5,
+          "link": "https://www.cnbc.com/2026/10/19/ai-job-losses-women-automation-risk.html"
+        },
+        {
+          "title": "Tech stocks had a nice oversold bounce on Monday. Earnings this week will determine if it's for real",
+          "score": 0,
+          "link": "https://www.cnbc.com/2026/10/19/tech-stocks-rebound-meta-tesla-earnings.html"
+        }
+      ]
     },
     {
       "name": "Politico",
+      "url": "https://www.politico.com/rss/politicopicks.xml",
       "ok": true,
       "headlines": 40,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "‘Ship has sailed’: New poll shows even an end to the war or lower gas prices may not save Republicans",
+          "score": 22,
+          "link": "https://www.politico.com/news/2026/10/10/ship-has-sailed-new-poll-shows-even-an-end-to-the-war-or-lower-gas-prices-may-not-save-republicans-01114385"
+        },
+        {
+          "title": "Germany Built a Firewall Against the Far Right. It’s on the Verge of Collapse.",
+          "score": 16,
+          "link": "https://www.politico.com/news/magazine/2026/09/04/germany-far-right-firewall-afd-01059834"
+        },
+        {
+          "title": "States face foreign threats — and a fractured federal partnership — ahead of midterms",
+          "score": 12,
+          "link": "https://www.politico.com/news/2026/10/19/states-election-threats-trump-administration-01125583"
+        },
+        {
+          "title": "‘A warning sign for polling’: Why one GOP pollster thinks a blue wave may fall short",
+          "score": 10,
+          "link": "https://www.politico.com/news/2026/10/19/republican-pollster-skeptical-democratic-wave-01124942"
+        },
+        {
+          "title": "Carney warns Alberta not to stumble into ‘Brexit’",
+          "score": 10,
+          "link": "https://www.politico.com/news/2026/10/19/alberta-referendum-unity-votes-01125849"
+        },
+        {
+          "title": "Trump bets Alaska promises can save GOP Senate seat",
+          "score": 0,
+          "link": "https://www.politico.com/news/2026/10/19/trump-is-showering-alaska-with-promises-voters-have-heard-it-before-01126866"
+        },
+        {
+          "title": "Republicans already know who they want to blame if they suffer big midterm losses",
+          "score": 0,
+          "link": "https://www.politico.com/news/2026/10/19/republican-knives-out-midterms-trump-01124859"
+        },
+        {
+          "title": "Medicaid cuts haunt Republicans in battleground states",
+          "score": 0,
+          "link": "https://www.politico.com/news/2026/10/19/medicaid-cuts-haunt-republicans-in-battleground-states-01127064"
+        }
+      ]
     },
     {
       "name": "ProPublica",
+      "url": "https://www.propublica.org/feeds/propublica/main",
       "ok": true,
       "headlines": 20,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Trump Says the Border Is Secure. Texas Gov. Greg Abbott Keeps Declaring an Emergency.",
+          "score": 14,
+          "link": "https://www.propublica.org/article/greg-abbott-border-security-disaster-proclamation"
+        },
+        {
+          "title": "“Devoid of Any Factual Basis”: Again and Again, Judges Have Dismissed Trump’s Voter Data Lawsuits",
+          "score": 6,
+          "link": "https://projects.propublica.org/trump-doj-voter-data-lawsuits"
+        },
+        {
+          "title": "Citing ProPublica, Lawmakers Introduce Bill to Help U.S. Citizens Sue ICE for Wrongful Detentions",
+          "score": 0,
+          "link": "https://www.propublica.org/article/american-citizens-wrongfully-detained-ice-bill"
+        },
+        {
+          "title": "He Tried to Set Limits on His State’s School Vouchers. Billionaires Helped Bankroll a Campaign to Unseat Him.",
+          "score": 0,
+          "link": "https://www.propublica.org/article/west-virginia-school-choice-billionaires-vernon-criss"
+        },
+        {
+          "title": "Ken Paxton’s Anti-Abortion Influence Already Extended Beyond Texas. He Could Take It Further in the Senate.",
+          "score": 0,
+          "link": "https://www.propublica.org/article/ken-paxton-texas-abortion-senate"
+        },
+        {
+          "title": "Trump Appointees Asked a Federal Cybersecurity Agency to Secretly Acquire a Voting Machine — and Hack It",
+          "score": 0,
+          "link": "https://www.propublica.org/article/cisa-election-security-donald-trump"
+        },
+        {
+          "title": "Frustrated by Losses in the Courts, Missouri Republicans Want to Change How Top Judges Are Selected",
+          "score": 0,
+          "link": "https://www.propublica.org/article/missouri-plan-judge-selection-republican-attacks"
+        },
+        {
+          "title": "These Women Were Trying to Escape Domestic Abuse. ICE Detained Them Instead.",
+          "score": 0,
+          "link": "https://www.propublica.org/article/domestic-violence-immigrant-victims-ice-detention"
+        }
+      ]
     },
     {
       "name": "Dawn",
+      "url": "https://www.dawn.com/feeds/home",
       "ok": true,
       "headlines": 28,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Army major martyred, 4 terrorists killed in Balochistan IBOs: ISPR",
+          "score": 53,
+          "link": "https://www.dawn.com/news/2038237/army-major-martyred-4-terrorists-killed-in-balochistan-ibos-ispr"
+        },
+        {
+          "title": "'We never gave up': Naqvi highlights Pakistan's peace efforts in US-Iran war at Qatar forum",
+          "score": 22,
+          "link": "https://www.dawn.com/news/2038298/we-never-gave-up-naqvi-highlights-pakistans-peace-efforts-in-us-iran-war-at-qatar-forum"
+        },
+        {
+          "title": "Israel announces 10 arrests after West Bank settler attacks on Westerners",
+          "score": 22,
+          "link": "https://www.dawn.com/news/2038315/israel-announces-10-arrests-after-west-bank-settler-attacks-on-westerners"
+        },
+        {
+          "title": "Govt slashes petrol price by Rs5.16 per litre, high-speed diesel rate by Rs7.69",
+          "score": 0,
+          "link": "https://www.dawn.com/news/2038326/govt-slashes-petrol-price-by-rs516-per-litre-high-speed-diesel-rate-by-rs769"
+        },
+        {
+          "title": "CDF Munir, new Saudi envoy express satisfaction at progress made under Makkah defence pact: ISPR",
+          "score": 0,
+          "link": "https://www.dawn.com/news/2038308/cdf-munir-new-saudi-envoy-express-satisfaction-at-progress-made-under-makkah-defence-pact-ispr"
+        },
+        {
+          "title": "Senate approves bill seeking blue passports for ex-lawmakers with incomplete term",
+          "score": 0,
+          "link": "https://www.dawn.com/news/2038312/senate-approves-bill-seeking-blue-passports-for-ex-lawmakers-with-incomplete-term"
+        },
+        {
+          "title": "In NA, Achakzai demands to know Sohail Afridi’s whereabouts",
+          "score": 0,
+          "link": "https://www.dawn.com/news/2038330/in-na-achakzai-demands-to-know-sohail-afridis-whereabouts"
+        },
+        {
+          "title": "Christiane Amanpour to leave CNN after four decades as Ellison era begins",
+          "score": 0,
+          "link": "https://www.dawn.com/news/2038334/christiane-amanpour-to-leave-cnn-after-four-decades-as-ellison-era-begins"
+        }
+      ]
     },
     {
       "name": "Japan Times",
+      "url": "https://www.japantimes.co.jp/feed/",
       "ok": true,
       "headlines": 30,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "China reveals advanced nuclear sub was used to test-fire missile",
+          "score": 40,
+          "link": "https://www.japantimes.co.jp/news/2026/10/19/asia-pacific/china-nuclear-sub-test-fire/"
+        },
+        {
+          "title": "El Nino-powered drought leaves Indonesian palm farmers high and dry as river recedes",
+          "score": 12,
+          "link": "https://www.japantimes.co.jp/news/2026/10/19/asia-pacific/indonesia-drought-palm-farmers/"
+        },
+        {
+          "title": "Why harassment scandals continue engulfing Japan’s local leaders",
+          "score": 8,
+          "link": "https://www.japantimes.co.jp/news/2026/10/19/japan/politics/power-harassment-local-chief-election/"
+        },
+        {
+          "title": "Global food inflation is expected to intensify as supply shocks pile up",
+          "score": 6,
+          "link": "https://www.japantimes.co.jp/business/2026/10/19/global-food-inflation/"
+        },
+        {
+          "title": "From Harvard to Tokyo screens, one actor takes the leap",
+          "score": 0,
+          "link": "https://www.japantimes.co.jp/culture/2026/10/20/film/meisha-brooks/"
+        },
+        {
+          "title": "Trump open to trilateral summit with Putin and Xi but wants denuclearization focus",
+          "score": 0,
+          "link": "https://www.japantimes.co.jp/news/2026/10/20/world/trump-open-xi-putin-meet/"
+        },
+        {
+          "title": "Japan launches probe in historic bid to collect sample from Mars moon",
+          "score": 0,
+          "link": "https://www.japantimes.co.jp/news/2026/10/20/japan/science-health/japan-mars-moon-probe-launch/"
+        },
+        {
+          "title": "A millennium ago, (almost) everyone in Japan was a poet",
+          "score": 0,
+          "link": "https://www.japantimes.co.jp/news/2026/10/20/japan/history/manyoshu-japanese-poetry/"
+        }
+      ]
     },
     {
       "name": "The Diplomat",
+      "url": "https://thediplomat.com/feed/",
       "ok": true,
       "headlines": 96,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "After War of Words, China Says Relations With Philippines at ‘Critical Juncture’",
+          "score": 22,
+          "link": "https://thediplomat.com/2026/10/after-war-of-words-china-says-relations-with-philippines-at-critical-juncture/"
+        },
+        {
+          "title": "The Uyghurs Who Fought in Syria’s Civil War",
+          "score": 22,
+          "link": "https://thediplomat.com/2026/10/the-uyghurs-who-fought-in-syrias-civil-war/"
+        },
+        {
+          "title": "Japan’s Nuclear Revival Has a Trust Problem",
+          "score": 20,
+          "link": "https://thediplomat.com/2026/10/japans-nuclear-revival-has-a-trust-problem/"
+        },
+        {
+          "title": "Drones and Missiles Are Rewriting the Military Balance on the Korean Peninsula",
+          "score": 20,
+          "link": "https://thediplomat.com/2026/10/drones-and-missiles-are-rewriting-the-military-balance-on-the-korean-peninsula/"
+        },
+        {
+          "title": "Tajikistan, Turkmenistan to Import Indian Surface-to-Air Missile Systems",
+          "score": 20,
+          "link": "https://thediplomat.com/2026/10/tajikistan-turkmenistan-to-import-indian-surface-to-air-missile-systems/"
+        },
+        {
+          "title": "Whither Japan’s Three Non-Nuclear Principles?",
+          "score": 20,
+          "link": "https://thediplomat.com/2026/10/whither-japans-three-non-nuclear-principles/"
+        },
+        {
+          "title": "Why Is China Proposing Reciprocal Nuclear Laboratory Visits?",
+          "score": 20,
+          "link": "https://thediplomat.com/2026/10/why-is-china-proposing-reciprocal-nuclear-laboratory-visits/"
+        },
+        {
+          "title": "Indonesian President Replaces Head of Disaster Management Agency",
+          "score": 18,
+          "link": "https://thediplomat.com/2026/10/indonesian-president-replaces-head-of-disaster-management-agency/"
+        }
+      ]
     },
     {
       "name": "Reason",
+      "url": "https://reason.com/feed/",
       "ok": true,
       "headlines": 48,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Civilians Using Guns to Defend Against Multiple Shootings",
+          "score": 24,
+          "link": "https://reason.com/volokh/2026/10/19/civilians-using-guns-to-defend-against-multiple-shootings/"
+        },
+        {
+          "title": "Trump's War With Iran Pushed Him To Waive a Century-Old Shipping Law. Commerce Boomed.",
+          "score": 22,
+          "link": "https://reason.com/2026/10/18/a-world-without-the-jones-act/"
+        },
+        {
+          "title": "Georgia Cop Who Shot a Miniature Donkey Says Body Camera Footage Shows an 'Imminent Threat'",
+          "score": 12,
+          "link": "https://reason.com/2026/10/16/georgia-cop-who-shot-a-miniature-donkey-says-body-camera-footage-shows-an-imminent-threat/"
+        },
+        {
+          "title": "Ohio Court Strikes Down a Scholarship Program That Supports More Than 100,000 Families",
+          "score": 10,
+          "link": "https://reason.com/2026/10/16/ohio-court-strikes-down-a-scholarship-program-that-supports-more-than-100000-families/"
+        },
+        {
+          "title": "Anticipated Religious Clashes Can't Justify Current Restriction on Parents' Religious Upbringing of Child",
+          "score": 10,
+          "link": "https://reason.com/volokh/2026/10/16/anticipated-religious-clashes-cant-justify-current-restriction-on-parents-religious-upbringing-of-child/"
+        },
+        {
+          "title": "A Texas Lawsuit Dubiously Accuses Students for Life of Violating the State's Abortion Pill Restrictions",
+          "score": 6,
+          "link": "https://reason.com/2026/10/19/a-texas-lawsuit-dubiously-accuses-students-for-life-of-violating-the-states-abortion-pill-restrictions/"
+        },
+        {
+          "title": "Matt Gaetz Lawsuit Shows How Twisted the Term 'Sex Trafficking' Has Become",
+          "score": 6,
+          "link": "https://reason.com/2026/10/19/matt-gaetz-lawsuit-shows-how-twisted-the-term-sex-trafficking-has-become/"
+        },
+        {
+          "title": "$6M Verdict in #TheyLied Defamation Lawsuit Brought Over Sexual Harassment Allegations",
+          "score": 6,
+          "link": "https://reason.com/volokh/2026/10/17/6m-verdict-in-theylied-defamation-lawsuit-brought-over-sexual-harassment-allegations/"
+        }
+      ]
     },
     {
       "name": "The Hindu",
+      "url": "https://www.thehindu.com/feeder/default.rss",
       "ok": true,
       "headlines": 60,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Three killed in Manipur attack, bodies left outside CM’s bungalow",
+          "score": 39,
+          "link": "https://www.thehindu.com/news/national/manipur/people-killed-in-firing-on-firewood-collectors-in-manipurs-imphal-east/article71602374.ece"
+        },
+        {
+          "title": "Watch: One killed, several injured in clashes in Manipur’s Thoubal",
+          "score": 35,
+          "link": "https://www.thehindu.com/videos/watch-one-killed-several-injured-in-clashes-in-manipurs-thoubal/article71603043.ece"
+        },
+        {
+          "title": "Gold mine collapse kills at least six in southwest Colombia",
+          "score": 16,
+          "link": "https://www.thehindu.com/news/international/gold-mine-collapse-in-colombias-narino-province/article71603089.ece"
+        },
+        {
+          "title": "Sudan drone attacks kill three children in Khartoum, dozens of civilians in Kordofan",
+          "score": 14,
+          "link": "https://www.thehindu.com/news/international/sudan-drone-attacks-kill-three-children-in-khartoum-dozens-of-civilians-in-kordofan/article71603076.ece"
+        },
+        {
+          "title": "Kuki group announces shutdown of key Manipur highway after attacks on villages",
+          "score": 14,
+          "link": "https://www.thehindu.com/news/national/manipur/kuki-group-announces-shutdown-of-key-manipur-highway-after-attacks-on-villages/article71600255.ece"
+        },
+        {
+          "title": "RSS leader, W.B. Minister oppose attacks on book stalls set up by Left parties at Durga Puja pandals",
+          "score": 14,
+          "link": "https://www.thehindu.com/news/national/west-bengal/rss-leader-wb-minister-oppose-attacks-on-book-stalls-set-up-by-left-parties-at-durga-puja-pandals/article71602923.ece"
+        },
+        {
+          "title": "Telangana plans 14-month foodgrain buffer to cover over 3 crore people amid El Niño threat",
+          "score": 12,
+          "link": "https://www.thehindu.com/news/national/telangana/telangana-plans-14-month-foodgrain-buffer-to-cover-over-three-crore-people-amid-el-nino-threat/article71602858.ece"
+        },
+        {
+          "title": "Zelenskyy says Ukraine got no early warning from partners as Russia hits power grid again",
+          "score": 10,
+          "link": "https://www.thehindu.com/news/international/zelenskyy-says-ukraine-got-no-early-warning-from-partners-as-russia-hits-power-grid-again/article71602862.ece"
+        }
+      ]
     },
     {
       "name": "Jerusalem Post",
+      "url": "https://www.jpost.com/rss/rssfeedsfrontpage.aspx",
       "ok": true,
       "headlines": 26,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Two suspects planning terror attack arrested by YAMAM, Shin Bet",
+          "score": 34,
+          "link": "https://www.jpost.com/israel-news/article-912209"
+        },
+        {
+          "title": "Qatargate suspect Urich continued boosting Doha’s PR image after Oct. 7 massacre - report",
+          "score": 30,
+          "link": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-912212"
+        },
+        {
+          "title": "IDF, Shin Bet arrest 10 suspects connected to attack on US journalist, EU diplomats in West Bank",
+          "score": 22,
+          "link": "https://www.jpost.com/israel-news/crime-in-israel/article-912116"
+        },
+        {
+          "title": "Bonei Zion Prize honors Olim rebuilding Israel after the war as North American Aliyah hits records",
+          "score": 22,
+          "link": "https://www.jpost.com/aliyah/article-912047"
+        },
+        {
+          "title": "US, Israel weigh renewed strikes on Iran as experts warn renewed conflict may be inevitable",
+          "score": 20,
+          "link": "https://www.jpost.com/middle-east/article-912207"
+        },
+        {
+          "title": "No. 1: Jared Kushner and Ivanka Trump: Remembering who brought the hostages home",
+          "score": 20,
+          "link": "https://www.jpost.com/influencers-26/50jews-26/article-908121"
+        },
+        {
+          "title": "Palestinian activist Mahmoud Khalil asks US Supreme Court to hear case seeking to avoid re-arrest",
+          "score": 8,
+          "link": "https://www.jpost.com/international/article-912200"
+        },
+        {
+          "title": "Syria fears imminent Israeli-backed Druze offensive in Sweida, official tells 'Post'",
+          "score": 6,
+          "link": "https://www.jpost.com/middle-east/article-912181"
+        }
+      ]
     },
     {
       "name": "FOX News",
+      "url": "https://feeds.foxnews.com/foxnews/latest",
       "ok": true,
       "headlines": 25,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Repeat offender accused of shooting National Guard member has lengthy history with the law, records show",
+          "score": 24,
+          "link": "https://www.foxnews.com/us/repeat-offender-accused-shooting-national-guard-member-lengthy-history-law-records-show"
+        },
+        {
+          "title": "Beleaguered Macron cites US-Iran war as factor in protests amid Trump, Vance criticism",
+          "score": 22,
+          "link": "https://www.foxnews.com/world/beleaguered-macron-cites-us-iran-war-factor-protests-amid-trump-vance-criticism"
+        },
+        {
+          "title": "Cause of death released for 3 who perished at Burning Man festival in Nevada",
+          "score": 20,
+          "link": "https://www.foxnews.com/travel/cause-death-released-3-who-perished-burning-man-festival-nevada"
+        },
+        {
+          "title": "Carville says he'd rather Republicans keep the House than Democrats win by five seats, held 'hostage' by DSA",
+          "score": 14,
+          "link": "https://www.foxnews.com/media/carville-rather-republicans-keep-house-than-democrats-win-five-seats-held-hostage-dsa"
+        },
+        {
+          "title": "Veteran CNN anchor Christiane Amanpour announces exit from network, will go off the air next June",
+          "score": 0,
+          "link": "https://www.foxnews.com/media/veteran-cnn-anchor-christiane-amanpour-announces-exit-network-go-off-air-next-june"
+        },
+        {
+          "title": "Kansas man mapped rooftops near Trump speech site, threatened to shoot president: DOJ",
+          "score": 0,
+          "link": "https://www.foxnews.com/us/kansas-man-mapped-rooftops-near-trump-speech-site-threatened-shoot-president-doj"
+        },
+        {
+          "title": "New Orleans Saints arrive in France with safety top of mind ahead of NFL's first Paris game",
+          "score": 0,
+          "link": "https://www.foxnews.com/outkick-sports/new-orleans-saints-arrive-france-safety-top-mind-ahead-nfl-first-paris-game"
+        },
+        {
+          "title": "Matthew McConaughey divides fans over independent voting plea ahead of midterms",
+          "score": 0,
+          "link": "https://www.foxnews.com/entertainment/matthew-mcconaughey-divides-fans-over-independent-voting-plea-ahead-midterms"
+        }
+      ]
     },
     {
       "name": "CNN",
+      "url": "https://news.google.com/rss/search?q=site%3Acnn.com&hl=en-US&gl=US&ceid=US%3Aen",
       "ok": true,
       "headlines": 100,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "Priest killed by falling crucifix during live streamed Mass",
+          "score": 25,
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObS1RRUc3Qmo5WHZhSTVhclVHMzdEVzYwNmphd19GNFVHcGd6UVlmU2tOTDZVdXA2Y0V4MjFPVXRLS0tXQ0ZqeVEtczAwV3dCTUVsVFo2UHVvSWpuVXNoT0k0VzNlcnNDZzg1WW50MXBIaUxnWURacHY2VFNQNFlmckJ3enh0UQ?oc=5"
+        },
+        {
+          "title": "Fisherman, 71, attacked and killed by 12-foot alligator alongside Florida lake",
+          "score": 25,
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQQWZ3WmRzLUhidTNFV0JudUV4QU9zVHRYSTlFbUh4d2ktV19aQWpEWHBZeklUNGFQdFZvZlNtZHlMUzlUZW40RTcxOUI0SFR3SkMzTWVYTjJwaEk2eTdXWEVtZGJESlBFbGRlTXZ2X0l2dkY0M0tz?oc=5"
+        },
+        {
+          "title": "What we know about the investigation into the Bend school shooting",
+          "score": 24,
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5BUTRNWEp5N3RBb29vVlNtVDNBRGl1Q0h1Z3daN08xenFFRjlFRFVzS1dVV0JmeEctVTdwR1l0VTZlQXNOMXYzNElpaEl4V19NUFZsT2dUQklEZzVlWG5FRFNiQjR0RFpNaklheEJUdWtyMEk3?oc=5"
+        },
+        {
+          "title": "A compassionate teacher and her young students: What we know about the victims of the Bend school shooting",
+          "score": 24,
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1hTGxXMFZaeWFWcUJSMlhHRmlGUGlPQzZJRE9uRlE1RFBob0VxTlg3S25XUTNRZUhNMkpVVmRCd2M0c3dGRl9TZEpHYV80RXh6UjRBWEVEMV9qMERJZllOU0pTaDVNd2tYdmlTd2h3RE9pdTFiM2VGQw?oc=5"
+        },
+        {
+          "title": "It took just 3 minutes. How the Bend school shooting unfolded",
+          "score": 24,
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLWNpd0JoRS1jYWZzNEJyc2xjOW9TLUxjOFdGVThoeVl3QmlZOG5jekVpbC1kSDVwQS1fWjUwdEZTRm5tUWFnUEtVX3NvNktKSXZxM2FXZWdIMmxVeHB2WFZpdk1VVXNOYjhuaUJqbXN0NzJWcHlQUGJSZkJ4Q0U3UDh5OA?oc=5"
+        },
+        {
+          "title": "Amid US pressure on settler violence, Israel arrests at least 10 suspected of West Bank attacks on journalist, diplomats",
+          "score": 22,
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMElEN19mNlRUOTdTUmZ5VXFETktUdF8tZnJYU1NhWVlianduY2JONV9aTVhQS01SSEVZMEF0Z05zTTZQamFBemtvM1B3OGg3UVlaYnBLcC15WGdKV2JhcEFOWUNabV8zcDVkYVE3b2l1d0phdXo4MTFUMGg3cTQ5SnBmNDBKTHhLa0MzeUpGXy16M0RLbGZKbnlpU2FURUthZWRGdDFtNjVHdURWcTFSbGlfTC1IVkYzVElYYS1CVllMekpDOFJSUU9YaWV5cVFOZ1JIdEV6SmZXUkgzRU0xQUI4UTFxWmVDYng4?oc=5"
+        },
+        {
+          "title": "‘The world will be amazed:’ Iran’s commanders prepare for further war",
+          "score": 22,
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0eUE3NlZIYURIaERvcmpRV3o0NWZRakxqY0QyYWVZU055SUJJazMybTNUVzlSSEN1TjhOc241WU9ld0NjTS10TWFCV1BNVnVnNDFQaHdPRWVXbS03RTlnOGNBdEtpR2J2OWJGTXpUMFZUNE5pSjVnbWhpSQ?oc=5"
+        },
+        {
+          "title": "A Navy sailor came home from war. Her deported father could only greet her at the border",
+          "score": 22,
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSlNTOC1HbExPSVR6RERsZ25GMGNlMFh1SmdyR3pSb0pWVC1qb3RyeFp4OUxKWVprZEdXaXhzWkJENmpPV1I1M0RpVC11d3VSQ01DZUc2OFZWOFQybWJLcnd6TmNJZGJVZWFaR3RueGhycGtrUkt6RG9XZkZwZkZMNDVDTGM4dw?oc=5"
+        }
+      ]
     },
     {
       "name": "MSNBC",
+      "url": "https://news.google.com/rss/search?q=site%3Amsnbc.com&hl=en-US&gl=US&ceid=US%3Aen",
       "ok": true,
       "headlines": 8,
-      "error": null
+      "error": null,
+      "sample": [
+        {
+          "title": "MS NOW's We the People Newsletter | Sign Up",
+          "score": 0,
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYdTBMR0dnRTRtZ1VFNUtULWF0ekphWDd2VGJUTVJfTmNDMDA2YkJKRS1SYTBVY0pfaElKbURMM1lGM2tVdXV5NmlqM3hZQl91ZXVuSkJqNVRqc2JKMmo1M1ZOUXk?oc=5"
+        },
+        {
+          "title": "Sign up for the The Tea, Spilled by Morning Joe newsletter",
+          "score": 0,
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9LWTJGeGQ0UE1BT1dnZEhuTzF6UWZIZVpqbE5Qa1E5UGI3UmE5UjQxWWRPRFhscml4dmdWb3lrTHRIeVlqSFMtQ1h2YU9ySU9QS1BzUXAxNUtJS0Z0Q3RV?oc=5"
+        },
+        {
+          "title": "Deadline: White House",
+          "score": 0,
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTERXRmduYThXUGVPRlBpckllN0NTaFlIR3pQckZ1b1FQTVZPbzZWV00xRGluLXFEQTgzbXVoOEJVc0Y5djRIVE9DY2RUbTNjVkcxb3VwczRub3ZZY2tuQ3VFbU42bzVBRkFuWFNRSDgxeTQ0alIyNkpxNjc1N0EwYTV3Zk8?oc=5"
+        },
+        {
+          "title": "MS NOW Daily | Sign Up",
+          "score": 0,
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hdG00c0czdy1kdjdMZGVvZXUtdWFYbGpaTFpUdFNQNjhNc2hjVVM1azBVNlFRd2hmRThpR3Rfa2FOMkRQZGwwSXlmTWFfWTN6bHotOFRKX19fVktUNDFV?oc=5"
+        },
+        {
+          "title": "MS NOW (formerly MSNBC) - US News Today | Breaking News",
+          "score": 0,
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82aWFQdFdPdUp2TkVCNUVPU2M5QzIxLUxLZThuY0VzZjZta00wamlQM1h4aG9qOVVuZ05PVV9CZkJDcWJPZHdvVGdjOGFlaDZCSnJ0ZlpoUlZNZlpJR0g0Qjk1clVNZGh6YjZINw?oc=5"
+        },
+        {
+          "title": "All In with Chris Hayes",
+          "score": 0,
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5SaDZmdVI4R295aWlaZTlBM1I2S0w3SHFjQlVBU0tLQ3VxeXBHT1FsaXJvZ1Jac3Nja3U2MlJZTTBhbUtWcmhpRWt2SEpJYm9qS2l0bEp2TnFjdnJOSWh4bE1WZ0JiYVNBOXV0YVBpRkx2V1Bw?oc=5"
+        },
+        {
+          "title": "Sign up for the The Rachel Maddow Show newsletter | NBC News",
+          "score": 0,
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81bTJOdWwwS1phcFJSTlMxY0dXa2dzLWo4V3FpWmNxa0tqUG5Ua0V5N2JjTGlyVzd3ODVyeTl3UlhXc1BoMVlobGk2SHFsSEZ0R0Rna3lhZ0RROVZ0enEzekx3?oc=5"
+        },
+        {
+          "title": "Ken Martin elected Democratic National Committee chair",
+          "score": 0,
+          "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPMl9HOVFHWDNXNUpweHhvWVNsWkZVcWg0QUlvdGxWNG9NcnQ2M25WZVlNOUhiSC1ocWYtMDZKQnJPaG9jOFZmMnhzeFBPS3FUZ1VsdEdCMHZXazRuV2ZkUW51aHZ1NGt3NXFlbGFacTBlcEtZTC1OM0piR2d6bUFkS19nY1JmSUNsZl9KZWRCSUFMZ1JMNEZKUFJQY2p5Y09iMXYzejBZNUk3OG5MelFnd2djNU90ZDdhRm1aX2xlV0NQYWthY0VJS0E2TC1lc1hBb09Vcnh0dWJ4MDl1MnV4QUlZQjFVOFFqRjNHTEJvblRhRWoyOHNuSjBESHltNFN5QXlkNVc5ZDFndnBWRGZDUFRoSzNJUzg5UEpCT2JmaWJoTm9UNnVwSDc2SkxRY21Fa0xxS3ZqREk2TS0wa3ZZQ3JyanFoMl9y?oc=5"
+        }
+      ]
     }
   ],
   "feed_count": 32,
   "headline_count": 1208,
-  "unique_stories": 1090
+  "unique_stories": 1093
 }
