@@ -32,13 +32,30 @@
     } catch (e) { return isoDate; }
   }
 
-  function fmtUpdated(iso) {
+  var openLexicon = null;
+
+  function renderUpdated(iso) {
+    var el = document.getElementById("updated");
+    var datePart, tzPart;
     try {
-      return new Date(iso).toLocaleString("en-US", {
+      var dt = new Date(iso);
+      datePart = dt.toLocaleString("en-US", {
         timeZone: "America/Denver", month: "short", day: "numeric",
-        hour: "numeric", minute: "2-digit", timeZoneName: "short"
+        hour: "numeric", minute: "2-digit"
       });
-    } catch (e) { return iso; }
+      tzPart = dt.toLocaleString("en-US", {
+        timeZone: "America/Denver", timeZoneName: "short"
+      }).split(" ").pop();
+    } catch (e) {
+      el.textContent = "Updated " + iso + " · fetches hourly";
+      return;
+    }
+    el.innerHTML = "Updated " + esc(datePart) +
+      ' <button id="tzBtn" class="tz-btn" title="Review the doom lexicon">' +
+      esc(tzPart) + "</button> · fetches hourly";
+    document.getElementById("tzBtn").addEventListener("click", function () {
+      if (openLexicon) openLexicon();
+    });
   }
 
   function renderGauge(score) {
@@ -178,11 +195,109 @@
       w.classList.toggle("on", n === 7);
       m.classList.toggle("on", n === 30);
       renderWeek(lastHistory);
+      renderBleakWeek(lastHistory);
+      renderTopicTrends(lastHistory);
     }
     w.addEventListener("click", function () { set(7); });
     m.addEventListener("click", function () { set(30); });
   }
   initRangeToggle();
+
+  function renderBleakWeek(history) {
+    var el = document.getElementById("bleakWeek");
+    var days = history.slice(-7);
+    if (!days.length) {
+      el.innerHTML = '<div class="empty">History builds up day by day.</div>';
+      return;
+    }
+    var sums = {}, counts = {};
+    days.forEach(function (h) {
+      var srcs = h.sources || {};
+      Object.keys(srcs).forEach(function (name) {
+        sums[name] = (sums[name] || 0) + srcs[name];
+        counts[name] = (counts[name] || 0) + 1;
+      });
+    });
+    var rows = Object.keys(sums).map(function (name) {
+      return { name: name, avg: sums[name] / counts[name] };
+    }).sort(function (a, b) { return b.avg - a.avg; });
+    var max = rows.length ? rows[0].avg : 0;
+    el.innerHTML = rows.map(function (r, i) {
+      var pct = max ? (100 * r.avg / max) : 0;
+      return '<div class="src-row"><span class="src-rank">' + (i + 1) +
+        '</span><span class="src-name">' + esc(r.name) +
+        '</span><span class="src-bar"><span class="src-fill" style="width:' +
+        pct.toFixed(1) + "%;background:" + bandColor(r.avg) +
+        '"></span></span><span class="src-val">' + r.avg.toFixed(1) + "%</span></div>";
+    }).join("") + '<div class="note">Average daily share of bleakness, last ' +
+      days.length + " day" + (days.length === 1 ? "" : "s") + ".</div>";
+  }
+
+  function renderTopicTrends(history) {
+    var el = document.getElementById("topicTrends");
+    var days = history.slice(-historyRange).filter(function (h) { return h.topics; });
+    if (!days.length) {
+      el.innerHTML = '<div class="note">Topic history starts with the next fetch.</div>';
+      return;
+    }
+    var names = {};
+    days.forEach(function (h) {
+      Object.keys(h.topics).forEach(function (n) { names[n] = true; });
+    });
+    var rows = Object.keys(names).map(function (n) {
+      var pts = days.map(function (h) { return h.topics[n] || 0; });
+      var avg = pts.reduce(function (a, b) { return a + b; }, 0) / pts.length;
+      return { name: n, pts: pts, avg: avg };
+    }).sort(function (a, b) { return b.avg - a.avg; });
+    el.innerHTML = rows.map(function (r) {
+      return '<div class="src-row"><span class="src-name">' + esc(r.name) +
+        "</span>" + sparkline(r.pts) +
+        '<span class="src-val">' + r.avg.toFixed(1) + "%</span></div>";
+    }).join("");
+  }
+
+  var HAPPY = ["😀","😜","🏖️","🥲","😁","🤸‍♂️","😂","🙂","😤","🥳","🤸","🤸‍♀️","🤣","😃","😄","☺️","🌞","😎"];
+  var SCARY = ["💀","☠️","👹","👺","🧟","🪦","⚰️","😱","😨","😧","🔪","🗡️","😈","😠","👿","😤","😡","💢","👹","🤬","💩"];
+
+  function moodFor(score) {
+    if (score < 15) return HAPPY[Math.floor(Math.random() * HAPPY.length)];
+    if (score > 70) return SCARY[Math.floor(Math.random() * SCARY.length)];
+    return "";
+  }
+
+  function doomForecast(history) {
+    var days = history.slice(-7);
+    if (days.length < 2) return null;
+    var n = days.length, sx = 0, sy = 0, sxx = 0, sxy = 0;
+    days.forEach(function (h, i) {
+      sx += i; sy += h.score; sxx += i * i; sxy += i * h.score;
+    });
+    var denom = n * sxx - sx * sx;
+    var slope = denom ? (n * sxy - sx * sy) / denom : 0;
+    var intercept = (sy - slope * sx) / n;
+    var pred = intercept + slope * n;
+    return Math.max(0, Math.min(100, Math.round(pred * 10) / 10));
+  }
+
+  function forecastQuip(pred) {
+    if (pred < 15) return "Mostly survivable. Pack sunscreen and low expectations.";
+    if (pred < 30) return "Getting spicy. Maybe skip the comments section.";
+    if (pred < 50) return "Rough out there. Hug your chickens.";
+    return "Everything is terrible. Cancel your plans.";
+  }
+
+  function renderForecast(history) {
+    var el = document.getElementById("forecast");
+    var pred = doomForecast(history);
+    if (pred === null) {
+      el.innerHTML = '<div class="note">Not enough history to guess. Check back tomorrow.</div>';
+      return;
+    }
+    el.innerHTML = '<span class="forecast-num">' + pred.toFixed(1) + '%</span>' +
+      '<span class="forecast-quip">' + esc(forecastQuip(pred)) + "</span>" +
+      '<div class="note">Extrapolated from the last 7 days. ' +
+      "About as reliable as a horoscope.</div>";
+  }
 
   function renderTopics(topics) {
     lastTopics = topics;
@@ -267,6 +382,47 @@
   }
   initFeedsModal();
 
+  function initLexiconModal() {
+    var modal = document.getElementById("lexModal");
+    var close = document.getElementById("lexClose");
+    var list = document.getElementById("lexList");
+    var loaded = false;
+    function shut() { modal.hidden = true; }
+    function open() {
+      modal.hidden = false;
+      if (loaded) return;
+      loaded = true;
+      list.innerHTML = '<div class="empty">Loading…</div>';
+      getJSON("doom_lexicon.json").then(function (lex) {
+        var weights = lex.weights || {};
+        var keys = Object.keys(weights).sort(function (a, b) {
+          return weights[b] - weights[a];
+        });
+        document.getElementById("lexCount").textContent = keys.length;
+        list.innerHTML = '<div class="lex-grid">' + keys.map(function (k) {
+          var w = weights[k];
+          var cls = w < 0 ? "hit good" : "hit";
+          var sign = w > 0 ? "+" : "";
+          return '<span class="' + cls + '">' + esc(k) +
+            " <b>" + sign + w + "</b></span>";
+        }).join("") + "</div>" +
+          '<div class="note">Negative weights are anti-doom dampeners. ' +
+          "Weights sum per headline, clamped 0–100. Deliberately crude.</div>";
+      }).catch(function () {
+        list.innerHTML = '<div class="empty">Could not load doom_lexicon.json.</div>';
+      });
+    }
+    openLexicon = open;
+    close.addEventListener("click", shut);
+    modal.addEventListener("click", function (e) {
+      if (e.target === modal) shut();
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") shut();
+    });
+  }
+  initLexiconModal();
+
   Promise.all([getJSON("doom.json"), getJSON("history.json").catch(function () { return []; })])
     .then(function (res) {
       var d = res[0], history = res[1];
@@ -275,6 +431,7 @@
       var v = document.getElementById("verdict");
       v.textContent = d.verdict;
       v.style.color = color;
+      document.getElementById("mood").textContent = moodFor(d.score);
       var deltaEl = document.getElementById("delta");
       if (d.delta === null || d.delta === undefined) {
         deltaEl.hidden = true;
@@ -309,9 +466,11 @@
       renderTopics(d.topics || []);
       renderHeadlines(d.headlines);
       renderWeek(history);
+      renderBleakWeek(history);
+      renderTopicTrends(history);
+      renderForecast(history);
       renderHealth(d.feed_health || [], d.fetched_at);
-      document.getElementById("updated").textContent =
-        "Updated " + fmtUpdated(d.generated_at) + " · fetches hourly";
+      renderUpdated(d.generated_at);
     })
     .catch(function (err) {
       document.getElementById("verdict").textContent =

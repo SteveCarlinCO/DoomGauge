@@ -36,6 +36,7 @@
             font-weight="700" fill="#e8eaf0">—</text>
     </svg>
     <div class="hero-text">
+      <div class="mood" id="mood" aria-hidden="true"></div>
       <div class="verdict" id="verdict">Loading…</div>
       <div class="delta" id="delta" hidden></div>
       <div class="stats" id="stats"></div>
@@ -54,6 +55,11 @@
   </section>
 
   <section>
+    <h2>TOPIC TRENDS</h2>
+    <div id="topicTrends" class="sources"></div>
+  </section>
+
+  <section>
     <h2>DOOMIEST HEADLINES</h2>
     <div id="headlines" class="headlines"></div>
   </section>
@@ -61,6 +67,16 @@
   <section>
     <h2><span id="historyTitle">THE WEEK</span><span class="range-toggle"><button id="rangeWeek" class="range-btn on" title="Last 7 days">7D</button><button id="rangeMonth" class="range-btn" title="Last 30 days">30D</button></span></h2>
     <div id="week" class="week"></div>
+  </section>
+
+  <section>
+    <h2>TOMORROW'S DOOM</h2>
+    <div id="forecast" class="forecast"></div>
+  </section>
+
+  <section>
+    <h2>BLEAKEST THIS WEEK</h2>
+    <div id="bleakWeek" class="sources"></div>
   </section>
 
   <section>
@@ -83,6 +99,15 @@
         <button id="feedsClose" class="icon-btn" aria-label="Close">&times;</button>
       </div>
       <div id="feedsList" class="feeds-list"></div>
+    </div>
+  </div>
+  <div id="lexModal" class="modal" hidden>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-label="Doom lexicon">
+      <div class="modal-head">
+        <span>DOOM LEXICON (<span id="lexCount">—</span>)</span>
+        <button id="lexClose" class="icon-btn" aria-label="Close">&times;</button>
+      </div>
+      <div id="lexList" class="lex-list"></div>
     </div>
   </div>
 </main>

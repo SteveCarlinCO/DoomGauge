@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-10-19T14:42:05.296627+00:00",
-  "fetched_at": "2026-10-19 08:42 MDT",
+  "generated_at": "2026-10-19T21:19:24.355550+00:00",
+  "fetched_at": "2026-10-19 15:19 MDT",
   "date": "2026-10-19",
-  "score": 11.3,
+  "score": 9.5,
+  "stale": false,
   "verdict": "Mostly survivable.",
   "delta": null,
   "delta_date": null,
@@ -15,57 +16,57 @@
     },
     {
       "name": "BBC",
-      "score": 9.1,
-      "count": 33,
+      "score": 10.0,
+      "count": 30,
       "doom": 3
     },
     {
       "name": "Al Jazeera",
-      "score": 32.0,
+      "score": 16.0,
       "count": 25,
-      "doom": 8
-    },
-    {
-      "name": "CBS",
-      "score": 20.0,
-      "count": 30,
-      "doom": 6
-    },
-    {
-      "name": "PBS",
-      "score": 15.0,
-      "count": 20,
-      "doom": 3
-    },
-    {
-      "name": "ABC",
-      "score": 12.0,
-      "count": 25,
-      "doom": 3
-    },
-    {
-      "name": "NBC",
-      "score": 8.0,
-      "count": 25,
-      "doom": 2
-    },
-    {
-      "name": "Sky",
-      "score": 40.0,
-      "count": 10,
       "doom": 4
     },
     {
+      "name": "CBS",
+      "score": 3.3,
+      "count": 30,
+      "doom": 1
+    },
+    {
+      "name": "PBS",
+      "score": 25.0,
+      "count": 20,
+      "doom": 5
+    },
+    {
+      "name": "ABC",
+      "score": 16.0,
+      "count": 25,
+      "doom": 4
+    },
+    {
+      "name": "NBC",
+      "score": 4.0,
+      "count": 25,
+      "doom": 1
+    },
+    {
+      "name": "Sky",
+      "score": 30.0,
+      "count": 10,
+      "doom": 3
+    },
+    {
       "name": "DW",
-      "score": 8.1,
+      "score": 6.7,
       "count": 135,
-      "doom": 11
+      "doom": 9
     },
     {
       "name": "France24",
-      "score": 12.5,
+      "score": 8.3,
       "count": 24,
-      "doom": 3
+      "doom": 2
     },
     {
       "name": "Guardian",
@@ -75,9 +76,9 @@
     },
     {
       "name": "The Hill",
-      "score": 8.0,
+      "score": 7.0,
       "count": 100,
-      "doom": 8
+      "doom": 7
     },
     {
       "name": "ZeroHedge",
@@ -87,15 +88,15 @@
     },
     {
       "name": "ReliefWeb",
-      "score": 20.0,
+      "score": 5.0,
       "count": 20,
-      "doom": 4
+      "doom": 1
     },
     {
       "name": "TOI",
-      "score": 8.7,
+      "score": 4.3,
       "count": 46,
-      "doom": 4
+      "doom": 2
     },
     {
       "name": "ABC-AU",
@@ -111,47 +112,42 @@
     },
     {
       "name": "Times of Israel",
-      "score": 21.4,
-      "count": 14,
-      "doom": 3
+      "score": 6.7,
+      "count": 15,
+      "doom": 1
     },
     {
       "name": "Vox",
-      "score": 0.0,
+      "score": 10.0,
       "count": 10,
-      "doom": 0
+      "doom": 1
     }
   ],
   "topics": [
     {
       "name": "War",
-      "count": 25,
-      "share": 36.2
-    },
-    {
-      "name": "Crime",
-      "count": 8,
-      "share": 11.6
+      "count": 23,
+      "share": 40.4
     },
     {
       "name": "Economy",
-      "count": 3,
-      "share": 4.3
+      "count": 5,
+      "share": 8.8
     },
     {
-      "name": "Health",
-      "count": 3,
-      "share": 4.3
+      "name": "Crime",
+      "count": 4,
+      "share": 7.0
     },
     {
       "name": "Disaster",
       "count": 2,
-      "share": 2.9
+      "share": 3.5
     },
     {
       "name": "Politics",
-      "count": 2,
-      "share": 2.9
+      "count": 1,
+      "share": 1.8
     }
   ],
   "headlines": [
@@ -179,6 +175,25 @@
       ]
     },
     {
+      "title": "One killed in US shooting near mosque in Columbus, Ohio",
+      "score": 49,
+      "source": "Al Jazeera",
+      "link": "https://www.aljazeera.com/news/2026/10/19/us-federal-authorities-responding-to-shooting-at-mosque-in-columbus-ohio?traffic_source=rss",
+      "topics": [
+        "Crime"
+      ],
+      "hits": [
+        {
+          "keyword": "killed",
+          "weight": 25
+        },
+        {
+          "keyword": "shooting",
+          "weight": 24
+        }
+      ]
+    },
+    {
       "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
       "score": 48,
       "source": "Guardian",
@@ -202,25 +217,6 @@
       ]
     },
     {
-      "title": "How adults tried to prevent the deadly shooting at Silver Rail Elementary School",
-      "score": 46,
-      "source": "CBS",
-      "link": "https://www.cbsnews.com/video/how-adults-tried-to-prevent-the-deadly-shooting-at-silver-rail-elementary-school/",
-      "topics": [
-        "Crime"
-      ],
-      "hits": [
-        {
-          "keyword": "shooting",
-          "weight": 24
-        },
-        {
-          "keyword": "deadly",
-          "weight": 22
-        }
-      ]
-    },
-    {
       "title": "Over 50 killed as Houthis target Yemen military camp with ballistic missiles",
       "score": 45,
       "source": "TOI",
@@ -240,10 +236,48 @@
       ]
     },
     {
-      "title": "Beyond air power: How long-range missiles are reshaping the rules of war",
+      "title": "Mississippi attorney general rules fatal police shooting of one-year-old as ‘justified’",
       "score": 42,
-      "source": "TOI",
-      "link": "https://timesofindia.indiatimes.com/defence/news/beyond-air-power-how-long-range-missiles-are-reshaping-the-rules-of-war/articleshow/135045961.cms",
+      "source": "Guardian",
+      "link": "https://www.theguardian.com/us-news/2026/oct/19/mississippi-attorney-general-kohen-wiley-killing-justified",
+      "topics": [
+        "Crime"
+      ],
+      "hits": [
+        {
+          "keyword": "shooting",
+          "weight": 24
+        },
+        {
+          "keyword": "fatal",
+          "weight": 18
+        }
+      ]
+    },
+    {
+      "title": "Mystery Surrounds Deadly Vehicle Crash at Youth Soccer Game",
+      "score": 38,
+      "source": "NBC",
+      "link": "https://www.today.com/video/mystery-surrounds-deadly-vehicle-accident-at-kids-soccer-game-271807557853",
+      "topics": [
+        "Economy"
+      ],
+      "hits": [
+        {
+          "keyword": "deadly",
+          "weight": 22
+        },
+        {
+          "keyword": "crash",
+          "weight": 16
+        }
+      ]
+    },
+    {
+      "title": "How Iran war votes in Congress became a focal point for campaign ad attacks",
+      "score": 36,
+      "source": "PBS",
+      "link": "https://www.pbs.org/newshour/politics/how-iran-war-votes-in-congress-became-a-focal-point-for-campaign-ad-attacks",
       "topics": [
         "War"
       ],
@@ -253,68 +287,34 @@
           "weight": 22
         },
         {
-          "keyword": "missile",
-          "weight": 20
+          "keyword": "attack",
+          "weight": 14
         }
       ]
     },
     {
-      "title": "El Nino is a 'postcard from the future' — and could cause 451,000 excess heat deaths",
-      "score": 40,
-      "source": "DW",
-      "link": "https://www.dw.com/en/el-nino-is-a-postcard-from-the-future-and-could-cause-451-000-excess-heat-deaths/a-79430945?maca=en-rss-en-all-1573-rdf",
-      "topics": [],
-      "hits": [
-        {
-          "keyword": "death",
-          "weight": 20
-        },
-        {
-          "keyword": "deaths",
-          "weight": 20
-        }
-      ]
-    },
-    {
-      "title": "Three deaths from float crushes raise safety concerns over Japanese festivals",
-      "score": 40,
+      "title": "Houthi attack kills 53 in biggest single loss of life since Yemen civil war reignited",
+      "score": 36,
       "source": "Guardian",
-      "link": "https://www.theguardian.com/world/2026/oct/19/safety-concerns-japan-traditional-festivals-fatal-accidents",
-      "topics": [],
-      "hits": [
-        {
-          "keyword": "death",
-          "weight": 20
-        },
-        {
-          "keyword": "deaths",
-          "weight": 20
-        }
-      ]
-    },
-    {
-      "title": "Dozens killed after Houthi strike on military camp in Shabwa",
-      "score": 35,
-      "source": "Al Jazeera",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/dozens-killed-after-houthi-strike-on-military-camp-in-shabwa?traffic_source=rss",
+      "link": "https://www.theguardian.com/world/2026/oct/19/houthi-attack-yemen-al-alam-camp-biggest-single-loss-of-life-civil-war",
       "topics": [
         "War"
       ],
       "hits": [
         {
-          "keyword": "killed",
-          "weight": 25
+          "keyword": "war",
+          "weight": 22
         },
         {
-          "keyword": "strike",
-          "weight": 10
+          "keyword": "attack",
+          "weight": 14
         }
       ]
     }
   ],
   "top_contributor": {
     "name": "DW",
-    "share": 14.3
+    "share": 15.3
   },
   "streak_days": 0,
   "feed_health": [
@@ -327,7 +327,7 @@
     {
       "name": "BBC",
       "ok": true,
-      "headlines": 33,
+      "headlines": 30,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
     {
       "name": "Times of Israel",
       "ok": true,
-      "headlines": 14,
+      "headlines": 15,
       "error": null
     },
     {
@@ -440,6 +440,6 @@
     }
   ],
   "feed_count": 19,
-  "headline_count": 647,
-  "unique_stories": 611
+  "headline_count": 645,
+  "unique_stories": 602
 }

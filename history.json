@@ -1,28 +1,35 @@
 [
   {
     "date": "2026-10-19",
-    "score": 11.3,
+    "score": 9.5,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 9.1,
-      "Al Jazeera": 32.0,
-      "CBS": 20.0,
-      "PBS": 15.0,
-      "ABC": 12.0,
-      "NBC": 8.0,
-      "Sky": 40.0,
-      "DW": 8.1,
-      "France24": 12.5,
+      "BBC": 10.0,
+      "Al Jazeera": 16.0,
+      "CBS": 3.3,
+      "PBS": 25.0,
+      "ABC": 16.0,
+      "NBC": 4.0,
+      "Sky": 30.0,
+      "DW": 6.7,
+      "France24": 8.3,
       "Guardian": 15.6,
-      "The Hill": 8.0,
+      "The Hill": 7.0,
       "ZeroHedge": 20.0,
-      "ReliefWeb": 20.0,
-      "TOI": 8.7,
+      "ReliefWeb": 5.0,
+      "TOI": 4.3,
       "ABC-AU": 12.0,
       "Slate": 0.0,
-      "Times of Israel": 21.4,
-      "Vox": 0.0
+      "Times of Israel": 6.7,
+      "Vox": 10.0
+    },
+    "topics": {
+      "War": 40.4,
+      "Economy": 8.8,
+      "Crime": 7.0,
+      "Disaster": 3.5,
+      "Politics": 1.8
     },
     "top": [
       {
@@ -31,14 +38,14 @@
         "source": "ZeroHedge"
       },
       {
+        "title": "One killed in US shooting near mosque in Columbus, Ohio",
+        "score": 49,
+        "source": "Al Jazeera"
+      },
+      {
         "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
         "score": 48,
         "source": "Guardian"
-      },
-      {
-        "title": "How adults tried to prevent the deadly shooting at Silver Rail Elementary School",
-        "score": 46,
-        "source": "CBS"
       },
       {
         "title": "Over 50 killed as Houthis target Yemen military camp with ballistic missiles",
@@ -46,9 +53,9 @@
         "source": "TOI"
       },
       {
-        "title": "Beyond air power: How long-range missiles are reshaping the rules of war",
+        "title": "Mississippi attorney general rules fatal police shooting of one-year-old as ‘justified’",
         "score": 42,
-        "source": "TOI"
+        "source": "Guardian"
       }
     ]
   }

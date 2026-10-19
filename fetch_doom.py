@@ -372,12 +372,24 @@ def main():
     now_denver = datetime.now(DENVER)
     today = now_denver.strftime("%Y-%m-%d")
 
+    doom_heads = [h for h in unique if h["score"] >= DOOM_CUTOFF]
+    topic_pats = compile_topics()
+    topics = []
+    for topic, pats in topic_pats.items():
+        n = sum(1 for h in doom_heads
+                if any(p.search(h["title"]) for p in pats))
+        if n:
+            topics.append({"name": topic, "count": n,
+                           "share": round(100 * n / len(doom_heads), 1)})
+    topics.sort(key=lambda t: -t["count"])
+
     history = load("history.json", [])
     prev_day = next((h for h in reversed(history) if h["date"] < today), None)
     delta = round(overall - prev_day["score"], 1) if prev_day else None
     delta_date = prev_day["date"] if prev_day else None
     entry = {"date": today, "score": overall, "verdict": verdict(overall),
              "sources": {s["name"]: s["score"] for s in per_source},
+             "topics": {t["name"]: t["share"] for t in topics},
              "top": [{"title": h["title"], "score": h["score"],
                       "source": h["source"]} for h in top[:5]]}
     history = [h for h in history if h["date"] != today] + [entry]
@@ -389,17 +401,6 @@ def main():
             streak += 1
         else:
             break
-
-    doom_heads = [h for h in unique if h["score"] >= DOOM_CUTOFF]
-    topic_pats = compile_topics()
-    topics = []
-    for topic, pats in topic_pats.items():
-        n = sum(1 for h in doom_heads
-                if any(p.search(h["title"]) for p in pats))
-        if n:
-            topics.append({"name": topic, "count": n,
-                           "share": round(100 * n / len(doom_heads), 1)})
-    topics.sort(key=lambda t: -t["count"])
 
     doom = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
