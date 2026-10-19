@@ -22,7 +22,7 @@ DENVER = ZoneInfo("America/Denver")
 UA = {"User-Agent": "DoomGauge/1.0 (+https://github.com/stevecarlinco/DoomGauge)"}
 DEDUP_JACCARD = 0.45
 DEDUP_SUBSET = 0.7
-DOOM_CUTOFF = 20  # a headline scoring >= this counts as doom
+DOOM_CUTOFF = 15  # a headline scoring >= this counts as doom
 HISTORY_DAYS = 90
 STREAK_THRESHOLD = 35  # a day this doom or worse extends the streak
 
@@ -83,8 +83,13 @@ def titles_from_xml(raw):
 
 
 def compile_lexicon(lex):
-    return [(re.compile(r"\b" + re.escape(k) + r"\b", re.IGNORECASE), w)
-            for k, w in lex.get("weights", {}).items()]
+    """Word-boundary matching, case-insensitive, with optional plural s/es."""
+    pats = []
+    for k, w in lex.get("weights", {}).items():
+        base = r"\b" + re.escape(k)
+        tail = r"\b" if k.endswith("s") else r"(?:s|es)?\b"
+        pats.append((re.compile(base + tail, re.IGNORECASE), w))
+    return pats
 
 
 def score_headline(text, patterns):

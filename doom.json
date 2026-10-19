@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19T13:51:09.834364+00:00",
+  "generated_at": "2026-10-19T14:15:22.654709+00:00",
   "date": "2026-10-19",
-  "score": 9.3,
+  "score": 11.3,
   "verdict": "Mostly survivable.",
   "sources": [
     {
@@ -18,15 +18,15 @@
     },
     {
       "name": "Al Jazeera",
-      "score": 28.0,
+      "score": 36.0,
       "count": 25,
-      "doom": 7
+      "doom": 9
     },
     {
       "name": "CBS",
-      "score": 20.0,
+      "score": 23.3,
       "count": 30,
-      "doom": 6
+      "doom": 7
     },
     {
       "name": "PBS",
@@ -48,79 +48,133 @@
     },
     {
       "name": "Sky",
-      "score": 30.0,
+      "score": 40.0,
       "count": 10,
-      "doom": 3
+      "doom": 4
     },
     {
       "name": "DW",
-      "score": 3.7,
+      "score": 8.1,
       "count": 135,
-      "doom": 5
+      "doom": 11
     },
     {
       "name": "France24",
-      "score": 8.3,
+      "score": 12.5,
       "count": 24,
-      "doom": 2
+      "doom": 3
+    },
+    {
+      "name": "Guardian",
+      "score": 13.3,
+      "count": 45,
+      "doom": 6
+    },
+    {
+      "name": "The Hill",
+      "score": 8.0,
+      "count": 100,
+      "doom": 8
+    },
+    {
+      "name": "ZeroHedge",
+      "score": 16.0,
+      "count": 25,
+      "doom": 4
+    },
+    {
+      "name": "ReliefWeb",
+      "score": 20.0,
+      "count": 20,
+      "doom": 4
+    },
+    {
+      "name": "TOI",
+      "score": 10.9,
+      "count": 46,
+      "doom": 5
+    },
+    {
+      "name": "ABC-AU",
+      "score": 12.0,
+      "count": 25,
+      "doom": 3
+    },
+    {
+      "name": "Slate",
+      "score": 0.0,
+      "count": 25,
+      "doom": 0
+    },
+    {
+      "name": "Times of Israel",
+      "score": 21.4,
+      "count": 14,
+      "doom": 3
+    },
+    {
+      "name": "Vox",
+      "score": 0.0,
+      "count": 10,
+      "doom": 0
     }
   ],
   "headlines": [
+    {
+      "title": "IRGC Again Warns Trump: If US Bombing Renewed \"World Will Face Serious Energy Crisis\"",
+      "score": 51,
+      "source": "ZeroHedge",
+      "link": "https://www.zerohedge.com/geopolitical/irgc-again-warns-trump-if-us-bombing-renewed-world-will-face-serious-energy-crisis"
+    },
+    {
+      "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+      "score": 48,
+      "source": "Guardian",
+      "link": "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods"
+    },
+    {
+      "title": "How adults tried to prevent the deadly shooting at Silver Rail Elementary School",
+      "score": 46,
+      "source": "CBS",
+      "link": "https://www.cbsnews.com/video/how-adults-tried-to-prevent-the-deadly-shooting-at-silver-rail-elementary-school/"
+    },
+    {
+      "title": "Over 50 killed as Houthis target Yemen military camp with ballistic missiles",
+      "score": 45,
+      "source": "TOI",
+      "link": "https://timesofindia.indiatimes.com/world/middle-east/at-least-20-yemeni-fighters-killed-as-houthis-target-military-camp-with-ballistic-missiles/articleshow/135047351.cms"
+    },
+    {
+      "title": "Beyond air power: How long-range missiles are reshaping the rules of war",
+      "score": 42,
+      "source": "TOI",
+      "link": "https://timesofindia.indiatimes.com/defence/news/beyond-air-power-how-long-range-missiles-are-reshaping-the-rules-of-war/articleshow/135045961.cms"
+    },
+    {
+      "title": "El Nino is a 'postcard from the future' — and could cause 451,000 excess heat deaths",
+      "score": 40,
+      "source": "DW",
+      "link": "https://www.dw.com/en/el-nino-is-a-postcard-from-the-future-and-could-cause-451-000-excess-heat-deaths/a-79430945?maca=en-rss-en-all-1573-rdf"
+    },
+    {
+      "title": "Three deaths from float crushes raise safety concerns over Japanese festivals",
+      "score": 40,
+      "source": "Guardian",
+      "link": "https://www.theguardian.com/world/2026/oct/19/safety-concerns-japan-traditional-festivals-fatal-accidents"
+    },
     {
       "title": "At least 18 killed in Houthi attack on military camp in Yemen’s Shabwa",
       "score": 39,
       "source": "Al Jazeera",
       "link": "https://www.aljazeera.com/news/2026/10/19/at-least-18-killed-in-houthi-attack-on-military-camp-in-yemens-shabwa?traffic_source=rss"
-    },
-    {
-      "title": "Qatar warns global energy shockwaves from Iran war have yet to peak",
-      "score": 32,
-      "source": "Al Jazeera",
-      "link": "https://www.aljazeera.com/news/2026/10/19/qatar-warns-global-energy-shockwaves-from-iran-war-have-yet-to-peak?traffic_source=rss"
-    },
-    {
-      "title": "WATCH:  Authorities: Fatal alligator attack in Winter Garden, Florida",
-      "score": 32,
-      "source": "ABC",
-      "link": "https://abcnews.com/video/137338151/"
-    },
-    {
-      "title": "The Bundestag has debated the genocide Germany carried out in Namibia a century ago. But will it spur progress on addressing colonial crimes?",
-      "score": 30,
-      "source": "DW",
-      "link": "https://www.dw.com/en/the-bundestag-has-debated-the-genocide-germany-carried-out-in-namibia-a-century-ago-but-will-it-spur-progress-on-addressing-colonial-crimes/a-79682388?maca=en-rss-en-all-1573-rdf"
-    },
-    {
-      "title": "Flight from Tel Aviv to Vienna makes emergency landing after bomb threat",
-      "score": 26,
-      "source": "Sky",
-      "link": "https://news.sky.com/story/flight-from-tel-aviv-to-vienna-makes-emergency-landing-after-bomb-threat-13600784"
-    },
-    {
-      "title": "How a grass fire at a Canadian military base killed four soldiers",
-      "score": 25,
-      "source": "Al Jazeera",
-      "link": "https://www.aljazeera.com/news/2026/10/19/how-a-grass-fire-at-a-canadian-military-base-killed-four-soldiers?traffic_source=rss"
-    },
-    {
-      "title": "Boy among 2 killed after truck drives onto Wichita soccer field",
-      "score": 25,
-      "source": "CBS",
-      "link": "https://www.cbsnews.com/news/driver-soccer-field-wichita-kansas/"
-    },
-    {
-      "title": "Carney says 4 service members killed and dozens injured in fire at Alberta military base",
-      "score": 25,
-      "source": "PBS",
-      "link": "https://www.pbs.org/newshour/world/major-fire-breaks-out-in-alberta-after-deadly-incident-at-canadian-military-base"
     }
   ],
   "top_contributor": {
-    "name": "Al Jazeera",
-    "share": 21.2
+    "name": "DW",
+    "share": 14.3
   },
   "streak_days": 0,
-  "feed_count": 10,
-  "headline_count": 336,
-  "unique_stories": 322
+  "feed_count": 19,
+  "headline_count": 646,
+  "unique_stories": 611
 }

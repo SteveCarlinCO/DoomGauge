@@ -108,6 +108,39 @@
     });
   }
 
+  function initFeedsModal() {
+    var btn = document.getElementById("feedsBtn");
+    var modal = document.getElementById("feedsModal");
+    var close = document.getElementById("feedsClose");
+    var list = document.getElementById("feedsList");
+    var loaded = false;
+    function open() {
+      modal.hidden = false;
+      if (loaded) return;
+      loaded = true;
+      list.innerHTML = '<div class="empty">Loading…</div>';
+      getJSON("feeds.json").then(function (feeds) {
+        document.getElementById("feedCount").textContent = feeds.length;
+        list.innerHTML = feeds.map(function (f) {
+          return '<div class="feed-row"><div class="feed-name">' + esc(f.name) +
+            '</div><div class="feed-url">' + esc(f.url) + "</div></div>";
+        }).join("");
+      }).catch(function () {
+        list.innerHTML = '<div class="empty">Could not load feeds.json.</div>';
+      });
+    }
+    function shut() { modal.hidden = true; }
+    btn.addEventListener("click", open);
+    close.addEventListener("click", shut);
+    modal.addEventListener("click", function (e) {
+      if (e.target === modal) shut();
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") shut();
+    });
+  }
+  initFeedsModal();
+
   Promise.all([getJSON("doom.json"), getJSON("history.json").catch(function () { return []; })])
     .then(function (res) {
       var d = res[0], history = res[1];

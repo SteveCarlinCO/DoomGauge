@@ -1,45 +1,54 @@
 [
   {
     "date": "2026-10-19",
-    "score": 9.3,
+    "score": 11.3,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
       "BBC": 6.2,
-      "Al Jazeera": 28.0,
-      "CBS": 20.0,
+      "Al Jazeera": 36.0,
+      "CBS": 23.3,
       "PBS": 15.0,
       "ABC": 12.0,
       "NBC": 8.0,
-      "Sky": 30.0,
-      "DW": 3.7,
-      "France24": 8.3
+      "Sky": 40.0,
+      "DW": 8.1,
+      "France24": 12.5,
+      "Guardian": 13.3,
+      "The Hill": 8.0,
+      "ZeroHedge": 16.0,
+      "ReliefWeb": 20.0,
+      "TOI": 10.9,
+      "ABC-AU": 12.0,
+      "Slate": 0.0,
+      "Times of Israel": 21.4,
+      "Vox": 0.0
     },
     "top": [
       {
-        "title": "At least 18 killed in Houthi attack on military camp in Yemen’s Shabwa",
-        "score": 39,
-        "source": "Al Jazeera"
+        "title": "IRGC Again Warns Trump: If US Bombing Renewed \"World Will Face Serious Energy Crisis\"",
+        "score": 51,
+        "source": "ZeroHedge"
       },
       {
-        "title": "Qatar warns global energy shockwaves from Iran war have yet to peak",
-        "score": 32,
-        "source": "Al Jazeera"
+        "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+        "score": 48,
+        "source": "Guardian"
       },
       {
-        "title": "WATCH:  Authorities: Fatal alligator attack in Winter Garden, Florida",
-        "score": 32,
-        "source": "ABC"
+        "title": "How adults tried to prevent the deadly shooting at Silver Rail Elementary School",
+        "score": 46,
+        "source": "CBS"
       },
       {
-        "title": "The Bundestag has debated the genocide Germany carried out in Namibia a century ago. But will it spur progress on addressing colonial crimes?",
-        "score": 30,
-        "source": "DW"
+        "title": "Over 50 killed as Houthis target Yemen military camp with ballistic missiles",
+        "score": 45,
+        "source": "TOI"
       },
       {
-        "title": "Flight from Tel Aviv to Vienna makes emergency landing after bomb threat",
-        "score": 26,
-        "source": "Sky"
+        "title": "Beyond air power: How long-range missiles are reshaping the rules of war",
+        "score": 42,
+        "source": "TOI"
       }
     ]
   }

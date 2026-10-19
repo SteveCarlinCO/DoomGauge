@@ -12,7 +12,12 @@
 <main class="page">
   <header class="topbar">
     <span class="brand">DOOM GAUGE</span>
-    <span class="date" id="date">—</span>
+    <span class="topright">
+      <button id="feedsBtn" class="icon-btn" aria-label="Show feed sources" title="Feed sources">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="4" cy="12" r="2.2" fill="currentColor" stroke="none"/><path d="M2 8 A6 6 0 0 1 8 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M2 3 A11 11 0 0 1 13 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <span class="date" id="date">—</span>
+    </span>
   </header>
 
   <section class="hero">
@@ -53,6 +58,15 @@
     sarcasm and sports metaphors will fool it.</p>
     <p id="updated">Updated —</p>
   </footer>
+  <div id="feedsModal" class="modal" hidden>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-label="Feed sources">
+      <div class="modal-head">
+        <span>SOURCES (<span id="feedCount">—</span>)</span>
+        <button id="feedsClose" class="icon-btn" aria-label="Close">&times;</button>
+      </div>
+      <div id="feedsList" class="feeds-list"></div>
+    </div>
+  </div>
 </main>
 <script src="doom.js"></script>
 </body>
