@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19T14:15:22.654709+00:00",
+  "generated_at": "2026-10-19T19:56:04.748249+00:00",
   "date": "2026-10-19",
-  "score": 11.3,
+  "score": 9.4,
   "verdict": "Mostly survivable.",
   "sources": [
     {
@@ -12,27 +12,27 @@
     },
     {
       "name": "BBC",
-      "score": 6.2,
-      "count": 32,
-      "doom": 2
+      "score": 13.8,
+      "count": 29,
+      "doom": 4
     },
     {
       "name": "Al Jazeera",
-      "score": 36.0,
+      "score": 16.0,
       "count": 25,
-      "doom": 9
+      "doom": 4
     },
     {
       "name": "CBS",
-      "score": 23.3,
+      "score": 10.0,
       "count": 30,
-      "doom": 7
+      "doom": 3
     },
     {
       "name": "PBS",
-      "score": 15.0,
+      "score": 20.0,
       "count": 20,
-      "doom": 3
+      "doom": 4
     },
     {
       "name": "ABC",
@@ -42,75 +42,69 @@
     },
     {
       "name": "NBC",
-      "score": 8.0,
+      "score": 4.0,
       "count": 25,
-      "doom": 2
+      "doom": 1
     },
     {
       "name": "Sky",
-      "score": 40.0,
+      "score": 30.0,
       "count": 10,
-      "doom": 4
+      "doom": 3
     },
     {
       "name": "DW",
-      "score": 8.1,
+      "score": 6.7,
       "count": 135,
-      "doom": 11
+      "doom": 9
     },
     {
       "name": "France24",
-      "score": 12.5,
+      "score": 16.7,
       "count": 24,
-      "doom": 3
+      "doom": 4
     },
     {
       "name": "Guardian",
-      "score": 13.3,
+      "score": 15.6,
       "count": 45,
-      "doom": 6
+      "doom": 7
     },
     {
       "name": "The Hill",
-      "score": 8.0,
+      "score": 5.0,
       "count": 100,
-      "doom": 8
-    },
-    {
-      "name": "ZeroHedge",
-      "score": 16.0,
-      "count": 25,
-      "doom": 4
-    },
-    {
-      "name": "ReliefWeb",
-      "score": 20.0,
-      "count": 20,
-      "doom": 4
-    },
-    {
-      "name": "TOI",
-      "score": 10.9,
-      "count": 46,
       "doom": 5
     },
     {
-      "name": "ABC-AU",
-      "score": 12.0,
+      "name": "ZeroHedge",
+      "score": 20.0,
       "count": 25,
-      "doom": 3
+      "doom": 5
+    },
+    {
+      "name": "ReliefWeb",
+      "score": 0.0,
+      "count": 0,
+      "doom": 0
+    },
+    {
+      "name": "TOI",
+      "score": 2.2,
+      "count": 45,
+      "doom": 1
+    },
+    {
+      "name": "ABC-AU",
+      "score": 8.0,
+      "count": 25,
+      "doom": 2
     },
     {
       "name": "Slate",
       "score": 0.0,
       "count": 25,
       "doom": 0
-    },
-    {
-      "name": "Times of Israel",
-      "score": 21.4,
-      "count": 14,
-      "doom": 3
     },
     {
       "name": "Vox",
@@ -133,22 +127,16 @@
       "link": "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods"
     },
     {
-      "title": "How adults tried to prevent the deadly shooting at Silver Rail Elementary School",
-      "score": 46,
-      "source": "CBS",
-      "link": "https://www.cbsnews.com/video/how-adults-tried-to-prevent-the-deadly-shooting-at-silver-rail-elementary-school/"
-    },
-    {
       "title": "Over 50 killed as Houthis target Yemen military camp with ballistic missiles",
       "score": 45,
       "source": "TOI",
       "link": "https://timesofindia.indiatimes.com/world/middle-east/at-least-20-yemeni-fighters-killed-as-houthis-target-military-camp-with-ballistic-missiles/articleshow/135047351.cms"
     },
     {
-      "title": "Beyond air power: How long-range missiles are reshaping the rules of war",
-      "score": 42,
-      "source": "TOI",
-      "link": "https://timesofindia.indiatimes.com/defence/news/beyond-air-power-how-long-range-missiles-are-reshaping-the-rules-of-war/articleshow/135045961.cms"
+      "title": "Notable Deaths in 2026",
+      "score": 40,
+      "source": "CBS",
+      "link": "https://www.cbsnews.com/pictures/notable-deaths-in-2026/"
     },
     {
       "title": "El Nino is a 'postcard from the future' — and could cause 451,000 excess heat deaths",
@@ -163,18 +151,24 @@
       "link": "https://www.theguardian.com/world/2026/oct/19/safety-concerns-japan-traditional-festivals-fatal-accidents"
     },
     {
-      "title": "At least 18 killed in Houthi attack on military camp in Yemen’s Shabwa",
-      "score": 39,
-      "source": "Al Jazeera",
-      "link": "https://www.aljazeera.com/news/2026/10/19/at-least-18-killed-in-houthi-attack-on-military-camp-in-yemens-shabwa?traffic_source=rss"
+      "title": "Mystery Surrounds Deadly Vehicle Crash at Youth Soccer Game",
+      "score": 38,
+      "source": "NBC",
+      "link": "https://www.today.com/video/mystery-surrounds-deadly-vehicle-accident-at-kids-soccer-game-271807557853"
+    },
+    {
+      "title": "How Iran war votes in Congress became a focal point for campaign ad attacks",
+      "score": 36,
+      "source": "PBS",
+      "link": "https://www.pbs.org/newshour/politics/how-iran-war-votes-in-congress-became-a-focal-point-for-campaign-ad-attacks"
     }
   ],
   "top_contributor": {
     "name": "DW",
-    "share": 14.3
+    "share": 16.4
   },
   "streak_days": 0,
-  "feed_count": 19,
-  "headline_count": 646,
-  "unique_stories": 611
+  "feed_count": 18,
+  "headline_count": 608,
+  "unique_stories": 564
 }
