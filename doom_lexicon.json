@@ -3,11 +3,13 @@
   "weights": {
     "airstrike": 24,
     "arrest": 8,
+    "assualt": 8,
     "attack": 14,
     "award": -8,
     "bankrupt": 10,
     "bombing": 25,
     "breakthrough": -10,
+    "casualt": 15,
     "catastrophe": 20,
     "celebrat": -6,
     "clash": 10,
@@ -64,6 +66,7 @@
     "war": 22,
     "warning": 10,
     "warns": 10,
+    "weapon": 5,
     "wildfire": 12,
     "win": -6
   }
