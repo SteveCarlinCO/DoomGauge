@@ -119,6 +119,13 @@ def titles_from_xml(raw):
     return out
 
 
+def clean_gnews_title(t, url):
+    """Google News RSS appends ' - Outlet' to every title; strip it."""
+    if "news.google.com" in url and " - " in t:
+        return t.rsplit(" - ", 1)[0].strip()
+    return t
+
+
 def compile_lexicon(lex):
     """Word-boundary matching, case-insensitive, with optional plural s/es."""
     pats = []
@@ -336,6 +343,8 @@ def main():
         name, url = f["name"], f["url"]
         try:
             items = titles_from_xml(fetch(url))
+            if "news.google.com" in url:
+                items = [(clean_gnews_title(t, url), l) for t, l in items]
         except Exception as ex:  # noqa: BLE001 - one bad feed must not kill the run
             print(f"FEED FAIL {name}: {type(ex).__name__}: {ex}", file=sys.stderr)
             health.append({"name": name, "ok": False, "headlines": 0,

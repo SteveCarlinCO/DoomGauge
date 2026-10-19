@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T21:19:24.355550+00:00",
-  "fetched_at": "2026-10-19 15:19 MDT",
+  "generated_at": "2026-10-19T23:05:09.322923+00:00",
+  "fetched_at": "2026-10-19 17:05 MDT",
   "date": "2026-10-19",
-  "score": 9.5,
+  "score": 9.4,
   "stale": false,
   "verdict": "Mostly survivable.",
   "delta": null,
@@ -16,15 +16,15 @@
     },
     {
       "name": "BBC",
-      "score": 10.0,
-      "count": 30,
+      "score": 9.7,
+      "count": 31,
       "doom": 3
     },
     {
       "name": "Al Jazeera",
-      "score": 16.0,
+      "score": 12.0,
       "count": 25,
-      "doom": 4
+      "doom": 3
     },
     {
       "name": "CBS",
@@ -34,27 +34,27 @@
     },
     {
       "name": "PBS",
-      "score": 25.0,
+      "score": 30.0,
       "count": 20,
-      "doom": 5
+      "doom": 6
     },
     {
       "name": "ABC",
-      "score": 16.0,
+      "score": 12.0,
       "count": 25,
-      "doom": 4
+      "doom": 3
     },
     {
       "name": "NBC",
-      "score": 4.0,
+      "score": 8.0,
       "count": 25,
-      "doom": 1
+      "doom": 2
     },
     {
       "name": "Sky",
-      "score": 30.0,
+      "score": 20.0,
       "count": 10,
-      "doom": 3
+      "doom": 2
     },
     {
       "name": "DW",
@@ -76,15 +76,15 @@
     },
     {
       "name": "The Hill",
-      "score": 7.0,
+      "score": 6.0,
       "count": 100,
-      "doom": 7
+      "doom": 6
     },
     {
       "name": "ZeroHedge",
-      "score": 20.0,
+      "score": 12.0,
       "count": 25,
-      "doom": 5
+      "doom": 3
     },
     {
       "name": "ReliefWeb",
@@ -95,7 +95,7 @@
     {
       "name": "TOI",
       "score": 4.3,
-      "count": 46,
+      "count": 47,
       "doom": 2
     },
     {
@@ -112,65 +112,137 @@
     },
     {
       "name": "Times of Israel",
-      "score": 6.7,
+      "score": 13.3,
       "count": 15,
-      "doom": 1
+      "doom": 2
     },
     {
       "name": "Vox",
       "score": 10.0,
       "count": 10,
       "doom": 1
+    },
+    {
+      "name": "Euronews",
+      "score": 12.0,
+      "count": 50,
+      "doom": 6
+    },
+    {
+      "name": "CNBC",
+      "score": 10.0,
+      "count": 30,
+      "doom": 3
+    },
+    {
+      "name": "Politico",
+      "score": 5.0,
+      "count": 40,
+      "doom": 2
+    },
+    {
+      "name": "ProPublica",
+      "score": 0.0,
+      "count": 20,
+      "doom": 0
+    },
+    {
+      "name": "Dawn",
+      "score": 10.7,
+      "count": 28,
+      "doom": 3
+    },
+    {
+      "name": "Japan Times",
+      "score": 3.3,
+      "count": 30,
+      "doom": 1
+    },
+    {
+      "name": "The Diplomat",
+      "score": 13.5,
+      "count": 96,
+      "doom": 13
+    },
+    {
+      "name": "Reason",
+      "score": 4.2,
+      "count": 48,
+      "doom": 2
+    },
+    {
+      "name": "The Hindu",
+      "score": 5.0,
+      "count": 60,
+      "doom": 3
+    },
+    {
+      "name": "Jerusalem Post",
+      "score": 23.1,
+      "count": 26,
+      "doom": 6
+    },
+    {
+      "name": "FOX News",
+      "score": 12.0,
+      "count": 25,
+      "doom": 3
+    },
+    {
+      "name": "CNN",
+      "score": 13.0,
+      "count": 100,
+      "doom": 13
+    },
+    {
+      "name": "MSNBC",
+      "score": 0.0,
+      "count": 8,
+      "doom": 0
     }
   ],
   "topics": [
     {
       "name": "War",
-      "count": 23,
-      "share": 40.4
-    },
-    {
-      "name": "Economy",
-      "count": 5,
-      "share": 8.8
+      "count": 39,
+      "share": 36.8
     },
     {
       "name": "Crime",
-      "count": 4,
-      "share": 7.0
+      "count": 9,
+      "share": 8.5
     },
     {
       "name": "Disaster",
-      "count": 2,
-      "share": 3.5
+      "count": 5,
+      "share": 4.7
+    },
+    {
+      "name": "Economy",
+      "count": 4,
+      "share": 3.8
     },
     {
       "name": "Politics",
-      "count": 1,
-      "share": 1.8
+      "count": 2,
+      "share": 1.9
     }
   ],
   "headlines": [
     {
-      "title": "IRGC Again Warns Trump: If US Bombing Renewed \"World Will Face Serious Energy Crisis\"",
-      "score": 51,
-      "source": "ZeroHedge",
-      "link": "https://www.zerohedge.com/geopolitical/irgc-again-warns-trump-if-us-bombing-renewed-world-will-face-serious-energy-crisis",
-      "topics": [
-        "War"
-      ],
+      "title": "Army major martyred, 4 terrorists killed in Balochistan IBOs: ISPR",
+      "score": 53,
+      "source": "Dawn",
+      "link": "https://www.dawn.com/news/2038237/army-major-martyred-4-terrorists-killed-in-balochistan-ibos-ispr",
+      "topics": [],
       "hits": [
         {
-          "keyword": "bombing",
+          "keyword": "terrorist",
+          "weight": 28
+        },
+        {
+          "keyword": "killed",
           "weight": 25
-        },
-        {
-          "keyword": "crisis",
-          "weight": 16
-        },
-        {
-          "keyword": "warns",
-          "weight": 10
         }
       ]
     },
@@ -179,6 +251,25 @@
       "score": 49,
       "source": "Al Jazeera",
       "link": "https://www.aljazeera.com/news/2026/10/19/us-federal-authorities-responding-to-shooting-at-mosque-in-columbus-ohio?traffic_source=rss",
+      "topics": [
+        "Crime"
+      ],
+      "hits": [
+        {
+          "keyword": "killed",
+          "weight": 25
+        },
+        {
+          "keyword": "shooting",
+          "weight": 24
+        }
+      ]
+    },
+    {
+      "title": "Mississippi AG says police shooting that killed 1-year-old was ‘justified’",
+      "score": 49,
+      "source": "NBC",
+      "link": "https://www.nbcnews.com/news/us-news/mississippi-ag-says-police-shooting-killed-1-year-old-was-justified-rcna604424",
       "topics": [
         "Crime"
       ],
@@ -217,6 +308,27 @@
       ]
     },
     {
+      "title": "Trump escalates clash with Zelenskyy as Russia continues deadly attacks on Ukraine",
+      "score": 46,
+      "source": "PBS",
+      "link": "https://www.pbs.org/newshour/show/trump-escalates-clash-with-zelenskyy-as-russia-continues-deadly-attacks-on-ukraine",
+      "topics": [],
+      "hits": [
+        {
+          "keyword": "deadly",
+          "weight": 22
+        },
+        {
+          "keyword": "attack",
+          "weight": 14
+        },
+        {
+          "keyword": "clash",
+          "weight": 10
+        }
+      ]
+    },
+    {
       "title": "Over 50 killed as Houthis target Yemen military camp with ballistic missiles",
       "score": 45,
       "source": "TOI",
@@ -236,74 +348,34 @@
       ]
     },
     {
-      "title": "Mississippi attorney general rules fatal police shooting of one-year-old as ‘justified’",
-      "score": 42,
-      "source": "Guardian",
-      "link": "https://www.theguardian.com/us-news/2026/oct/19/mississippi-attorney-general-kohen-wiley-killing-justified",
-      "topics": [
-        "Crime"
-      ],
-      "hits": [
-        {
-          "keyword": "shooting",
-          "weight": 24
-        },
-        {
-          "keyword": "fatal",
-          "weight": 18
-        }
-      ]
-    },
-    {
-      "title": "Mystery Surrounds Deadly Vehicle Crash at Youth Soccer Game",
-      "score": 38,
-      "source": "NBC",
-      "link": "https://www.today.com/video/mystery-surrounds-deadly-vehicle-accident-at-kids-soccer-game-271807557853",
-      "topics": [
-        "Economy"
-      ],
-      "hits": [
-        {
-          "keyword": "deadly",
-          "weight": 22
-        },
-        {
-          "keyword": "crash",
-          "weight": 16
-        }
-      ]
-    },
-    {
-      "title": "How Iran war votes in Congress became a focal point for campaign ad attacks",
-      "score": 36,
-      "source": "PBS",
-      "link": "https://www.pbs.org/newshour/politics/how-iran-war-votes-in-congress-became-a-focal-point-for-campaign-ad-attacks",
+      "title": "China reveals advanced nuclear sub was used to test-fire missile",
+      "score": 40,
+      "source": "Japan Times",
+      "link": "https://www.japantimes.co.jp/news/2026/10/19/asia-pacific/china-nuclear-sub-test-fire/",
       "topics": [
         "War"
       ],
       "hits": [
         {
-          "keyword": "war",
-          "weight": 22
+          "keyword": "missile",
+          "weight": 20
         },
         {
-          "keyword": "attack",
-          "weight": 14
+          "keyword": "nuclear",
+          "weight": 20
         }
       ]
     },
     {
-      "title": "Houthi attack kills 53 in biggest single loss of life since Yemen civil war reignited",
-      "score": 36,
-      "source": "Guardian",
-      "link": "https://www.theguardian.com/world/2026/oct/19/houthi-attack-yemen-al-alam-camp-biggest-single-loss-of-life-civil-war",
-      "topics": [
-        "War"
-      ],
+      "title": "160 people reported killed in escalating drone attacks across Sudan",
+      "score": 39,
+      "source": "Al Jazeera",
+      "link": "https://www.aljazeera.com/news/2026/10/19/160-reported-killed-in-escalating-drone-attacks-across-sudan?traffic_source=rss",
+      "topics": [],
       "hits": [
         {
-          "keyword": "war",
-          "weight": 22
+          "keyword": "killed",
+          "weight": 25
         },
         {
           "keyword": "attack",
@@ -313,8 +385,8 @@
     }
   ],
   "top_contributor": {
-    "name": "DW",
-    "share": 15.3
+    "name": "The Diplomat",
+    "share": 11.7
   },
   "streak_days": 0,
   "feed_health": [
@@ -327,7 +399,7 @@
     {
       "name": "BBC",
       "ok": true,
-      "headlines": 30,
+      "headlines": 31,
       "error": null
     },
     {
@@ -405,7 +477,7 @@
     {
       "name": "TOI",
       "ok": true,
-      "headlines": 46,
+      "headlines": 47,
       "error": null
     },
     {
@@ -437,9 +509,87 @@
       "ok": true,
       "headlines": 10,
       "error": null
+    },
+    {
+      "name": "Euronews",
+      "ok": true,
+      "headlines": 50,
+      "error": null
+    },
+    {
+      "name": "CNBC",
+      "ok": true,
+      "headlines": 30,
+      "error": null
+    },
+    {
+      "name": "Politico",
+      "ok": true,
+      "headlines": 40,
+      "error": null
+    },
+    {
+      "name": "ProPublica",
+      "ok": true,
+      "headlines": 20,
+      "error": null
+    },
+    {
+      "name": "Dawn",
+      "ok": true,
+      "headlines": 28,
+      "error": null
+    },
+    {
+      "name": "Japan Times",
+      "ok": true,
+      "headlines": 30,
+      "error": null
+    },
+    {
+      "name": "The Diplomat",
+      "ok": true,
+      "headlines": 96,
+      "error": null
+    },
+    {
+      "name": "Reason",
+      "ok": true,
+      "headlines": 48,
+      "error": null
+    },
+    {
+      "name": "The Hindu",
+      "ok": true,
+      "headlines": 60,
+      "error": null
+    },
+    {
+      "name": "Jerusalem Post",
+      "ok": true,
+      "headlines": 26,
+      "error": null
+    },
+    {
+      "name": "FOX News",
+      "ok": true,
+      "headlines": 25,
+      "error": null
+    },
+    {
+      "name": "CNN",
+      "ok": true,
+      "headlines": 100,
+      "error": null
+    },
+    {
+      "name": "MSNBC",
+      "ok": true,
+      "headlines": 8,
+      "error": null
     }
   ],
-  "feed_count": 19,
-  "headline_count": 645,
-  "unique_stories": 602
+  "feed_count": 32,
+  "headline_count": 1208,
+  "unique_stories": 1124
 }

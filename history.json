@@ -1,41 +1,54 @@
 [
   {
     "date": "2026-10-19",
-    "score": 9.5,
+    "score": 9.4,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 10.0,
-      "Al Jazeera": 16.0,
+      "BBC": 9.7,
+      "Al Jazeera": 12.0,
       "CBS": 3.3,
-      "PBS": 25.0,
-      "ABC": 16.0,
-      "NBC": 4.0,
-      "Sky": 30.0,
+      "PBS": 30.0,
+      "ABC": 12.0,
+      "NBC": 8.0,
+      "Sky": 20.0,
       "DW": 6.7,
       "France24": 8.3,
       "Guardian": 15.6,
-      "The Hill": 7.0,
-      "ZeroHedge": 20.0,
+      "The Hill": 6.0,
+      "ZeroHedge": 12.0,
       "ReliefWeb": 5.0,
       "TOI": 4.3,
       "ABC-AU": 12.0,
       "Slate": 0.0,
-      "Times of Israel": 6.7,
-      "Vox": 10.0
+      "Times of Israel": 13.3,
+      "Vox": 10.0,
+      "Euronews": 12.0,
+      "CNBC": 10.0,
+      "Politico": 5.0,
+      "ProPublica": 0.0,
+      "Dawn": 10.7,
+      "Japan Times": 3.3,
+      "The Diplomat": 13.5,
+      "Reason": 4.2,
+      "The Hindu": 5.0,
+      "Jerusalem Post": 23.1,
+      "FOX News": 12.0,
+      "CNN": 13.0,
+      "MSNBC": 0.0
     },
     "topics": {
-      "War": 40.4,
-      "Economy": 8.8,
-      "Crime": 7.0,
-      "Disaster": 3.5,
-      "Politics": 1.8
+      "War": 36.8,
+      "Crime": 8.5,
+      "Disaster": 4.7,
+      "Economy": 3.8,
+      "Politics": 1.9
     },
     "top": [
       {
-        "title": "IRGC Again Warns Trump: If US Bombing Renewed \"World Will Face Serious Energy Crisis\"",
-        "score": 51,
-        "source": "ZeroHedge"
+        "title": "Army major martyred, 4 terrorists killed in Balochistan IBOs: ISPR",
+        "score": 53,
+        "source": "Dawn"
       },
       {
         "title": "One killed in US shooting near mosque in Columbus, Ohio",
@@ -43,19 +56,19 @@
         "source": "Al Jazeera"
       },
       {
+        "title": "Mississippi AG says police shooting that killed 1-year-old was ‘justified’",
+        "score": 49,
+        "source": "NBC"
+      },
+      {
         "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
         "score": 48,
         "source": "Guardian"
       },
       {
-        "title": "Over 50 killed as Houthis target Yemen military camp with ballistic missiles",
-        "score": 45,
-        "source": "TOI"
-      },
-      {
-        "title": "Mississippi attorney general rules fatal police shooting of one-year-old as ‘justified’",
-        "score": 42,
-        "source": "Guardian"
+        "title": "Trump escalates clash with Zelenskyy as Russia continues deadly attacks on Ukraine",
+        "score": 46,
+        "source": "PBS"
       }
     ]
   }

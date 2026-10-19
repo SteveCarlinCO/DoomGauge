@@ -1,1 +1,134 @@
-[{"name":"NPR","url":"https://feeds.npr.org/1001/rss.xml"},{"name":"BBC","url":"https://feeds.bbci.co.uk/news/rss.xml"},{"name":"Al Jazeera","url":"https://www.aljazeera.com/xml/rss/all.xml"},{"name":"CBS","url":"https://www.cbsnews.com/latest/rss/main"},{"name":"PBS","url":"https://www.pbs.org/newshour/feeds/rss/headlines"},{"name":"ABC","url":"https://abcnews.go.com/abcnews/topstories"},{"name":"NBC","url":"https://feeds.nbcnews.com/nbcnews/public/news"},{"name":"Sky","url":"https://feeds.skynews.com/feeds/rss/world.xml"},{"name":"DW","url":"https://rss.dw.com/rdf/rss-en-all"},{"name":"France24","url":"https://www.france24.com/en/rss"},{"name":"Guardian","url":"https://www.theguardian.com/world/rss"},{"name":"The Hill","url":"https://thehill.com/feed/"},{"name":"ZeroHedge","url":"https://cms.zerohedge.com/fullrss2.xml"},{"name":"ReliefWeb","url":"https://reliefweb.int/updates/rss.xml"},{"name":"TOI","url":"https://timesofindia.indiatimes.com/rssfeedstopstories.cms"},{"name":"CBC","url":"https://www.cbc.ca/webfeed/rss/rss-topstories"},{"name":"ABC-AU","url":"https://www.abc.net.au/news/feed/51120/rss.xml"},{"name":"Slate","url":"https://slate.com/feeds/all.rss"},{"name":"Times of Israel","url":"https://www.timesofisrael.com/feed/"},{"name":"Vox","url":"https://www.vox.com/rss/index.xml"}]
+[
+  {
+    "name": "NPR",
+    "url": "https://feeds.npr.org/1001/rss.xml"
+  },
+  {
+    "name": "BBC",
+    "url": "https://feeds.bbci.co.uk/news/rss.xml"
+  },
+  {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/xml/rss/all.xml"
+  },
+  {
+    "name": "CBS",
+    "url": "https://www.cbsnews.com/latest/rss/main"
+  },
+  {
+    "name": "PBS",
+    "url": "https://www.pbs.org/newshour/feeds/rss/headlines"
+  },
+  {
+    "name": "ABC",
+    "url": "https://abcnews.go.com/abcnews/topstories"
+  },
+  {
+    "name": "NBC",
+    "url": "https://feeds.nbcnews.com/nbcnews/public/news"
+  },
+  {
+    "name": "Sky",
+    "url": "https://feeds.skynews.com/feeds/rss/world.xml"
+  },
+  {
+    "name": "DW",
+    "url": "https://rss.dw.com/rdf/rss-en-all"
+  },
+  {
+    "name": "France24",
+    "url": "https://www.france24.com/en/rss"
+  },
+  {
+    "name": "Guardian",
+    "url": "https://www.theguardian.com/world/rss"
+  },
+  {
+    "name": "The Hill",
+    "url": "https://thehill.com/feed/"
+  },
+  {
+    "name": "ZeroHedge",
+    "url": "https://cms.zerohedge.com/fullrss2.xml"
+  },
+  {
+    "name": "ReliefWeb",
+    "url": "https://reliefweb.int/updates/rss.xml"
+  },
+  {
+    "name": "TOI",
+    "url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms"
+  },
+  {
+    "name": "CBC",
+    "url": "https://www.cbc.ca/webfeed/rss/rss-topstories"
+  },
+  {
+    "name": "ABC-AU",
+    "url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+  },
+  {
+    "name": "Slate",
+    "url": "https://slate.com/feeds/all.rss"
+  },
+  {
+    "name": "Times of Israel",
+    "url": "https://www.timesofisrael.com/feed/"
+  },
+  {
+    "name": "Vox",
+    "url": "https://www.vox.com/rss/index.xml"
+  },
+  {
+    "name": "Euronews",
+    "url": "https://www.euronews.com/rss?level=theme&name=news"
+  },
+  {
+    "name": "CNBC",
+    "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+  },
+  {
+    "name": "Politico",
+    "url": "https://www.politico.com/rss/politicopicks.xml"
+  },
+  {
+    "name": "ProPublica",
+    "url": "https://www.propublica.org/feeds/propublica/main"
+  },
+  {
+    "name": "Dawn",
+    "url": "https://www.dawn.com/feeds/home"
+  },
+  {
+    "name": "Japan Times",
+    "url": "https://www.japantimes.co.jp/feed/"
+  },
+  {
+    "name": "The Diplomat",
+    "url": "https://thediplomat.com/feed/"
+  },
+  {
+    "name": "Reason",
+    "url": "https://reason.com/feed/"
+  },
+  {
+    "name": "The Hindu",
+    "url": "https://www.thehindu.com/feeder/default.rss"
+  },
+  {
+    "name": "Jerusalem Post",
+    "url": "https://www.jpost.com/rss/rssfeedsfrontpage.aspx"
+  },
+  {
+    "name": "FOX News",
+    "url": "https://feeds.foxnews.com/foxnews/latest"
+  },
+  {
+    "name": "CNN",
+    "url": "https://news.google.com/rss/search?q=site%3Acnn.com&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "name": "MSNBC",
+    "url": "https://news.google.com/rss/search?q=site%3Amsnbc.com&hl=en-US&gl=US&ceid=US%3Aen"
+  }
+]
