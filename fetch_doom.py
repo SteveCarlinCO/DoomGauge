@@ -13,7 +13,7 @@ import re
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -395,6 +395,17 @@ def main():
     today = now_denver.strftime("%Y-%m-%d")
 
     doom_heads = [h for h in unique if h["score"] >= DOOM_CUTOFF]
+
+    # Keyword tally: total weight per keyword across today's doom headlines.
+    tally = {}
+    for h in doom_heads:
+        for hit in score_breakdown(h["title"], patterns):
+            tally[hit["keyword"]] = tally.get(hit["keyword"], 0) + hit["weight"]
+    keyword_tally = sorted(({"keyword": k, "weight": w} for k, w in tally.items()),
+                           key=lambda x: -x["weight"])[:20]
+
+    # Compact full headline list for client-side search: [title, score, source, link]
+    all_headlines = [[h["title"], h["score"], h["source"], h["link"]] for h in unique]
     topic_pats = compile_topics()
     topics = []
     for topic, pats in topic_pats.items():
@@ -413,6 +424,7 @@ def main():
              "sources": {s["name"]: s["score"] for s in per_source
                          if s["name"] in signaling},
              "topics": {t["name"]: t["share"] for t in topics},
+             "top_keywords": [x["keyword"] for x in keyword_tally[:3]],
              "top": [{"title": h["title"], "score": h["score"],
                       "source": h["source"]} for h in top[:5]]}
     history = [h for h in history if h["date"] != today] + [entry]
@@ -447,9 +459,19 @@ def main():
         "feed_count": len(per_source),
         "headline_count": len(all_heads),
         "unique_stories": len(unique),
+        "keyword_tally": keyword_tally,
+        "all_headlines": all_headlines,
     }
     save("doom.json", doom)
     save("history.json", history)
+    # Intraday log for the hourly chart: keep 48h.
+    now_utc = datetime.now(timezone.utc)
+    intra = load("intraday.json", [])
+    intra.append({"t": now_utc.isoformat(), "score": overall})
+    cutoff = now_utc - timedelta(hours=48)
+    intra = [e for e in intra
+             if datetime.fromisoformat(e["t"].replace("Z", "+00:00")) > cutoff]
+    save("intraday.json", intra)
     make_og_image(overall, doom["verdict"], today, len(feeds),
                   HERE / "og-image.png")
     print(f"DONE score={overall} feeds={len(per_source)} "

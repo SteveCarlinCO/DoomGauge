@@ -144,3 +144,27 @@ button.pill:hover { border-color: rgba(255,255,255,0.28); background: #1a2338; }
   .hero { justify-content: center; }
   .gauge { width: 100%; max-width: 430px; }
 }
+
+/* v1.19.0 additions */
+.pct, .why { color: #8b93a7; font-size: 13px; margin-top: 6px; }
+.why { color: #c8cddb; font-style: italic; }
+.search { width: 100%; box-sizing: border-box; background: #161d33; border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; color: #e8eaf0; padding: 10px 12px; font-size: 14px; margin-bottom: 12px; }
+.search:focus { outline: none; border-color: #7aa2ff; }
+.cloud { line-height: 2.1; text-align: center; padding: 8px 0; }
+.cloud-word { color: #ff8a7a; margin: 0 6px; white-space: nowrap; font-weight: 700; }
+.intraday { display: flex; align-items: flex-end; gap: 3px; height: 90px; padding-top: 8px; }
+.hour-bar { flex: 1; min-width: 0; border-radius: 3px 3px 0 0; position: relative; }
+.hour-bar .hh { position: absolute; bottom: -18px; left: 50%; transform: translateX(-50%); font-size: 9px; color: #8b93a7; }
+.intraday-wrap { padding-bottom: 20px; }
+.bias-row { display: flex; align-items: center; gap: 10px; padding: 5px 0; }
+.bias-track { flex: 1; height: 10px; background: rgba(255,255,255,0.06); border-radius: 5px; position: relative; }
+.bias-track::after { content: ""; position: absolute; left: 50%; top: -2px; bottom: -2px; width: 1px; background: rgba(255,255,255,0.25); }
+.bias-fill { position: absolute; top: 0; bottom: 0; border-radius: 5px; }
+.bias-fill.hot { background: #ff6b5e; }
+.bias-fill.cool { background: #5eb1ff; }
+.bias-val { width: 52px; flex: none; text-align: right; font-size: 12px; color: #8b93a7; font-variant-numeric: tabular-nums; }
+.digest { display: grid; gap: 8px; }
+.digest-row { display: flex; justify-content: space-between; gap: 10px; background: #161d33; border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 10px 12px; font-size: 13px; }
+.digest-row b { color: #e8eaf0; }
+.digest-k { color: #8b93a7; }
+.embed-code { width: 100%; box-sizing: border-box; background: #0e1424; border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; color: #c8cddb; font-family: monospace; font-size: 12px; padding: 10px; margin: 8px 0; resize: none; }

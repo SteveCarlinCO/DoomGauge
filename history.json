@@ -6,11 +6,11 @@
     "sources": {
       "NPR": 0.0,
       "BBC": 9.7,
-      "Al Jazeera": 12.0,
+      "Al Jazeera": 16.0,
       "CBS": 6.7,
-      "PBS": 30.0,
-      "ABC": 12.0,
-      "NBC": 8.0,
+      "PBS": 25.0,
+      "ABC": 16.0,
+      "NBC": 12.0,
       "Sky": 20.0,
       "DW": 6.7,
       "France24": 8.3,
@@ -23,7 +23,7 @@
       "Times of Israel": 13.3,
       "Vox": 10.0,
       "Euronews": 12.0,
-      "CNBC": 10.0,
+      "CNBC": 0.0,
       "Politico": 5.0,
       "ProPublica": 0.0,
       "Dawn": 10.7,
@@ -36,12 +36,17 @@
       "CNN": 13.0
     },
     "topics": {
-      "War": 37.0,
-      "Crime": 9.3,
-      "Disaster": 4.6,
-      "Economy": 3.7,
+      "War": 35.8,
+      "Crime": 10.4,
+      "Disaster": 4.7,
+      "Economy": 2.8,
       "Politics": 1.9
     },
+    "top_keywords": [
+      "war",
+      "killed",
+      "shooting"
+    ],
     "top": [
       {
         "title": "Army major martyred, 4 terrorists killed in Balochistan IBOs: ISPR",

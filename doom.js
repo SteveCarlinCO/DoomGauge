@@ -490,6 +490,191 @@
   }
   initLexiconModal();
 
+  /* ---- v1.19.0: nine enhancements ---- */
+  var allHeads = [];
+  var doomScore = 0, doomVerdict = "";
+
+  function renderPct(score, history) {
+    var el = document.getElementById("pct");
+    var scores = history.map(function (h) { return h.score; });
+    if (scores.length < 3) { el.hidden = true; return; }
+    el.hidden = false;
+    var below = scores.filter(function (s) { return s < score; }).length;
+    var pct = Math.round(100 * below / scores.length);
+    el.textContent = "Bleaker than " + pct + "% of " + scores.length + " recorded days.";
+  }
+
+  function renderWhy(tally) {
+    var el = document.getElementById("why");
+    if (!tally || tally.length < 3) { el.hidden = true; return; }
+    el.hidden = false;
+    el.textContent = "Driven by " +
+      tally.slice(0, 3).map(function (k) { return "\u2018" + k.keyword + "\u2019"; }).join(", ") + ".";
+  }
+
+  function renderCloud(tally) {
+    var el = document.getElementById("wordCloud");
+    if (!tally || !tally.length) {
+      el.innerHTML = '<div class="empty">No keywords today.</div>';
+      return;
+    }
+    var max = tally[0].weight || 1;
+    el.innerHTML = tally.map(function (k) {
+      var size = 12 + Math.round(30 * k.weight / max);
+      return '<span class="cloud-word" style="font-size:' + size + 'px" title="' +
+        k.weight + ' doom-weight">' + esc(k.keyword) + "</span>";
+    }).join(" ");
+  }
+
+  function renderBias(history) {
+    var el = document.getElementById("bias");
+    var days = history.slice(-7);
+    var sums = {}, counts = {}, total = 0, n = 0;
+    days.forEach(function (h) {
+      Object.keys(h.sources || {}).forEach(function (name) {
+        sums[name] = (sums[name] || 0) + h.sources[name];
+        counts[name] = (counts[name] || 0) + 1;
+        total += h.sources[name]; n++;
+      });
+    });
+    if (!n) { el.innerHTML = '<div class="empty">History builds up day by day.</div>'; return; }
+    var overall = total / n;
+    var rows = Object.keys(sums).map(function (name) {
+      return { name: name, bias: sums[name] / counts[name] - overall };
+    }).sort(function (a, b) { return b.bias - a.bias; });
+    var maxAbs = Math.max.apply(null, rows.map(function (r) { return Math.abs(r.bias); }).concat([1]));
+    el.innerHTML = rows.map(function (r) {
+      var w = Math.max(2, Math.round(50 * Math.abs(r.bias) / maxAbs));
+      var fill = r.bias >= 0
+        ? '<div class="bias-fill hot" style="left:50%;width:' + w + '%"></div>'
+        : '<div class="bias-fill cool" style="right:50%;width:' + w + '%"></div>';
+      var v = (r.bias >= 0 ? "+" : "") + r.bias.toFixed(1);
+      return '<div class="bias-row">' + logoFor(r.name) +
+        '<div class="bias-track">' + fill + '</div>' +
+        '<span class="bias-val">' + v + "</span></div>";
+    }).join("");
+  }
+
+  function initSearch() {
+    var input = document.getElementById("search");
+    input.addEventListener("input", function () {
+      var q = input.value.trim().toLowerCase();
+      var box = document.getElementById("headlines");
+      if (!q) { renderHeadlines(lastHeadlines); return; }
+      var hits = allHeads.filter(function (h) {
+        return h[0].toLowerCase().indexOf(q) !== -1;
+      }).slice(0, 60);
+      box.innerHTML = hits.length ? hits.map(function (h) {
+        return '<div class="hl-wrap"><div class="hl"><div><a href="' + esc(h[3] || "#") +
+          '" target="_blank" rel="noopener">' + esc(h[0]) + "</a>" +
+          ' <span class="src">' + esc(h[2]) + "</span></div>" +
+          '<span class="hl-score">' + h[1] + "</span></div></div>";
+      }).join("") : '<div class="empty">No headlines match.</div>';
+    });
+  }
+  initSearch();
+
+  function initShare() {
+    document.getElementById("shareBtn").addEventListener("click", function () {
+      var c = document.createElement("canvas");
+      c.width = 800; c.height = 420;
+      var x = c.getContext("2d");
+      x.fillStyle = "#0e1424"; x.fillRect(0, 0, 800, 420);
+      x.fillStyle = "#e8eaf0"; x.font = "bold 44px sans-serif"; x.textAlign = "center";
+      x.fillText("DOOM GAUGE", 400, 80);
+      x.fillStyle = "#ffb020"; x.font = "bold 120px sans-serif";
+      x.fillText(doomScore.toFixed(1) + "%", 400, 220);
+      x.fillStyle = "#c8cddb"; x.font = "32px sans-serif";
+      x.fillText(doomVerdict, 400, 290);
+      x.fillStyle = "#8b93a7"; x.font = "24px sans-serif";
+      x.fillText(new Date().toLocaleDateString("en-US",
+        { year: "numeric", month: "long", day: "numeric" }), 400, 350);
+      var a = document.createElement("a");
+      a.href = c.toDataURL("image/png");
+      a.download = "doom-gauge.png";
+      document.body.appendChild(a); a.click(); a.remove();
+    });
+  }
+  initShare();
+
+  function renderIntraday() {
+    var el = document.getElementById("intraday");
+    getJSON("intraday.json").catch(function () { return []; }).then(function (data) {
+      var fmt = new Intl.DateTimeFormat("en-CA",
+        { timeZone: "America/Denver", year: "numeric", month: "2-digit", day: "2-digit" });
+      var today = fmt.format(new Date());
+      var hours = {};
+      (data || []).forEach(function (e) {
+        var d = new Date(e.t);
+        if (fmt.format(d) !== today) return;
+        var h = parseInt(new Intl.DateTimeFormat("en-US",
+          { timeZone: "America/Denver", hour: "numeric", hour12: false }).format(d), 10) % 24;
+        hours[h] = e.score;
+      });
+      var keys = Object.keys(hours).map(Number).sort(function (a, b) { return a - b; });
+      if (!keys.length) {
+        el.innerHTML = '<div class="empty">Hourly data starts accumulating today.</div>';
+        return;
+      }
+      var max = Math.max.apply(null, keys.map(function (k) { return hours[k]; }).concat([1]));
+      el.innerHTML = '<div class="intraday-wrap" style="display:flex;align-items:flex-end;gap:3px;height:90px;width:100%">' +
+        keys.map(function (k) {
+          var hgt = Math.max(4, Math.round(86 * hours[k] / max));
+          return '<div class="hour-bar" style="height:' + hgt + "px;background:" +
+            bandColor(hours[k]) + '" title="' + k + ":00 — " + hours[k].toFixed(1) +
+            '%"><span class="hh">' + k + "</span></div>";
+        }).join("") + "</div>";
+    });
+  }
+
+  function renderDigest(history) {
+    var el = document.getElementById("digest");
+    var days = history.slice(-7);
+    if (days.length < 2) {
+      el.innerHTML = '<div class="empty">The weekly digest needs a few days of history.</div>';
+      return;
+    }
+    var avg = days.reduce(function (a, h) { return a + h.score; }, 0) / days.length;
+    var high = days.reduce(function (a, b) { return b.score > a.score ? b : a; });
+    var low = days.reduce(function (a, b) { return b.score < a.score ? b : a; });
+    var kw = {};
+    days.forEach(function (h) {
+      (h.top_keywords || []).forEach(function (k) { kw[k] = (kw[k] || 0) + 1; });
+    });
+    var topKw = Object.keys(kw).sort(function (a, b) { return kw[b] - kw[a]; }).slice(0, 3);
+    el.innerHTML =
+      '<div class="digest-row"><span class="digest-k">7-day average</span><b>' + avg.toFixed(1) + "%</b></div>" +
+      '<div class="digest-row"><span class="digest-k">Bleakest day</span><b>' + high.date + " — " + high.score.toFixed(1) + "%</b></div>" +
+      '<div class="digest-row"><span class="digest-k">Calmest day</span><b>' + low.date + " — " + low.score.toFixed(1) + "%</b></div>" +
+      (topKw.length ? '<div class="digest-row"><span class="digest-k">Recurring doom words</span><b>' +
+        topKw.map(esc).join(", ") + "</b></div>" : "");
+  }
+
+  function initEmbed() {
+    var modal = document.getElementById("embedModal");
+    var btn = document.getElementById("embedBtn");
+    var close = document.getElementById("embedClose");
+    var code = document.getElementById("embedCode");
+    var copy = document.getElementById("embedCopy");
+    function shut() { modal.hidden = true; }
+    btn.addEventListener("click", function () {
+      code.value = '<iframe src="https://stevecarlinco.github.io/DoomGauge/" ' +
+        'width="400" height="700" style="border:0" title="Doom Gauge"></iframe>';
+      modal.hidden = false;
+    });
+    close.addEventListener("click", shut);
+    modal.addEventListener("click", function (e) { if (e.target === modal) shut(); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") shut(); });
+    copy.addEventListener("click", function () {
+      code.select();
+      if (navigator.clipboard) navigator.clipboard.writeText(code.value);
+      else document.execCommand("copy");
+      copy.textContent = "Copied!";
+      setTimeout(function () { copy.textContent = "Copy"; }, 1500);
+    });
+  }
+  initEmbed();
+
   Promise.all([getJSON("doom.json"), getJSON("history.json").catch(function () { return []; })])
     .then(function (res) {
       var d = res[0], history = res[1];
@@ -538,6 +723,15 @@
       renderForecast(history);
       renderHealth(d.feed_health || [], d.fetched_at);
       renderUpdated(d.generated_at);
+      doomScore = d.score;
+      doomVerdict = d.verdict;
+      allHeads = d.all_headlines || [];
+      renderPct(d.score, history);
+      renderWhy(d.keyword_tally);
+      renderCloud(d.keyword_tally);
+      renderBias(history);
+      renderIntraday();
+      renderDigest(history);
     })
     .catch(function (err) {
       document.getElementById("verdict").textContent =

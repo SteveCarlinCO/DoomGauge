@@ -21,6 +21,12 @@
       <button id="feedsBtn" class="icon-btn" aria-label="Show feed sources" title="Feed sources">
         <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="4" cy="12" r="2.2" fill="currentColor" stroke="none"/><path d="M2 8 A6 6 0 0 1 8 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M2 3 A11 11 0 0 1 13 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       </button>
+      <button id="shareBtn" class="icon-btn" aria-label="Download share card" title="Share card (PNG)">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v8M5 7l3 3 3-3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 11v3h10v-3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <button id="embedBtn" class="icon-btn" aria-label="Embed this gauge" title="Embed">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 4L2 8l4 4M10 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
       <span class="date" id="date">—</span>
     </span>
   </header>
@@ -39,6 +45,8 @@
       <div class="mood" id="mood" aria-hidden="true"></div>
       <div class="verdict" id="verdict">Loading…</div>
       <div class="delta" id="delta" hidden></div>
+      <div class="pct" id="pct" hidden></div>
+      <div class="why" id="why" hidden></div>
       <div class="stats" id="stats"></div>
     </div>
   </section>
@@ -60,7 +68,30 @@
   </section>
 
   <section>
+    <h2>DOOM WORDS</h2>
+    <div id="wordCloud" class="cloud"></div>
+    <div class="note">Keywords driving today's score, sized by total doom weight.</div>
+  </section>
+
+  <section>
+    <h2>TODAY BY HOUR</h2>
+    <div id="intraday" class="intraday"></div>
+  </section>
+
+  <section>
+    <h2>SOURCE BIAS</h2>
+    <div id="bias" class="sources"></div>
+    <div class="note">Each outlet's average doom share vs. the overall average, last 7 days. Right is hotter.</div>
+  </section>
+
+  <section>
+    <h2>WEEK IN DOOM</h2>
+    <div id="digest" class="digest"></div>
+  </section>
+
+  <section>
     <h2>DOOMIEST HEADLINES</h2>
+    <input id="search" class="search" type="search" placeholder="Search today's headlines…" autocomplete="off">
     <div id="headlines" class="headlines"></div>
   </section>
 
@@ -117,6 +148,19 @@
         <button id="feedClose" class="icon-btn" aria-label="Close">&times;</button>
       </div>
       <div id="feedBody" class="feeds-list"></div>
+    </div>
+  </div>
+  <div id="embedModal" class="modal" hidden>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-label="Embed this gauge">
+      <div class="modal-head">
+        <span>EMBED</span>
+        <button id="embedClose" class="icon-btn" aria-label="Close">&times;</button>
+      </div>
+      <div class="feeds-list">
+        <p class="note">Paste this where you want the gauge:</p>
+        <textarea id="embedCode" class="embed-code" rows="4" readonly></textarea>
+        <button id="embedCopy" class="range-btn">Copy</button>
+      </div>
     </div>
   </div>
 </main>
