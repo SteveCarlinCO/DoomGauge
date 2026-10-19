@@ -366,7 +366,17 @@ def main():
     if feeds_ok < MIN_FEEDS_OK or total_heads < MIN_HEADLINES:
         mark_stale(feeds_ok, total_heads, len(feeds))
 
-    unique = dedupe(all_heads)
+    # Sources that returned nothing, or whose headlines matched zero keywords,
+    # carry no signal — exclude them from the score.
+    signaling = {h["source"] for h in all_heads if h["score"] > 0}
+    calc_heads = [h for h in all_heads if h["source"] in signaling]
+    n_dropped_src = len({h["source"] for h in all_heads}) - len(signaling)
+    if n_dropped_src:
+        print(f"EXCLUDED {len(all_heads) - len(calc_heads)} headlines from "
+              f"{n_dropped_src} non-signaling sources: "
+              f"{sorted({h['source'] for h in all_heads} - signaling)}")
+
+    unique = dedupe(calc_heads)
     n = len(unique)
     overall = (round(100 * sum(1 for h in unique if h["score"] >= DOOM_CUTOFF) / n, 1)
                if n else 0.0)
@@ -397,7 +407,8 @@ def main():
     delta = round(overall - prev_day["score"], 1) if prev_day else None
     delta_date = prev_day["date"] if prev_day else None
     entry = {"date": today, "score": overall, "verdict": verdict(overall),
-             "sources": {s["name"]: s["score"] for s in per_source},
+             "sources": {s["name"]: s["score"] for s in per_source
+                         if s["name"] in signaling},
              "topics": {t["name"]: t["share"] for t in topics},
              "top": [{"title": h["title"], "score": h["score"],
                       "source": h["source"]} for h in top[:5]]}

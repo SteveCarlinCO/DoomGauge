@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-10-19",
-    "score": 9.4,
+    "score": 9.7,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
@@ -20,7 +20,6 @@
       "ReliefWeb": 5.0,
       "TOI": 4.3,
       "ABC-AU": 12.0,
-      "Slate": 0.0,
       "Times of Israel": 13.3,
       "Vox": 10.0,
       "Euronews": 12.0,
@@ -34,8 +33,7 @@
       "The Hindu": 5.0,
       "Jerusalem Post": 23.1,
       "FOX News": 12.0,
-      "CNN": 13.0,
-      "MSNBC": 0.0
+      "CNN": 13.0
     },
     "topics": {
       "War": 36.8,

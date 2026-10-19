@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T23:05:09.322923+00:00",
-  "fetched_at": "2026-10-19 17:05 MDT",
+  "generated_at": "2026-10-19T23:13:57.167784+00:00",
+  "fetched_at": "2026-10-19 17:13 MDT",
   "date": "2026-10-19",
-  "score": 9.4,
+  "score": 9.7,
   "stale": false,
   "verdict": "Mostly survivable.",
   "delta": null,
@@ -591,5 +591,5 @@
   ],
   "feed_count": 32,
   "headline_count": 1208,
-  "unique_stories": 1124
+  "unique_stories": 1090
 }
