@@ -12,12 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: Unzip deploy package
         run: |
+          set -x
           shopt -s nullglob
           zips=(*.zip)
+          echo "ZIP_COUNT=${#zips[@]}"
           if [ ${#zips[@]} -eq 0 ]; then echo "no zip found, nothing to do"; exit 0; fi
           ZIP=$(ls -t *.zip | head -1)
-          echo "Deploying $ZIP"
-          unzip -o -q "$ZIP"
+          echo "Deploying [$ZIP]"
+          ls -l "$ZIP"
+          unzip -o "$ZIP"
+          echo "UNZIP_DONE"
           if [ -d doom-gauge-github ]; then
             cp -r doom-gauge-github/. .
             rm -rf doom-gauge-github
@@ -26,9 +30,10 @@ jobs:
           git config user.name "doom-deploy-bot"
           git config user.email "doom-deploy-bot@users.noreply.github.com"
           git add -A
+          git status --short | head -20
           if git diff --cached --quiet; then
             echo "nothing changed"
           else
             git commit -m "deploy ${ZIP}"
-            git push
+            git push origin HEAD:Main
           fi
