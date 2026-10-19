@@ -52,53 +52,179 @@
     return color;
   }
 
-  function renderSources(sources) {
+  function sparkline(scores) {
+    // 7-day trail, oldest first. Pure SVG, no dependencies.
+    if (!scores || scores.length < 2) {
+      return '<span class="spark none" title="Not enough history yet">—</span>';
+    }
+    var w = 64, h = 18, pts = [];
+    for (var i = 0; i < scores.length; i++) {
+      var x = (i / (scores.length - 1) * w).toFixed(1);
+      var y = (h - 2 - (Math.min(100, scores[i]) / 100) * (h - 4)).toFixed(1);
+      pts.push(x + "," + y);
+    }
+    var c = bandColor(scores[scores.length - 1]);
+    return '<svg class="spark" viewBox="0 0 ' + w + " " + h + '" aria-hidden="true">' +
+      '<polyline points="' + pts.join(" ") + '" fill="none" stroke="' + c +
+      '" stroke-width="1.5"/></svg>';
+  }
+
+  function renderSources(sources, history) {
     var el = document.getElementById("sources");
     var rows = sources.slice().sort(function (a, b) { return b.score - a.score; });
     el.innerHTML = rows.map(function (s) {
       var c = bandColor(s.score);
+      var trail = [];
+      (history || []).slice(-7).forEach(function (day) {
+        if (day.sources && typeof day.sources[s.name] === "number") {
+          trail.push(day.sources[s.name]);
+        }
+      });
       return '<div class="src-row"><span class="src-name">' + esc(s.name) + "</span>" +
         '<div class="src-bar"><div class="src-fill" style="width:' +
         Math.min(100, s.score).toFixed(1) + "%;background:" + c + ';"></div></div>' +
+        sparkline(trail) +
         '<span class="src-val">' + s.score.toFixed(0) + "</span></div>";
     }).join("");
   }
 
+  var topicFilter = null;
+  var lastHeadlines = [];
+  var lastTopics = [];
+
   function renderHeadlines(headlines) {
+    lastHeadlines = headlines;
     var el = document.getElementById("headlines");
-    if (!headlines.length) {
-      el.innerHTML = '<div class="empty">No headlines scored yet.</div>';
+    var list = topicFilter
+      ? headlines.filter(function (h) {
+          return h.topics && h.topics.indexOf(topicFilter) !== -1;
+        })
+      : headlines;
+    var note = topicFilter
+      ? '<div class="filter-note">Showing ' + esc(topicFilter) +
+        " only — click the topic again to clear.</div>"
+      : "";
+    if (!list.length) {
+      el.innerHTML = note + '<div class="empty">' +
+        (topicFilter ? "No headlines tagged " + esc(topicFilter) + "."
+                     : "No headlines scored yet.") + "</div>";
       return;
     }
-    el.innerHTML = headlines.map(function (h) {
+    el.innerHTML = note + list.map(function (h) {
       var c = bandColor(h.score);
       var title = esc(h.title);
       var body = h.link
         ? '<a href="' + esc(h.link) + '" target="_blank" rel="noopener">' + title + "</a>"
         : title;
-      return '<div class="hl"><div>' + body +
+      var hits = (h.hits && h.hits.length)
+        ? h.hits.map(function (hit) {
+            return '<span class="hit">' + esc(hit.keyword) +
+              " <b>+" + hit.weight + "</b></span>";
+          }).join("")
+        : '<span class="hit none">no keyword breakdown recorded</span>';
+      return '<div class="hl-wrap"><div class="hl" role="button" tabindex="0" ' +
+        'title="Click to inspect score"><div>' + body +
         ' <span class="src">' + esc(h.source) + "</span></div>" +
-        '<span class="hl-score" style="color:' + c + '">' + h.score + "</span></div>";
+        '<span class="hl-score" style="color:' + c + '">' + h.score + "</span></div>" +
+        '<div class="hl-hits" hidden>' + hits + "</div></div>";
     }).join("");
+    Array.prototype.forEach.call(el.querySelectorAll(".hl"), function (row) {
+      function toggle(e) {
+        if (e && e.target && e.target.closest && e.target.closest("a")) return;
+        var det = row.parentNode.querySelector(".hl-hits");
+        det.hidden = !det.hidden;
+        row.classList.toggle("open", !det.hidden);
+      }
+      row.addEventListener("click", toggle);
+      row.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(e); }
+      });
+    });
   }
 
+  var historyRange = 7;
+  var lastHistory = [];
+
   function renderWeek(history) {
+    lastHistory = history;
     var el = document.getElementById("week");
-    var days = history.slice(-7);
+    var days = history.slice(-historyRange);
     if (!days.length) {
       el.innerHTML = '<div class="empty">History builds up day by day.</div>';
       return;
     }
     var today = days[days.length - 1].date;
+    var showLabels = historyRange <= 7;
     el.innerHTML = days.map(function (h) {
       var c = bandColor(h.score);
       var d = new Date(h.date + "T12:00:00");
-      var lbl = "SMTWTFS"[d.getDay()];
+      var lbl = showLabels
+        ? '<div class="lbl">' + "SMTWTFS"[d.getDay()] + "</div>"
+        : "";
       var cls = h.date === today ? "day today" : "day";
-      return '<div class="' + cls + '"><div class="bar" style="height:' +
-        Math.max(4, h.score) + "px;background:" + c + ';"></div>' +
-        '<div class="lbl">' + lbl + "</div></div>";
+      return '<div class="' + cls + '" title="' + h.date + ": " + h.score + '%">' +
+        '<div class="bar" style="height:' +
+        Math.max(4, h.score) + "px;background:" + c + ';"></div>' + lbl + "</div>";
     }).join("");
+    document.getElementById("historyTitle").textContent =
+      historyRange <= 7 ? "THE WEEK" : "THE MONTH";
+  }
+
+  function initRangeToggle() {
+    var w = document.getElementById("rangeWeek");
+    var m = document.getElementById("rangeMonth");
+    function set(n) {
+      historyRange = n;
+      w.classList.toggle("on", n === 7);
+      m.classList.toggle("on", n === 30);
+      renderWeek(lastHistory);
+    }
+    w.addEventListener("click", function () { set(7); });
+    m.addEventListener("click", function () { set(30); });
+  }
+  initRangeToggle();
+
+  function renderTopics(topics) {
+    lastTopics = topics;
+    var el = document.getElementById("topics");
+    if (!topics.length) {
+      el.innerHTML = '<div class="empty">No doom to categorize. Suspiciously peaceful.</div>';
+      return;
+    }
+    el.innerHTML = topics.map(function (t) {
+      var c = bandColor(t.share);
+      var active = topicFilter === t.name ? " active" : "";
+      return '<div class="src-row topic-row' + active + '" data-topic="' +
+        esc(t.name) + '" role="button" tabindex="0" title="Click to filter headlines">' +
+        '<span class="src-name">' + esc(t.name) + "</span>" +
+        '<div class="src-bar"><div class="src-fill" style="width:' +
+        Math.min(100, t.share).toFixed(1) + "%;background:" + c + ';"></div></div>' +
+        '<span class="src-val">' + t.share.toFixed(0) + "</span></div>";
+    }).join("");
+    Array.prototype.forEach.call(el.querySelectorAll(".topic-row"), function (row) {
+      function toggle() {
+        var t = row.getAttribute("data-topic");
+        topicFilter = (topicFilter === t) ? null : t;
+        renderTopics(lastTopics);
+        renderHeadlines(lastHeadlines);
+      }
+      row.addEventListener("click", toggle);
+      row.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); }
+      });
+    });
+  }
+
+  function renderHealth(health, fetchedAt) {
+    var el = document.getElementById("health");
+    el.innerHTML = health.map(function (h) {
+      var sub = h.ok ? h.headlines + " headlines" : esc(h.error || "failed");
+      return '<div class="pill' + (h.ok ? "" : " bad") + '">' +
+        '<span class="dot"></span><span class="pill-name">' + esc(h.name) +
+        '</span><span class="pill-sub">' + sub + "</span></div>";
+    }).join("");
+    document.getElementById("healthNote").textContent =
+      "Last checked " + (fetchedAt || "—") + ".";
   }
 
   function getJSON(path) {
@@ -149,6 +275,26 @@
       var v = document.getElementById("verdict");
       v.textContent = d.verdict;
       v.style.color = color;
+      var deltaEl = document.getElementById("delta");
+      if (d.delta === null || d.delta === undefined) {
+        deltaEl.hidden = true;
+      } else {
+        deltaEl.hidden = false;
+        var cls = d.delta > 0 ? "up" : d.delta < 0 ? "down" : "flat";
+        var when = d.delta_date ? "vs " + d.delta_date : "vs yesterday";
+        deltaEl.className = "delta " + cls;
+        deltaEl.textContent = d.delta === 0 ? "No change " + when :
+          (d.delta > 0 ? "▲ " : "▼ ") + Math.abs(d.delta).toFixed(1) +
+          " pts " + when;
+      }
+      if (d.stale) {
+        var badge = document.createElement("div");
+        badge.className = "stale-badge";
+        badge.textContent = "STALE DATA — last good fetch " + (d.fetched_at || "unknown");
+        if (d.stale_reason) badge.title = d.stale_reason;
+        var hero = document.querySelector(".hero");
+        hero.parentNode.insertBefore(badge, hero);
+      }
       var contrib = d.top_contributor
         ? "Top contributor: " + d.top_contributor.name + " — " +
           d.top_contributor.share + "% of bleakness<br/>"
@@ -159,9 +305,11 @@
         : "Streak: reset. Enjoy it.<br/>";
       document.getElementById("stats").innerHTML = contrib + streak +
         "Headlines scored: " + d.headline_count + " across " + d.feed_count + " feeds";
-      renderSources(d.sources);
+      renderSources(d.sources, history);
+      renderTopics(d.topics || []);
       renderHeadlines(d.headlines);
       renderWeek(history);
+      renderHealth(d.feed_health || [], d.fetched_at);
       document.getElementById("updated").textContent =
         "Updated " + fmtUpdated(d.generated_at) + " · fetches hourly";
     })

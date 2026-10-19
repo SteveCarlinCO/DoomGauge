@@ -1,8 +1,11 @@
 {
-  "generated_at": "2026-10-19T19:56:04.748249+00:00",
+  "generated_at": "2026-10-19T14:42:05.296627+00:00",
+  "fetched_at": "2026-10-19 08:42 MDT",
   "date": "2026-10-19",
-  "score": 9.4,
+  "score": 11.3,
   "verdict": "Mostly survivable.",
+  "delta": null,
+  "delta_date": null,
   "sources": [
     {
       "name": "NPR",
@@ -12,27 +15,27 @@
     },
     {
       "name": "BBC",
-      "score": 13.8,
-      "count": 29,
-      "doom": 4
-    },
-    {
-      "name": "Al Jazeera",
-      "score": 16.0,
-      "count": 25,
-      "doom": 4
-    },
-    {
-      "name": "CBS",
-      "score": 10.0,
-      "count": 30,
+      "score": 9.1,
+      "count": 33,
       "doom": 3
     },
     {
-      "name": "PBS",
+      "name": "Al Jazeera",
+      "score": 32.0,
+      "count": 25,
+      "doom": 8
+    },
+    {
+      "name": "CBS",
       "score": 20.0,
+      "count": 30,
+      "doom": 6
+    },
+    {
+      "name": "PBS",
+      "score": 15.0,
       "count": 20,
-      "doom": 4
+      "doom": 3
     },
     {
       "name": "ABC",
@@ -42,27 +45,27 @@
     },
     {
       "name": "NBC",
-      "score": 4.0,
+      "score": 8.0,
       "count": 25,
-      "doom": 1
+      "doom": 2
     },
     {
       "name": "Sky",
-      "score": 30.0,
+      "score": 40.0,
       "count": 10,
-      "doom": 3
+      "doom": 4
     },
     {
       "name": "DW",
-      "score": 6.7,
+      "score": 8.1,
       "count": 135,
-      "doom": 9
+      "doom": 11
     },
     {
       "name": "France24",
-      "score": 16.7,
+      "score": 12.5,
       "count": 24,
-      "doom": 4
+      "doom": 3
     },
     {
       "name": "Guardian",
@@ -72,9 +75,9 @@
     },
     {
       "name": "The Hill",
-      "score": 5.0,
+      "score": 8.0,
       "count": 100,
-      "doom": 5
+      "doom": 8
     },
     {
       "name": "ZeroHedge",
@@ -84,21 +87,21 @@
     },
     {
       "name": "ReliefWeb",
-      "score": 0.0,
-      "count": 0,
-      "doom": 0
+      "score": 20.0,
+      "count": 20,
+      "doom": 4
     },
     {
       "name": "TOI",
-      "score": 2.2,
-      "count": 45,
-      "doom": 1
+      "score": 8.7,
+      "count": 46,
+      "doom": 4
     },
     {
       "name": "ABC-AU",
-      "score": 8.0,
+      "score": 12.0,
       "count": 25,
-      "doom": 2
+      "doom": 3
     },
     {
       "name": "Slate",
@@ -107,10 +110,48 @@
       "doom": 0
     },
     {
+      "name": "Times of Israel",
+      "score": 21.4,
+      "count": 14,
+      "doom": 3
+    },
+    {
       "name": "Vox",
       "score": 0.0,
       "count": 10,
       "doom": 0
+    }
+  ],
+  "topics": [
+    {
+      "name": "War",
+      "count": 25,
+      "share": 36.2
+    },
+    {
+      "name": "Crime",
+      "count": 8,
+      "share": 11.6
+    },
+    {
+      "name": "Economy",
+      "count": 3,
+      "share": 4.3
+    },
+    {
+      "name": "Health",
+      "count": 3,
+      "share": 4.3
+    },
+    {
+      "name": "Disaster",
+      "count": 2,
+      "share": 2.9
+    },
+    {
+      "name": "Politics",
+      "count": 2,
+      "share": 2.9
     }
   ],
   "headlines": [
@@ -118,57 +159,287 @@
       "title": "IRGC Again Warns Trump: If US Bombing Renewed \"World Will Face Serious Energy Crisis\"",
       "score": 51,
       "source": "ZeroHedge",
-      "link": "https://www.zerohedge.com/geopolitical/irgc-again-warns-trump-if-us-bombing-renewed-world-will-face-serious-energy-crisis"
+      "link": "https://www.zerohedge.com/geopolitical/irgc-again-warns-trump-if-us-bombing-renewed-world-will-face-serious-energy-crisis",
+      "topics": [
+        "War"
+      ],
+      "hits": [
+        {
+          "keyword": "bombing",
+          "weight": 25
+        },
+        {
+          "keyword": "crisis",
+          "weight": 16
+        },
+        {
+          "keyword": "warns",
+          "weight": 10
+        }
+      ]
     },
     {
       "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
       "score": 48,
       "source": "Guardian",
-      "link": "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods"
+      "link": "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods",
+      "topics": [
+        "Disaster"
+      ],
+      "hits": [
+        {
+          "keyword": "deadly",
+          "weight": 22
+        },
+        {
+          "keyword": "hurricane",
+          "weight": 14
+        },
+        {
+          "keyword": "flood",
+          "weight": 12
+        }
+      ]
+    },
+    {
+      "title": "How adults tried to prevent the deadly shooting at Silver Rail Elementary School",
+      "score": 46,
+      "source": "CBS",
+      "link": "https://www.cbsnews.com/video/how-adults-tried-to-prevent-the-deadly-shooting-at-silver-rail-elementary-school/",
+      "topics": [
+        "Crime"
+      ],
+      "hits": [
+        {
+          "keyword": "shooting",
+          "weight": 24
+        },
+        {
+          "keyword": "deadly",
+          "weight": 22
+        }
+      ]
     },
     {
       "title": "Over 50 killed as Houthis target Yemen military camp with ballistic missiles",
       "score": 45,
       "source": "TOI",
-      "link": "https://timesofindia.indiatimes.com/world/middle-east/at-least-20-yemeni-fighters-killed-as-houthis-target-military-camp-with-ballistic-missiles/articleshow/135047351.cms"
+      "link": "https://timesofindia.indiatimes.com/world/middle-east/at-least-20-yemeni-fighters-killed-as-houthis-target-military-camp-with-ballistic-missiles/articleshow/135047351.cms",
+      "topics": [
+        "War"
+      ],
+      "hits": [
+        {
+          "keyword": "killed",
+          "weight": 25
+        },
+        {
+          "keyword": "missile",
+          "weight": 20
+        }
+      ]
     },
     {
-      "title": "Notable Deaths in 2026",
-      "score": 40,
-      "source": "CBS",
-      "link": "https://www.cbsnews.com/pictures/notable-deaths-in-2026/"
+      "title": "Beyond air power: How long-range missiles are reshaping the rules of war",
+      "score": 42,
+      "source": "TOI",
+      "link": "https://timesofindia.indiatimes.com/defence/news/beyond-air-power-how-long-range-missiles-are-reshaping-the-rules-of-war/articleshow/135045961.cms",
+      "topics": [
+        "War"
+      ],
+      "hits": [
+        {
+          "keyword": "war",
+          "weight": 22
+        },
+        {
+          "keyword": "missile",
+          "weight": 20
+        }
+      ]
     },
     {
       "title": "El Nino is a 'postcard from the future' — and could cause 451,000 excess heat deaths",
       "score": 40,
       "source": "DW",
-      "link": "https://www.dw.com/en/el-nino-is-a-postcard-from-the-future-and-could-cause-451-000-excess-heat-deaths/a-79430945?maca=en-rss-en-all-1573-rdf"
+      "link": "https://www.dw.com/en/el-nino-is-a-postcard-from-the-future-and-could-cause-451-000-excess-heat-deaths/a-79430945?maca=en-rss-en-all-1573-rdf",
+      "topics": [],
+      "hits": [
+        {
+          "keyword": "death",
+          "weight": 20
+        },
+        {
+          "keyword": "deaths",
+          "weight": 20
+        }
+      ]
     },
     {
       "title": "Three deaths from float crushes raise safety concerns over Japanese festivals",
       "score": 40,
       "source": "Guardian",
-      "link": "https://www.theguardian.com/world/2026/oct/19/safety-concerns-japan-traditional-festivals-fatal-accidents"
+      "link": "https://www.theguardian.com/world/2026/oct/19/safety-concerns-japan-traditional-festivals-fatal-accidents",
+      "topics": [],
+      "hits": [
+        {
+          "keyword": "death",
+          "weight": 20
+        },
+        {
+          "keyword": "deaths",
+          "weight": 20
+        }
+      ]
     },
     {
-      "title": "Mystery Surrounds Deadly Vehicle Crash at Youth Soccer Game",
-      "score": 38,
-      "source": "NBC",
-      "link": "https://www.today.com/video/mystery-surrounds-deadly-vehicle-accident-at-kids-soccer-game-271807557853"
-    },
-    {
-      "title": "How Iran war votes in Congress became a focal point for campaign ad attacks",
-      "score": 36,
-      "source": "PBS",
-      "link": "https://www.pbs.org/newshour/politics/how-iran-war-votes-in-congress-became-a-focal-point-for-campaign-ad-attacks"
+      "title": "Dozens killed after Houthi strike on military camp in Shabwa",
+      "score": 35,
+      "source": "Al Jazeera",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/dozens-killed-after-houthi-strike-on-military-camp-in-shabwa?traffic_source=rss",
+      "topics": [
+        "War"
+      ],
+      "hits": [
+        {
+          "keyword": "killed",
+          "weight": 25
+        },
+        {
+          "keyword": "strike",
+          "weight": 10
+        }
+      ]
     }
   ],
   "top_contributor": {
     "name": "DW",
-    "share": 16.4
+    "share": 14.3
   },
   "streak_days": 0,
-  "feed_count": 18,
-  "headline_count": 608,
-  "unique_stories": 564
+  "feed_health": [
+    {
+      "name": "NPR",
+      "ok": true,
+      "headlines": 10,
+      "error": null
+    },
+    {
+      "name": "BBC",
+      "ok": true,
+      "headlines": 33,
+      "error": null
+    },
+    {
+      "name": "Al Jazeera",
+      "ok": true,
+      "headlines": 25,
+      "error": null
+    },
+    {
+      "name": "CBS",
+      "ok": true,
+      "headlines": 30,
+      "error": null
+    },
+    {
+      "name": "PBS",
+      "ok": true,
+      "headlines": 20,
+      "error": null
+    },
+    {
+      "name": "ABC",
+      "ok": true,
+      "headlines": 25,
+      "error": null
+    },
+    {
+      "name": "NBC",
+      "ok": true,
+      "headlines": 25,
+      "error": null
+    },
+    {
+      "name": "Sky",
+      "ok": true,
+      "headlines": 10,
+      "error": null
+    },
+    {
+      "name": "DW",
+      "ok": true,
+      "headlines": 135,
+      "error": null
+    },
+    {
+      "name": "France24",
+      "ok": true,
+      "headlines": 24,
+      "error": null
+    },
+    {
+      "name": "Guardian",
+      "ok": true,
+      "headlines": 45,
+      "error": null
+    },
+    {
+      "name": "The Hill",
+      "ok": true,
+      "headlines": 100,
+      "error": null
+    },
+    {
+      "name": "ZeroHedge",
+      "ok": true,
+      "headlines": 25,
+      "error": null
+    },
+    {
+      "name": "ReliefWeb",
+      "ok": true,
+      "headlines": 20,
+      "error": null
+    },
+    {
+      "name": "TOI",
+      "ok": true,
+      "headlines": 46,
+      "error": null
+    },
+    {
+      "name": "CBC",
+      "ok": false,
+      "headlines": 0,
+      "error": "TimeoutError"
+    },
+    {
+      "name": "ABC-AU",
+      "ok": true,
+      "headlines": 25,
+      "error": null
+    },
+    {
+      "name": "Slate",
+      "ok": true,
+      "headlines": 25,
+      "error": null
+    },
+    {
+      "name": "Times of Israel",
+      "ok": true,
+      "headlines": 14,
+      "error": null
+    },
+    {
+      "name": "Vox",
+      "ok": true,
+      "headlines": 10,
+      "error": null
+    }
+  ],
+  "feed_count": 19,
+  "headline_count": 647,
+  "unique_stories": 611
 }

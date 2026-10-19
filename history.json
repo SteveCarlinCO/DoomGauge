@@ -1,26 +1,27 @@
 [
   {
     "date": "2026-10-19",
-    "score": 9.4,
+    "score": 11.3,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 13.8,
-      "Al Jazeera": 16.0,
-      "CBS": 10.0,
-      "PBS": 20.0,
+      "BBC": 9.1,
+      "Al Jazeera": 32.0,
+      "CBS": 20.0,
+      "PBS": 15.0,
       "ABC": 12.0,
-      "NBC": 4.0,
-      "Sky": 30.0,
-      "DW": 6.7,
-      "France24": 16.7,
+      "NBC": 8.0,
+      "Sky": 40.0,
+      "DW": 8.1,
+      "France24": 12.5,
       "Guardian": 15.6,
-      "The Hill": 5.0,
+      "The Hill": 8.0,
       "ZeroHedge": 20.0,
-      "ReliefWeb": 0.0,
-      "TOI": 2.2,
-      "ABC-AU": 8.0,
+      "ReliefWeb": 20.0,
+      "TOI": 8.7,
+      "ABC-AU": 12.0,
       "Slate": 0.0,
+      "Times of Israel": 21.4,
       "Vox": 0.0
     },
     "top": [
@@ -35,19 +36,19 @@
         "source": "Guardian"
       },
       {
+        "title": "How adults tried to prevent the deadly shooting at Silver Rail Elementary School",
+        "score": 46,
+        "source": "CBS"
+      },
+      {
         "title": "Over 50 killed as Houthis target Yemen military camp with ballistic missiles",
         "score": 45,
         "source": "TOI"
       },
       {
-        "title": "Notable Deaths in 2026",
-        "score": 40,
-        "source": "CBS"
-      },
-      {
-        "title": "El Nino is a 'postcard from the future' — and could cause 451,000 excess heat deaths",
-        "score": 40,
-        "source": "DW"
+        "title": "Beyond air power: How long-range missiles are reshaping the rules of war",
+        "score": 42,
+        "source": "TOI"
       }
     ]
   }

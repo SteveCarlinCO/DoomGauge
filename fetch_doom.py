@@ -25,12 +25,49 @@ DEDUP_SUBSET = 0.7
 DOOM_CUTOFF = 15  # a headline scoring >= this counts as doom
 HISTORY_DAYS = 90
 STREAK_THRESHOLD = 35  # a day this doom or worse extends the streak
+MIN_FEEDS_OK = 5    # abort the run if fewer feeds than this succeed
+MIN_HEADLINES = 40  # abort the run if fewer headlines than this were fetched
 
 STOPWORDS = set(
     "the a an and or of to in on for with as at by from is are was were be been "
     "it its this that these those will would can could has have had not no vs via "
     "after amid among into over under more most".split()
 )
+
+# Topic buckets for the "what kind of doom" breakdown. A doom headline
+# counts toward every topic with at least one keyword hit.
+TOPICS = {
+    "War": ["war", "invasion", "airstrike", "missile", "troops", "ceasefire",
+            "battlefield", "military", "bombing", "bomb", "shelling", "nuclear",
+            "offensive", "siege", "combat", "casualties", "warship", "drone strike"],
+    "Disaster": ["earthquake", "flood", "hurricane", "wildfire", "tsunami",
+                 "tornado", "storm", "drought", "landslide", "volcano",
+                 "avalanche", "disaster", "evacuate", "evacuation", "rescue"],
+    "Economy": ["recession", "inflation", "crash", "layoffs", "unemployment",
+                "stocks", "debt", "default", "bankrupt", "tariff", "sanctions",
+                "selloff", "market"],
+    "Crime": ["murder", "shooting", "stabbing", "kidnapping", "arrested",
+              "prison", "sentenced", "gunman", "robbery", "assault",
+              "trafficking", "cartel", "gang", "homicide"],
+    "Politics": ["election", "coup", "protest", "impeach", "scandal",
+                 "corruption", "resign", "parliament", "crackdown",
+                 "martial law", "authoritarian"],
+    "Health": ["outbreak", "pandemic", "epidemic", "virus", "disease",
+               "vaccine", "hospital", "ebola", "cholera", "dengue",
+               "infection", "quarantine"],
+}
+
+
+def compile_topics():
+    out = {}
+    for topic, keys in TOPICS.items():
+        pats = []
+        for k in keys:
+            base = r"\b" + re.escape(k)
+            tail = r"\b" if k.endswith("s") else r"(?:s|es)?\b"
+            pats.append(re.compile(base + tail, re.IGNORECASE))
+        out[topic] = pats
+    return out
 
 
 def load(name, default):
@@ -88,12 +125,19 @@ def compile_lexicon(lex):
     for k, w in lex.get("weights", {}).items():
         base = r"\b" + re.escape(k)
         tail = r"\b" if k.endswith("s") else r"(?:s|es)?\b"
-        pats.append((re.compile(base + tail, re.IGNORECASE), w))
+        pats.append((k, re.compile(base + tail, re.IGNORECASE), w))
     return pats
 
 
 def score_headline(text, patterns):
-    return max(0, min(100, sum(w for rx, w in patterns if rx.search(text))))
+    return max(0, min(100, sum(w for _, rx, w in patterns if rx.search(text))))
+
+
+def score_breakdown(text, patterns):
+    """Which lexicon keywords fired, with weights, heaviest first."""
+    hits = [(k, w) for k, rx, w in patterns if rx.search(text)]
+    hits.sort(key=lambda kw: -kw[1])
+    return [{"keyword": k, "weight": w} for k, w in hits]
 
 
 def norm_words(text):
@@ -136,6 +180,150 @@ def verdict(score):
     return "Everything is terrible."
 
 
+# ---------------------------------------------------------------------------
+# OG share image: pure-stdlib PNG writer + 3x5 pixel font. No dependencies.
+# ---------------------------------------------------------------------------
+FONT_3X5 = {
+ "0": ("###","#.#","#.#","#.#","###"),
+ "1": (".#.","##.",".#.",".#.","###"),
+ "2": ("###","..#","###","#..","###"),
+ "3": ("###","..#",".##","..#","###"),
+ "4": ("#.#","#.#","###","..#","..#"),
+ "5": ("###","#..","###","..#","###"),
+ "6": ("###","#..","###","#.#","###"),
+ "7": ("###","..#","..#",".#.",".#."),
+ "8": ("###","#.#","###","#.#","###"),
+ "9": ("###","#.#","###","..#","###"),
+ "A": (".#.","#.#","###","#.#","#.#"),
+ "B": ("##.","#.#","##.","#.#","##."),
+ "C": (".##","#..","#..","#..",".##"),
+ "D": ("##.","#.#","#.#","#.#","##."),
+ "E": ("###","#..","##.","#..","###"),
+ "F": ("###","#..","##.","#..","#.."),
+ "G": (".##","#..","#.#","#.#",".##"),
+ "H": ("#.#","#.#","###","#.#","#.#"),
+ "I": ("###",".#.",".#.",".#.","###"),
+ "J": ("..#","..#","..#","#.#",".#."),
+ "K": ("#.#","#.#","##.","#.#","#.#"),
+ "L": ("#..","#..","#..","#..","###"),
+ "M": ("#.#","###","###","#.#","#.#"),
+ "N": ("#.#","###","#.#","#.#","#.#"),
+ "O": (".#.","#.#","#.#","#.#",".#."),
+ "P": ("##.","#.#","##.","#..","#.."),
+ "Q": (".#.","#.#","#.#","##.",".##"),
+ "R": ("##.","#.#","##.","#.#","#.#"),
+ "S": (".##","#..",".#.","..#",".##"),
+ "T": ("###",".#.",".#.",".#.",".#."),
+ "U": ("#.#","#.#","#.#","#.#","###"),
+ "V": ("#.#","#.#","#.#","#.#",".#."),
+ "W": ("#.#","#.#","###","###","#.#"),
+ "X": ("#.#","#.#",".#.","#.#","#.#"),
+ "Y": ("#.#","#.#",".#.",".#.",".#."),
+ "Z": ("###","..#",".#.","#..","###"),
+ " ": ("...","...","...","...","..."),
+ ".": ("...","...","...","...",".#."),
+ "%": ("#.#","..#",".#.","#..","#.#"),
+ ",": ("...","...","...",".#.","#.."),
+ "!": (".#.",".#.",".#.","...",".#."),
+ "-": ("...","...","###","...","..."),
+ "+": ("...",".#.","###",".#.","..."),
+ ":": ("...",".#.","...",".#.","..."),
+}
+
+VERDICT_HEX = {
+    "Mostly survivable.": "#7ee2a8",
+    "Getting spicy.": "#ffd166",
+    "Rough out there.": "#ff9f5a",
+    "Everything is terrible.": "#ff5a52",
+}
+
+
+def _hexrgb(s):
+    s = s.lstrip("#")
+    return (int(s[0:2], 16), int(s[2:4], 16), int(s[4:6], 16))
+
+
+def _write_png(path, w, h, px):
+    import struct
+    import zlib
+
+    def chunk(tag, data):
+        c = tag + data
+        return (struct.pack(">I", len(data)) + c +
+                struct.pack(">I", zlib.crc32(c) & 0xFFFFFFFF))
+
+    rows = b"".join(b"\x00" + b"".join(bytes(p) for p in row) for row in px)
+    blob = (b"\x89PNG\r\n\x1a\n"
+            + chunk(b"IHDR", struct.pack(">IIBBBBB", w, h, 8, 2, 0, 0, 0))
+            + chunk(b"IDAT", zlib.compress(rows))
+            + chunk(b"IEND", b""))
+    Path(path).write_bytes(blob)
+
+
+def _draw_text(px, x, y, text, scale, color):
+    h, w = len(px), len(px[0])
+    for ch in text.upper():
+        glyph = FONT_3X5.get(ch, FONT_3X5[" "])
+        for r, row in enumerate(glyph):
+            for c, on in enumerate(row):
+                if on == "#":
+                    for dy in range(scale):
+                        for dx in range(scale):
+                            yy, xx = y + r * scale + dy, x + c * scale + dx
+                            if 0 <= yy < h and 0 <= xx < w:
+                                px[yy][xx] = color
+        x += 4 * scale
+    return x
+
+
+def make_og_image(score, verdict_text, date_str, n_sources, path):
+    """Render a 1200x630 share card with today's score. Stdlib only."""
+    W, H = 1200, 630
+    bg, muted, light = (11, 14, 26), (139, 147, 167), (232, 234, 240)
+    px = [[bg] * W for _ in range(H)]
+    for y in range(14):  # red accent bar
+        for x in range(W):
+            px[y][x] = (229, 57, 53)
+    vcolor = _hexrgb(VERDICT_HEX.get(verdict_text, "#e8eaf0"))
+
+    def centered(y, text, scale, color):
+        _draw_text(px, (W - len(text) * 4 * scale) // 2, y, text, scale, color)
+
+    _draw_text(px, 60, 70, "DOOM GAUGE", 6, muted)
+    _draw_text(px, 60, 130, date_str, 5, muted)
+    centered(220, f"{score}%", 34, vcolor)
+    centered(445, verdict_text, 9, light)
+    centered(560, f"{n_sources} SOURCES - UPDATED HOURLY", 5, muted)
+    _write_png(path, W, H, px)
+
+
+def headline_topics(title, topic_pats):
+    """Names of every topic bucket with at least one keyword hit in title."""
+    return [t for t, pats in topic_pats.items()
+            if any(p.search(title) for p in pats)]
+
+
+def mark_stale(feeds_ok, total_heads, n_feeds):
+    """Too few feeds/headlines for an honest score. Keep the last good
+    doom.json, flag it stale, and exit 0 so the workflow commits the
+    flag instead of failing silently."""
+    doom = load("doom.json", None)
+    if doom is None:
+        print(f"ABORT: only {feeds_ok}/{n_feeds} feeds ok, "
+              f"{total_heads} headlines — and no previous doom.json to keep.",
+              file=sys.stderr)
+        sys.exit(1)
+    reason = (f"only {feeds_ok}/{n_feeds} feeds ok, {total_heads} headlines "
+              f"(minimums: {MIN_FEEDS_OK} feeds, {MIN_HEADLINES} headlines)")
+    doom["stale"] = True
+    doom["stale_reason"] = reason
+    doom["last_attempt"] = datetime.now(timezone.utc).isoformat()
+    doom["generated_at"] = doom["last_attempt"]
+    save("doom.json", doom)
+    print(f"STALE: {reason} — kept last good score {doom.get('score')}.")
+    sys.exit(0)
+
+
 def main():
     feeds = load("feeds.json", [])
     lex = load("doom_lexicon.json", {"weights": {}})
@@ -143,13 +331,18 @@ def main():
 
     per_source = []
     all_heads = []
+    health = []
     for f in feeds:
         name, url = f["name"], f["url"]
         try:
             items = titles_from_xml(fetch(url))
         except Exception as ex:  # noqa: BLE001 - one bad feed must not kill the run
             print(f"FEED FAIL {name}: {type(ex).__name__}: {ex}", file=sys.stderr)
+            health.append({"name": name, "ok": False, "headlines": 0,
+                           "error": type(ex).__name__})
             continue
+        health.append({"name": name, "ok": True, "headlines": len(items),
+                       "error": None})
         scored = [{"title": t, "link": l, "score": score_headline(t, patterns),
                    "source": name} for t, l in items]
         all_heads.extend(scored)
@@ -160,9 +353,9 @@ def main():
                                        if h["score"] >= DOOM_CUTOFF)})
         print(f"FEED OK {name}: {len(scored)} headlines, doom share {prev}%")
 
-    if not per_source:
-        print("No feeds succeeded; nothing written.", file=sys.stderr)
-        sys.exit(1)
+    feeds_ok, total_heads = len(per_source), len(all_heads)
+    if feeds_ok < MIN_FEEDS_OK or total_heads < MIN_HEADLINES:
+        mark_stale(feeds_ok, total_heads, len(feeds))
 
     unique = dedupe(all_heads)
     n = len(unique)
@@ -180,6 +373,9 @@ def main():
     today = now_denver.strftime("%Y-%m-%d")
 
     history = load("history.json", [])
+    prev_day = next((h for h in reversed(history) if h["date"] < today), None)
+    delta = round(overall - prev_day["score"], 1) if prev_day else None
+    delta_date = prev_day["date"] if prev_day else None
     entry = {"date": today, "score": overall, "verdict": verdict(overall),
              "sources": {s["name"]: s["score"] for s in per_source},
              "top": [{"title": h["title"], "score": h["score"],
@@ -194,22 +390,44 @@ def main():
         else:
             break
 
+    doom_heads = [h for h in unique if h["score"] >= DOOM_CUTOFF]
+    topic_pats = compile_topics()
+    topics = []
+    for topic, pats in topic_pats.items():
+        n = sum(1 for h in doom_heads
+                if any(p.search(h["title"]) for p in pats))
+        if n:
+            topics.append({"name": topic, "count": n,
+                           "share": round(100 * n / len(doom_heads), 1)})
+    topics.sort(key=lambda t: -t["count"])
+
     doom = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
+        "fetched_at": now_denver.strftime("%Y-%m-%d %H:%M %Z"),
         "date": today,
         "score": overall,
+        "stale": False,
         "verdict": verdict(overall),
+        "delta": delta,
+        "delta_date": delta_date,
         "sources": per_source,
+        "topics": topics,
         "headlines": [{"title": h["title"], "score": h["score"],
-                       "source": h["source"], "link": h["link"]} for h in top],
+                       "source": h["source"], "link": h["link"],
+                       "topics": headline_topics(h["title"], topic_pats),
+                       "hits": score_breakdown(h["title"], patterns)}
+                      for h in top],
         "top_contributor": contributor,
         "streak_days": streak,
+        "feed_health": health,
         "feed_count": len(per_source),
         "headline_count": len(all_heads),
         "unique_stories": len(unique),
     }
     save("doom.json", doom)
     save("history.json", history)
+    make_og_image(overall, doom["verdict"], today, len(feeds),
+                  HERE / "og-image.png")
     print(f"DONE score={overall} feeds={len(per_source)} "
           f"headlines={len(all_heads)} unique={len(unique)} streak={streak}")
 

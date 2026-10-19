@@ -16,6 +16,12 @@ body {
 .brand { font-size: 13px; letter-spacing: 3px; color: #8b93a7; }
 .date { font-size: 11px; color: #8b93a7; }
 .hero { display: flex; flex-wrap: wrap; gap: 18px; align-items: center; margin: 10px 0 6px; }
+.stale-badge {
+  margin: 10px 0 0; padding: 9px 12px; text-align: center;
+  font-size: 12px; letter-spacing: 1.5px; font-weight: 700;
+  color: #ffd166; background: rgba(245,166,35,0.10);
+  border: 1px solid rgba(245,166,35,0.45); border-radius: 8px;
+}
 .gauge { width: 210px; flex: none; }
 .hero-text { flex: 1 1 220px; min-width: 220px; }
 .verdict { font-size: 19px; font-weight: 600; }
@@ -27,10 +33,20 @@ h2 { font-size: 11px; letter-spacing: 2px; color: #8b93a7; font-weight: 600; mar
 .src-bar { flex: 1; height: 8px; background: rgba(255,255,255,0.08); border-radius: 4px; }
 .src-fill { height: 8px; border-radius: 4px; }
 .src-val { width: 40px; text-align: right; flex: none; }
+.spark { width: 64px; height: 18px; flex: none; }
+.spark.none { color: #8b93a7; font-size: 11px; width: 64px; text-align: center; }
 .headlines { font-size: 13px; }
 .hl { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0;
-      border-bottom: 1px solid rgba(255,255,255,0.06); }
-.hl:last-child { border-bottom: none; }
+      cursor: pointer; }
+.hl-wrap { border-bottom: 1px solid rgba(255,255,255,0.06); }
+.hl-wrap:last-child { border-bottom: none; }
+.hl-hits { padding: 1px 0 10px; display: flex; flex-wrap: wrap; gap: 6px; }
+.hl-hits[hidden] { display: none; }
+.hit { font-size: 11px; color: #aab0c2; background: rgba(255,255,255,0.06);
+       border: 1px solid rgba(255,255,255,0.10); border-radius: 6px; padding: 3px 8px; }
+.hit b { color: #ffd166; }
+.hit.none { color: #8b93a7; border-style: dashed; }
+.hl.open .hl-score { text-decoration: underline; }
 .hl a { color: #c6ccda; text-decoration: none; }
 .hl a:hover { text-decoration: underline; }
 .hl .src { color: #8b93a7; font-size: 11px; }
@@ -41,9 +57,34 @@ h2 { font-size: 11px; letter-spacing: 2px; color: #8b93a7; font-weight: 600; mar
 .day .lbl { font-size: 10px; color: #8b93a7; margin-top: 5px; }
 .day.today .bar { box-shadow: 0 0 0 2px rgba(255,255,255,0.25); }
 .day.today .lbl { color: #e8eaf0; font-weight: 700; }
+.range-toggle { float: right; display: inline-flex; gap: 4px; }
+.range-btn {
+  background: none; border: 1px solid rgba(255,255,255,0.15); border-radius: 6px;
+  color: #8b93a7; font-size: 10px; letter-spacing: 1px; padding: 3px 8px; cursor: pointer;
+}
+.range-btn.on {
+  color: #ffd166; border-color: rgba(245,166,35,0.55);
+  background: rgba(245,166,35,0.10);
+}
 footer { margin-top: 30px; font-size: 11.5px; color: #8b93a7; line-height: 1.7; }
 footer p { margin: 8px 0; }
 .empty { color: #8b93a7; font-size: 13px; padding: 12px 0; }
+.delta { margin-top: 8px; font-size: 13px; letter-spacing: 1px; }
+.delta.up { color: #ff6b5e; }
+.delta.down { color: #7ee2a8; }
+.delta.flat { color: #8b93a7; }
+.health { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 8px; }
+.pill { display: flex; align-items: center; gap: 8px; background: #161d33; border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 8px 10px; font-size: 12px; }
+.pill-name { color: #e8eaf0; font-weight: 600; }
+.pill-sub { color: #8b93a7; margin-left: auto; font-size: 11px; white-space: nowrap; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: #7ee2a8; flex: none; }
+.pill.bad .dot { background: #ff5a52; }
+.pill.bad { border-color: rgba(255,90,82,0.35); }
+.note { margin-top: 10px; font-size: 11.5px; color: #8b93a7; }
+.topic-row { cursor: pointer; border-radius: 6px; }
+.topic-row:hover { background: rgba(255,255,255,0.05); }
+.topic-row.active { background: rgba(245,166,35,0.10); outline: 1px solid rgba(245,166,35,0.45); }
+.filter-note { font-size: 11.5px; color: #ffd166; letter-spacing: 1px; margin: 2px 0 8px; }
 .topright { display: flex; align-items: center; gap: 10px; }
 .icon-btn {
   background: none; border: 1px solid rgba(255,255,255,0.15); border-radius: 8px;
@@ -74,3 +115,7 @@ footer p { margin: 8px 0; }
 .feed-row:last-child { border-bottom: none; }
 .feed-name { color: #e8eaf0; font-weight: 600; }
 .feed-url { color: #8b93a7; font-size: 11px; word-break: break-all; }
+@media (max-width: 520px) {
+  .hero { justify-content: center; }
+  .gauge { width: 100%; max-width: 430px; }
+}

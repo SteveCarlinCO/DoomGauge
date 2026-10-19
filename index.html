@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Doom Gauge</title>
 <meta name="description" content="A daily index of how bleak the news is. Toy metric, straight face.">
+<meta property="og:title" content="Doom Gauge">
+<meta property="og:type" content="website">
+<meta property="og:description" content="A daily index of how bleak the news is. Scored hourly from 20 news feeds.">
+<meta property="og:image" content="https://stevecarlinco.github.io/DoomGauge/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="doom.css">
 </head>
@@ -32,6 +37,7 @@
     </svg>
     <div class="hero-text">
       <div class="verdict" id="verdict">Loading…</div>
+      <div class="delta" id="delta" hidden></div>
       <div class="stats" id="stats"></div>
     </div>
   </section>
@@ -42,13 +48,25 @@
   </section>
 
   <section>
+    <h2>WHAT KIND OF DOOM</h2>
+    <div id="topics" class="sources"></div>
+    <div class="note">Share of today's doom headlines touching each topic. One headline can count twice.</div>
+  </section>
+
+  <section>
     <h2>DOOMIEST HEADLINES</h2>
     <div id="headlines" class="headlines"></div>
   </section>
 
   <section>
-    <h2>THE WEEK</h2>
+    <h2><span id="historyTitle">THE WEEK</span><span class="range-toggle"><button id="rangeWeek" class="range-btn on" title="Last 7 days">7D</button><button id="rangeMonth" class="range-btn" title="Last 30 days">30D</button></span></h2>
     <div id="week" class="week"></div>
+  </section>
+
+  <section>
+    <h2>FEED HEALTH</h2>
+    <div id="health" class="health"></div>
+    <div class="note" id="healthNote"></div>
   </section>
 
   <footer>
