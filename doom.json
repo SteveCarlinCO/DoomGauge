@@ -1,0 +1,126 @@
+{
+  "generated_at": "2026-10-19T13:51:09.834364+00:00",
+  "date": "2026-10-19",
+  "score": 9.3,
+  "verdict": "Mostly survivable.",
+  "sources": [
+    {
+      "name": "NPR",
+      "score": 0.0,
+      "count": 10,
+      "doom": 0
+    },
+    {
+      "name": "BBC",
+      "score": 6.2,
+      "count": 32,
+      "doom": 2
+    },
+    {
+      "name": "Al Jazeera",
+      "score": 28.0,
+      "count": 25,
+      "doom": 7
+    },
+    {
+      "name": "CBS",
+      "score": 20.0,
+      "count": 30,
+      "doom": 6
+    },
+    {
+      "name": "PBS",
+      "score": 15.0,
+      "count": 20,
+      "doom": 3
+    },
+    {
+      "name": "ABC",
+      "score": 12.0,
+      "count": 25,
+      "doom": 3
+    },
+    {
+      "name": "NBC",
+      "score": 8.0,
+      "count": 25,
+      "doom": 2
+    },
+    {
+      "name": "Sky",
+      "score": 30.0,
+      "count": 10,
+      "doom": 3
+    },
+    {
+      "name": "DW",
+      "score": 3.7,
+      "count": 135,
+      "doom": 5
+    },
+    {
+      "name": "France24",
+      "score": 8.3,
+      "count": 24,
+      "doom": 2
+    }
+  ],
+  "headlines": [
+    {
+      "title": "At least 18 killed in Houthi attack on military camp in Yemen’s Shabwa",
+      "score": 39,
+      "source": "Al Jazeera",
+      "link": "https://www.aljazeera.com/news/2026/10/19/at-least-18-killed-in-houthi-attack-on-military-camp-in-yemens-shabwa?traffic_source=rss"
+    },
+    {
+      "title": "Qatar warns global energy shockwaves from Iran war have yet to peak",
+      "score": 32,
+      "source": "Al Jazeera",
+      "link": "https://www.aljazeera.com/news/2026/10/19/qatar-warns-global-energy-shockwaves-from-iran-war-have-yet-to-peak?traffic_source=rss"
+    },
+    {
+      "title": "WATCH:  Authorities: Fatal alligator attack in Winter Garden, Florida",
+      "score": 32,
+      "source": "ABC",
+      "link": "https://abcnews.com/video/137338151/"
+    },
+    {
+      "title": "The Bundestag has debated the genocide Germany carried out in Namibia a century ago. But will it spur progress on addressing colonial crimes?",
+      "score": 30,
+      "source": "DW",
+      "link": "https://www.dw.com/en/the-bundestag-has-debated-the-genocide-germany-carried-out-in-namibia-a-century-ago-but-will-it-spur-progress-on-addressing-colonial-crimes/a-79682388?maca=en-rss-en-all-1573-rdf"
+    },
+    {
+      "title": "Flight from Tel Aviv to Vienna makes emergency landing after bomb threat",
+      "score": 26,
+      "source": "Sky",
+      "link": "https://news.sky.com/story/flight-from-tel-aviv-to-vienna-makes-emergency-landing-after-bomb-threat-13600784"
+    },
+    {
+      "title": "How a grass fire at a Canadian military base killed four soldiers",
+      "score": 25,
+      "source": "Al Jazeera",
+      "link": "https://www.aljazeera.com/news/2026/10/19/how-a-grass-fire-at-a-canadian-military-base-killed-four-soldiers?traffic_source=rss"
+    },
+    {
+      "title": "Boy among 2 killed after truck drives onto Wichita soccer field",
+      "score": 25,
+      "source": "CBS",
+      "link": "https://www.cbsnews.com/news/driver-soccer-field-wichita-kansas/"
+    },
+    {
+      "title": "Carney says 4 service members killed and dozens injured in fire at Alberta military base",
+      "score": 25,
+      "source": "PBS",
+      "link": "https://www.pbs.org/newshour/world/major-fire-breaks-out-in-alberta-after-deadly-incident-at-canadian-military-base"
+    }
+  ],
+  "top_contributor": {
+    "name": "Al Jazeera",
+    "share": 21.2
+  },
+  "streak_days": 0,
+  "feed_count": 10,
+  "headline_count": 336,
+  "unique_stories": 322
+}

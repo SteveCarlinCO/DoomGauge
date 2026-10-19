@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Doom Gauge</title>
+<meta name="description" content="A daily index of how bleak the news is. Toy metric, straight face.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="doom.css">
+</head>
+<body>
+<main class="page">
+  <header class="topbar">
+    <span class="brand">DOOM GAUGE</span>
+    <span class="date" id="date">—</span>
+  </header>
+
+  <section class="hero">
+    <svg viewBox="0 0 200 112" class="gauge" role="img" aria-label="Doom gauge">
+      <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none"
+            stroke="rgba(255,255,255,0.12)" stroke-width="12" stroke-linecap="round"/>
+      <path id="gaugeFill" d="M 20 100 A 80 80 0 0 1 180 100" fill="none"
+            stroke="#34d17b" stroke-width="12" stroke-linecap="round"
+            stroke-dasharray="0 251.33"/>
+      <text id="gaugeNum" x="100" y="88" text-anchor="middle" font-size="36"
+            font-weight="700" fill="#e8eaf0">—</text>
+    </svg>
+    <div class="hero-text">
+      <div class="verdict" id="verdict">Loading…</div>
+      <div class="stats" id="stats"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>DOOM BY SOURCE</h2>
+    <div id="sources" class="sources"></div>
+  </section>
+
+  <section>
+    <h2>DOOMIEST HEADLINES</h2>
+    <div id="headlines" class="headlines"></div>
+  </section>
+
+  <section>
+    <h2>THE WEEK</h2>
+    <div id="week" class="week"></div>
+  </section>
+
+  <footer>
+    <p>A toy metric with a straight face. Each headline is scored against a
+    keyword lexicon, cross-source duplicates are merged, and the number is the
+    share of today's unique stories scoring as doom. Deliberately crude —
+    sarcasm and sports metaphors will fool it.</p>
+    <p id="updated">Updated —</p>
+  </footer>
+</main>
+<script src="doom.js"></script>
+</body>
+</html>

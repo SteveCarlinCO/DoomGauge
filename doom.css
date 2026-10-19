@@ -1,0 +1,46 @@
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: linear-gradient(165deg, #0b1020 0%, #141b30 100%);
+  background-attachment: fixed;
+  color: #e8eaf0;
+  font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+  min-height: 100vh;
+}
+.page { max-width: 640px; margin: 0 auto; padding: 22px 18px 40px; }
+.topbar {
+  display: flex; justify-content: space-between; align-items: baseline;
+  margin-bottom: 6px;
+}
+.brand { font-size: 13px; letter-spacing: 3px; color: #8b93a7; }
+.date { font-size: 11px; color: #8b93a7; }
+.hero { display: flex; flex-wrap: wrap; gap: 18px; align-items: center; margin: 10px 0 6px; }
+.gauge { width: 210px; flex: none; }
+.hero-text { flex: 1 1 220px; min-width: 220px; }
+.verdict { font-size: 19px; font-weight: 600; }
+.stats { font-size: 12.5px; color: #aab0c2; line-height: 1.9; margin-top: 8px; }
+h2 { font-size: 11px; letter-spacing: 2px; color: #8b93a7; font-weight: 600; margin: 26px 0 12px; }
+.sources { font-size: 12.5px; color: #aab0c2; }
+.src-row { display: flex; align-items: center; gap: 10px; line-height: 2.2; }
+.src-name { width: 84px; flex: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.src-bar { flex: 1; height: 8px; background: rgba(255,255,255,0.08); border-radius: 4px; }
+.src-fill { height: 8px; border-radius: 4px; }
+.src-val { width: 40px; text-align: right; flex: none; }
+.headlines { font-size: 13px; }
+.hl { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06); }
+.hl:last-child { border-bottom: none; }
+.hl a { color: #c6ccda; text-decoration: none; }
+.hl a:hover { text-decoration: underline; }
+.hl .src { color: #8b93a7; font-size: 11px; }
+.hl-score { font-weight: 700; flex: none; }
+.week { display: flex; align-items: flex-end; gap: 8px; height: 110px; }
+.day { flex: 1; text-align: center; }
+.day .bar { border-radius: 3px; min-height: 4px; }
+.day .lbl { font-size: 10px; color: #8b93a7; margin-top: 5px; }
+.day.today .bar { box-shadow: 0 0 0 2px rgba(255,255,255,0.25); }
+.day.today .lbl { color: #e8eaf0; font-weight: 700; }
+footer { margin-top: 30px; font-size: 11.5px; color: #8b93a7; line-height: 1.7; }
+footer p { margin: 8px 0; }
+.empty { color: #8b93a7; font-size: 13px; padding: 12px 0; }
