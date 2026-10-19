@@ -1,25 +1,34 @@
-name: Doom Gauge fetch
-
+name: Deploy zip
 on:
-  schedule:
-    - cron: "17 * * * *"  # hourly, a few minutes past the hour
-  workflow_dispatch:       # manual "Run workflow" button
-
+  push:
+    paths: ['*.zip']
+  workflow_dispatch:
 jobs:
-  fetch:
+  deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Fetch feeds and score doom
-        run: python3 fetch_doom.py
-      - name: Commit updated data
+      - name: Unzip deploy package
         run: |
-          git config user.name "doom-gauge-bot"
-          git config user.email "doom-gauge-bot@users.noreply.github.com"
-          git add doom.json history.json
-          git diff --cached --quiet || git commit -m "doom update $(date -u +%FT%TZ)" && git push
+          shopt -s nullglob
+          zips=(*.zip)
+          if [ ${#zips[@]} -eq 0 ]; then echo "no zip found, nothing to do"; exit 0; fi
+          ZIP=$(ls -t *.zip | head -1)
+          echo "Deploying $ZIP"
+          unzip -o -q "$ZIP"
+          if [ -d doom-gauge-github ]; then
+            cp -r doom-gauge-github/. .
+            rm -rf doom-gauge-github
+          fi
+          rm -f *.zip
+          git config user.name "doom-deploy-bot"
+          git config user.email "doom-deploy-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+          else
+            git commit -m "deploy ${ZIP}"
+            git push origin HEAD:Main
+          fi
