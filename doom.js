@@ -733,7 +733,7 @@
     function shut() { modal.hidden = true; }
     btn.addEventListener("click", function () {
       code.value = '<iframe src="https://stevecarlinco.github.io/DoomGauge/?embed=1" ' +
-        'width="600" height="400" style="border:0" title="Doom Gauge"></iframe>';
+        'style="width:100%;max-width:600px;height:400px;border:0" title="Doom Gauge"></iframe>';
       modal.hidden = false;
     });
     close.addEventListener("click", shut);
