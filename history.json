@@ -74,49 +74,54 @@
   },
   {
     "date": "2026-10-20",
-    "score": 10.1,
+    "score": 9.8,
     "verdict": "Mostly survivable.",
     "sources": {
-      "BBC": 10.7,
-      "Al Jazeera": 12.0,
-      "CBS": 20.0,
+      "BBC": 6.5,
+      "Al Jazeera": 16.0,
+      "CBS": 10.0,
       "PBS": 25.0,
-      "ABC": 12.0,
+      "ABC": 20.0,
       "NBC": 4.0,
       "Sky": 0.0,
       "DW": 6.0,
-      "France24": 8.3,
-      "Guardian": 15.6,
-      "The Hill": 6.0,
-      "ZeroHedge": 8.0,
-      "TOI": 10.6,
+      "France24": 4.2,
+      "Guardian": 13.3,
+      "The Hill": 5.0,
+      "ZeroHedge": 12.0,
+      "TOI": 10.9,
       "ABC-AU": 12.0,
       "Vox": 10.0,
       "Euronews": 16.0,
-      "CNBC": 6.7,
+      "CNBC": 0.0,
       "ProPublica": 0.0,
       "Dawn": 0.0,
-      "Japan Times": 6.7,
+      "Japan Times": 10.0,
       "The Diplomat": 13.5,
       "Reason": 4.2,
-      "The Hindu": 3.3,
-      "Jerusalem Post": 26.9,
-      "FOX News": 8.0,
+      "The Hindu": 6.7,
+      "Jerusalem Post": 15.4,
+      "FOX News": 16.0,
       "CNN": 10.0
     },
     "topics": {
-      "War": 37.3,
-      "Disaster": 5.9,
-      "Crime": 5.9,
-      "Politics": 2.9,
-      "Economy": 2.0
+      "War": 32.3,
+      "Crime": 10.1,
+      "Disaster": 6.1,
+      "Economy": 6.1,
+      "Politics": 4.0
     },
     "top_keywords": [
       "war",
       "death",
-      "killed"
+      "crisis"
     ],
     "top": [
+      {
+        "title": "Elderly Miss man killed with own gun in random home invasion as sheriff questions possible religious motive",
+        "score": 50,
+        "source": "FOX News"
+      },
       {
         "title": "1 person killed in shooting near Columbus, Ohio mosque",
         "score": 49,
@@ -136,11 +141,6 @@
         "title": "Trump escalates clash with Zelenskyy as Russia continues deadly attacks on Ukraine",
         "score": 46,
         "source": "PBS"
-      },
-      {
-        "title": "Brookfield, NextEra To Build $100 Billion AI Hub On Cold War Nuclear Site",
-        "score": 42,
-        "source": "ZeroHedge"
       }
     ]
   }
