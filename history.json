@@ -74,5 +74,77 @@
         "source": "PBS"
       }
     ]
+  },
+  {
+    "date": "2026-10-20",
+    "score": 9.2,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "BBC": 3.1,
+      "Al Jazeera": 12.0,
+      "CBS": 20.0,
+      "PBS": 10.0,
+      "ABC": 12.0,
+      "NBC": 4.0,
+      "Sky": 10.0,
+      "DW": 4.5,
+      "France24": 8.3,
+      "Guardian": 11.1,
+      "The Hill": 4.0,
+      "ZeroHedge": 20.0,
+      "TOI": 10.9,
+      "ABC-AU": 8.0,
+      "Euronews": 16.0,
+      "CNBC": 0.0,
+      "ProPublica": 0.0,
+      "Dawn": 10.7,
+      "Japan Times": 10.0,
+      "The Diplomat": 14.6,
+      "Reason": 4.2,
+      "The Hindu": 6.7,
+      "Jerusalem Post": 15.4,
+      "FOX News": 8.0,
+      "CNN": 11.0
+    },
+    "topics": {
+      "War": 30.1,
+      "Crime": 9.7,
+      "Disaster": 6.5,
+      "Economy": 3.2,
+      "Politics": 2.2,
+      "Health": 1.1
+    },
+    "top_keywords": [
+      "war",
+      "death",
+      "crisis"
+    ],
+    "top": [
+      {
+        "title": "Mississippi AG says police shooting that killed 1-year-old was ‘justified’",
+        "score": 49,
+        "source": "NBC"
+      },
+      {
+        "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+        "score": 48,
+        "source": "Guardian"
+      },
+      {
+        "title": "Gun used in deadly Oregon school shooting was gift from shooter's mom, sources say",
+        "score": 46,
+        "source": "CBS"
+      },
+      {
+        "title": "Zelenskyy says early warning system for Russian missile attacks resumes after call with Rubio",
+        "score": 44,
+        "source": "PBS"
+      },
+      {
+        "title": "Swimmer killed in shark attack in South Africa",
+        "score": 39,
+        "source": "Sky"
+      }
+    ]
   }
 ]
