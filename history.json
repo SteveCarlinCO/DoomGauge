@@ -74,5 +74,77 @@
         "source": "PBS"
       }
     ]
+  },
+  {
+    "date": "2026-10-20",
+    "score": 9.9,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "BBC": 6.1,
+      "Al Jazeera": 16.0,
+      "CBS": 13.3,
+      "PBS": 25.0,
+      "ABC": 16.0,
+      "NBC": 4.0,
+      "Sky": 0.0,
+      "DW": 5.2,
+      "France24": 4.2,
+      "Guardian": 15.6,
+      "The Hill": 7.0,
+      "ZeroHedge": 24.0,
+      "TOI": 8.7,
+      "ABC-AU": 8.0,
+      "Vox": 10.0,
+      "Euronews": 16.0,
+      "CNBC": 0.0,
+      "ProPublica": 0.0,
+      "Dawn": 11.1,
+      "Japan Times": 10.0,
+      "The Diplomat": 14.6,
+      "Reason": 4.2,
+      "The Hindu": 3.3,
+      "Jerusalem Post": 15.4,
+      "FOX News": 4.0,
+      "CNN": 12.0
+    },
+    "topics": {
+      "War": 30.7,
+      "Crime": 8.9,
+      "Disaster": 5.9,
+      "Economy": 5.0,
+      "Politics": 3.0
+    },
+    "top_keywords": [
+      "war",
+      "death",
+      "crisis"
+    ],
+    "top": [
+      {
+        "title": "Mississippi AG says police shooting that killed 1-year-old was ‘justified’",
+        "score": 49,
+        "source": "NBC"
+      },
+      {
+        "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+        "score": 48,
+        "source": "Guardian"
+      },
+      {
+        "title": "Iran faces rising threat as Baloch rebels step up attacks amid regional war pressure",
+        "score": 48,
+        "source": "TOI"
+      },
+      {
+        "title": "Gun used in deadly Oregon school shooting was gift from shooter's mom, sources say",
+        "score": 46,
+        "source": "CBS"
+      },
+      {
+        "title": "Trump escalates clash with Zelenskyy as Russia continues deadly attacks on Ukraine",
+        "score": 46,
+        "source": "PBS"
+      }
+    ]
   }
 ]
