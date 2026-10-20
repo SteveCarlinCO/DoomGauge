@@ -71,5 +71,77 @@
         "source": "PBS"
       }
     ]
+  },
+  {
+    "date": "2026-10-20",
+    "score": 10.1,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "BBC": 10.7,
+      "Al Jazeera": 12.0,
+      "CBS": 20.0,
+      "PBS": 25.0,
+      "ABC": 12.0,
+      "NBC": 4.0,
+      "Sky": 0.0,
+      "DW": 6.0,
+      "France24": 8.3,
+      "Guardian": 15.6,
+      "The Hill": 6.0,
+      "ZeroHedge": 8.0,
+      "TOI": 10.6,
+      "ABC-AU": 12.0,
+      "Vox": 10.0,
+      "Euronews": 16.0,
+      "CNBC": 6.7,
+      "ProPublica": 0.0,
+      "Dawn": 0.0,
+      "Japan Times": 6.7,
+      "The Diplomat": 13.5,
+      "Reason": 4.2,
+      "The Hindu": 3.3,
+      "Jerusalem Post": 26.9,
+      "FOX News": 8.0,
+      "CNN": 10.0
+    },
+    "topics": {
+      "War": 37.3,
+      "Disaster": 5.9,
+      "Crime": 5.9,
+      "Politics": 2.9,
+      "Economy": 2.0
+    },
+    "top_keywords": [
+      "war",
+      "death",
+      "killed"
+    ],
+    "top": [
+      {
+        "title": "1 person killed in shooting near Columbus, Ohio mosque",
+        "score": 49,
+        "source": "CBS"
+      },
+      {
+        "title": "Mississippi AG says police shooting that killed 1-year-old was ‘justified’",
+        "score": 49,
+        "source": "NBC"
+      },
+      {
+        "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+        "score": 48,
+        "source": "Guardian"
+      },
+      {
+        "title": "Trump escalates clash with Zelenskyy as Russia continues deadly attacks on Ukraine",
+        "score": 46,
+        "source": "PBS"
+      },
+      {
+        "title": "Brookfield, NextEra To Build $100 Billion AI Hub On Cold War Nuclear Site",
+        "score": 42,
+        "source": "ZeroHedge"
+      }
+    ]
   }
 ]
