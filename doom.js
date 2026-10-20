@@ -708,16 +708,32 @@
         topKw.map(esc).join(", ") + "</b></div>" : "");
   }
 
-  function initEmbed() {
-    var modal = document.getElementById("embedModal");
+  (function initEmbedMode() {
+    var q = "";
+    try { q = window.location.search || ""; } catch (e) {}
+    if (q.indexOf("embed=1") === -1) return;
+    document.body.classList.add("embed-mode");
+    var brand = document.querySelector(".brand");
+    if (brand) {
+      var a = document.createElement("a");
+      a.className = "brand";
+      a.href = "https://stevecarlinco.github.io/DoomGauge/";
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.textContent = brand.textContent;
+      brand.parentNode.replaceChild(a, brand);
+    }
+  })();
+
+  function initEmbed() {    var modal = document.getElementById("embedModal");
     var btn = document.getElementById("embedBtn");
     var close = document.getElementById("embedClose");
     var code = document.getElementById("embedCode");
     var copy = document.getElementById("embedCopy");
     function shut() { modal.hidden = true; }
     btn.addEventListener("click", function () {
-      code.value = '<iframe src="https://stevecarlinco.github.io/DoomGauge/" ' +
-        'width="400" height="700" style="border:0" title="Doom Gauge"></iframe>';
+      code.value = '<iframe src="https://stevecarlinco.github.io/DoomGauge/?embed=1" ' +
+        'width="600" height="400" style="border:0" title="Doom Gauge"></iframe>';
       modal.hidden = false;
     });
     close.addEventListener("click", shut);

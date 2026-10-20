@@ -1,30 +1,33 @@
 [
   {
     "date": "2026-10-19",
-    "score": 10.0,
+    "score": 9.9,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 3.2,
-      "Al Jazeera": 28.0,
-      "CBS": 16.7,
+      "BBC": 9.7,
+      "Al Jazeera": 16.0,
+      "CBS": 6.7,
       "PBS": 25.0,
-      "ABC": 8.0,
+      "ABC": 16.0,
       "NBC": 12.0,
       "Sky": 20.0,
       "DW": 6.7,
       "France24": 8.3,
       "Guardian": 15.6,
       "The Hill": 6.0,
-      "ZeroHedge": 12.0,
-      "TOI": 6.5,
+      "ZeroHedge": 16.0,
+      "ReliefWeb": 5.0,
+      "TOI": 4.3,
       "ABC-AU": 12.0,
+      "Times of Israel": 13.3,
       "Vox": 10.0,
       "Euronews": 12.0,
-      "CNBC": 6.7,
+      "CNBC": 0.0,
+      "Politico": 5.0,
       "ProPublica": 0.0,
       "Dawn": 10.7,
-      "Japan Times": 6.7,
+      "Japan Times": 3.3,
       "The Diplomat": 13.5,
       "Reason": 4.2,
       "The Hindu": 5.0,
@@ -33,11 +36,11 @@
       "CNN": 13.0
     },
     "topics": {
-      "War": 38.2,
-      "Crime": 8.8,
-      "Disaster": 3.9,
-      "Economy": 2.9,
-      "Politics": 2.0
+      "War": 35.8,
+      "Crime": 10.4,
+      "Disaster": 4.7,
+      "Economy": 2.8,
+      "Politics": 1.9
     },
     "top_keywords": [
       "war",
@@ -54,78 +57,6 @@
         "title": "One killed in US shooting near mosque in Columbus, Ohio",
         "score": 49,
         "source": "Al Jazeera"
-      },
-      {
-        "title": "Mississippi AG says police shooting that killed 1-year-old was ‘justified’",
-        "score": 49,
-        "source": "NBC"
-      },
-      {
-        "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
-        "score": 48,
-        "source": "Guardian"
-      },
-      {
-        "title": "Trump escalates clash with Zelenskyy as Russia continues deadly attacks on Ukraine",
-        "score": 46,
-        "source": "PBS"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-20",
-    "score": 9.8,
-    "verdict": "Mostly survivable.",
-    "sources": {
-      "BBC": 6.5,
-      "Al Jazeera": 16.0,
-      "CBS": 10.0,
-      "PBS": 25.0,
-      "ABC": 20.0,
-      "NBC": 4.0,
-      "Sky": 0.0,
-      "DW": 6.0,
-      "France24": 4.2,
-      "Guardian": 13.3,
-      "The Hill": 5.0,
-      "ZeroHedge": 12.0,
-      "TOI": 10.9,
-      "ABC-AU": 12.0,
-      "Vox": 10.0,
-      "Euronews": 16.0,
-      "CNBC": 0.0,
-      "ProPublica": 0.0,
-      "Dawn": 0.0,
-      "Japan Times": 10.0,
-      "The Diplomat": 13.5,
-      "Reason": 4.2,
-      "The Hindu": 6.7,
-      "Jerusalem Post": 15.4,
-      "FOX News": 16.0,
-      "CNN": 10.0
-    },
-    "topics": {
-      "War": 32.3,
-      "Crime": 10.1,
-      "Disaster": 6.1,
-      "Economy": 6.1,
-      "Politics": 4.0
-    },
-    "top_keywords": [
-      "war",
-      "death",
-      "crisis"
-    ],
-    "top": [
-      {
-        "title": "Elderly Miss man killed with own gun in random home invasion as sheriff questions possible religious motive",
-        "score": 50,
-        "source": "FOX News"
-      },
-      {
-        "title": "1 person killed in shooting near Columbus, Ohio mosque",
-        "score": 49,
-        "source": "CBS"
       },
       {
         "title": "Mississippi AG says police shooting that killed 1-year-old was ‘justified’",
