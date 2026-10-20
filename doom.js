@@ -519,11 +519,69 @@
       return;
     }
     var max = tally[0].weight || 1;
-    el.innerHTML = tally.map(function (k) {
-      var size = 12 + Math.round(30 * k.weight / max);
-      return '<span class="cloud-word" style="font-size:' + size + 'px" title="' +
+    el.innerHTML = tally.map(function (k, i) {
+      var f = k.weight / max;
+      var size = 14 + Math.round(26 * f);
+      var op = (0.45 + 0.5 * f).toFixed(2);
+      var hue = Math.round(200 + 80 * (i / tally.length));
+      var delay = (-(i * 0.6)).toFixed(2);
+      return '<span class="cloud-word" style="font-size:' + size + "px;opacity:" + op +
+        ";color:hsl(" + hue + ",70%,80%);" +
+        "text-shadow:0 0 14px hsla(" + hue + ",80%,70%,0.55);" +
+        "animation-delay:" + delay + 's" title="' +
         k.weight + ' doom-weight">' + esc(k.keyword) + "</span>";
     }).join(" ");
+    floatCloud();
+  }
+
+  function floatCloud() {
+    var el = document.getElementById("wordCloud");
+    if (!el) return;
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var words = el.querySelectorAll(".cloud-word");
+    if (!words.length) return;
+    var H = 230;
+    el.style.position = "relative";
+    el.style.height = H + "px";
+    el.style.overflow = "hidden";
+    el.style.textAlign = "left";
+    el.style.lineHeight = "1.4";
+    var W = el.clientWidth || 600;
+    var cols = 5, rows = 4, items = [];
+    Array.prototype.forEach.call(words, function (w, i) {
+      w.style.position = "absolute";
+      w.style.margin = "0";
+      w.style.left = "0";
+      w.style.top = "0";
+      var ww = w.offsetWidth || 80, wh = w.offsetHeight || 28;
+      var col = i % cols, row = Math.floor(i / cols) % rows;
+      var x = ((col + 0.5) / cols) * W + (Math.random() - 0.5) * 50 - ww / 2;
+      var y = ((row + 0.5) / rows) * H + (Math.random() - 0.5) * 24 - wh / 2;
+      x = Math.max(0, Math.min(W - ww, x));
+      y = Math.max(0, Math.min(H - wh, y));
+      var ang = Math.random() * Math.PI * 2, sp = 5 + Math.random() * 11;
+      items.push({ el: w, x: x, y: y,
+        vx: Math.cos(ang) * sp, vy: Math.sin(ang) * sp * 0.7 });
+    });
+    var last = null;
+    function tick(now) {
+      if (last === null) last = now;
+      var dt = Math.min(0.05, (now - last) / 1000);
+      last = now;
+      var W2 = el.clientWidth || W;
+      items.forEach(function (it) {
+        it.x += it.vx * dt;
+        it.y += it.vy * dt;
+        var ww = it.el.offsetWidth || 80, wh = it.el.offsetHeight || 28;
+        if (it.x <= 0) { it.x = 0; it.vx = Math.abs(it.vx); }
+        else if (it.x + ww >= W2) { it.x = W2 - ww; it.vx = -Math.abs(it.vx); }
+        if (it.y <= 0) { it.y = 0; it.vy = Math.abs(it.vy); }
+        else if (it.y + wh >= H) { it.y = H - wh; it.vy = -Math.abs(it.vy); }
+        it.el.style.transform = "translate(" + it.x.toFixed(1) + "px," + it.y.toFixed(1) + "px)";
+      });
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
   }
 
   function renderBias(history) {

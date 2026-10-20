@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DOOM GAUGE — Sunset Vapor</title>
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  body { min-height: 100vh; color: #fff; font-family: "Segoe UI", Verdana, sans-serif; padding: 24px 16px;
+    background: linear-gradient(180deg, #1a0533 0%, #4a1060 30%, #a02060 55%, #ff6b4a 78%, #ffb347 100%);
+    background-attachment: fixed; }
+  body::before { content: ""; position: fixed; inset: 0; pointer-events: none; opacity: 0.5;
+    background: repeating-linear-gradient(180deg, transparent 0 34px, rgba(0,0,0,0.25) 34px 36px); }
+  .wrap { max-width: 620px; margin: 0 auto; position: relative; }
+  .brand { text-align: center; font-size: 15px; letter-spacing: 8px; color: #7df9ff;
+    text-shadow: 0 0 12px #7df9ff; margin-bottom: 6px; }
+  .sun { width: 190px; height: 190px; margin: 10px auto; border-radius: 50%;
+    background: linear-gradient(180deg, #ffe259 0%, #ff7b54 60%, #ff2e88 100%);
+    box-shadow: 0 0 60px rgba(255,120,80,0.9), 0 0 120px rgba(255,46,136,0.5);
+    display: flex; align-items: center; justify-content: center; flex-direction: column; }
+  .sun .num { font-size: 52px; font-weight: 800; color: #2a0a2e; }
+  .sun .lbl { font-size: 13px; letter-spacing: 3px; color: #2a0a2e; font-weight: bold; }
+  .verdict { text-align: center; font-size: 26px; font-style: italic; margin: 18px 0 4px;
+    color: #fff; text-shadow: 0 0 18px #ff2e88, 0 2px 0 #4a1060; }
+  .meta { text-align: center; font-size: 13px; color: #ffd6e8; letter-spacing: 1px; }
+  .grid-bg { height: 26px; margin: 14px 0 4px;
+    background: linear-gradient(90deg, rgba(125,249,255,0.6) 1px, transparent 1px);
+    background-size: 32px 100%; transform: perspective(120px) rotateX(55deg); transform-origin: top;
+    opacity: 0.7; }
+  h2 { font-size: 14px; letter-spacing: 5px; color: #7df9ff; text-shadow: 0 0 10px #7df9ff;
+    margin: 26px 0 10px; text-transform: uppercase; }
+  .card { background: rgba(20,5,40,0.55); border: 1px solid rgba(125,249,255,0.35); border-radius: 12px;
+    padding: 14px 16px; backdrop-filter: blur(4px); }
+  .row { display: flex; align-items: center; gap: 12px; padding: 7px 0; font-size: 14px; }
+  .row .bar { flex: 1; height: 10px; border-radius: 6px; background: rgba(255,255,255,0.15); overflow: hidden; }
+  .row .fill { height: 100%; border-radius: 6px; background: linear-gradient(90deg, #7df9ff, #ff2e88);
+    box-shadow: 0 0 8px rgba(255,46,136,0.8); }
+  .row .pct { min-width: 46px; text-align: right; font-weight: bold; color: #ffd6e8; }
+  .hl { padding: 9px 0; border-bottom: 1px solid rgba(125,249,255,0.2); font-size: 14px; }
+  .hl:last-child { border-bottom: none; }
+  .hl b { color: #7df9ff; }
+  .foot { text-align: center; margin-top: 28px; font-size: 12px; color: rgba(255,255,255,0.65); font-style: italic; }
+</style></head>
+<body><div class="wrap">
+  <div class="brand">D O O M &nbsp; G A U G E</div>
+  <div class="sun"><div class="num">42.7%</div><div class="lbl">BLEAK</div></div>
+  <div class="verdict">Rough out there.</div>
+  <div class="meta">33 feeds &bull; 1,188 headlines &bull; bleaker than 64% of days</div>
+  <div class="grid-bg"></div>
+  <h2>Doom by source</h2>
+  <div class="card">
+    <div class="row"><span>CNN</span><div class="bar"><div class="fill" style="width:52%"></div></div><span class="pct">52%</span></div>
+    <div class="row"><span>Al Jazeera</span><div class="bar"><div class="fill" style="width:48%"></div></div><span class="pct">48%</span></div>
+    <div class="row"><span>BBC</span><div class="bar"><div class="fill" style="width:45%"></div></div><span class="pct">45%</span></div>
+    <div class="row"><span>Guardian</span><div class="bar"><div class="fill" style="width:41%"></div></div><span class="pct">41%</span></div>
+    <div class="row"><span>Fox News</span><div class="bar"><div class="fill" style="width:38%"></div></div><span class="pct">38%</span></div>
+  </div>
+  <h2>Doomiest headlines</h2>
+  <div class="card">
+    <div class="hl"><b>53</b> &mdash; Army major martyred, 4 terrorists killed in Balochistan IBOs</div>
+    <div class="hl"><b>49</b> &mdash; One killed in US shooting near mosque in Columbus, Ohio</div>
+    <div class="hl"><b>46</b> &mdash; Trump escalates clash with Zelenskyy as Russia continues deadly attack</div>
+  </div>
+  <div class="foot">a toy metric with a straight face, cruising into the neon dusk</div>
+</div></body></html>

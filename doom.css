@@ -150,8 +150,9 @@ button.pill:hover { border-color: rgba(255,255,255,0.28); background: #1a2338; }
 .why { color: #c8cddb; font-style: italic; }
 .search { width: 100%; box-sizing: border-box; background: #161d33; border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; color: #e8eaf0; padding: 10px 12px; font-size: 14px; margin-bottom: 12px; }
 .search:focus { outline: none; border-color: #7aa2ff; }
-.cloud { line-height: 2.1; text-align: center; padding: 8px 0; }
-.cloud-word { color: #ff8a7a; margin: 0 6px; white-space: nowrap; font-weight: 700; }
+.cloud { line-height: 2.8; text-align: center; padding: 18px 6px; }
+.cloud-word { font-weight: 300; letter-spacing: 2px; margin: 0 10px; white-space: nowrap;
+  display: inline-block; }
 .intraday { display: flex; align-items: flex-end; gap: 3px; height: 90px; padding-top: 8px; }
 .hour-bar { flex: 1; min-width: 0; border-radius: 3px 3px 0 0; position: relative; }
 .hour-bar .hh { position: absolute; bottom: -18px; left: 50%; transform: translateX(-50%); font-size: 9px; color: #8b93a7; }
