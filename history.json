@@ -146,5 +146,78 @@
         "source": "Guardian"
       }
     ]
+  },
+  {
+    "date": "2026-10-21",
+    "score": 8.7,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 10.0,
+      "BBC": 6.7,
+      "Al Jazeera": 12.0,
+      "CBS": 10.0,
+      "PBS": 10.0,
+      "ABC": 16.0,
+      "NBC": 12.0,
+      "Sky": 11.1,
+      "DW": 3.0,
+      "France24": 12.5,
+      "Guardian": 15.6,
+      "The Hill": 4.0,
+      "ZeroHedge": 16.0,
+      "TOI": 2.3,
+      "ABC-AU": 16.0,
+      "Vox": 10.0,
+      "Euronews": 16.0,
+      "CNBC": 0.0,
+      "ProPublica": 0.0,
+      "Dawn": 25.0,
+      "Japan Times": 3.3,
+      "The Diplomat": 14.6,
+      "Reason": 2.1,
+      "The Hindu": 0.0,
+      "Jerusalem Post": 19.2,
+      "FOX News": 8.0,
+      "CNN": 10.0
+    },
+    "topics": {
+      "War": 30.3,
+      "Disaster": 9.0,
+      "Crime": 7.9,
+      "Economy": 6.7,
+      "Health": 2.2
+    },
+    "top_keywords": [
+      "war",
+      "killed",
+      "crisis"
+    ],
+    "top": [
+      {
+        "title": "Mississippi AG says police shooting that killed 1-year-old was ‘justified’",
+        "score": 49,
+        "source": "NBC"
+      },
+      {
+        "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+        "score": 48,
+        "source": "Guardian"
+      },
+      {
+        "title": "Zelenskyy says early warning system for Russian missile attacks resumes",
+        "score": 44,
+        "source": "NPR"
+      },
+      {
+        "title": "Texas couple charged in shooting death of Missouri high schooler on her way to the zoo",
+        "score": 44,
+        "source": "NBC"
+      },
+      {
+        "title": "One killed, one missing after French military plane crash in northeast France, French military says",
+        "score": 41,
+        "source": "Jerusalem Post"
+      }
+    ]
   }
 ]
