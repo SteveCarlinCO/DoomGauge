@@ -149,54 +149,49 @@
   },
   {
     "date": "2026-10-21",
-    "score": 8.4,
+    "score": 6.7,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 0.0,
-      "BBC": 9.4,
-      "Al Jazeera": 8.0,
-      "CBS": 3.3,
-      "PBS": 10.0,
+      "NPR": 10.0,
+      "BBC": 10.8,
+      "Al Jazeera": 4.0,
+      "CBS": 13.3,
+      "PBS": 15.0,
       "ABC": 4.0,
-      "NBC": 8.0,
+      "NBC": 4.0,
       "Sky": 20.0,
       "DW": 3.0,
-      "France24": 4.2,
+      "France24": 8.3,
       "Guardian": 8.9,
-      "The Hill": 4.0,
-      "ZeroHedge": 12.0,
-      "TOI": 10.9,
-      "ABC-AU": 16.0,
-      "Euronews": 20.0,
-      "CNBC": 0.0,
+      "The Hill": 3.0,
+      "ZeroHedge": 8.0,
+      "TOI": 4.3,
+      "ABC-AU": 4.0,
+      "Euronews": 16.0,
+      "CNBC": 3.3,
       "ProPublica": 0.0,
-      "Dawn": 16.0,
+      "Dawn": 11.1,
       "Japan Times": 0.0,
-      "The Diplomat": 14.6,
+      "The Diplomat": 13.5,
       "Reason": 2.1,
-      "The Hindu": 5.0,
-      "Jerusalem Post": 19.2,
-      "FOX News": 16.0,
-      "CNN": 9.0
+      "The Hindu": 0.0,
+      "Jerusalem Post": 7.7,
+      "FOX News": 0.0,
+      "CNN": 7.0
     },
     "topics": {
-      "War": 25.6,
-      "Disaster": 10.5,
-      "Crime": 7.0,
-      "Economy": 4.7,
-      "Health": 2.3
+      "War": 30.4,
+      "Disaster": 14.5,
+      "Crime": 7.2,
+      "Health": 2.9,
+      "Economy": 1.4
     },
     "top_keywords": [
-      "killed",
       "war",
-      "crisis"
+      "crisis",
+      "killed"
     ],
     "top": [
-      {
-        "title": "Mississippi attorney general says officer was justified in shooting that killed 1-year-old Kohen Wiley",
-        "score": 49,
-        "source": "The Hill"
-      },
       {
         "title": "Rhoam Summer, 5, is the youngest child killed in a US school shooting. His family is asking the world to draw for him",
         "score": 49,
@@ -206,6 +201,11 @@
         "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
         "score": 48,
         "source": "Guardian"
+      },
+      {
+        "title": "California ant war killed 15 million workers in 6 months, researchers found",
+        "score": 47,
+        "source": "TOI"
       },
       {
         "title": "Texas couple charged in shooting death of Missouri high schooler on her way to the zoo",
