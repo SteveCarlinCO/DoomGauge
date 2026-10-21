@@ -149,47 +149,47 @@
   },
   {
     "date": "2026-10-21",
-    "score": 6.7,
+    "score": 7.3,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 10.0,
-      "BBC": 10.8,
-      "Al Jazeera": 4.0,
-      "CBS": 13.3,
+      "BBC": 8.8,
+      "Al Jazeera": 12.0,
+      "CBS": 3.3,
       "PBS": 15.0,
       "ABC": 4.0,
       "NBC": 4.0,
       "Sky": 20.0,
       "DW": 3.0,
-      "France24": 8.3,
+      "France24": 4.2,
       "Guardian": 8.9,
       "The Hill": 3.0,
       "ZeroHedge": 8.0,
-      "TOI": 4.3,
-      "ABC-AU": 4.0,
-      "Euronews": 16.0,
+      "TOI": 8.7,
+      "ABC-AU": 8.0,
+      "Euronews": 14.0,
       "CNBC": 3.3,
       "ProPublica": 0.0,
       "Dawn": 11.1,
       "Japan Times": 0.0,
       "The Diplomat": 13.5,
       "Reason": 2.1,
-      "The Hindu": 0.0,
+      "The Hindu": 10.0,
       "Jerusalem Post": 7.7,
-      "FOX News": 0.0,
+      "FOX News": 4.0,
       "CNN": 7.0
     },
     "topics": {
-      "War": 30.4,
-      "Disaster": 14.5,
-      "Crime": 7.2,
-      "Health": 2.9,
-      "Economy": 1.4
+      "War": 28.0,
+      "Disaster": 13.3,
+      "Crime": 8.0,
+      "Economy": 2.7,
+      "Health": 2.7
     },
     "top_keywords": [
+      "killed",
       "war",
-      "crisis",
-      "killed"
+      "crisis"
     ],
     "top": [
       {
@@ -203,11 +203,6 @@
         "source": "Guardian"
       },
       {
-        "title": "California ant war killed 15 million workers in 6 months, researchers found",
-        "score": 47,
-        "source": "TOI"
-      },
-      {
         "title": "Texas couple charged in shooting death of Missouri high schooler on her way to the zoo",
         "score": 44,
         "source": "NBC"
@@ -216,6 +211,11 @@
         "title": "Swimmer killed in shark attack in South Africa",
         "score": 39,
         "source": "Sky"
+      },
+      {
+        "title": "Saudi authorities say two killed by falling debris at oil facility following drone attack in kingdom",
+        "score": 39,
+        "source": "The Hindu"
       }
     ]
   }
