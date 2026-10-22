@@ -221,48 +221,48 @@
   },
   {
     "date": "2026-10-22",
-    "score": 8.1,
+    "score": 7.9,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 6.1,
+      "BBC": 0.0,
       "Al Jazeera": 12.0,
-      "CBS": 10.0,
+      "CBS": 6.7,
       "PBS": 0.0,
       "ABC": 0.0,
-      "NBC": 8.0,
+      "NBC": 4.0,
       "Sky": 20.0,
-      "DW": 3.0,
-      "France24": 12.5,
-      "Guardian": 8.9,
-      "The Hill": 5.0,
-      "ZeroHedge": 8.0,
-      "TOI": 14.6,
-      "ABC-AU": 16.0,
+      "DW": 4.5,
+      "France24": 8.3,
+      "Guardian": 13.3,
+      "The Hill": 4.0,
+      "ZeroHedge": 12.0,
+      "TOI": 6.4,
+      "ABC-AU": 24.0,
       "Euronews": 12.0,
-      "CNBC": 3.3,
-      "ProPublica": 0.0,
+      "CNBC": 0.0,
+      "ProPublica": 5.0,
       "Dawn": 7.7,
-      "Japan Times": 10.0,
+      "Japan Times": 13.3,
       "The Diplomat": 13.5,
       "Reason": 2.1,
-      "The Hindu": 10.0,
-      "Jerusalem Post": 11.5,
-      "FOX News": 4.0,
-      "CNN": 9.0
+      "The Hindu": 3.3,
+      "Jerusalem Post": 26.9,
+      "FOX News": 12.0,
+      "CNN": 6.0
     },
     "topics": {
-      "War": 31.3,
-      "Disaster": 9.6,
-      "Crime": 7.2,
-      "Economy": 6.0,
-      "Health": 2.4,
-      "Politics": 1.2
+      "War": 25.6,
+      "Disaster": 8.5,
+      "Economy": 6.1,
+      "Health": 6.1,
+      "Crime": 4.9,
+      "Politics": 2.4
     },
     "top_keywords": [
-      "war",
       "killed",
-      "crisis"
+      "crisis",
+      "war"
     ],
     "top": [
       {
@@ -271,7 +271,7 @@
         "source": "CNN"
       },
       {
-        "title": "Sudan’s war escalates as UN warns of wider regional crisis",
+        "title": "Sudan's war escalates as UN warns of wider regional crisis",
         "score": 48,
         "source": "France24"
       },
@@ -286,9 +286,9 @@
         "source": "Japan Times"
       },
       {
-        "title": "Accused 'dead set' he was not driving in crash that killed four",
+        "title": "Indian-origin man, 24, killed in Canada crash days after getting PR approval",
         "score": 41,
-        "source": "ABC-AU"
+        "source": "TOI"
       }
     ]
   }
