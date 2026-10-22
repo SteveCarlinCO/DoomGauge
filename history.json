@@ -149,42 +149,42 @@
   },
   {
     "date": "2026-10-21",
-    "score": 7.3,
+    "score": 7.5,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 10.0,
-      "BBC": 8.8,
-      "Al Jazeera": 12.0,
-      "CBS": 3.3,
-      "PBS": 15.0,
-      "ABC": 4.0,
-      "NBC": 4.0,
+      "BBC": 2.7,
+      "Al Jazeera": 8.0,
+      "CBS": 13.3,
+      "PBS": 0.0,
+      "ABC": 0.0,
+      "NBC": 8.0,
       "Sky": 20.0,
       "DW": 3.0,
-      "France24": 4.2,
+      "France24": 12.5,
       "Guardian": 8.9,
-      "The Hill": 3.0,
+      "The Hill": 5.0,
       "ZeroHedge": 8.0,
-      "TOI": 8.7,
-      "ABC-AU": 8.0,
+      "TOI": 13.3,
+      "ABC-AU": 4.0,
       "Euronews": 14.0,
       "CNBC": 3.3,
       "ProPublica": 0.0,
       "Dawn": 11.1,
-      "Japan Times": 0.0,
+      "Japan Times": 3.3,
       "The Diplomat": 13.5,
       "Reason": 2.1,
-      "The Hindu": 10.0,
-      "Jerusalem Post": 7.7,
+      "The Hindu": 11.7,
+      "Jerusalem Post": 15.4,
       "FOX News": 4.0,
-      "CNN": 7.0
+      "CNN": 6.0
     },
     "topics": {
-      "War": 28.0,
-      "Disaster": 13.3,
-      "Crime": 8.0,
-      "Economy": 2.7,
-      "Health": 2.7
+      "War": 26.0,
+      "Disaster": 10.4,
+      "Crime": 9.1,
+      "Health": 2.6,
+      "Economy": 1.3
     },
     "top_keywords": [
       "killed",
@@ -198,24 +198,24 @@
         "source": "CNN"
       },
       {
+        "title": "Sudan’s war escalates as UN warns of wider regional crisis",
+        "score": 48,
+        "source": "France24"
+      },
+      {
         "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
         "score": 48,
         "source": "Guardian"
       },
       {
-        "title": "Texas couple charged in shooting death of Missouri high schooler on her way to the zoo",
-        "score": 44,
-        "source": "NBC"
+        "title": "Iran war live: IRGC vows invasion as defence doctrine turns ‘offensive’",
+        "score": 47,
+        "source": "Al Jazeera"
       },
       {
-        "title": "Swimmer killed in shark attack in South Africa",
+        "title": "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
         "score": 39,
-        "source": "Sky"
-      },
-      {
-        "title": "Saudi authorities say two killed by falling debris at oil facility following drone attack in kingdom",
-        "score": 39,
-        "source": "The Hindu"
+        "source": "Al Jazeera"
       }
     ]
   }
