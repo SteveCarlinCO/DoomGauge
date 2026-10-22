@@ -221,73 +221,74 @@
   },
   {
     "date": "2026-10-22",
-    "score": 7.9,
+    "score": 9.5,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 0.0,
-      "Al Jazeera": 12.0,
-      "CBS": 6.7,
-      "PBS": 0.0,
-      "ABC": 0.0,
-      "NBC": 4.0,
+      "BBC": 10.3,
+      "Al Jazeera": 16.0,
+      "CBS": 10.0,
+      "PBS": 5.0,
+      "ABC": 4.0,
+      "NBC": 8.0,
       "Sky": 20.0,
-      "DW": 4.5,
-      "France24": 8.3,
-      "Guardian": 13.3,
-      "The Hill": 4.0,
+      "DW": 5.2,
+      "France24": 20.8,
+      "Guardian": 15.6,
+      "The Hill": 5.0,
       "ZeroHedge": 12.0,
-      "TOI": 6.4,
-      "ABC-AU": 24.0,
+      "TOI": 12.8,
+      "ABC-AU": 16.0,
+      "Slate": 0.0,
       "Euronews": 12.0,
-      "CNBC": 0.0,
+      "CNBC": 3.3,
       "ProPublica": 5.0,
-      "Dawn": 7.7,
+      "Dawn": 11.5,
       "Japan Times": 13.3,
-      "The Diplomat": 13.5,
+      "The Diplomat": 12.5,
       "Reason": 2.1,
-      "The Hindu": 3.3,
-      "Jerusalem Post": 26.9,
+      "The Hindu": 15.0,
+      "Jerusalem Post": 15.4,
       "FOX News": 12.0,
-      "CNN": 6.0
+      "CNN": 8.0
     },
     "topics": {
-      "War": 25.6,
-      "Disaster": 8.5,
-      "Economy": 6.1,
-      "Health": 6.1,
-      "Crime": 4.9,
-      "Politics": 2.4
+      "War": 29.0,
+      "Disaster": 8.0,
+      "Crime": 7.0,
+      "Economy": 6.0,
+      "Health": 4.0,
+      "Politics": 3.0
     },
     "top_keywords": [
+      "war",
       "killed",
-      "crisis",
-      "war"
+      "crisis"
     ],
     "top": [
+      {
+        "title": "‘No change’ in Russia’s attitude on war shown by deadly attacks, Zelensky says",
+        "score": 58,
+        "source": "France24"
+      },
+      {
+        "title": "4 cops including DSP martyred, 2 terrorists killed during exchange of fire in KP's Karak: police",
+        "score": 53,
+        "source": "Dawn"
+      },
       {
         "title": "Rhoam Summer, 5, is the youngest child killed in a US school shooting. His family is asking the world to draw for him",
         "score": 49,
         "source": "CNN"
       },
       {
-        "title": "Sudan's war escalates as UN warns of wider regional crisis",
-        "score": 48,
-        "source": "France24"
-      },
-      {
-        "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
-        "score": 48,
+        "title": "Video footage of Kohen Wiley shooting released after toddler’s death deemed ‘justified’",
+        "score": 44,
         "source": "Guardian"
       },
       {
-        "title": "Oil rises as deadly attacks in Saudi Arabia fan Middle East supply fears",
+        "title": "Civil war &amp; terror: Why Libya is still broken 15 yrs after Gaddafi's bloody end",
         "score": 42,
-        "source": "Japan Times"
-      },
-      {
-        "title": "Indian-origin man, 24, killed in Canada crash days after getting PR approval",
-        "score": 41,
         "source": "TOI"
       }
     ]
