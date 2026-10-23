@@ -295,25 +295,24 @@
   },
   {
     "date": "2026-10-23",
-    "score": 10.3,
+    "score": 11.1,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 15.6,
-      "Al Jazeera": 28.0,
-      "CBS": 20.0,
-      "PBS": 15.0,
+      "BBC": 16.1,
+      "Al Jazeera": 20.0,
+      "CBS": 23.3,
+      "PBS": 20.0,
       "ABC": 0.0,
-      "NBC": 8.0,
+      "NBC": 4.0,
       "Sky": 50.0,
-      "DW": 6.8,
+      "DW": 7.5,
       "France24": 33.3,
       "Guardian": 15.6,
-      "The Hill": 2.0,
-      "ZeroHedge": 12.0,
+      "The Hill": 1.0,
+      "ZeroHedge": 16.0,
       "TOI": 13.0,
-      "ABC-AU": 16.0,
-      "Slate": 0.0,
+      "ABC-AU": 4.0,
       "Vox": 0.0,
       "Euronews": 16.0,
       "CNBC": 6.7,
@@ -322,18 +321,18 @@
       "Japan Times": 13.3,
       "The Diplomat": 11.5,
       "Reason": 4.2,
-      "The Hindu": 8.3,
-      "Jerusalem Post": 26.9,
-      "FOX News": 0.0,
-      "CNN": 14.0
+      "The Hindu": 5.0,
+      "Jerusalem Post": 30.8,
+      "FOX News": 4.0,
+      "CNN": 21.0
     },
     "topics": {
-      "War": 25.9,
-      "Crime": 20.4,
-      "Disaster": 6.5,
-      "Politics": 4.6,
-      "Economy": 3.7,
-      "Health": 3.7
+      "War": 24.6,
+      "Crime": 19.3,
+      "Disaster": 6.1,
+      "Health": 4.4,
+      "Economy": 3.5,
+      "Politics": 3.5
     },
     "top_keywords": [
       "shooting",
@@ -342,19 +341,19 @@
     ],
     "top": [
       {
+        "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+        "score": 88,
+        "source": "BBC"
+      },
+      {
         "title": "🔴 Deadly shooting west of Paris ‘clearly terrorist’ attack, French interior minister says",
         "score": 88,
         "source": "France24"
       },
       {
-        "title": "Deadly shooting in Paris suburb may be terrorist act, officials say",
-        "score": 74,
-        "source": "CBS"
-      },
-      {
-        "title": "Fatal shooting in Paris suburb 'clearly a terrorist crime' - as suspect arrested",
-        "score": 70,
-        "source": "Sky"
+        "title": "Macron condemns racism after one killed in ‘terrorist’ shooting near Paris",
+        "score": 77,
+        "source": "Guardian"
       },
       {
         "title": "Israel begins demolitions in West Bank city after two soldiers killed in shooting attack",
