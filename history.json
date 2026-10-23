@@ -221,49 +221,49 @@
   },
   {
     "date": "2026-10-22",
-    "score": 9.0,
+    "score": 9.2,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 13.8,
-      "Al Jazeera": 20.0,
-      "CBS": 6.7,
-      "PBS": 10.0,
+      "BBC": 9.4,
+      "Al Jazeera": 28.0,
+      "CBS": 20.0,
+      "PBS": 20.0,
       "ABC": 0.0,
       "NBC": 8.0,
       "Sky": 10.0,
-      "DW": 5.2,
+      "DW": 5.3,
       "France24": 25.0,
-      "Guardian": 17.8,
-      "The Hill": 5.0,
-      "ZeroHedge": 4.0,
-      "TOI": 17.0,
+      "Guardian": 13.3,
+      "The Hill": 4.0,
+      "ZeroHedge": 8.0,
+      "TOI": 15.9,
       "ABC-AU": 8.0,
       "Slate": 0.0,
       "Euronews": 14.0,
       "CNBC": 3.3,
       "ProPublica": 5.0,
       "Dawn": 11.1,
-      "Japan Times": 13.3,
+      "Japan Times": 10.0,
       "The Diplomat": 12.5,
       "Reason": 4.2,
-      "The Hindu": 5.0,
-      "Jerusalem Post": 19.2,
-      "FOX News": 8.0,
+      "The Hindu": 6.7,
+      "Jerusalem Post": 11.5,
+      "FOX News": 12.0,
       "CNN": 9.0
     },
     "topics": {
-      "War": 28.7,
-      "Disaster": 11.7,
-      "Health": 7.4,
-      "Crime": 6.4,
-      "Politics": 3.2,
-      "Economy": 2.1
+      "War": 30.2,
+      "Disaster": 14.6,
+      "Crime": 6.2,
+      "Health": 6.2,
+      "Economy": 4.2,
+      "Politics": 2.1
     },
     "top_keywords": [
       "war",
-      "crisis",
-      "killed"
+      "killed",
+      "crisis"
     ],
     "top": [
       {
@@ -282,9 +282,9 @@
         "source": "Dawn"
       },
       {
-        "title": "Rhoam Summer, 5, is the youngest child killed in a US school shooting. His family is asking the world to draw for him",
-        "score": 49,
-        "source": "CNN"
+        "title": "Video shows moments before fatal police shooting of 1-year-old in Mississippi",
+        "score": 42,
+        "source": "CBS"
       },
       {
         "title": "Civil war &amp; terror: Why Libya is still broken 15 yrs after Gaddafi's bloody end",
