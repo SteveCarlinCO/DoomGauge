@@ -292,5 +292,78 @@
         "source": "TOI"
       }
     ]
+  },
+  {
+    "date": "2026-10-23",
+    "score": 9.7,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 0.0,
+      "BBC": 6.1,
+      "Al Jazeera": 32.0,
+      "CBS": 23.3,
+      "PBS": 20.0,
+      "ABC": 4.0,
+      "NBC": 4.0,
+      "Sky": 10.0,
+      "France24": 12.5,
+      "Guardian": 11.1,
+      "The Hill": 3.0,
+      "ZeroHedge": 8.0,
+      "TOI": 4.5,
+      "ABC-AU": 8.0,
+      "Slate": 0.0,
+      "Euronews": 14.0,
+      "CNBC": 3.3,
+      "ProPublica": 5.0,
+      "Dawn": 15.4,
+      "Japan Times": 10.0,
+      "The Diplomat": 12.5,
+      "Reason": 4.2,
+      "The Hindu": 8.3,
+      "Jerusalem Post": 15.4,
+      "FOX News": 12.0,
+      "CNN": 10.0
+    },
+    "topics": {
+      "War": 37.1,
+      "Disaster": 14.6,
+      "Economy": 5.6,
+      "Crime": 5.6,
+      "Health": 4.5,
+      "Politics": 1.1
+    },
+    "top_keywords": [
+      "war",
+      "killed",
+      "nuclear"
+    ],
+    "top": [
+      {
+        "title": "Three terrorists killed as forces foil attack in Gwadar",
+        "score": 67,
+        "source": "Dawn"
+      },
+      {
+        "title": "Five wounded in shooting attack near Hebron, IDF kills two terrorists",
+        "score": 66,
+        "source": "Jerusalem Post"
+      },
+      {
+        "title": "‘No change’ in Russia’s attitude on war shown by deadly attacks, Zelensky says",
+        "score": 58,
+        "source": "France24"
+      },
+      {
+        "title": "7-magnitude earthquake strikes Tibet, at least 16 killed - watch",
+        "score": 51,
+        "source": "TOI"
+      },
+      {
+        "title": "Iran's Hardliners Push For Nuclear Weapons As U.S. War Drags On",
+        "score": 47,
+        "source": "ZeroHedge"
+      }
+    ]
   }
 ]
