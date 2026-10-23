@@ -295,76 +295,76 @@
   },
   {
     "date": "2026-10-23",
-    "score": 10.1,
+    "score": 10.3,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 9.1,
-      "Al Jazeera": 4.0,
+      "BBC": 15.6,
+      "Al Jazeera": 28.0,
       "CBS": 20.0,
-      "PBS": 20.0,
+      "PBS": 15.0,
       "ABC": 0.0,
-      "NBC": 12.0,
-      "Sky": 40.0,
+      "NBC": 8.0,
+      "Sky": 50.0,
       "DW": 6.8,
-      "France24": 16.7,
-      "Guardian": 8.9,
-      "The Hill": 4.0,
-      "ZeroHedge": 16.0,
-      "TOI": 8.7,
-      "ABC-AU": 20.0,
+      "France24": 33.3,
+      "Guardian": 15.6,
+      "The Hill": 2.0,
+      "ZeroHedge": 12.0,
+      "TOI": 13.0,
+      "ABC-AU": 16.0,
       "Slate": 0.0,
       "Vox": 0.0,
-      "Euronews": 14.0,
-      "CNBC": 3.3,
+      "Euronews": 16.0,
+      "CNBC": 6.7,
       "ProPublica": 5.0,
-      "Dawn": 16.0,
+      "Dawn": 7.4,
       "Japan Times": 13.3,
-      "The Diplomat": 13.5,
+      "The Diplomat": 11.5,
       "Reason": 4.2,
-      "The Hindu": 10.0,
-      "Jerusalem Post": 23.1,
-      "FOX News": 20.0,
-      "CNN": 12.0
+      "The Hindu": 8.3,
+      "Jerusalem Post": 26.9,
+      "FOX News": 0.0,
+      "CNN": 14.0
     },
     "topics": {
-      "War": 31.8,
-      "Crime": 15.9,
+      "War": 25.9,
+      "Crime": 20.4,
       "Disaster": 6.5,
-      "Economy": 4.7,
-      "Politics": 2.8,
-      "Health": 2.8
+      "Politics": 4.6,
+      "Economy": 3.7,
+      "Health": 3.7
     },
     "top_keywords": [
-      "killed",
       "shooting",
+      "killed",
       "war"
     ],
     "top": [
       {
-        "title": "Anti-terror police investigate as one person killed in shooting near Paris",
-        "score": 69,
-        "source": "BBC"
+        "title": "🔴 Deadly shooting west of Paris ‘clearly terrorist’ attack, French interior minister says",
+        "score": 88,
+        "source": "France24"
       },
       {
-        "title": "Three terrorists killed as forces foil attack in Gwadar",
-        "score": 67,
-        "source": "Dawn"
+        "title": "Deadly shooting in Paris suburb may be terrorist act, officials say",
+        "score": 74,
+        "source": "CBS"
       },
       {
-        "title": "43 years after Beirut terror attack killed 241 Americans, rabbi recalls chaplains’ extraordinary response",
-        "score": 65,
-        "source": "FOX News"
-      },
-      {
-        "title": "Israel orders ‘full lockdown’ of occupied West Bank after 2 soldiers killed in shooting attack",
-        "score": 63,
-        "source": "NBC"
-      },
-      {
-        "title": "Terror probe after fatal shooting in Paris suburb",
-        "score": 62,
+        "title": "Fatal shooting in Paris suburb 'clearly a terrorist crime' - as suspect arrested",
+        "score": 70,
         "source": "Sky"
+      },
+      {
+        "title": "Israel begins demolitions in West Bank city after two soldiers killed in shooting attack",
+        "score": 63,
+        "source": "CNN"
+      },
+      {
+        "title": "Israel orders full West Bank 'lockdown' after deadly shooting attack",
+        "score": 60,
+        "source": "NBC"
       }
     ]
   }
