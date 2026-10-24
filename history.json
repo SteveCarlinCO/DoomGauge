@@ -295,56 +295,51 @@
   },
   {
     "date": "2026-10-23",
-    "score": 11.4,
+    "score": 11.1,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 12.1,
+      "BBC": 2.9,
       "Al Jazeera": 24.0,
-      "CBS": 13.3,
+      "CBS": 10.0,
       "PBS": 10.0,
       "ABC": 4.0,
-      "NBC": 4.0,
+      "NBC": 0.0,
       "Sky": 50.0,
-      "DW": 7.6,
-      "France24": 33.3,
+      "DW": 6.8,
+      "France24": 29.2,
       "Guardian": 17.8,
       "The Hill": 1.0,
       "ZeroHedge": 16.0,
-      "TOI": 19.1,
-      "ABC-AU": 8.0,
+      "TOI": 8.7,
+      "ABC-AU": 16.0,
       "Vox": 0.0,
       "Euronews": 16.0,
       "CNBC": 6.7,
       "ProPublica": 5.0,
-      "Dawn": 7.4,
+      "Dawn": 13.8,
       "Japan Times": 13.3,
       "The Diplomat": 11.5,
       "Reason": 4.2,
-      "The Hindu": 6.7,
-      "Jerusalem Post": 34.6,
+      "The Hindu": 15.0,
+      "Jerusalem Post": 19.2,
       "FOX News": 8.0,
-      "CNN": 21.0
+      "CNN": 25.0
     },
     "topics": {
-      "War": 26.5,
-      "Crime": 18.8,
-      "Disaster": 6.0,
-      "Politics": 4.3,
-      "Health": 4.3,
-      "Economy": 3.4
+      "War": 27.2,
+      "Crime": 18.4,
+      "Disaster": 7.0,
+      "Economy": 4.4,
+      "Politics": 4.4,
+      "Health": 4.4
     },
     "top_keywords": [
-      "shooting",
       "killed",
+      "shooting",
       "war"
     ],
     "top": [
-      {
-        "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-        "score": 88,
-        "source": "BBC"
-      },
       {
         "title": "🔴 Deadly shooting west of Paris ‘clearly terrorist’ attack, French interior minister says",
         "score": 88,
@@ -356,14 +351,19 @@
         "source": "Guardian"
       },
       {
+        "title": "Macron says Paris suburb shooting that killed one person was terrorist and racist act",
+        "score": 77,
+        "source": "CNN"
+      },
+      {
         "title": "Israel begins demolitions in West Bank city after two soldiers killed in shooting attack",
         "score": 63,
         "source": "CNN"
       },
       {
-        "title": "Israel orders full West Bank 'lockdown' after deadly shooting attack",
-        "score": 60,
-        "source": "NBC"
+        "title": "Squad commander, combat soldier killed in West Bank terror attack, IDF confirms",
+        "score": 59,
+        "source": "Jerusalem Post"
       }
     ]
   }
