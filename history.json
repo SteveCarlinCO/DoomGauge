@@ -369,50 +369,50 @@
   },
   {
     "date": "2026-10-24",
-    "score": 9.2,
+    "score": 9.4,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 3.8,
-      "Al Jazeera": 12.0,
+      "BBC": 0.0,
+      "Al Jazeera": 8.0,
       "CBS": 6.7,
-      "PBS": 10.0,
+      "PBS": 5.0,
       "ABC": 4.0,
-      "NBC": 0.0,
-      "Sky": 42.9,
+      "NBC": 4.0,
+      "Sky": 28.6,
       "DW": 4.6,
       "France24": 8.3,
       "Guardian": 11.1,
-      "The Hill": 2.0,
+      "The Hill": 3.0,
       "ZeroHedge": 16.0,
-      "TOI": 8.3,
-      "ABC-AU": 16.0,
+      "TOI": 8.5,
+      "ABC-AU": 12.0,
       "Slate": 0.0,
       "Vox": 0.0,
       "Euronews": 20.0,
-      "CNBC": 6.7,
+      "CNBC": 13.3,
       "ProPublica": 5.0,
-      "Dawn": 12.0,
+      "Dawn": 11.1,
       "Japan Times": 6.7,
       "The Diplomat": 11.5,
       "Reason": 4.2,
-      "The Hindu": 6.7,
-      "Jerusalem Post": 11.5,
-      "FOX News": 20.0,
-      "CNN": 19.0
+      "The Hindu": 13.3,
+      "Jerusalem Post": 23.1,
+      "FOX News": 4.0,
+      "CNN": 22.0
     },
     "topics": {
-      "Crime": 18.9,
-      "War": 16.8,
-      "Disaster": 7.4,
-      "Economy": 4.2,
-      "Politics": 4.2,
-      "Health": 4.2
+      "War": 18.4,
+      "Crime": 17.3,
+      "Disaster": 8.2,
+      "Politics": 4.1,
+      "Health": 4.1,
+      "Economy": 3.1
     },
     "top_keywords": [
       "killed",
       "shooting",
-      "deadly"
+      "death"
     ],
     "top": [
       {
@@ -426,11 +426,6 @@
         "source": "CNN"
       },
       {
-        "title": "Missouri businesswoman and single mom killed when police SUV responding to emergency crashes into her Audi",
-        "score": 55,
-        "source": "FOX News"
-      },
-      {
         "title": "Mississippi officer resigns after deadly shooting of one-year-old",
         "score": 52,
         "source": "CNN"
@@ -439,6 +434,11 @@
         "title": "Israel orders army to prepare to fully close West Bank after two soldiers killed in shooting",
         "score": 49,
         "source": "Sky"
+      },
+      {
+        "title": "Kaylub Giamanco, the father who killed the Oregon school shooter says he Army crawled through school before shooting gunman",
+        "score": 49,
+        "source": "CNN"
       }
     ]
   }
