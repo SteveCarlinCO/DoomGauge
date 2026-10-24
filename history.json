@@ -369,56 +369,52 @@
   },
   {
     "date": "2026-10-24",
-    "score": 9.4,
+    "score": 9.2,
     "verdict": "Mostly survivable.",
     "sources": {
-      "BBC": 7.1,
-      "Al Jazeera": 4.0,
+      "NPR": 0.0,
+      "BBC": 3.8,
+      "Al Jazeera": 12.0,
       "CBS": 6.7,
       "PBS": 10.0,
-      "ABC": 8.0,
-      "NBC": 4.0,
+      "ABC": 4.0,
+      "NBC": 0.0,
       "Sky": 42.9,
       "DW": 4.6,
-      "France24": 12.5,
+      "France24": 8.3,
       "Guardian": 11.1,
-      "The Hill": 1.0,
+      "The Hill": 2.0,
       "ZeroHedge": 16.0,
-      "TOI": 6.8,
+      "TOI": 8.3,
       "ABC-AU": 16.0,
       "Slate": 0.0,
       "Vox": 0.0,
-      "Euronews": 16.0,
+      "Euronews": 20.0,
       "CNBC": 6.7,
       "ProPublica": 5.0,
-      "Dawn": 15.4,
-      "Japan Times": 10.0,
+      "Dawn": 12.0,
+      "Japan Times": 6.7,
       "The Diplomat": 11.5,
       "Reason": 4.2,
-      "The Hindu": 10.0,
-      "Jerusalem Post": 15.4,
-      "FOX News": 8.0,
-      "CNN": 22.0
+      "The Hindu": 6.7,
+      "Jerusalem Post": 11.5,
+      "FOX News": 20.0,
+      "CNN": 19.0
     },
     "topics": {
-      "Crime": 20.8,
-      "War": 18.8,
-      "Disaster": 8.3,
-      "Economy": 6.2,
-      "Health": 4.2,
-      "Politics": 3.1
+      "Crime": 18.9,
+      "War": 16.8,
+      "Disaster": 7.4,
+      "Economy": 4.2,
+      "Politics": 4.2,
+      "Health": 4.2
     },
     "top_keywords": [
       "killed",
       "shooting",
-      "war"
+      "deadly"
     ],
     "top": [
-      {
-        "title": "Security has ramped up in Jordan after deadly terror attack on church killed seven, US embassy says",
-        "score": 81,
-        "source": "Jerusalem Post"
-      },
       {
         "title": "Macron says Paris suburb shooting that killed one person was terrorist and racist act",
         "score": 77,
@@ -430,14 +426,19 @@
         "source": "CNN"
       },
       {
-        "title": "Europe faces threat of organised sabotage, terrorist attacks: Estonian FM Tsahkna",
-        "score": 54,
-        "source": "France24"
+        "title": "Missouri businesswoman and single mom killed when police SUV responding to emergency crashes into her Audi",
+        "score": 55,
+        "source": "FOX News"
       },
       {
         "title": "Mississippi officer resigns after deadly shooting of one-year-old",
         "score": 52,
         "source": "CNN"
+      },
+      {
+        "title": "Israel orders army to prepare to fully close West Bank after two soldiers killed in shooting",
+        "score": 49,
+        "source": "Sky"
       }
     ]
   }
