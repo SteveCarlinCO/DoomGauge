@@ -443,26 +443,26 @@
   },
   {
     "date": "2026-10-25",
-    "score": 9.8,
+    "score": 9.2,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 0.0,
-      "BBC": 10.7,
-      "Al Jazeera": 16.0,
+      "NPR": 10.0,
+      "BBC": 11.1,
+      "Al Jazeera": 8.0,
       "CBS": 10.0,
-      "PBS": 5.0,
+      "PBS": 15.0,
       "ABC": 4.0,
-      "NBC": 24.0,
+      "NBC": 12.0,
       "DW": 3.8,
-      "France24": 4.2,
+      "France24": 0.0,
       "Guardian": 15.6,
-      "The Hill": 3.0,
+      "The Hill": 4.0,
       "ZeroHedge": 12.0,
-      "TOI": 7.1,
-      "ABC-AU": 20.0,
+      "TOI": 9.1,
+      "ABC-AU": 4.0,
       "Slate": 0.0,
       "Vox": 10.0,
-      "Euronews": 22.0,
+      "Euronews": 20.0,
       "CNBC": 10.0,
       "ProPublica": 5.0,
       "Dawn": 20.7,
@@ -470,21 +470,21 @@
       "The Diplomat": 11.5,
       "Reason": 6.2,
       "The Hindu": 8.3,
-      "Jerusalem Post": 23.1,
-      "FOX News": 4.0,
-      "CNN": 15.0
+      "Jerusalem Post": 19.2,
+      "FOX News": 0.0,
+      "CNN": 12.0
     },
     "topics": {
-      "War": 22.8,
-      "Crime": 16.8,
-      "Disaster": 6.9,
-      "Politics": 5.9,
-      "Economy": 5.0,
-      "Health": 5.0
+      "War": 23.2,
+      "Crime": 11.6,
+      "Disaster": 8.4,
+      "Economy": 8.4,
+      "Politics": 8.4,
+      "Health": 5.3
     },
     "top_keywords": [
-      "shooting",
       "death",
+      "war",
       "killed"
     ],
     "top": [
@@ -499,11 +499,6 @@
         "source": "CNN"
       },
       {
-        "title": "IDF seals off homes of terrorists who committed fatal Hebron attack ahead of intended demolition",
-        "score": 60,
-        "source": "Jerusalem Post"
-      },
-      {
         "title": "6 terrorists killed, 2 soldiers martyred during Dera Ismail Khan IBO: ISPR",
         "score": 53,
         "source": "Dawn"
@@ -512,6 +507,11 @@
         "title": "Terrorist commander killed during IBO in Balochistan's Qila Saifullah: state media",
         "score": 53,
         "source": "Dawn"
+      },
+      {
+        "title": "Mississippi officer resigns after deadly shooting of one-year-old",
+        "score": 52,
+        "source": "CNN"
       }
     ]
   }
