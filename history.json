@@ -440,5 +440,80 @@
         "source": "Sky"
       }
     ]
+  },
+  {
+    "date": "2026-10-25",
+    "score": 8.8,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 0.0,
+      "BBC": 0.0,
+      "Al Jazeera": 16.0,
+      "CBS": 10.0,
+      "PBS": 5.0,
+      "ABC": 0.0,
+      "NBC": 20.0,
+      "Sky": 28.6,
+      "DW": 3.8,
+      "France24": 8.3,
+      "Guardian": 15.6,
+      "The Hill": 4.0,
+      "ZeroHedge": 4.0,
+      "TOI": 13.0,
+      "ABC-AU": 4.0,
+      "Slate": 0.0,
+      "Vox": 0.0,
+      "Euronews": 20.0,
+      "CNBC": 10.0,
+      "ProPublica": 5.0,
+      "Dawn": 3.4,
+      "Japan Times": 6.7,
+      "The Diplomat": 11.5,
+      "Reason": 4.2,
+      "The Hindu": 11.7,
+      "Jerusalem Post": 19.2,
+      "FOX News": 4.0,
+      "CNN": 16.0
+    },
+    "topics": {
+      "War": 21.3,
+      "Crime": 18.1,
+      "Disaster": 9.6,
+      "Politics": 5.3,
+      "Health": 4.3,
+      "Economy": 2.1
+    },
+    "top_keywords": [
+      "death",
+      "shooting",
+      "killed"
+    ],
+    "top": [
+      {
+        "title": "Israel begins demolitions in West Bank city after two soldiers killed in shooting attack",
+        "score": 63,
+        "source": "CNN"
+      },
+      {
+        "title": "Suspect in St. Louis teen’s fatal freeway shooting investigated in another roadway attack",
+        "score": 56,
+        "source": "NBC"
+      },
+      {
+        "title": "Terrorist shooting in Paris suburb marks 'turning point for France', Macron says",
+        "score": 52,
+        "source": "Sky"
+      },
+      {
+        "title": "Mississippi officer resigns after deadly shooting of one-year-old",
+        "score": 52,
+        "source": "CNN"
+      },
+      {
+        "title": "IDF, Shin Bet forcibly evacuate 2,000 Hebron Palestinians in response to deadly Hamas attack",
+        "score": 50,
+        "source": "Jerusalem Post"
+      }
+    ]
   }
 ]
