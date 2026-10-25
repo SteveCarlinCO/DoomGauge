@@ -443,49 +443,49 @@
   },
   {
     "date": "2026-10-25",
-    "score": 9.1,
+    "score": 8.8,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 0.0,
-      "Al Jazeera": 12.0,
+      "BBC": 8.0,
+      "Al Jazeera": 20.0,
       "CBS": 10.0,
       "PBS": 5.0,
       "ABC": 4.0,
-      "NBC": 16.0,
+      "NBC": 20.0,
       "DW": 3.8,
       "France24": 4.2,
       "Guardian": 15.6,
-      "The Hill": 4.0,
-      "ZeroHedge": 4.0,
-      "TOI": 10.6,
-      "ABC-AU": 16.0,
+      "The Hill": 3.0,
+      "ZeroHedge": 8.0,
+      "TOI": 6.7,
+      "ABC-AU": 12.0,
       "Slate": 0.0,
       "Vox": 10.0,
       "Euronews": 22.0,
       "CNBC": 10.0,
       "ProPublica": 5.0,
-      "Dawn": 6.9,
+      "Dawn": 17.2,
       "Japan Times": 3.3,
       "The Diplomat": 11.5,
       "Reason": 4.2,
-      "The Hindu": 11.7,
-      "Jerusalem Post": 15.4,
-      "FOX News": 16.0,
-      "CNN": 17.0
+      "The Hindu": 3.3,
+      "Jerusalem Post": 20.0,
+      "FOX News": 20.0,
+      "CNN": 14.0
     },
     "topics": {
-      "War": 25.0,
-      "Crime": 16.7,
-      "Disaster": 7.3,
-      "Politics": 7.3,
-      "Economy": 3.1,
-      "Health": 2.1
+      "War": 23.9,
+      "Crime": 17.4,
+      "Politics": 7.6,
+      "Disaster": 6.5,
+      "Economy": 2.2,
+      "Health": 2.2
     },
     "top_keywords": [
-      "death",
       "shooting",
-      "war"
+      "killed",
+      "death"
     ],
     "top": [
       {
@@ -499,9 +499,9 @@
         "source": "CNN"
       },
       {
-        "title": "At least 22 killed in Kenya bus crash near site of previous fatal accident",
-        "score": 59,
-        "source": "The Hindu"
+        "title": "IDF seals off homes of terrorists who committed fatal Hebron attack ahead of intended demolition",
+        "score": 60,
+        "source": "Jerusalem Post"
       },
       {
         "title": "Suspect in St. Louis teen’s fatal freeway shooting investigated in another roadway attack",
