@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T23:14:38.889588+00:00",
-  "fetched_at": "2026-10-24 17:14 MDT",
+  "generated_at": "2026-10-25T01:13:00.046595+00:00",
+  "fetched_at": "2026-10-24 19:13 MDT",
   "date": "2026-10-24",
   "score": 8.2,
   "stale": false,
@@ -17,14 +17,14 @@
     {
       "name": "BBC",
       "score": 0.0,
-      "count": 37,
+      "count": 36,
       "doom": 0
     },
     {
       "name": "Al Jazeera",
-      "score": 4.0,
+      "score": 8.0,
       "count": 25,
-      "doom": 1
+      "doom": 2
     },
     {
       "name": "CBS",
@@ -40,26 +40,26 @@
     },
     {
       "name": "ABC",
-      "score": 8.0,
-      "count": 25,
-      "doom": 2
-    },
-    {
-      "name": "NBC",
       "score": 4.0,
       "count": 25,
       "doom": 1
     },
     {
+      "name": "NBC",
+      "score": 8.0,
+      "count": 25,
+      "doom": 2
+    },
+    {
       "name": "Sky",
-      "score": 28.6,
-      "count": 7,
+      "score": 33.3,
+      "count": 6,
       "doom": 2
     },
     {
       "name": "DW",
       "score": 4.6,
-      "count": 131,
+      "count": 130,
       "doom": 6
     },
     {
@@ -70,9 +70,9 @@
     },
     {
       "name": "Guardian",
-      "score": 13.3,
+      "score": 15.6,
       "count": 45,
-      "doom": 6
+      "doom": 7
     },
     {
       "name": "The Hill",
@@ -94,15 +94,15 @@
     },
     {
       "name": "TOI",
-      "score": 6.5,
+      "score": 2.2,
       "count": 46,
-      "doom": 3
+      "doom": 1
     },
     {
       "name": "ABC-AU",
-      "score": 4.0,
+      "score": 8.0,
       "count": 25,
-      "doom": 1
+      "doom": 2
     },
     {
       "name": "Slate",
@@ -142,9 +142,9 @@
     },
     {
       "name": "Japan Times",
-      "score": 6.7,
+      "score": 10.0,
       "count": 30,
-      "doom": 2
+      "doom": 3
     },
     {
       "name": "The Diplomat",
@@ -166,9 +166,9 @@
     },
     {
       "name": "Jerusalem Post",
-      "score": 15.4,
+      "score": 11.5,
       "count": 26,
-      "doom": 4
+      "doom": 3
     },
     {
       "name": "FOX News",
@@ -178,9 +178,9 @@
     },
     {
       "name": "CNN",
-      "score": 21.0,
+      "score": 19.0,
       "count": 100,
-      "doom": 21
+      "doom": 19
     },
     {
       "name": "MSNBC",
@@ -192,8 +192,8 @@
   "topics": [
     {
       "name": "War",
-      "count": 15,
-      "share": 17.4
+      "count": 14,
+      "share": 16.3
     },
     {
       "name": "Crime",
@@ -223,33 +223,10 @@
   ],
   "headlines": [
     {
-      "title": "Macron says Paris suburb shooting that killed one person was terrorist and racist act",
-      "score": 77,
-      "source": "CNN",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVGpmVkdjbUhCMmZ2ZGZaYmd0czRlUUVGbHY4akxxSzV4U3VmUGFra1ZjTVBvR1ZMVC1GZlYtVnVWR0NtS1ViRjJtM2dvTzJUUVhYejc0VlpjOHZiZC1YdmsxSkZScEM3M0dzZU5saDh6bXJlSWR2NXE3MWN2OWkwSGlLVWFYUHE1SV9SMw?oc=5",
-      "topics": [
-        "Crime"
-      ],
-      "hits": [
-        {
-          "keyword": "terrorist",
-          "weight": 28
-        },
-        {
-          "keyword": "killed",
-          "weight": 25
-        },
-        {
-          "keyword": "shooting",
-          "weight": 24
-        }
-      ]
-    },
-    {
       "title": "Israel begins demolitions in West Bank city after two soldiers killed in shooting attack",
       "score": 63,
       "source": "CNN",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMXZqQlZtVDY0dlNqRk9UdlR3b0twTkZBRENqSjNiRE9RRk9HMTBNUkdBTGZpMUtKYWtha3VMZm9iVkJoRy00TTRMWmhDc0RrNnM5YXNBUjFJcWQtOVJLQlkySFQwUTB5S0h6T1NIcHlsVGtQYURrTEZQU2NKWW82RmluS2tFZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOU1F5dV95eTN1dnN3bDJQWWs1X1VWRFNfWXVvSUpjUm9wZmxFSHl5T0pEOVlRYkJJdHA2akw1MG8zNjBVdlNxU2hPQ0lNejQ5Mmd0RmMwUW1MU1lDT21wUHk5WUIwUXY0ZEJid1lXUlZyZnhENFdKS1F0b0dPNnpLNA?oc=5",
       "topics": [
         "Crime"
       ],
@@ -265,6 +242,25 @@
         {
           "keyword": "attack",
           "weight": 14
+        }
+      ]
+    },
+    {
+      "title": "Terrorist shooting in Paris suburb marks 'turning point for France', Macron says",
+      "score": 52,
+      "source": "Sky",
+      "link": "https://news.sky.com/story/one-dead-and-several-wounded-after-shooting-in-paris-suburb-13602320",
+      "topics": [
+        "Crime"
+      ],
+      "hits": [
+        {
+          "keyword": "terrorist",
+          "weight": 28
+        },
+        {
+          "keyword": "shooting",
+          "weight": 24
         }
       ]
     },
@@ -357,7 +353,7 @@
       "title": "At least 9 people killed in unprecedented shooting at church in Jordan",
       "score": 49,
       "source": "CNN",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Zb21TYW1WQ29jUXdjZTk4RkN6eFlyU050NHBoTE1UNGQ5bzJ3ZmUwTjk2bTdwcFBVQWNDZDJvazEtT09BTkFHRVU2YVpoMVIwR1d0TmNrNzVxR21adkhVVWlsM3JRYURFV1hDS3ZJYjhKWUlBc0RWb2xQM3J1UQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JLWJRc0kySFVRMFhucnZDakhvd3dVRUlvVUN6Wm0zQTZDMHowRURmSXZDSkVJbDhnZnlDa2ZHY1FrczdfVTBYd2xPZGwtN0RUWkxnRzFERHJtVjNzYko1S3pwbkRfaG84Q3FKaUdoNnRVX3RKWDMyTA?oc=5",
       "topics": [
         "Crime"
       ],
@@ -376,7 +372,7 @@
       "title": "Mississippi officer and interim police chief resign after officer’s fatal shooting of 1-year-old in car during pursuit",
       "score": 48,
       "source": "CNN",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBxTzNCbnllN2ZBc0tvV01nWk1Mc0ZiY2RQekxfMU9lZ0E5LXFuZ1JXQmlYYWtsVE1nenBJbS1oajJQMU5BNVpneFJRb1FZTklPYzRLOWZTTUVCRmZURDlSSUxBcmVDRXc0M29tYmUzTTlTNnNYUk9JWFo3cFc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU3djMVF2Wmt4MkV6cTRvOEtxamoyaEk5MG0xdE1YOUdDMUR3cngteEl0MWZlRTB3VVh2SThPMFczTHhjdU85bndyWmFkWFlzdjFMTllYSFpfTk1Bc2l5MGdFNTZZU3A4VVQ1Zm9rdmdBc1ZGcGE3b3VoTjMwUXA5M2R3?oc=5",
       "topics": [
         "Crime",
         "Politics"
@@ -399,7 +395,7 @@
   ],
   "top_contributor": {
     "name": "CNN",
-    "share": 22.6
+    "share": 20.7
   },
   "streak_days": 0,
   "feed_health": [
@@ -456,7 +452,7 @@
       "name": "BBC",
       "url": "https://feeds.bbci.co.uk/news/rss.xml",
       "ok": true,
-      "headlines": 37,
+      "headlines": 36,
       "error": null,
       "sample": [
         {
@@ -475,6 +471,11 @@
           "link": "https://www.bbc.co.uk/news/articles/cmr4ydglq9r3o?at_medium=RSS&at_campaign=rss"
         },
         {
+          "title": "Why the King's Caribbean tour could be 'biggest risk of his reign'",
+          "score": 5,
+          "link": "https://www.bbc.co.uk/news/articles/ckzd6gvg1r2jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "title": "Bobb's late strike secures Fulham win at Coventry",
           "score": 4,
           "link": "https://www.bbc.co.uk/sport/football/videos/cx7vpmrzr04do?at_medium=RSS&at_campaign=rss"
@@ -485,19 +486,14 @@
           "link": "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_medium=RSS&at_campaign=rss"
         },
         {
-          "title": "Met Police says letter with claims about Meghan's father not shared with other law enforcement",
+          "title": "Ukraine depends on Starlink - can Europe plug the gap?",
           "score": 0,
-          "link": "https://www.bbc.co.uk/news/articles/c39wz740e0nyo?at_medium=RSS&at_campaign=rss"
+          "link": "https://www.bbc.co.uk/news/articles/c65yn97xe7ypo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "title": "Mum who died trying to save sons swept away in Bahamas was hero, husband says",
+          "title": "Burnham open to 'honest discussion' on EU free movement",
           "score": 0,
-          "link": "https://www.bbc.co.uk/news/articles/cm86z5n0yvy6o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "title": "Between quick wins and big dreams lies Burnham's biggest test",
-          "score": 0,
-          "link": "https://www.bbc.co.uk/news/articles/cwq6n09qpy90o?at_medium=RSS&at_campaign=rss"
+          "link": "https://www.bbc.co.uk/news/articles/c8e36kyk1qx5o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -509,6 +505,11 @@
       "error": null,
       "sample": [
         {
+          "title": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
+          "score": 36,
+          "link": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss"
+        },
+        {
           "title": "Iran blames US for deal failure, urges new try amid fear of new attacks",
           "score": 20,
           "link": "https://www.aljazeera.com/news/2026/10/24/iran-blames-us-for-deal-failure-urges-new-try-amid-fear-of-new-attacks?traffic_source=rss"
@@ -519,34 +520,29 @@
           "link": "https://www.aljazeera.com/news/2026/10/24/houthis-launch-attacks-on-saudi-arabia-and-yemens-aden?traffic_source=rss"
         },
         {
-          "title": "Ukraine says Starlink restored as attacks continue in Russia and Ukraine",
-          "score": 14,
-          "link": "https://www.aljazeera.com/news/2026/10/24/ukraine-says-starlink-restored-as-attacks-continue-in-russia-and-ukraine?traffic_source=rss"
-        },
-        {
           "title": "Violent clashes as Albanian government cracks down on protests",
           "score": 10,
           "link": "https://www.aljazeera.com/video/newsfeed/2026/10/24/aje-onl-nf_clashes-as-albanian-pm-cracks-down-on-protests-241026?traffic_source=rss"
         },
         {
+          "title": "Obama slams Trump’s ‘cruelty and corruption’ at Ohio rally for Democrats",
+          "score": 0,
+          "link": "https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats?traffic_source=rss"
+        },
+        {
+          "title": "Violence breaks out across Europe after another day of protests",
+          "score": 0,
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/25/10-25-sv-europe-protests-wrap?traffic_source=rss"
+        },
+        {
+          "title": "Trump lauds Melania over Russia-Ukraine localised ceasefire deal",
+          "score": 0,
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/24/trump-lauds-melania-over-russia-ukraine-localised-ceasefire-deal?traffic_source=rss"
+        },
+        {
           "title": "Gunmen kill at least 10 people in eastern Nigeria, police say",
           "score": 0,
           "link": "https://www.aljazeera.com/news/2026/10/24/gunmen-kill-at-least-10-people-in-eastern-nigeria-police-say?traffic_source=rss"
-        },
-        {
-          "title": "How have Democrats’ policies shifted since the last major US election?",
-          "score": 0,
-          "link": "https://www.aljazeera.com/economy/2026/10/24/how-have-democrats-policies-shifted-since-the-last-major-us-election?traffic_source=rss"
-        },
-        {
-          "title": "Brazil’s Lula, Bolsonaro draw thousands to election-eve rallies",
-          "score": 0,
-          "link": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-bolsonaro-draw-thousands-to-election-eve-rallies?traffic_source=rss"
-        },
-        {
-          "title": "Brazil’s candidates hold final rallies before knife-edge run off",
-          "score": 0,
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/24/brazils-candidates-hold-final-rallies-before-knife-edge-run-off?traffic_source=rss"
         }
       ]
     },
@@ -563,12 +559,12 @@
           "link": "https://www.cbsnews.com/news/jane-doe-can-remain-anonymous-cornell-university-sexual-assault-lawsuit/"
         },
         {
-          "title": "Elon Musk says SpaceX throttled Ukraine Starlink speeds over drone strikes",
+          "title": "France see new round of protests; Riot police clash with demonstrators in Italy",
           "score": 10,
-          "link": "https://www.cbsnews.com/news/ukraine-starlink-drone-spacex-musk-speed-restriction/"
+          "link": "https://www.cbsnews.com/video/france-see-new-round-of-protests-riot-police-clash-with-demonstrators-in-italy/"
         },
         {
-          "title": "More than 1,000 arrested in France as protestors and police clash",
+          "title": "More than 1,000 arrested in France as protesters and police clash",
           "score": 10,
           "link": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/"
         },
@@ -583,19 +579,19 @@
           "link": "https://www.cbsnews.com/video/small-businesses-struggling-with-inflation-amid-trump-tariffs-ahead-of-midterms/"
         },
         {
-          "title": "Meet the volunteers helping adults navigate their health",
+          "title": "New York City votes to ban horse-drawn carriages",
           "score": 0,
-          "link": "https://www.cbsnews.com/video/volunteers-helping-adults-navigate-their-health/"
+          "link": "https://www.cbsnews.com/video/new-york-city-votes-to-ban-horse-drawn-carriages/"
         },
         {
-          "title": "Iran says U.S. military not allowed in Gulf \"under any circumstance\"",
+          "title": "SpaceX satellite system back up to full speed in Ukraine, officials say",
           "score": 0,
-          "link": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/"
+          "link": "https://www.cbsnews.com/video/spacex-satellite-system-back-up-to-full-speed-in-ukraine-officials-say/"
         },
         {
-          "title": "Company says these smart insoles could help avid runners avoid injury",
+          "title": "Obama hits the campaign trail for Democrats with midterms less than 2 weeks away",
           "score": 0,
-          "link": "https://www.cbsnews.com/video/striv-smart-insoles-runners-injury/"
+          "link": "https://www.cbsnews.com/video/obama-hits-the-campaign-trail-for-democrats-with-midterms-less-than-2-weeks-away/"
         }
       ]
     },
@@ -661,11 +657,6 @@
           "link": "https://abcnews.com/US/flags-announces-new-safety-measures-goliath-coaster-rider/story?id=137539590"
         },
         {
-          "title": "German teen arrested on suspicion of murder in connection with US girl's death",
-          "score": 20,
-          "link": "https://abcnews.com/US/german-teen-arrested-suspicion-murder-connection-us-girls/story?id=137525700"
-        },
-        {
           "title": "Britt McHenry resigns from State Department after basketball game altercation",
           "score": 6,
           "link": "https://abcnews.com/Politics/britt-mchenry-resigns-state-department-job-after-basketball/story?id=137526303"
@@ -676,9 +667,14 @@
           "link": "https://abcnews.com/video/41463246/"
         },
         {
-          "title": "Ukraine says Starlink satellite access is fully back after weeklong disruption",
+          "title": "Starlink access in Ukraine fully back after disruption: Officials",
           "score": 0,
           "link": "https://abcnews.com/International/ukraine-starlink-satellite-access-fully-back-after-weeklong/story?id=137538401"
+        },
+        {
+          "title": "Explosion and fire erupt at Quaker Oats plant in Cedar Rapids, Iowa; no injuries",
+          "score": 0,
+          "link": "https://abcnews.com/Business/wireStory/fire-breaks-quaker-oats-plant-cedar-rapids-iowa-137544207"
         },
         {
           "title": "WATCH:  Halloween witches’ world record",
@@ -710,24 +706,19 @@
           "link": "https://www.nbcnews.com/news/us-news/six-flags-add-seat-belts-roller-coaster-georgia-man-death-rcna605398"
         },
         {
-          "title": "Iranian plots to kill U.S. officials in Middle East have reached ‘advanced stages,’ intel memo warns",
+          "title": "Six Flags to add seat belts to roller coaster after Georgia man falls to his death",
+          "score": 20,
+          "link": "https://www.nbcnews.com/news/us-news/six-flags-add-seat-belts-roller-coaster-georgia-man-death-rcna605398"
+        },
+        {
+          "title": "Iranian plots to kill Americans in Middle East have reached ‘advanced stages,’ intel memo warns",
           "score": 10,
-          "link": "https://www.nbcnews.com/world/middle-east/iranian-plots-kill-us-officials-middle-east-reached-advanced-stages-in-rcna605360"
+          "link": "https://www.nbcnews.com/nightly-news/video/iranian-plots-to-kill-americans-in-middle-east-have-reached-advanced-stages-intel-memo-warns-272179269503"
         },
         {
-          "title": "Iranian plots to kill U.S. officials in Middle East have reached ‘advanced stages,’ intel memo warns",
-          "score": 10,
-          "link": "https://www.nbcnews.com/world/middle-east/iranian-plots-kill-us-officials-middle-east-reached-advanced-stages-in-rcna605360"
-        },
-        {
-          "title": "Obama describes Trump as an agent of ‘chaos and cruelty’ in midterm elections pitch",
+          "title": "All-out fight for critical battleground states ramps up",
           "score": 0,
-          "link": "https://www.nbcnews.com/politics/2026-election/obama-trump-chaos-cruelty-midterm-election-pitch-acton-ramaswamy-rcna605223"
-        },
-        {
-          "title": "How Democrats could win the House, how the GOP could hang on, and where to look for a wave",
-          "score": 0,
-          "link": "https://www.nbcnews.com/politics/2026-election/house-majority-math-democrats-win-republicans-scenarios-rcna604404"
+          "link": "https://www.nbcnews.com/nightly-news/video/all-out-fight-for-critical-battleground-states-ramps-up-272177733901"
         },
         {
           "title": "Send your questions for Steve Kornacki on the midterm elections",
@@ -735,14 +726,19 @@
           "link": "https://www.nbcnews.com/politics/elections/send-questions-steve-kornacki-midterm-elections-rcna605264"
         },
         {
-          "title": "Mass protests challenge Macron as French police use tear gas and water cannons",
+          "title": "How Democrats could win the House, how the GOP could hang on, and where to look for a wave",
           "score": 0,
-          "link": "https://www.nbcnews.com/world/france/paris-shuts-louvre-museums-police-deploy-big-numbers-new-protests-fran-rcna605174"
+          "link": "https://www.nbcnews.com/politics/2026-election/house-majority-math-democrats-win-republicans-scenarios-rcna604404"
         },
         {
-          "title": "Bulldozers tear down home as Israel cracks down in the West Bank",
+          "title": "How Democrats could win the House, how the GOP could hang on, and where to look for a wave",
           "score": 0,
-          "link": "https://www.nbcnews.com/world/israel/bulldozers-tear-home-israel-cracks-west-bank-rcna605365"
+          "link": "https://www.nbcnews.com/politics/2026-election/house-majority-math-democrats-win-republicans-scenarios-rcna604404"
+        },
+        {
+          "title": "Widespread protests expand across Europe as thousands take to streets",
+          "score": 0,
+          "link": "https://www.nbcnews.com/nightly-news/video/widespread-protests-expand-across-europe-as-thousands-take-to-streets-272178245507"
         }
       ]
     },
@@ -750,7 +746,7 @@
       "name": "Sky",
       "url": "https://feeds.skynews.com/feeds/rss/world.xml",
       "ok": true,
-      "headlines": 7,
+      "headlines": 6,
       "error": null,
       "sample": [
         {
@@ -782,11 +778,6 @@
           "title": "Bahamas police investigate after British woman dies trying to rescue sons",
           "score": 0,
           "link": "https://news.sky.com/story/bahamas-police-investigate-after-british-woman-dies-trying-to-rescue-sons-13602998"
-        },
-        {
-          "title": "Former Olympic marathon champion suspended after failed drugs test",
-          "score": 0,
-          "link": "https://news.sky.com/story/kenyan-former-olympic-marathon-champion-suspended-after-failed-drugs-test-13602695"
         }
       ]
     },
@@ -794,7 +785,7 @@
       "name": "DW",
       "url": "https://rss.dw.com/rdf/rss-en-all",
       "ok": true,
-      "headlines": 131,
+      "headlines": 130,
       "error": null,
       "sample": [
         {
@@ -833,9 +824,9 @@
           "link": "https://www.dw.com/en/russia-s-attacks-on-ukraine-s-capital-kyiv-are-intensifying-dw-asked-people-on-the-ground-what-life-is-like/a-79741090?maca=en-rss-en-all-1573-rdf"
         },
         {
-          "title": "Romania blames Russia for ship attack in the Black Sea",
+          "title": "Germany news: Emergency at Leipzig airport sparked by novice driver",
           "score": 14,
-          "link": "https://www.dw.com/en/romania-blames-russia-for-ship-attack-in-the-black-sea/a-79743425?maca=en-rss-en-all-1573-rdf"
+          "link": "https://www.dw.com/en/germany-news-emergency-at-leipzig-airport-sparked-by-novice-driver/live-79695354?maca=en-rss-en-all-1573-rdf"
         }
       ]
     },
@@ -906,6 +897,11 @@
           "link": "https://www.theguardian.com/world/2026/oct/23/netanyahu-orders-very-extensive-operation-west-bank-two-israeli-soldiers-killed"
         },
         {
+          "title": "Four people injured after drive-by shooting outside boxing event south of Brisbane",
+          "score": 24,
+          "link": "https://www.theguardian.com/australia-news/2026/oct/25/drive-by-shooting-loganholme-four-injured-ntwnfb"
+        },
+        {
           "title": "Six Flags to reopen Goliath rollercoaster – but now with seatbelts after recent rider death",
           "score": 20,
           "link": "https://www.theguardian.com/us-news/2026/oct/24/six-flags-goliath-rollercoaster-seatbelts"
@@ -929,11 +925,6 @@
           "title": "Helen Haines’s condition improves days after losing both legs from alleged attack",
           "score": 14,
           "link": "https://www.theguardian.com/australia-news/2026/oct/24/helen-hainess-condition-improves-days-after-losing-both-legs-from-alleged-attack-ntwnfb"
-        },
-        {
-          "title": "Mystery over source of Ebola infection in Nigeria fuels concern about spread of virus",
-          "score": 0,
-          "link": "https://www.theguardian.com/world/2026/oct/23/ebola-swiss-patient-nigeria-dr-congo-concerns-virus-spread"
         }
       ]
     },
@@ -1014,24 +1005,24 @@
           "link": "https://www.zerohedge.com/geopolitical/trump-floats-another-little-epic-fury-intel-warns-advanced-plots-kill-us-officials"
         },
         {
-          "title": "Bolsonaro, Lula Clash In Fiery Final Debate As Brazil's Runoff Goes Down To The Wire",
-          "score": 10,
-          "link": "https://www.zerohedge.com/political/bolsonaro-lula-clash-fiery-final-debate-brazils-runoff-goes-down-wire"
+          "title": "Border Patrol Logs Under 99,000 Southwest Arrests In FY2026, Lowest In Nearly 60 Years",
+          "score": 8,
+          "link": "https://www.zerohedge.com/political/border-patrol-logs-under-99000-southwest-arrests-fy2026-lowest-nearly-60-years"
         },
         {
-          "title": "El Nino Warmth Crushes US NatGas Futs In 15% Weekly Rout",
+          "title": "Musk Admits SpaceX Throttled Starlink In Ukraine, Because Kiev Violated Terms Of Service",
           "score": 0,
-          "link": "https://www.zerohedge.com/energy/el-nino-warmth-crushes-us-natgas-futs-15-weekly-rout"
+          "link": "https://www.zerohedge.com/geopolitical/musk-admits-spacex-throttled-starlink-ukraine-because-kiev-violated-terms-service"
         },
         {
-          "title": "Trump Says US Will 'Take Care Of Cuba' After Iran",
+          "title": "Many Western Governments Won't Survive",
           "score": 0,
-          "link": "https://www.zerohedge.com/geopolitical/trump-says-us-will-take-care-cuba-after-iran"
+          "link": "https://www.zerohedge.com/political/many-western-governments-wont-survive"
         },
         {
-          "title": "Amazon, Canadians, And The Navy All Want Reactors In Indiana",
+          "title": "First Signs Of A Deeply Frozen Housing Market",
           "score": 0,
-          "link": "https://www.zerohedge.com/energy/amazon-canadians-and-navy-all-want-reactors-indiana"
+          "link": "https://www.zerohedge.com/personal-finance/first-signs-deeply-frozen-housing-market"
         }
       ]
     },
@@ -1051,19 +1042,9 @@
       "error": null,
       "sample": [
         {
-          "title": "US midterms: At Florida rally, Trump vows action against Cuba after Iran war",
-          "score": 22,
-          "link": "https://timesofindia.indiatimes.com/world/us/us-mid-term-elections/news/us-midterms-at-florida-rally-trump-vows-action-against-cuba-after-iran-war/articleshow/135172653.cms"
-        },
-        {
           "title": "Delhi school death: Police recover 3-page suicide note, breakup angle under probe",
           "score": 20,
           "link": "https://timesofindia.indiatimes.com/city/delhi/breakup-under-probe-as-3-page-suicide-note-recovered-after-class-12-girl-found-burnt-to-death-in-delhi-school/articleshow/135173402.cms"
-        },
-        {
-          "title": "Virginia teen's model improves simulated earthquake sensor coverage by 16.7%",
-          "score": 16,
-          "link": "https://timesofindia.indiatimes.com/science/discovery/meet-isabel-rossi-a-williamsburg-virginia-eighth-grader-who-tested-a-new-way-to-position-earthquake-sensors-her-mathematical-model-improved-simulated-coverage-by-16-7-with-just-five-additional-devices/articleshow/135109931.cms"
         },
         {
           "title": "Congress alleges attack on Christian families in Bengal, writes to Amit Shah",
@@ -1076,19 +1057,29 @@
           "link": "https://timesofindia.indiatimes.com/world/middle-east/israel-will-fire-first-shot-us-will-try-to-seize-island-iran-believes-attack-likely-next-week-report/articleshow/135172977.cms"
         },
         {
-          "title": "Tensions mount at Jamia: Classes shift online; AISA alleges assault on students",
-          "score": 8,
-          "link": "https://timesofindia.indiatimes.com/city/delhi/jamia-tensions-rise-university-shifts-all-classes-online-aisa-alleges-assault-on-students-during-negotiations/articleshow/135167040.cms"
+          "title": "Protests sweep France, Spain as masked mobs loot shops, clash with cops; 1,100 held",
+          "score": 10,
+          "link": "https://timesofindia.indiatimes.com/world/europe/protests-sweep-france-spain-as-masked-mobs-loot-shops-clash-with-cops-1100-held/articleshow/135180010.cms"
         },
         {
-          "title": "Insurer denied Indiana couple's fire claim; appeals court revives lawsuit",
-          "score": 6,
-          "link": "https://timesofindia.indiatimes.com/world/us/in-2020-an-indiana-couples-barn-style-home-was-damaged-by-a-fire-investigators-said-was-deliberately-set-the-insurer-denied-their-claim-but-an-appeals-court-has-now-revived-their-lawsuit-over-the-disputed-coverage/articleshow/135168872.cms"
+          "title": "Drawn in same group, IND-PAK set to clash on Nov 22 in Rising Asia Cup",
+          "score": 10,
+          "link": "https://timesofindia.indiatimes.com/sports/cricket/news/drawn-in-same-group-india-pakistan-set-to-clash-on-november-22-in-rising-asia-cup/articleshow/135174135.cms"
         },
         {
-          "title": "‘No line he will not cross’: Obama slams Ramaswamy’s ‘cruel’ ad, hits out at Trump",
+          "title": "'To kill people': Musk accuses Ukraine military of misusing Starlink for drone strikes",
+          "score": 10,
+          "link": "https://timesofindia.indiatimes.com/world/europe/to-kill-people-musk-accuses-ukraine-military-of-misusing-starlink-for-drone-strikes/articleshow/135181125.cms"
+        },
+        {
+          "title": "‘Prioritise welfare over military directives’: India raps Pak on minority rights",
           "score": 0,
-          "link": "https://timesofindia.indiatimes.com/world/us/no-line-he-will-not-cross-obama-slams-ramaswamys-cruel-ad-hits-out-at-trump/articleshow/135179870.cms"
+          "link": "https://timesofindia.indiatimes.com/india/prioritise-welfare-over-military-directives-india-raps-pak-on-minority-rights-at-un/articleshow/135180093.cms"
+        },
+        {
+          "title": "‘Saddam Hussein opened a cheesecake factory’: Obama’s jibe at Trump’s White House",
+          "score": 0,
+          "link": "https://timesofindia.indiatimes.com/world/us/saddam-hussein-opened-a-cheesecake-factory-obamas-jibe-at-trumps-white-house/articleshow/135180806.cms"
         }
       ]
     },
@@ -1108,19 +1099,19 @@
       "error": null,
       "sample": [
         {
-          "title": "Drive-by pub shooting leaves woman critical, three injured south of Brisbane",
+          "title": "Live: Drive-by pub shooting leaves woman critical, three injured south of Brisbane",
           "score": 24,
           "link": "https://www.abc.net.au/news/2026-10-25/four-injured-in-logan-drive-by-shooting/107305464"
         },
         {
-          "title": "Labor pitches $1.5 billion plan to slash emergency wait times",
-          "score": 14,
-          "link": "https://www.abc.net.au/news/2026-10-25/vic-labor-campaign-launch-health-hospital-investment/107304732"
+          "title": "Multiple flood warnings as Queensland braces for more wild weather",
+          "score": 22,
+          "link": "https://www.abc.net.au/news/2026-10-25/flood-warnings-queensland-braces-for-more-rain-storms/107306066"
         },
         {
-          "title": "Houthis claim 'phases' of attacks on Saudi airports, oil pipelines",
-          "score": 14,
-          "link": "https://www.abc.net.au/news/2026-10-25/houthis-claim-attacks-on-saudi-airports-oil-pipelines/107305824"
+          "title": "Federal police chief links threats against MPs directly to political debate",
+          "score": 12,
+          "link": "https://www.abc.net.au/news/2026-10-25/federal-police-link-threat-to-politicians-to-political-debate/107306080"
         },
         {
           "title": "Almost 1,000 arrests in protests across France",
@@ -1133,19 +1124,19 @@
           "link": "https://www.abc.net.au/news/2026-10-25/sam-konstas-cracks-yet-another-century-one-day-cup/107306058"
         },
         {
-          "title": "Kids playing pool for Australia say there's not much time for homework",
+          "title": "Bolsonaro heir could bring Brazil closer to Trump if elected president",
           "score": 0,
-          "link": "https://www.abc.net.au/news/2026-10-25/young-snooker-champion-angelo-tsakaris-8-ball-player-adam-grace/107291894"
+          "link": "https://www.abc.net.au/news/2026-10-25/bolsonaro-family-brazil-elections/107288900"
         },
         {
-          "title": "Qualified migrant women forced into 'survival jobs' are paying price",
+          "title": "WA government to consider return of Perth to Albany passenger rail service",
           "score": 0,
-          "link": "https://www.abc.net.au/news/2026-10-25/more-migrant-women-in-australia-in-jobs-overqualified-for/107303740"
+          "link": "https://www.abc.net.au/news/2026-10-25/return-of-passenger-rail-perth-to-albany-to-be-considered/107296124"
         },
         {
-          "title": "We both overpromised our physical attributes in an email. It led to love",
+          "title": "Missing kayaker found dead near Geelong",
           "score": 0,
-          "link": "https://www.abc.net.au/news/2026-10-25/love-story-it-started-with-a-blind-date/107285368"
+          "link": "https://www.abc.net.au/news/2026-10-25/vic-kayaker-found-dead-near-geelong/107306216"
         }
       ]
     },
@@ -1477,34 +1468,34 @@
           "link": "https://www.japantimes.co.jp/news/2026/10/24/world/melania-trump-ukraine-city-truce/"
         },
         {
+          "title": "Summer heat’s toll on Europe: 50,000 deaths and a €17 billion GDP hit",
+          "score": 20,
+          "link": "https://www.japantimes.co.jp/environment/2026/10/25/climate-change/europe-summer-heat-toll/"
+        },
+        {
+          "title": "Iran has ramped up efforts to target U.S. personnel, intelligence memo warns",
+          "score": 10,
+          "link": "https://www.japantimes.co.jp/news/2026/10/25/world/iran-target-us-personnel/"
+        },
+        {
+          "title": "Clashes break out in Paris and other French cities amid fresh protests",
+          "score": 10,
+          "link": "https://www.japantimes.co.jp/news/2026/10/25/world/clashes-paris-france-protests/"
+        },
+        {
           "title": "Bolsonaro and Lula clash on living costs and graft in final Brazil election debate",
           "score": 10,
           "link": "https://www.japantimes.co.jp/news/2026/10/24/world/politics/brazil-final-election-debate/"
         },
         {
-          "title": "James Suckling’s Great Wines World Tokyo marks its third edition",
+          "title": "North Korea’s Kim visits China as allies’ look to boost economic ties",
           "score": 0,
-          "link": "https://www.japantimes.co.jp/life/2026/10/25/food-drink/great-wines-world-tokyo-2026/"
+          "link": "https://www.japantimes.co.jp/news/2026/10/25/asia-pacific/politics/north-korea-kim-jong-un-china-dandong/"
         },
         {
-          "title": "Amid potato protests, Hokkaido has its best spud harvest in years",
+          "title": "People-pleaser Kumaji is a true ‘bundle of joy’",
           "score": 0,
-          "link": "https://www.japantimes.co.jp/life/2026/10/25/food-drink/hokkaido-potato-harvest-quality-protests/"
-        },
-        {
-          "title": "NFL Commissioner Roger Goodell expects league to play in Tokyo in 2027 or 2028",
-          "score": 0,
-          "link": "https://www.japantimes.co.jp/sports/2026/10/24/more-sports/nfl-tokyo-game-near-future/"
-        },
-        {
-          "title": "Park24 to pay ¥3,000 to Times Car users hit by data breach",
-          "score": 0,
-          "link": "https://www.japantimes.co.jp/business/2026/10/24/park24-3000-yen-compensation/"
-        },
-        {
-          "title": "Senshu Ikeda and Shiga to merge in latest Japan consolidation",
-          "score": 0,
-          "link": "https://www.japantimes.co.jp/business/2026/10/24/shiga-bank-senshu-ikeda-merger-talks/"
+          "link": "https://www.japantimes.co.jp/community/2026/10/25/kumaji-lovable-fellow/"
         }
       ]
     },
@@ -1629,12 +1620,12 @@
           "link": "https://www.thehindu.com/news/cities/chennai/woman-killed-in-hit-and-run-case-on-ecr-in-neelankarai/article71619817.ece"
         },
         {
-          "title": "Teacher’s death in Pinakota vehicle blast exposes lack of transport in Agency villages",
+          "title": "How is Kerala planning to prevent child deaths linked to malnutrition and neglect? | Explained",
           "score": 20,
-          "link": "https://www.thehindu.com/news/cities/Visakhapatnam/teachers-death-in-pinakota-vehicle-blast-exposes-lack-of-transport-in-agency-villages/article71620985.ece"
+          "link": "https://www.thehindu.com/news/national/kerala/how-is-kerala-planning-to-prevent-child-deaths-linked-to-malnutrition-and-neglect-explained/article71618979.ece"
         },
         {
-          "title": "IMD warns of heavy rainfall over several T.N. districts; red alert for five districts in Keralam | Live",
+          "title": "IMD warns of heavy rainfall over several T.N. districts; red alert for five districts in Keralam | Updates",
           "score": 10,
           "link": "https://www.thehindu.com/news/national/bay-of-bengal-weather-update-cyclone-alert-latest-weather-news-live-updates-october-24-2026/article71619022.ece"
         },
@@ -1678,11 +1669,6 @@
           "link": "https://www.jpost.com/influencers-26/50jews-26/article-908121"
         },
         {
-          "title": "Saudi Arabia says Houthi missile shrapnel falls in Jeddah, Taif, Rabigh after interceptions",
-          "score": 20,
-          "link": "https://www.jpost.com/middle-east/article-912716"
-        },
-        {
           "title": "Heavy police presence deployed to counter massive protests across Italy following violent clashes",
           "score": 10,
           "link": "https://www.jpost.com/international/article-912725"
@@ -1701,6 +1687,11 @@
           "title": "Over 100,000 rally in Tel Aviv demanding commission of inquiry into failures during October 7",
           "score": 0,
           "link": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-912717"
+        },
+        {
+          "title": "'Bibicoin will destroy Israel': Eisenkot slams Netanyahu's crypto plan for alternative funding",
+          "score": 0,
+          "link": "https://www.jpost.com/israel-election-2026/article-912715"
         }
       ]
     },
@@ -1717,39 +1708,39 @@
           "link": "https://www.foxnews.com/outkick-sports/packers-activate-josh-jacobs-running-back-set-play-first-game-since-domestic-violence-arrest"
         },
         {
+          "title": "Raiders mourn Super Bowl champion Pete Banaszak, key figure in iconic 'Holy Roller' play",
+          "score": 0,
+          "link": "https://www.foxnews.com/outkick-sports/raiders-mourn-super-bowl-champion-pete-banaszak-key-figure-iconic-holy-roller-play"
+        },
+        {
+          "title": "Man arrested after fire engulfs Hitler’s Eagle’s Nest mountain retreat in the Bavarian Alps",
+          "score": 0,
+          "link": "https://www.foxnews.com/travel/man-arrested-fire-engulfs-hitlers-eagles-nest-mountain-retreat-bavarian-alps"
+        },
+        {
+          "title": "Sacha Baron Cohen says 'Ali G: Who Iz I?' is his last in this style of comedy, calling them too risky",
+          "score": 0,
+          "link": "https://www.foxnews.com/entertainment/sacha-baron-cohen-says-ali-g-who-iz-i-last-over-the-top-comedy-calling-them-too-risky"
+        },
+        {
+          "title": "UCF Knights pull off stunning upset over undefeated BYU in mind-boggling overtime thriller",
+          "score": 0,
+          "link": "https://www.foxnews.com/outkick-sports/ucf-knights-pull-off-stunning-upset-undefeated-byu-mind-boggling-overtime-thriller"
+        },
+        {
+          "title": "Ukraine's Starlink restored as Elon Musk claims Kyiv violated terms of service 'to kill people'",
+          "score": 0,
+          "link": "https://www.foxnews.com/politics/ukraines-starlink-restored-elon-musk-claims-kyiv-violated-terms-service-kill-people"
+        },
+        {
+          "title": "LaNorris Sellers' acrobatics, late fumble recovery help give South Carolina walk-off win over Tennessee",
+          "score": 0,
+          "link": "https://www.foxnews.com/outkick-sports/lanorris-sellers-acrobatics-late-fumble-recovery-help-give-south-carolina-walk-off-win-tennessee"
+        },
+        {
           "title": "NC State fires Dave Doeren after 14 years as Wolfpack football coach following loss to Stanford",
           "score": 0,
           "link": "https://www.foxnews.com/outkick-sports/nc-state-fires-dave-doeren-14-years-wolfpack-football-coach-following-loss-stanford"
-        },
-        {
-          "title": "Obama compares Trump's White House renovations to 'Saddam Hussein opening a Cheesecake Factory' at Ohio rally",
-          "score": 0,
-          "link": "https://www.foxnews.com/politics/obama-compares-trumps-white-house-renovations-saddam-hussein-opening-cheesecake-factory-ohio-rally"
-        },
-        {
-          "title": "Indiana outlasts Michigan in overtime for first win at Big House since 1967",
-          "score": 0,
-          "link": "https://www.foxnews.com/outkick-sports/indiana-outlasts-michigan-overtime-first-win-big-house-since-1967"
-        },
-        {
-          "title": "Democratic senator accused of 'political malpractice' after job ad ignites firestorm over DEI language",
-          "score": 0,
-          "link": "https://www.foxnews.com/media/democratic-senator-accused-political-malpractice-after-job-ad-ignites-firestorm-over-dei-language"
-        },
-        {
-          "title": "David Spade and Dana Carvey call out Hollywood for focusing too much on race and gender",
-          "score": 0,
-          "link": "https://www.foxnews.com/entertainment/david-spade-dana-carvey-call-out-hollywood-focusing-too-much-race-gender"
-        },
-        {
-          "title": "Beverly Hills school board candidate under fire over messages mocking trustee's visit to Jewish holy site",
-          "score": 0,
-          "link": "https://www.foxnews.com/media/beverly-hills-school-board-candidate-fire-messages-mocking-trustee-visit-jewish-holy-site"
-        },
-        {
-          "title": "Hard Rock Bet Promo Code: Claim up to $500 in No Sweat Bets for Game 2 of the World Series, Rays-Brewers",
-          "score": 0,
-          "link": "https://www.foxnews.com/outkick-betting/hard-rock-bet-promo-code-claim-up-500-no-sweat-bets-game-2-world-series-rays-brewers"
         }
       ]
     },
@@ -1761,14 +1752,9 @@
       "error": null,
       "sample": [
         {
-          "title": "Macron says Paris suburb shooting that killed one person was terrorist and racist act",
-          "score": 77,
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVGpmVkdjbUhCMmZ2ZGZaYmd0czRlUUVGbHY4akxxSzV4U3VmUGFra1ZjTVBvR1ZMVC1GZlYtVnVWR0NtS1ViRjJtM2dvTzJUUVhYejc0VlpjOHZiZC1YdmsxSkZScEM3M0dzZU5saDh6bXJlSWR2NXE3MWN2OWkwSGlLVWFYUHE1SV9SMw?oc=5"
-        },
-        {
           "title": "Israel begins demolitions in West Bank city after two soldiers killed in shooting attack",
           "score": 63,
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMXZqQlZtVDY0dlNqRk9UdlR3b0twTkZBRENqSjNiRE9RRk9HMTBNUkdBTGZpMUtKYWtha3VMZm9iVkJoRy00TTRMWmhDc0RrNnM5YXNBUjFJcWQtOVJLQlkySFQwUTB5S0h6T1NIcHlsVGtQYURrTEZQU2NKWW82RmluS2tFZw?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOU1F5dV95eTN1dnN3bDJQWWs1X1VWRFNfWXVvSUpjUm9wZmxFSHl5T0pEOVlRYkJJdHA2akw1MG8zNjBVdlNxU2hPQ0lNejQ5Mmd0RmMwUW1MU1lDT21wUHk5WUIwUXY0ZEJid1lXUlZyZnhENFdKS1F0b0dPNnpLNA?oc=5"
         },
         {
           "title": "Mississippi officer resigns after deadly shooting of one-year-old",
@@ -1783,12 +1769,12 @@
         {
           "title": "At least 9 people killed in unprecedented shooting at church in Jordan",
           "score": 49,
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Zb21TYW1WQ29jUXdjZTk4RkN6eFlyU050NHBoTE1UNGQ5bzJ3ZmUwTjk2bTdwcFBVQWNDZDJvazEtT09BTkFHRVU2YVpoMVIwR1d0TmNrNzVxR21adkhVVWlsM3JRYURFV1hDS3ZJYjhKWUlBc0RWb2xQM3J1UQ?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JLWJRc0kySFVRMFhucnZDakhvd3dVRUlvVUN6Wm0zQTZDMHowRURmSXZDSkVJbDhnZnlDa2ZHY1FrczdfVTBYd2xPZGwtN0RUWkxnRzFERHJtVjNzYko1S3pwbkRfaG84Q3FKaUdoNnRVX3RKWDMyTA?oc=5"
         },
         {
           "title": "Mississippi officer and interim police chief resign after officer’s fatal shooting of 1-year-old in car during pursuit",
           "score": 48,
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBxTzNCbnllN2ZBc0tvV01nWk1Mc0ZiY2RQekxfMU9lZ0E5LXFuZ1JXQmlYYWtsVE1nenBJbS1oajJQMU5BNVpneFJRb1FZTklPYzRLOWZTTUVCRmZURDlSSUxBcmVDRXc0M29tYmUzTTlTNnNYUk9JWFo3cFc?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU3djMVF2Wmt4MkV6cTRvOEtxamoyaEk5MG0xdE1YOUdDMUR3cngteEl0MWZlRTB3VVh2SThPMFczTHhjdU85bndyWmFkWFlzdjFMTllYSFpfTk1Bc2l5MGdFNTZZU3A4VVQ1Zm9rdmdBc1ZGcGE3b3VoTjMwUXA5M2R3?oc=5"
         },
         {
           "title": "The biggest-ever internet security threat has been known for 22 years. AI made it a crisis in 2 days",
@@ -1799,6 +1785,11 @@
           "title": "Man who fatally struck deputy after his son was killed by Cincinnati police is convicted of murder",
           "score": 25,
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE02cU5ZVWVlWUtVNW0ycDlFUVpxQUdDSGJOYUYxSzUtZ0x5UU1xSS1DLUlTMDVjUWlLenVMN1FlMzdqTnEybjd1Nmd5dWY1ZWJxMmRSWi1pUHg3dUVMZXpCSm5LdmplUEpjQ216dmZRUUVLdUNWTlNfeUNB?oc=5"
+        },
+        {
+          "title": "Israel orders closure of West Bank after two soldiers are killed",
+          "score": 25,
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRi1Lcy1sTjA1ZGljQ3Z0M3ZEM0RpaTJZYWlNdVVXbHduNmJBdEZ5b3YxT09rVW9QRDNrWFo4NnFmTDNzcXAyckQ4SDdkZkllTjlTMlY4Vm1UdHNxc2s5djFQVEMxVlJLQWViR0VUSHdOSmFUS0w2bzVuaXplQi05YVUtc0xtaF9sVUg4SmNnMzZHeUdnam9j?oc=5"
         }
       ]
     },
@@ -1843,20 +1834,20 @@
     }
   ],
   "feed_count": 30,
-  "headline_count": 1128,
-  "unique_stories": 1052,
+  "headline_count": 1125,
+  "unique_stories": 1050,
   "keyword_tally": [
-    {
-      "keyword": "killed",
-      "weight": 300
-    },
     {
       "keyword": "death",
       "weight": 300
     },
     {
       "keyword": "shooting",
-      "weight": 264
+      "weight": 288
+    },
+    {
+      "keyword": "killed",
+      "weight": 275
     },
     {
       "keyword": "crisis",
@@ -1872,27 +1863,27 @@
     },
     {
       "keyword": "attack",
-      "weight": 140
+      "weight": 154
     },
     {
       "keyword": "nuclear",
       "weight": 80
     },
     {
-      "keyword": "earthquake",
-      "weight": 64
+      "keyword": "terrorist",
+      "weight": 56
     },
     {
       "keyword": "strike",
       "weight": 50
     },
     {
-      "keyword": "outbreak",
+      "keyword": "earthquake",
       "weight": 48
     },
     {
-      "keyword": "missile",
-      "weight": 40
+      "keyword": "outbreak",
+      "weight": 48
     },
     {
       "keyword": "fatal",
@@ -1911,34 +1902,34 @@
       "weight": 30
     },
     {
-      "keyword": "terrorist",
-      "weight": 28
-    },
-    {
       "keyword": "airstrike",
       "weight": 24
     },
     {
-      "keyword": "famine",
+      "keyword": "missile",
       "weight": 20
     },
     {
-      "keyword": "hostage",
+      "keyword": "warning",
+      "weight": 20
+    },
+    {
+      "keyword": "famine",
       "weight": 20
     }
   ],
   "all_headlines": [
     [
-      "Macron says Paris suburb shooting that killed one person was terrorist and racist act",
-      77,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVGpmVkdjbUhCMmZ2ZGZaYmd0czRlUUVGbHY4akxxSzV4U3VmUGFra1ZjTVBvR1ZMVC1GZlYtVnVWR0NtS1ViRjJtM2dvTzJUUVhYejc0VlpjOHZiZC1YdmsxSkZScEM3M0dzZU5saDh6bXJlSWR2NXE3MWN2OWkwSGlLVWFYUHE1SV9SMw?oc=5"
-    ],
-    [
       "Israel begins demolitions in West Bank city after two soldiers killed in shooting attack",
       63,
       "CNN",
-      "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMXZqQlZtVDY0dlNqRk9UdlR3b0twTkZBRENqSjNiRE9RRk9HMTBNUkdBTGZpMUtKYWtha3VMZm9iVkJoRy00TTRMWmhDc0RrNnM5YXNBUjFJcWQtOVJLQlkySFQwUTB5S0h6T1NIcHlsVGtQYURrTEZQU2NKWW82RmluS2tFZw?oc=5"
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxOU1F5dV95eTN1dnN3bDJQWWs1X1VWRFNfWXVvSUpjUm9wZmxFSHl5T0pEOVlRYkJJdHA2akw1MG8zNjBVdlNxU2hPQ0lNejQ5Mmd0RmMwUW1MU1lDT21wUHk5WUIwUXY0ZEJid1lXUlZyZnhENFdKS1F0b0dPNnpLNA?oc=5"
+    ],
+    [
+      "Terrorist shooting in Paris suburb marks 'turning point for France', Macron says",
+      52,
+      "Sky",
+      "https://news.sky.com/story/one-dead-and-several-wounded-after-shooting-in-paris-suburb-13602320"
     ],
     [
       "Mississippi officer resigns after deadly shooting of one-year-old",
@@ -1968,19 +1959,31 @@
       "At least 9 people killed in unprecedented shooting at church in Jordan",
       49,
       "CNN",
-      "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Zb21TYW1WQ29jUXdjZTk4RkN6eFlyU050NHBoTE1UNGQ5bzJ3ZmUwTjk2bTdwcFBVQWNDZDJvazEtT09BTkFHRVU2YVpoMVIwR1d0TmNrNzVxR21adkhVVWlsM3JRYURFV1hDS3ZJYjhKWUlBc0RWb2xQM3J1UQ?oc=5"
+      "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JLWJRc0kySFVRMFhucnZDakhvd3dVRUlvVUN6Wm0zQTZDMHowRURmSXZDSkVJbDhnZnlDa2ZHY1FrczdfVTBYd2xPZGwtN0RUWkxnRzFERHJtVjNzYko1S3pwbkRfaG84Q3FKaUdoNnRVX3RKWDMyTA?oc=5"
     ],
     [
       "Mississippi officer and interim police chief resign after officer’s fatal shooting of 1-year-old in car during pursuit",
       48,
       "CNN",
-      "https://news.google.com/rss/articles/CBMifEFVX3lxTFBxTzNCbnllN2ZBc0tvV01nWk1Mc0ZiY2RQekxfMU9lZ0E5LXFuZ1JXQmlYYWtsVE1nenBJbS1oajJQMU5BNVpneFJRb1FZTklPYzRLOWZTTUVCRmZURDlSSUxBcmVDRXc0M29tYmUzTTlTNnNYUk9JWFo3cFc?oc=5"
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU3djMVF2Wmt4MkV6cTRvOEtxamoyaEk5MG0xdE1YOUdDMUR3cngteEl0MWZlRTB3VVh2SThPMFczTHhjdU85bndyWmFkWFlzdjFMTllYSFpfTk1Bc2l5MGdFNTZZU3A4VVQ1Zm9rdmdBc1ZGcGE3b3VoTjMwUXA5M2R3?oc=5"
+    ],
+    [
+      "Macron condemns racist terrorist attack in Paris suburb",
+      42,
+      "France24",
+      "https://www.france24.com/en/macron-condemns-racist-terrorist-attack-in-paris-suburb"
     ],
     [
       "Ukraine: At least 9 people were killed in Russian attacks over the past 24 hours",
       39,
       "Euronews",
       "https://www.euronews.com/video/2026/10/22/ukraine-at-least-9-people-were-killed-in-russian-attacks-over-the-past-24-hours"
+    ],
+    [
+      "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
+      36,
+      "Al Jazeera",
+      "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss"
     ],
     [
       "Israeli forces displace 2,000 Palestinians in Hebron after deadly attack on soldiers",
@@ -2109,7 +2112,13 @@
       "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf"
     ],
     [
-      "Drive-by pub shooting leaves woman critical, three injured south of Brisbane",
+      "Four people injured after drive-by shooting outside boxing event south of Brisbane",
+      24,
+      "Guardian",
+      "https://www.theguardian.com/australia-news/2026/oct/25/drive-by-shooting-loganholme-four-injured-ntwnfb"
+    ],
+    [
+      "Live: Drive-by pub shooting leaves woman critical, three injured south of Brisbane",
       24,
       "ABC-AU",
       "https://www.abc.net.au/news/2026-10-25/four-injured-in-logan-drive-by-shooting/107305464"
@@ -2121,22 +2130,16 @@
       "https://www.euronews.com/video/2026/10/23/gaza-moment-israeli-airstrike-hits-building-in-nuseirat-caught-on-camera"
     ],
     [
-      "US discreetly moves diplomats and families from multiple Middle Eastern countries as intel warns of Iranian plots to attack",
-      24,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPM3ZWbkkwVkthbkZpdWFoOXdDMmxVMlFPdnZoUXRJVWp5VDZwX0laaC1IaEI4SG5aM0JEOHVGbEJJSXNWcmZZTzI0UWQySEY2dDVEb01iSUtmMlZCSzBsR2NGa3kycHMwbXZEdzVoRUNSZzhPSjRYWmtJSnBXUXdTYW03ckhKeDVFVTZUM2NoM3hCRVR4LVE?oc=5"
-    ],
-    [
       "‘I have to go in,’ Bend school shooting hero told a 911 dispatcher. ‘People are going to die.’",
       24,
       "CNN",
       "https://news.google.com/rss/articles/CBMiekFVX3lxTE9xM2oxLVVkbFgyVFhmR2hSS1RZRzdLemxfYmFkZDdjZ1J4VmVJWWFLMkdBNFRfVlpNNlZIVlJUOU5pRWZmVHdyNko1NmlUSExTS2V1VTdtR0ZoNUh2RW9yTVFKRVhQTWtKRDk3amhZM1JoZjdFUzBZQUZn?oc=5"
     ],
     [
-      "US midterms: At Florida rally, Trump vows action against Cuba after Iran war",
+      "Multiple flood warnings as Queensland braces for more wild weather",
       22,
-      "TOI",
-      "https://timesofindia.indiatimes.com/world/us/us-mid-term-elections/news/us-midterms-at-florida-rally-trump-vows-action-against-cuba-after-iran-war/articleshow/135172653.cms"
+      "ABC-AU",
+      "https://www.abc.net.au/news/2026-10-25/flood-warnings-queensland-braces-for-more-rain-storms/107306066"
     ],
     [
       "Taiwan: Deadly Typhoon Champi brings travel chaos and school closures",
@@ -2190,7 +2193,7 @@
       "The Iran war’s toxic impact on one of the planet’s most unique seas",
       22,
       "CNN",
-      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSWlFUGxveEw5REhNSnJ1VkUxU0g1Yng0THpzRHd2NHNySDNEMUJNLXlkcnJmd0ZBRlhxdHU5RjVHZllQMzBGTGcwaU9KSjBPaHAwLXAxV2FLNE42MGwxNXp5VHg4T1BnRmJNbkI4YjlzV0JDSEFJZ2xNbDdhQWR0ajM1cjhuSVM3eXBQeG9B?oc=5"
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZGY4WXQxN2NWb0E3d2R1bTFXOVFieEN3LWcxSlhLWFpvOFpsUVpVT0ZxWVhfUVpwNWlPY0tYV2NKcV9CUV95MFlPNEVaMW93MjRHbWxtZ2dBbTJ0bGFxY1JPNTltbHM0aFRzUnN3aXV4ZE1qN29yWlhsU3RSS05TUFlUOUg2anBw?oc=5"
     ],
     [
       "Iran blames US for deal failure, urges new try amid fear of new attacks",
@@ -2209,12 +2212,6 @@
       20,
       "ABC",
       "https://abcnews.com/US/flags-announces-new-safety-measures-goliath-coaster-rider/story?id=137539590"
-    ],
-    [
-      "German teen arrested on suspicion of murder in connection with US girl's death",
-      20,
-      "ABC",
-      "https://abcnews.com/US/german-teen-arrested-suspicion-murder-connection-us-girls/story?id=137525700"
     ],
     [
       "Ebola: Kenya announces second death",
@@ -2259,6 +2256,12 @@
       "https://www.euronews.com/2026/10/23/explosion-at-coal-mine-in-turkey-kills-two-leaves-one-trapped"
     ],
     [
+      "Summer heat’s toll on Europe: 50,000 deaths and a €17 billion GDP hit",
+      20,
+      "Japan Times",
+      "https://www.japantimes.co.jp/environment/2026/10/25/climate-change/europe-summer-heat-toll/"
+    ],
+    [
       "North Korea Wants Security Talks With the US, Not Nuclear Talks",
       20,
       "The Diplomat",
@@ -2277,22 +2280,16 @@
       "https://thediplomat.com/2026/10/japans-nuclear-revival-has-a-trust-problem/"
     ],
     [
-      "Teacher’s death in Pinakota vehicle blast exposes lack of transport in Agency villages",
+      "How is Kerala planning to prevent child deaths linked to malnutrition and neglect? | Explained",
       20,
       "The Hindu",
-      "https://www.thehindu.com/news/cities/Visakhapatnam/teachers-death-in-pinakota-vehicle-blast-exposes-lack-of-transport-in-agency-villages/article71620985.ece"
+      "https://www.thehindu.com/news/national/kerala/how-is-kerala-planning-to-prevent-child-deaths-linked-to-malnutrition-and-neglect-explained/article71618979.ece"
     ],
     [
       "No. 1: Jared Kushner and Ivanka Trump: Remembering who brought the hostages home",
       20,
       "Jerusalem Post",
       "https://www.jpost.com/influencers-26/50jews-26/article-908121"
-    ],
-    [
-      "Saudi Arabia says Houthi missile shrapnel falls in Jeddah, Taif, Rabigh after interceptions",
-      20,
-      "Jerusalem Post",
-      "https://www.jpost.com/middle-east/article-912716"
     ],
     [
       "A teenager starved to death months after being detained. Her mom’s taking police to court",
@@ -2379,12 +2376,6 @@
       "https://www.zerohedge.com/geopolitical/could-frances-crisis-happen-america"
     ],
     [
-      "Virginia teen's model improves simulated earthquake sensor coverage by 16.7%",
-      16,
-      "TOI",
-      "https://timesofindia.indiatimes.com/science/discovery/meet-isabel-rossi-a-williamsburg-virginia-eighth-grader-who-tested-a-new-way-to-position-earthquake-sensors-her-mathematical-model-improved-simulated-coverage-by-16-7-with-just-five-additional-devices/articleshow/135109931.cms"
-    ],
-    [
       "Kenya: huge piles of rubble after high-rise building collapses",
       16,
       "Euronews",
@@ -2451,12 +2442,6 @@
       "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo?at_medium=RSS&at_campaign=rss"
     ],
     [
-      "Ukraine says Starlink restored as attacks continue in Russia and Ukraine",
-      14,
-      "Al Jazeera",
-      "https://www.aljazeera.com/news/2026/10/24/ukraine-says-starlink-restored-as-attacks-continue-in-russia-and-ukraine?traffic_source=rss"
-    ],
-    [
       "Judge allows Jane Doe anonymity in Cornell sexual assault lawsuit",
       14,
       "CBS",
@@ -2467,12 +2452,6 @@
       14,
       "DW",
       "https://www.dw.com/en/russia-s-attacks-on-ukraine-s-capital-kyiv-are-intensifying-dw-asked-people-on-the-ground-what-life-is-like/a-79741090?maca=en-rss-en-all-1573-rdf"
-    ],
-    [
-      "Romania blames Russia for ship attack in the Black Sea",
-      14,
-      "DW",
-      "https://www.dw.com/en/romania-blames-russia-for-ship-attack-in-the-black-sea/a-79743425?maca=en-rss-en-all-1573-rdf"
     ],
     [
       "Germany news: Emergency at Leipzig airport sparked by novice driver",
@@ -2515,18 +2494,6 @@
       14,
       "TOI",
       "https://timesofindia.indiatimes.com/world/middle-east/israel-will-fire-first-shot-us-will-try-to-seize-island-iran-believes-attack-likely-next-week-report/articleshow/135172977.cms"
-    ],
-    [
-      "Labor pitches $1.5 billion plan to slash emergency wait times",
-      14,
-      "ABC-AU",
-      "https://www.abc.net.au/news/2026-10-25/vic-labor-campaign-launch-health-hospital-investment/107304732"
-    ],
-    [
-      "Houthis claim 'phases' of attacks on Saudi airports, oil pipelines",
-      14,
-      "ABC-AU",
-      "https://www.abc.net.au/news/2026-10-25/houthis-claim-attacks-on-saudi-airports-oil-pipelines/107305824"
     ],
     [
       "The GOP’s Attacks Against Them Have Been Relentless. They‘re Still Reshaping an Entire Industry in Their Image.",
@@ -2601,6 +2568,12 @@
       "https://thehill.com/opinion/technology/6166067-protecting-personal-agency-ai/"
     ],
     [
+      "Federal police chief links threats against MPs directly to political debate",
+      12,
+      "ABC-AU",
+      "https://www.abc.net.au/news/2026-10-25/federal-police-link-threat-to-politicians-to-political-debate/107306080"
+    ],
+    [
       "Flash floods swamp southeast Australia as record October rainfall forces school closures",
       12,
       "Euronews",
@@ -2667,13 +2640,13 @@
       "https://www.aljazeera.com/video/newsfeed/2026/10/24/aje-onl-nf_clashes-as-albanian-pm-cracks-down-on-protests-241026?traffic_source=rss"
     ],
     [
-      "Elon Musk says SpaceX throttled Ukraine Starlink speeds over drone strikes",
+      "France see new round of protests; Riot police clash with demonstrators in Italy",
       10,
       "CBS",
-      "https://www.cbsnews.com/news/ukraine-starlink-drone-spacex-musk-speed-restriction/"
+      "https://www.cbsnews.com/video/france-see-new-round-of-protests-riot-police-clash-with-demonstrators-in-italy/"
     ],
     [
-      "More than 1,000 arrested in France as protestors and police clash",
+      "More than 1,000 arrested in France as protesters and police clash",
       10,
       "CBS",
       "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/"
@@ -2691,10 +2664,10 @@
       "https://www.pbs.org/newshour/world/more-than-400000-protest-across-france-challenging-macron-as-paris-clashes-erupt"
     ],
     [
-      "Iranian plots to kill U.S. officials in Middle East have reached ‘advanced stages,’ intel memo warns",
+      "Iranian plots to kill Americans in Middle East have reached ‘advanced stages,’ intel memo warns",
       10,
       "NBC",
-      "https://www.nbcnews.com/world/middle-east/iranian-plots-kill-us-officials-middle-east-reached-advanced-stages-in-rcna605360"
+      "https://www.nbcnews.com/nightly-news/video/iranian-plots-to-kill-americans-in-middle-east-have-reached-advanced-stages-intel-memo-warns-272179269503"
     ],
     [
       "France: Clashes break out as protests go nationwide",
@@ -2739,10 +2712,22 @@
       "https://www.zerohedge.com/geopolitical/trump-floats-another-little-epic-fury-intel-warns-advanced-plots-kill-us-officials"
     ],
     [
-      "Bolsonaro, Lula Clash In Fiery Final Debate As Brazil's Runoff Goes Down To The Wire",
+      "Protests sweep France, Spain as masked mobs loot shops, clash with cops; 1,100 held",
       10,
-      "ZeroHedge",
-      "https://www.zerohedge.com/political/bolsonaro-lula-clash-fiery-final-debate-brazils-runoff-goes-down-wire"
+      "TOI",
+      "https://timesofindia.indiatimes.com/world/europe/protests-sweep-france-spain-as-masked-mobs-loot-shops-clash-with-cops-1100-held/articleshow/135180010.cms"
+    ],
+    [
+      "Drawn in same group, IND-PAK set to clash on Nov 22 in Rising Asia Cup",
+      10,
+      "TOI",
+      "https://timesofindia.indiatimes.com/sports/cricket/news/drawn-in-same-group-india-pakistan-set-to-clash-on-november-22-in-rising-asia-cup/articleshow/135174135.cms"
+    ],
+    [
+      "'To kill people': Musk accuses Ukraine military of misusing Starlink for drone strikes",
+      10,
+      "TOI",
+      "https://timesofindia.indiatimes.com/world/europe/to-kill-people-musk-accuses-ukraine-military-of-misusing-starlink-for-drone-strikes/articleshow/135181125.cms"
     ],
     [
       "Young protesters clash with police on Rome streets",
@@ -2787,7 +2772,7 @@
       "https://reason.com/2026/10/22/france-is-a-warning-to-californias-tax-the-rich-crowd/"
     ],
     [
-      "IMD warns of heavy rainfall over several T.N. districts; red alert for five districts in Keralam | Live",
+      "IMD warns of heavy rainfall over several T.N. districts; red alert for five districts in Keralam | Updates",
       10,
       "The Hindu",
       "https://www.thehindu.com/news/national/bay-of-bengal-weather-update-cyclone-alert-latest-weather-news-live-updates-october-24-2026/article71619022.ece"
@@ -2803,6 +2788,12 @@
       10,
       "Jerusalem Post",
       "https://www.jpost.com/international/article-912725"
+    ],
+    [
+      "US discreetly moves diplomats and families from multiple Middle Eastern countries as intel warns of Iranian plots",
+      10,
+      "CNN",
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS1g0Q3RqWGVXWGhRZFhNdnp5cUxfdS0xUk5WWVhEZDVJZTQ1OV9QSUxOeVctVTVIa0J1amxjWjlnM3hqa0k2emt4bXlvSVQyNFpNa2xfUVBKRFh2clhpRmlyWTZOUFRxTHdzMXk3R2t6RWxlckZ0bEthdWg2RzZLZnhmOGVkOGV6TjVZYTl3eVo?oc=5"
     ],
     [
       "Jeffries warns of GOP 'diabolical scheme' but says he's bullish on Dems chances to flip the House",
@@ -2829,10 +2820,10 @@
       "https://www.dw.com/en/turkey-stock-market-scandal-hits-half-a-million-investors/a-79494710?maca=en-rss-en-all-1573-rdf"
     ],
     [
-      "Tensions mount at Jamia: Classes shift online; AISA alleges assault on students",
+      "Border Patrol Logs Under 99,000 Southwest Arrests In FY2026, Lowest In Nearly 60 Years",
       8,
-      "TOI",
-      "https://timesofindia.indiatimes.com/city/delhi/jamia-tensions-rise-university-shifts-all-classes-online-aisa-alleges-assault-on-students-during-negotiations/articleshow/135167040.cms"
+      "ZeroHedge",
+      "https://www.zerohedge.com/political/border-patrol-logs-under-99000-southwest-arrests-fy2026-lowest-nearly-60-years"
     ],
     [
       "We’ve spent decades fighting campus sexual assault. Why haven’t colleges figured it out?",
@@ -2937,12 +2928,6 @@
       "https://thehill.com/homenews/administration/6167516-trump-demands-omar-resignation-name/"
     ],
     [
-      "Insurer denied Indiana couple's fire claim; appeals court revives lawsuit",
-      6,
-      "TOI",
-      "https://timesofindia.indiatimes.com/world/us/in-2020-an-indiana-couples-barn-style-home-was-damaged-by-a-fire-investigators-said-was-deliberately-set-the-insurer-denied-their-claim-but-an-appeals-court-has-now-revived-their-lawsuit-over-the-disputed-coverage/articleshow/135168872.cms"
-    ],
-    [
       "Konstas crunches another ton for NSW, pushing case for Test recall",
       6,
       "ABC-AU",
@@ -2997,22 +2982,22 @@
       "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSHBRZ0prS1AxTTdwenpQc2twNHc3RkFsb3h4dW5mbDU2Z0NfLThqMFJBNllKT1ItZDgwVkJhZTFycHVPWGRpLVM2U3k3aFhhcXZzN1hZSDJnZzR2UmtWaktoTWEzLWVGd05yX2tocEozNnNjMTVJUnptYy00cXd3cks1bTJBNkJmVUlmYVJiWTUwMWROTWdvclJR?oc=5"
     ],
     [
-      "Sen. Kim: Lawsuit to block Alaska Senate result makes \"clear who's calling the shots\" at DOJ",
-      6,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdE8yNkdEZi14Qk84WVc1QVdRdVhSY19lYkVTRTJzUDJkVlZkeWh4eVl2UU16V1FIQ09KVFNULVk1Y0JaZVZLSzk4V2xzbmstRkoyYkxqRjdxMVBOZ1dfYnJQcjV0UDZFbW9uMTEtZXVaQVNsV2sycVd4WVdjZjZOa1NxblJoVjRuRjNRVTZ4NU9CV3NuNU52SVl5aEcwM3hCM19jVFZEclpTbVpFeGNHOGlZQXNyYTZsOHRJRWVSUFpWU2pTbzdOeG9MOWljZw?oc=5"
-    ],
-    [
       "Ty Cobb on judge ordering Trump to sit for deposition in $10B media lawsuit: ‘it’s backfired’",
       6,
       "CNN",
       "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYXRZNW9GMTZna2c1WFprSnRUZksxcGhIYzhwS2FMRHo0RXNnQ29JWndBRXZ5cXlaNU1pVFJxVklpVmJqRkptR3JGQWdxXzNIN29sYU1PWWJUeWM0UkNGSXlscmJJVTlONi0zaWZGb29HRkZXeERQZTNxZzZWM1NuU21yRWtyZ0hx?oc=5"
     ],
     [
-      "Electric shock gloves in schools spark parents’ fears",
+      "Sen. Kim: Lawsuit to block Alaska Senate result makes \"clear who's calling the shots\" at DOJ",
       6,
       "CNN",
-      "https://news.google.com/rss/articles/CBMilwFBVV95cUxOU1RIZ0VobzNVaDlhOW1rWVF5WmdtSk9KbW5jaXowWGJocEFXcWtpdXN2QXV3a3AxMDMyczJVeDZQclBDa1NWY3RjZGFlQktLbHFMQlBMWi1GdU0xc2dxeExjdXpSY3VuLVZ5TW9rNjdCSlhSM0VEckRlWHBUb0ZjYmtlT3lpaGRsQVRZMkhaRUFXVTl4OFNr?oc=5"
+      "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdE8yNkdEZi14Qk84WVc1QVdRdVhSY19lYkVTRTJzUDJkVlZkeWh4eVl2UU16V1FIQ09KVFNULVk1Y0JaZVZLSzk4V2xzbmstRkoyYkxqRjdxMVBOZ1dfYnJQcjV0UDZFbW9uMTEtZXVaQVNsV2sycVd4WVdjZjZOa1NxblJoVjRuRjNRVTZ4NU9CV3NuNU52SVl5aEcwM3hCM19jVFZEclpTbVpFeGNHOGlZQXNyYTZsOHRJRWVSUFpWU2pTbzdOeG9MOWljZw?oc=5"
+    ],
+    [
+      "Why the King's Caribbean tour could be 'biggest risk of his reign'",
+      5,
+      "BBC",
+      "https://www.bbc.co.uk/news/articles/ckzd6gvg1r2jo?at_medium=RSS&at_campaign=rss"
     ],
     [
       "Early-onset cancer rising worldwide: Causes, risk, prevention",
@@ -3045,6 +3030,12 @@
       "https://www.jpost.com/middle-east/article-912720"
     ],
     [
+      "Experimental mRNA vaccine cuts risk that melanoma returns by 42%",
+      5,
+      "CNN",
+      "https://news.google.com/rss/articles/CBMic0FVX3lxTE84bGY0Xy1wTEdfQ0UxQUtWV2pIVVRyMkVnZ1AxbC1WZGotMWUtM3NFbU55T2ZOYmlCNXN3QndmUDdWRmZMbjZfWDBnZmh5MkpLbXNQOFh1RmZNX3hiOFAwSzhMQkloaWFOS1BzVWlYS0pwaFk?oc=5"
+    ],
+    [
       "Bobb's late strike secures Fulham win at Coventry",
       4,
       "BBC",
@@ -3057,16 +3048,64 @@
       "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_medium=RSS&at_campaign=rss"
     ],
     [
+      "Ukraine depends on Starlink - can Europe plug the gap?",
+      0,
+      "BBC",
+      "https://www.bbc.co.uk/news/articles/c65yn97xe7ypo?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "Burnham open to 'honest discussion' on EU free movement",
+      0,
+      "BBC",
+      "https://www.bbc.co.uk/news/articles/c8e36kyk1qx5o?at_medium=RSS&at_campaign=rss"
+    ],
+    [
       "Met Police says letter with claims about Meghan's father not shared with other law enforcement",
       0,
       "BBC",
       "https://www.bbc.co.uk/news/articles/c39wz740e0nyo?at_medium=RSS&at_campaign=rss"
     ],
     [
+      "Voters in Brazil to choose between Lula and Bolsonaro's son",
+      0,
+      "BBC",
+      "https://www.bbc.co.uk/news/articles/cxp8g21j4648o?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "Rosebank: Life on the oil field at the centre of a political storm",
+      0,
+      "BBC",
+      "https://www.bbc.co.uk/news/articles/cqy8ljkle97ro?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "The bitter row over military service that could shape Israel's future",
+      0,
+      "BBC",
+      "https://www.bbc.co.uk/news/articles/cmvg7w0x742do?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "A shark went astray and captured Korea's heart - will she finally make it back to sea?",
+      0,
+      "BBC",
+      "https://www.bbc.co.uk/news/articles/c9zrdknlmpdlo?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "Why the charts are full of old songs - and so are your playlists",
+      0,
+      "BBC",
+      "https://www.bbc.co.uk/news/articles/c6kg50nnj0x4o?at_medium=RSS&at_campaign=rss"
+    ],
+    [
       "Mum who died trying to save sons swept away in Bahamas was hero, husband says",
       0,
       "BBC",
       "https://www.bbc.co.uk/news/articles/cm86z5n0yvy6o?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "The Papers: 'Cops didn't share letter' and Burnham 'open' to EU free movement",
+      0,
+      "BBC",
+      "https://www.bbc.co.uk/news/articles/cmqln4vq1dn1o?at_medium=RSS&at_campaign=rss"
     ],
     [
       "Between quick wins and big dreams lies Burnham's biggest test",
@@ -3081,70 +3120,10 @@
       "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss"
     ],
     [
-      "Before you crank up the thermostat, try these tips to keep you and your home warmer for longer",
-      0,
-      "BBC",
-      "https://www.bbc.co.uk/news/articles/cqr7yeed1ed7o?at_medium=RSS&at_campaign=rss"
-    ],
-    [
-      "Strictly's new presenters - after mixed reviews have they found their feet?",
-      0,
-      "BBC",
-      "https://www.bbc.co.uk/news/articles/c5zjxp1rjne8o?at_medium=RSS&at_campaign=rss"
-    ],
-    [
-      "The artist dropping her debut album after a billion streams",
-      0,
-      "BBC",
-      "https://www.bbc.co.uk/news/articles/cwj0leg7ng67o?at_medium=RSS&at_campaign=rss"
-    ],
-    [
-      "How Brazil's changing working class is reshaping the presidential race",
-      0,
-      "BBC",
-      "https://www.bbc.co.uk/news/articles/cw80zx79nkvno?at_medium=RSS&at_campaign=rss"
-    ],
-    [
-      "How the UK state pension compares with other countries",
-      0,
-      "BBC",
-      "https://www.bbc.co.uk/news/articles/c3gr84w85glyo?at_medium=RSS&at_campaign=rss"
-    ],
-    [
       "Sam Fender calls out ticket prices ahead of tour",
       0,
       "BBC",
       "https://www.bbc.co.uk/news/articles/c6p3g9kle8pgo?at_medium=RSS&at_campaign=rss"
-    ],
-    [
-      "The Papers: 'Cops didn't share letter' and Burnham 'open' to EU free movement",
-      0,
-      "BBC",
-      "https://www.bbc.co.uk/news/articles/cmqln4vq1dn1o?at_medium=RSS&at_campaign=rss"
-    ],
-    [
-      "Plan for Northern Olympics to get £7m in Healey's Budget",
-      0,
-      "BBC",
-      "https://www.bbc.co.uk/news/articles/cv98z92ekg9zo?at_medium=RSS&at_campaign=rss"
-    ],
-    [
-      "Infantino tells BBC Sport he is backed by 'vast majority' of world football",
-      0,
-      "BBC",
-      "https://www.bbc.co.uk/sport/football/articles/c6q8nd9g9n72o?at_medium=RSS&at_campaign=rss"
-    ],
-    [
-      "The candid meeting that 'changed' Spurs - are they finally on way back?",
-      0,
-      "BBC",
-      "https://www.bbc.co.uk/sport/football/articles/cqev38dz34vxo?at_medium=RSS&at_campaign=rss"
-    ],
-    [
-      "Watch: Fire engulfs Hitler's mountaintop Eagle's Nest retreat",
-      0,
-      "BBC",
-      "https://www.bbc.co.uk/news/videos/cq98z9xxy2n2o?at_medium=RSS&at_campaign=rss"
     ],
     [
       "Don't fall for this - how to protect yourself from AI scams",
@@ -3183,10 +3162,16 @@
       "https://www.bbc.co.uk/iplayer/episodes/m002zl60/watch/p0phnw1z?at_mid=0Q85UjCr2P&at_campaign=BBC_Extended_Trailer_Blue_Planet_III&at_medium=display_ad&at_campaign_type=owned&at_nation=NET&at_audience_id=SS&at_product=iplayer&at_brand=m002zl60&at_ptr_name=bbc&at_ptr_type=media&at_format=image&at_objective=awareness&at_link_title=BBC_Extended_Trailer_Blue_Planet_III&at_bbc_team=BBC"
     ],
     [
-      "Antonelli takes US pole on weekend he can win title",
+      "The candid meeting that 'changed' Spurs - are they finally on way back?",
       0,
       "BBC",
-      "https://www.bbc.co.uk/sport/formula1/articles/cqy7lvp7n57lo?at_medium=RSS&at_campaign=rss"
+      "https://www.bbc.co.uk/sport/football/articles/cqev38dz34vxo?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "Antonelli stands on brink of history in Austin",
+      0,
+      "BBC",
+      "https://www.bbc.co.uk/sport/formula1/articles/cvlyd5k776yyo?at_medium=RSS&at_campaign=rss"
     ],
     [
       "Man Utd not an unmanageable club - Carrick",
@@ -3195,16 +3180,16 @@
       "https://www.bbc.co.uk/sport/football/articles/c9ly0dxxgp7lo?at_medium=RSS&at_campaign=rss"
     ],
     [
-      "Britain's Smith retains title in split-decision win over Puello",
-      0,
-      "BBC",
-      "https://www.bbc.co.uk/sport/boxing/articles/cqn73k05xjx6o?at_medium=RSS&at_campaign=rss"
-    ],
-    [
       "'A massive storage of images' - Arteta has technical area receipts",
       0,
       "BBC",
       "https://www.bbc.co.uk/sport/football/articles/cwgkv8yx4dg8o?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "Britain's Smith retains title in split-decision win over Puello",
+      0,
+      "BBC",
+      "https://www.bbc.co.uk/sport/boxing/articles/cqn73k05xjx6o?at_medium=RSS&at_campaign=rss"
     ],
     [
       "Man City's leaky defence highlights Donnarumma & Guehi struggles",
@@ -3235,6 +3220,24 @@
       0,
       "BBC",
       "https://www.bbc.co.uk/iplayer/episode/m0033jlx?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "Obama slams Trump’s ‘cruelty and corruption’ at Ohio rally for Democrats",
+      0,
+      "Al Jazeera",
+      "https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats?traffic_source=rss"
+    ],
+    [
+      "Violence breaks out across Europe after another day of protests",
+      0,
+      "Al Jazeera",
+      "https://www.aljazeera.com/video/newsfeed/2026/10/25/10-25-sv-europe-protests-wrap?traffic_source=rss"
+    ],
+    [
+      "Trump lauds Melania over Russia-Ukraine localised ceasefire deal",
+      0,
+      "Al Jazeera",
+      "https://www.aljazeera.com/video/newsfeed/2026/10/24/trump-lauds-melania-over-russia-ukraine-localised-ceasefire-deal?traffic_source=rss"
     ],
     [
       "Gunmen kill at least 10 people in eastern Nigeria, police say",
@@ -3345,22 +3348,34 @@
       "https://www.aljazeera.com/news/2026/10/24/brazils-lula-and-bolsonaro-about-even-ahead-of-election-run-off-poll?traffic_source=rss"
     ],
     [
-      "Hundreds of Italian soldiers deployed as thousands protest in Milan",
+      "New York City votes to ban horse-drawn carriages",
       0,
-      "Al Jazeera",
-      "https://www.aljazeera.com/news/2026/10/24/security-forces-deploy-as-milan-braces-for-another-day-of-protests?traffic_source=rss"
+      "CBS",
+      "https://www.cbsnews.com/video/new-york-city-votes-to-ban-horse-drawn-carriages/"
     ],
     [
-      "Why Israeli tourists and investors are unsettling Cypriots",
+      "SpaceX satellite system back up to full speed in Ukraine, officials say",
       0,
-      "Al Jazeera",
-      "https://www.aljazeera.com/video/newsfeed/2026/10/24/aje-onl-nf_why-israeli-investors-are-unsettling-cypriots-241026?traffic_source=rss"
+      "CBS",
+      "https://www.cbsnews.com/video/spacex-satellite-system-back-up-to-full-speed-in-ukraine-officials-say/"
     ],
     [
-      "Full lockdown of occupied West Bank begins",
+      "Obama hits the campaign trail for Democrats with midterms less than 2 weeks away",
       0,
-      "Al Jazeera",
-      "https://www.aljazeera.com/video/newsfeed/2026/10/24/full-lockdown-of-occupied-west-bank-begins-2?traffic_source=rss"
+      "CBS",
+      "https://www.cbsnews.com/video/obama-hits-the-campaign-trail-for-democrats-with-midterms-less-than-2-weeks-away/"
+    ],
+    [
+      "West Coast communities bracing for high tides as storms bring flooding",
+      0,
+      "CBS",
+      "https://www.cbsnews.com/video/west-coast-communities-bracing-for-high-tides-as-storms-bring-flooding/"
+    ],
+    [
+      "In Ohio rally, Obama blasts Ramaswamy, GOP over controversial Acton ad",
+      0,
+      "CBS",
+      "https://www.cbsnews.com/news/obama-blasts-ramaswamy-gop-amy-acton-ad-ohio/"
     ],
     [
       "Meet the volunteers helping adults navigate their health",
@@ -3387,40 +3402,10 @@
       "https://www.cbsnews.com/video/breast-cancer-impacting-more-young-women-every-year-studies-show/"
     ],
     [
-      "From the archives: Paul Stankard's dazzling paperweights",
-      0,
-      "CBS",
-      "https://www.cbsnews.com/video/from-the-archives-paul-stankards-dazzling-paperweights/"
-    ],
-    [
-      "Foldable iPhone Duo hits market amid debate about price, features",
-      0,
-      "CBS",
-      "https://www.cbsnews.com/video/iphone-duo-price-features/"
-    ],
-    [
       "The controversy surrounding convicted former election official Tina Peters",
       0,
       "CBS",
       "https://www.cbsnews.com/video/the-controversy-surrounding-convicted-former-election-official-tina-peters/"
-    ],
-    [
-      "President Trump, first lady vote early in person in Florida",
-      0,
-      "CBS",
-      "https://www.cbsnews.com/news/trump-melania-vote-early-in-person-florida-saturday/"
-    ],
-    [
-      "DOJ sues to block Alaska Senate certification if Sullivan loses",
-      0,
-      "CBS",
-      "https://www.cbsnews.com/news/trump-admin-sues-to-block-alaska-senate-certification-if-sen-dan-sullivan-loses/"
-    ],
-    [
-      "This week on \"Sunday Morning\" (Oct. 25)",
-      0,
-      "CBS",
-      "https://www.cbsnews.com/news/this-week-on-sunday-morning-oct-25-2026/"
     ],
     [
       "Malik Beasley negotiating plea deal over NBA betting charges",
@@ -3435,10 +3420,10 @@
       "https://www.cbsnews.com/news/german-man-arrested-teen-suicide-764/"
     ],
     [
-      "Eye Opener: Typhoon sweeps through East Asia",
+      "1 arrested after fire at Hitler's Eagle's Nest mountain retreat",
       0,
       "CBS",
-      "https://www.cbsnews.com/video/eye-opener-typhoon-sweeps-through-east-asia/"
+      "https://www.cbsnews.com/news/hitler-eagles-nest-mountain-retreat-fire-nazi/"
     ],
     [
       "Clinical trial saves man initially given weeks to live: \"Not done yet\"",
@@ -3465,16 +3450,16 @@
       "https://www.cbsnews.com/news/hero-kaylub-giamanco-bend-oregon-shooting/"
     ],
     [
+      "60 Minutes investigates \"third-country deportations\"",
+      0,
+      "CBS",
+      "https://www.cbsnews.com/video/60-minutes-investigates-third-country-deportations/"
+    ],
+    [
       "2 ex-FBI officials charged with lying about Hunter Biden laptop probe",
       0,
       "CBS",
       "https://www.cbsnews.com/news/fbi-officials-charged-lying-to-congress-hunter-biden-laptop/"
-    ],
-    [
-      "UFO files detail strange, silent triangular craft: \"Acoustic silence\"",
-      0,
-      "CBS",
-      "https://www.cbsnews.com/news/ufo-files-pentagon-triangular-craft/"
     ],
     [
       "Medicare Advantage plans cut for 1 million seniors, insurers say",
@@ -3499,6 +3484,12 @@
       0,
       "CBS",
       "https://www.cbsnews.com/news/anthropic-claude-duet-personal-ai-agentsuggest-a-e/"
+    ],
+    [
+      "Inside Australia's social media ban for children | Sunday on 60 Minutes",
+      0,
+      "CBS",
+      "https://www.cbsnews.com/video/inside-australias-social-media-ban-for-children-sunday-on-60-minutes/"
     ],
     [
       "More people now use GLP-1s to lose weight than for other health issues",
@@ -3609,10 +3600,16 @@
       "https://abcnews.com/video/41463246/"
     ],
     [
-      "Ukraine says Starlink satellite access is fully back after weeklong disruption",
+      "Starlink access in Ukraine fully back after disruption: Officials",
       0,
       "ABC",
       "https://abcnews.com/International/ukraine-starlink-satellite-access-fully-back-after-weeklong/story?id=137538401"
+    ],
+    [
+      "Explosion and fire erupt at Quaker Oats plant in Cedar Rapids, Iowa; no injuries",
+      0,
+      "ABC",
+      "https://abcnews.com/Business/wireStory/fire-breaks-quaker-oats-plant-cedar-rapids-iowa-137544207"
     ],
     [
       "WATCH:  Halloween witches’ world record",
@@ -3729,16 +3726,10 @@
       "https://abcnews.com/US/early-voting-begins-new-york-key-races-watch/story?id=137518680"
     ],
     [
-      "Obama describes Trump as an agent of ‘chaos and cruelty’ in midterm elections pitch",
+      "All-out fight for critical battleground states ramps up",
       0,
       "NBC",
-      "https://www.nbcnews.com/politics/2026-election/obama-trump-chaos-cruelty-midterm-election-pitch-acton-ramaswamy-rcna605223"
-    ],
-    [
-      "How Democrats could win the House, how the GOP could hang on, and where to look for a wave",
-      0,
-      "NBC",
-      "https://www.nbcnews.com/politics/2026-election/house-majority-math-democrats-win-republicans-scenarios-rcna604404"
+      "https://www.nbcnews.com/nightly-news/video/all-out-fight-for-critical-battleground-states-ramps-up-272177733901"
     ],
     [
       "Send your questions for Steve Kornacki on the midterm elections",
@@ -3747,10 +3738,16 @@
       "https://www.nbcnews.com/politics/elections/send-questions-steve-kornacki-midterm-elections-rcna605264"
     ],
     [
-      "Mass protests challenge Macron as French police use tear gas and water cannons",
+      "How Democrats could win the House, how the GOP could hang on, and where to look for a wave",
       0,
       "NBC",
-      "https://www.nbcnews.com/world/france/paris-shuts-louvre-museums-police-deploy-big-numbers-new-protests-fran-rcna605174"
+      "https://www.nbcnews.com/politics/2026-election/house-majority-math-democrats-win-republicans-scenarios-rcna604404"
+    ],
+    [
+      "Widespread protests expand across Europe as thousands take to streets",
+      0,
+      "NBC",
+      "https://www.nbcnews.com/nightly-news/video/widespread-protests-expand-across-europe-as-thousands-take-to-streets-272178245507"
     ],
     [
       "Bulldozers tear down home as Israel cracks down in the West Bank",
@@ -3777,6 +3774,12 @@
       "https://www.nbcnews.com/news/us-news/man-knife-arrested-set-miami-vice-85-michael-b-jordan-rcna605436"
     ],
     [
+      "Obama describes Trump as an agent of ‘chaos and cruelty’ in midterm elections pitch",
+      0,
+      "NBC",
+      "https://www.nbcnews.com/politics/2026-election/obama-trump-chaos-cruelty-midterm-election-pitch-acton-ramaswamy-rcna605223"
+    ],
+    [
       "WWE legend Ric Flair recovering after being hospitalized for fall",
       0,
       "NBC",
@@ -3793,6 +3796,12 @@
       0,
       "NBC",
       "https://www.nbcnews.com/news/us-news/dallas-cowboys-cheerleaders-seek-legal-action-chemical-romance-rcna605375"
+    ],
+    [
+      "Mass protests challenge Macron as French police use tear gas and water cannons",
+      0,
+      "NBC",
+      "https://www.nbcnews.com/world/france/paris-shuts-louvre-museums-police-deploy-big-numbers-new-protests-fran-rcna605174"
     ],
     [
       "U.K. police received claims about Meghan’s father in 2019 but didn’t alert other forces",
@@ -3825,18 +3834,6 @@
       "https://www.nbcnews.com/select/shopping/amazon-holiday-beauty-event-2026-rcna604406"
     ],
     [
-      "Vanessa Trump says she is ‘cancer-free’ six months after diagnosis",
-      0,
-      "NBC",
-      "https://www.nbcnews.com/politics/politics-news/vanessa-trump-cancer-free-breast-cancer-diagnosis-surgery-treatment-rcna605339"
-    ],
-    [
-      "Trump administration cancels some Canada tariffs amid close midterm races",
-      0,
-      "NBC",
-      "https://www.nbcnews.com/business/economy/trump-cancels-canada-tariffs-susan-collins-rcna605270"
-    ],
-    [
       "More candidates are using AI in political ads to get your vote",
       0,
       "NBC",
@@ -3867,10 +3864,10 @@
       "https://news.sky.com/story/bahamas-police-investigate-after-british-woman-dies-trying-to-rescue-sons-13602998"
     ],
     [
-      "Former Olympic marathon champion suspended after failed drugs test",
+      "Nigeria: Tinubu launches reelection bid amid economic woes",
       0,
-      "Sky",
-      "https://news.sky.com/story/kenyan-former-olympic-marathon-champion-suspended-after-failed-drugs-test-13602695"
+      "DW",
+      "https://www.dw.com/en/nigeria-tinubu-launches-reelection-bid-amid-economic-woes/a-79753063?maca=en-rss-en-all-1573-rdf"
     ],
     [
       "Ukraine: Starlink satellite speeds restored to normal",
@@ -4521,12 +4518,6 @@
       "https://www.dw.com/en/backlash-over-data-centers-tests-europe-s-ai-ambitions/a-79419800?maca=en-rss-en-all-1573-rdf"
     ],
     [
-      "Bundesliga, other top European leagues call for major FIFA reforms",
-      0,
-      "DW",
-      "https://www.dw.com/en/bundesliga-other-top-european-leagues-call-for-major-fifa-reforms/a-79431717?maca=en-rss-en-all-1573-rdf"
-    ],
-    [
       "'The marches went well' – French government on demonstrations a week after looting and violence",
       0,
       "France24",
@@ -4707,10 +4698,10 @@
       "https://www.theguardian.com/australia-news/2026/oct/23/jordan-steele-john-in-limbo-greens-misconduct-allegations-ntwnfb"
     ],
     [
-      "Jim Chalmers faces a world of hard choices where the solution to one problem makes the other worse",
+      "Andy Burnham says he wants ‘honest discussion’ about freedom of movement with EU",
       0,
       "Guardian",
-      "https://www.theguardian.com/business/2026/oct/23/jim-chalmers-hard-choices-economy-inflation-unemployment"
+      "https://www.theguardian.com/politics/2026/oct/25/andy-burnham-says-he-wants-honest-discussion-about-freedom-of-movement-with-eu"
     ],
     [
       "Ukraine’s military says Starlink satellite connection stable after recent restrictions",
@@ -4723,12 +4714,6 @@
       0,
       "Guardian",
       "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news"
-    ],
-    [
-      "Dónal Lunny, ‘colossus of Irish music’, dies aged 79",
-      0,
-      "Guardian",
-      "https://www.theguardian.com/music/2026/oct/24/donal-lunny-colossus-irish-music-dies-aged-79"
     ],
     [
       "Israeli soldiers raze neighbourhood in Hebron, driving families from homes",
@@ -4803,25 +4788,49 @@
       "https://www.theguardian.com/music/2026/oct/24/sam-fender-fans-high-ticket-prices-proper-massive-tour-getting-changed"
     ],
     [
+      "Northern Olympics campaign to get £7m in Healey’s budget",
+      0,
+      "Guardian",
+      "https://www.theguardian.com/sport/2026/oct/24/northern-olympics-campaign-funds-john-healey-budget"
+    ],
+    [
+      "California leaders rebuke Trump administration’s push over alleged noncitizen voting",
+      0,
+      "Guardian",
+      "https://www.theguardian.com/us-news/2026/oct/24/california-noncitizen-voting-trump-administration"
+    ],
+    [
+      "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
+      0,
+      "Guardian",
+      "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan"
+    ],
+    [
       "Epstein files take back seat in midterms but experts say issue has not gone away",
       0,
       "Guardian",
       "https://www.theguardian.com/us-news/2026/oct/24/epstein-files-midterms"
     ],
     [
-      "ICC prosecutor says court making ‘significant progress’ despite US sanctions",
-      0,
-      "Guardian",
-      "https://www.theguardian.com/law/2026/oct/24/icc-deputy-prosecutor-nazhat-shameem-khan-marco-rubio-us-sanctions"
-    ],
-    [
-      "New Trump rule allows hunters to bait bears in Alaska with doughnuts, bacon and more",
-      0,
-      "Guardian",
-      "https://www.theguardian.com/us-news/2026/oct/24/trump-administration-alaska-bear-hunting-bait"
-    ],
-    [
       "Obama on Trump White House: ‘Like Saddam Hussein opened a Cheesecake Factory’",
+      0,
+      "The Hill",
+      "https://thehill.com/homenews/campaign/6170405-obama-mocks-trump-white-house/"
+    ],
+    [
+      "Obama jokes about Hegseth’s ‘focus on jawlines and testosterone’ in Ohio campaign stop",
+      0,
+      "The Hill",
+      "https://thehill.com/homenews/campaign/6170381-obama-criticizes-hegseth-testosterone/"
+    ],
+    [
+      "Kushner’s attorneys send notice to Vanity Fair on alleged “defamatory” excerpt",
+      0,
+      "The Hill",
+      "https://thehill.com/media/6170355-kushner-attorneys-warn-vanity-fair/"
+    ],
+    [
+      "Obama’s quippy Ohio campaign stop: 5 times the former president went after Republicans",
       0,
       "The Hill",
       "https://thehill.com/homenews/6170280-obama-jokes-trump-ohio-midterm-rally/"
@@ -4869,16 +4878,16 @@
       "https://thehill.com/policy/sports-gaming/6170108-nfl-paris-fan-zone-closed/"
     ],
     [
-      "Ro Khanna is wrong about the chaos in Europe — and about JD Vance",
-      0,
-      "The Hill",
-      "https://thehill.com/opinion/campaign/6168998-ro-khanna-hypocrisy-wealth-inequality/"
-    ],
-    [
       "How MAHA fueled a new wave of doctors running for office",
       0,
       "The Hill",
       "https://thehill.com/policy/healthcare/6166776-doctors-running-congress-midterms/"
+    ],
+    [
+      "Ro Khanna is wrong about the chaos in Europe — and about JD Vance",
+      0,
+      "The Hill",
+      "https://thehill.com/opinion/campaign/6168998-ro-khanna-hypocrisy-wealth-inequality/"
     ],
     [
       "Bill Maher to Karoline Leavitt: ‘I don’t give a s—’, ‘I like the ballroom’",
@@ -4953,16 +4962,16 @@
       "https://thehill.com/opinion/education/6168525-american-arabic-language-education/"
     ],
     [
-      "Why a blue wave might miss Minnesota’s Senate race",
-      0,
-      "The Hill",
-      "https://thehill.com/homenews/campaign/6169517-minnesota-senate-flanagan-tafoya/"
-    ],
-    [
       "Early voting surges in battleground states as Democrats outpace GOP gains",
       0,
       "The Hill",
       "https://thehill.com/homenews/campaign/6169626-early-voting-battleground-states-democrats-republicans/"
+    ],
+    [
+      "Why a blue wave might miss Minnesota’s Senate race",
+      0,
+      "The Hill",
+      "https://thehill.com/homenews/campaign/6169517-minnesota-senate-flanagan-tafoya/"
     ],
     [
       "DNI warned Rubio of ‘advanced’ Iranian efforts to target US personnel, memo shows",
@@ -5097,16 +5106,16 @@
       "https://thehill.com/blogs/in-the-know/6168715-meghan-markle-father-investigation-response/"
     ],
     [
-      "Put the last cell tower in orbit",
-      0,
-      "The Hill",
-      "https://thehill.com/opinion/technology/6167117-closing-america-5g-gaps/"
-    ],
-    [
       "Watch live: Trump rallies in Fort Myers, Florida",
       0,
       "The Hill",
       "https://thehill.com/homenews/campaign/6167454-watch-live-trump-rallies-in-fort-myers-florida/"
+    ],
+    [
+      "Put the last cell tower in orbit",
+      0,
+      "The Hill",
+      "https://thehill.com/opinion/technology/6167117-closing-america-5g-gaps/"
     ],
     [
       "Feds knocking on doors to question voters’ immigration status: CBS",
@@ -5143,6 +5152,12 @@
       0,
       "The Hill",
       "https://thehill.com/homenews/administration/6168388-trump-discusses-starlink-restrictions-elon-musk/"
+    ],
+    [
+      "Justice Department sues to block Alaska results if Sullivan loses",
+      0,
+      "The Hill",
+      "https://thehill.com/homenews/campaign/6168331-justice-department-sues-to-block-alaska-results-if-sullivan-loses/"
     ],
     [
       "Trump’s affinity for Putin harms US interests",
@@ -5271,28 +5286,22 @@
       "https://thehill.com/opinion/healthcare/6166603-gentle-parenting-lacks-data/"
     ],
     [
-      "Trump ties big promises to GOP midterm election wins",
+      "Musk Admits SpaceX Throttled Starlink In Ukraine, Because Kiev Violated Terms Of Service",
       0,
-      "The Hill",
-      "https://thehill.com/homenews/administration/6166920-trump-midterm-campaign-promises-republicans/"
+      "ZeroHedge",
+      "https://www.zerohedge.com/geopolitical/musk-admits-spacex-throttled-starlink-ukraine-because-kiev-violated-terms-service"
     ],
     [
-      "Free lunch, transgender athletes: Voters nationwide face major education decisions",
+      "Many Western Governments Won't Survive",
       0,
-      "The Hill",
-      "https://thehill.com/homenews/education/6165686-free-lunch-transgender-athletes-state-education-votes/"
+      "ZeroHedge",
+      "https://www.zerohedge.com/political/many-western-governments-wont-survive"
     ],
     [
-      "The Memo: Trump backs controversial Ohio ad, pouring fuel on midterm campaign fires",
+      "First Signs Of A Deeply Frozen Housing Market",
       0,
-      "The Hill",
-      "https://thehill.com/homenews/analysis/6167069-ramaswamy-acton-family-ad-row/"
-    ],
-    [
-      "GOP pushes for oversight of Musk’s dominance of space",
-      0,
-      "The Hill",
-      "https://thehill.com/homenews/senate/6166981-rep-lawmakers-scrutinize-spacex-monopoly/"
+      "ZeroHedge",
+      "https://www.zerohedge.com/personal-finance/first-signs-deeply-frozen-housing-market"
     ],
     [
       "El Nino Warmth Crushes US NatGas Futs In 15% Weekly Rout",
@@ -5391,28 +5400,10 @@
       "https://www.zerohedge.com/geopolitical/paris-police-chief-sparks-outcry-advising-shopkeepers-hire-private-security-ahead"
     ],
     [
-      "Germany Plans To Force Social Media Platforms To Fill 20% Of Algorithmic Reccs With 'State-Approved' Content",
-      0,
-      "ZeroHedge",
-      "https://www.zerohedge.com/geopolitical/germany-plans-force-social-media-platforms-fill-20-algorithmic-reccs-state-approved"
-    ],
-    [
-      "Everybody's Hitler! Ad Absurdum...",
-      0,
-      "ZeroHedge",
-      "https://www.zerohedge.com/political/everybodys-hitler-ad-absurdum"
-    ],
-    [
-      "Woke Video Game Developer BioWare Shuts Down In Humiliating Failure",
-      0,
-      "ZeroHedge",
-      "https://www.zerohedge.com/political/woke-video-game-developer-bioware-shuts-down-humiliating-failure"
-    ],
-    [
-      "‘No line he will not cross’: Obama slams Ramaswamy’s ‘cruel’ ad, hits out at Trump",
+      "‘Prioritise welfare over military directives’: India raps Pak on minority rights",
       0,
       "TOI",
-      "https://timesofindia.indiatimes.com/world/us/no-line-he-will-not-cross-obama-slams-ramaswamys-cruel-ad-hits-out-at-trump/articleshow/135179870.cms"
+      "https://timesofindia.indiatimes.com/india/prioritise-welfare-over-military-directives-india-raps-pak-on-minority-rights-at-un/articleshow/135180093.cms"
     ],
     [
       "No EC nod needed for voter to sue candidate over false information: Supreme Court",
@@ -5421,10 +5412,46 @@
       "https://timesofindia.indiatimes.com/india/no-ec-nod-needed-for-voter-to-sue-candidate-over-false-information-supreme-court/articleshow/135177591.cms"
     ],
     [
+      "Michael and Susan Dell’s foundation spotlights free skills training in Texas",
+      0,
+      "TOI",
+      "https://timesofindia.indiatimes.com/technology/tech-news/michael-and-susan-dells-foundation-backs-free-skills-training-in-texas-a-2026-update-reports-that-78-of-skillpoint-alliance-graduates-find-jobs-and-average-monthly-earnings-reach-3600/articleshow/135167339.cms"
+    ],
+    [
       "Farooq Abdullah's comments on Pakistan and Kashmir draw flak",
       0,
       "TOI",
       "https://timesofindia.indiatimes.com/india/farooq-abdullahs-comments-on-pakistan-and-kashmir-draw-flak/articleshow/135176756.cms"
+    ],
+    [
+      "Minnesota man who'd never driven a bus stops rolling school bus with 19 kids",
+      0,
+      "TOI",
+      "https://timesofindia.indiatimes.com/world/us/a-27-year-old-minnesota-man-saw-a-school-bus-carrying-19-children-rolling-with-its-doors-open-jumped-aboard-despite-never-driving-one-and-stopped-it-after-the-driver-suffered-a-medical-emergency/articleshow/135176580.cms"
+    ],
+    [
+      "Helen Mirren fights to save Italy's 1,500-year-old olives after 22m trees lost",
+      0,
+      "TOI",
+      "https://timesofindia.indiatimes.com/world/europe/helen-mirren-81-is-on-a-mission-to-save-italys-1500-year-old-olive-trees-deadly-xylella-fastidiosa-bacteria-has-wiped-out-22-million-trees-since-2013-we-have-to-save-these-trees-she-says/articleshow/135173886.cms"
+    ],
+    [
+      "New York court revives privacy claim over cameras filming family's backyard",
+      0,
+      "TOI",
+      "https://timesofindia.indiatimes.com/world/us/in-1996-a-new-york-couple-bought-their-home-believing-a-tree-line-marked-the-boundary-30-years-later-an-appeals-court-revived-a-privacy-claim-over-cameras-filming-their-backyard-and-daughter/articleshow/135140559.cms"
+    ],
+    [
+      "Rocket Mortgage founder turns $1 billion Detroit pledge into nonprofit fund",
+      0,
+      "TOI",
+      "https://timesofindia.indiatimes.com/technology/tech-news/rocket-mortgage-founder-dan-gilbert-turns-his-1-billion-detroit-redevelopment-commitment-into-a-nonprofit-pledge-he-will-take-no-profits-as-the-2-2-billion-project-remakes-renaissance-center-and-35-acre-riverfront/articleshow/135168426.cms"
+    ],
+    [
+      "Baltimore house sold for $310,000, later listed for $35,000 after foreclosure",
+      0,
+      "TOI",
+      "https://timesofindia.indiatimes.com/world/us/a-baltimore-house-bought-for-43000-in-2022-was-resold-for-310000-in-2023-three-years-later-it-was-listed-for-35000-after-foreclosure-as-lenders-alleged-a-wider-property-fraud-scheme-involving-hundreds-of-homes/articleshow/135139442.cms"
     ],
     [
       "Princess’s gambit: At 11, Bodhana Sivanandan is an international master",
@@ -5439,22 +5466,22 @@
       "https://timesofindia.indiatimes.com/india/interview-aap-had-4-5-years-to-end-drug-menace-gangsterism-in-punjab-sachin-pilot/articleshow/135177589.cms"
     ],
     [
-      "Michael and Susan Dell’s foundation spotlights free skills training in Texas",
+      "Natalia Granada reveals how her family inspired her F1 Academy journey",
       0,
       "TOI",
-      "https://timesofindia.indiatimes.com/technology/tech-news/michael-and-susan-dells-foundation-backs-free-skills-training-in-texas-a-2026-update-reports-that-78-of-skillpoint-alliance-graduates-find-jobs-and-average-monthly-earnings-reach-3600/articleshow/135167339.cms"
+      "https://timesofindia.indiatimes.com/sports/international-sports/natalia-granada-reveals-the-family-influence-behind-her-racing-passion-as-she-takes-on-her-first-f1-academy-season/articleshow/135173901.cms"
+    ],
+    [
+      "How Ons Jabeur went from hotel tennis courts to Grand Slam finals",
+      0,
+      "TOI",
+      "https://timesofindia.indiatimes.com/sports/international-sports/ons-jabeur-trained-on-temporary-hotel-courts-in-tunisia-before-reaching-grand-slam-finals-how-family-sacrifices-determination-and-an-unconventional-tennis-journey-helped-her-inspire-a-generation-of-arab-women-athletes/articleshow/135168458.cms"
     ],
     [
       "Trump votes in Florida midterms, defends controversial ad, doubles down on Iran",
       0,
       "TOI",
       "https://timesofindia.indiatimes.com/world/us/trump-votes-in-florida-midterms-defends-controversial-ad-doubles-down-on-iran-war/articleshow/135178548.cms"
-    ],
-    [
-      "Dallas insurer paid $4,261 for floor damage; court rejects $58,150 claim",
-      0,
-      "TOI",
-      "https://timesofindia.indiatimes.com/world/us/in-2021-a-dallas-homes-flooring-was-damaged-after-a-neighbours-frozen-pipes-burst-the-insurer-paid-4261-but-homeowners-later-sought-58150-in-repairs-and-an-october-22-court-rejected-the-delayed-claim/articleshow/135155850.cms"
     ],
     [
       "Suspicious pigeon with coded ring, Pak currency causes a flutter in Jammu",
@@ -5469,12 +5496,6 @@
       "https://timesofindia.indiatimes.com/india/defer-nov-1-rally-will-hit-festive-business-traders-urge-rahul-bjp-raps-congress/articleshow/135177587.cms"
     ],
     [
-      "Bezos’s parents invested $245,573 in Amazon when it was an uncertain online bookstore",
-      0,
-      "TOI",
-      "https://timesofindia.indiatimes.com/technology/tech-news/jeff-bezoss-parents-invested-245573-in-amazon-when-it-was-an-uncertain-online-bookstore-that-early-family-investment-is-worth-billions-today-as-the-companys-valuation-passes-2-trillion/articleshow/135165080.cms"
-    ],
-    [
       "Daughter’s inheritance rights can’t be defeated by limitation: J&amp;K and Ladakh HC",
       0,
       "TOI",
@@ -5485,18 +5506,6 @@
       0,
       "TOI",
       "https://timesofindia.indiatimes.com/india/cbi-files-fir-against-ilfs-energy-top-execs-in-rs-212cr-canara-bank-loan-fraud-case/articleshow/135177586.cms"
-    ],
-    [
-      "Natalia Granada reveals how her family inspired her F1 Academy journey",
-      0,
-      "TOI",
-      "https://timesofindia.indiatimes.com/sports/international-sports/natalia-granada-reveals-the-family-influence-behind-her-racing-passion-as-she-takes-on-her-first-f1-academy-season/articleshow/135173901.cms"
-    ],
-    [
-      "How Ons Jabeur went from hotel tennis courts to Grand Slam finals",
-      0,
-      "TOI",
-      "https://timesofindia.indiatimes.com/sports/international-sports/ons-jabeur-trained-on-temporary-hotel-courts-in-tunisia-before-reaching-grand-slam-finals-how-family-sacrifices-determination-and-an-unconventional-tennis-journey-helped-her-inspire-a-generation-of-arab-women-athletes/articleshow/135168458.cms"
     ],
     [
       "Govt to explore ways to draw desi researchers back to India: Piyush Goyal",
@@ -5545,6 +5554,12 @@
       0,
       "TOI",
       "https://timesofindia.indiatimes.com/world/rest-of-world/can-no-longer-breathe-thousands-protest-in-turkey-over-media-crackdown-jailed-journalists/articleshow/135174893.cms"
+    ],
+    [
+      "‘No line he will not cross’: Obama slams Ramaswamy’s ‘cruel’ ad, hits out at Trump",
+      0,
+      "TOI",
+      "https://timesofindia.indiatimes.com/world/us/no-line-he-will-not-cross-obama-slams-ramaswamys-cruel-ad-hits-out-at-trump/articleshow/135179870.cms"
     ],
     [
       "Fake faces, stolen voices, false stories: Can we still trust what we see online?",
@@ -5619,31 +5634,49 @@
       "https://timesofindia.indiatimes.com/india/our-neighbour-protecting-us-farooq-makes-shocking-remark-on-jk-bjp-hits-back/articleshow/135169757.cms"
     ],
     [
-      "‘What’s with the hate?’: Kriti Sanon reacts to backlash over her Raksha Bandhan ad outfit",
+      "Bolsonaro heir could bring Brazil closer to Trump if elected president",
       0,
-      "TOI",
-      "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/whats-with-the-hate-kriti-sanon-reacts-to-backlash-over-her-raksha-bandhan-ad-outfit-on-kareena-kapoors-talk-show/articleshow/135170028.cms"
+      "ABC-AU",
+      "https://www.abc.net.au/news/2026-10-25/bolsonaro-family-brazil-elections/107288900"
     ],
     [
-      "Pollard doesn't want to see 'yellows and reds', urges MI to put 'team above self'",
+      "WA government to consider return of Perth to Albany passenger rail service",
       0,
-      "TOI",
-      "https://timesofindia.indiatimes.com/sports/cricket/ipl/top-stories/kieron-pollard-doesnt-want-to-see-yellows-and-reds-at-wankhede-in-ipl-urges-mi-players-to-put-team-above-self/articleshow/135168237.cms"
+      "ABC-AU",
+      "https://www.abc.net.au/news/2026-10-25/return-of-passenger-rail-perth-to-albany-to-be-considered/107296124"
     ],
     [
-      "45 paise for Rs 10L cover: Rlys extends insurance to counter tickets from Oct 27",
+      "Missing kayaker found dead near Geelong",
       0,
-      "TOI",
-      "https://timesofindia.indiatimes.com/india/45-paise-for-rs-10-lakh-cover-railways-extends-insurance-to-counter-tickets-from-october-27/articleshow/135171650.cms"
+      "ABC-AU",
+      "https://www.abc.net.au/news/2026-10-25/vic-kayaker-found-dead-near-geelong/107306216"
     ],
     [
-      "Cong to launch door-to-door campaign, hold marches over voter list 'discrepancies'",
+      "Have your cake and eat Freo too at this sweet design event",
       0,
-      "TOI",
-      "https://timesofindia.indiatimes.com/india/congress-to-launch-door-to-door-campaign-hold-marches-over-voter-list-discrepancies/articleshow/135172497.cms"
+      "ABC-AU",
+      "https://www.abc.net.au/news/2026-10-25/fremantle-cake-contest-reimagines-port-city/107298828"
     ],
     [
-      "Kids playing pool for Australia say there's not much time for homework",
+      "Volkanovski underscores UFC greatness with record ninth title win",
+      0,
+      "ABC-AU",
+      "https://www.abc.net.au/news/2026-10-25/volkanovski-underscores-ufc-greatness-win-over-movsar-evloev/107306090"
+    ],
+    [
+      "WA's young female politicians will not give up despite rise in abuse",
+      0,
+      "ABC-AU",
+      "https://www.abc.net.au/news/2026-10-25/western-australia-young-women-politics-determined-despite-abuse/107297228"
+    ],
+    [
+      "Thousands rally in Tel Aviv against Netanyahu ahead of vote",
+      0,
+      "ABC-AU",
+      "https://www.abc.net.au/news/2026-10-25/thousands-rally-in-tel-aviv-days-ahead-of-israel-election/107306000"
+    ],
+    [
+      "Australian 11yo brings home gold from snooker and eight ball championships",
       0,
       "ABC-AU",
       "https://www.abc.net.au/news/2026-10-25/young-snooker-champion-angelo-tsakaris-8-ball-player-adam-grace/107291894"
@@ -5673,7 +5706,7 @@
       "https://www.abc.net.au/news/2026-10-25/microforest-planted-with-1000-native-trees-at-broulee-school/107292384"
     ],
     [
-      "Australia has an Asian history, too, you just have to look for it",
+      "It's time to tell the truth of Australia's Chinese history",
       0,
       "ABC-AU",
       "https://www.abc.net.au/news/2026-10-25/boyer-lectures-louisa-lim-asian-australian-history/107302542"
@@ -5719,48 +5752,6 @@
       0,
       "ABC-AU",
       "https://www.abc.net.au/news/2026-10-25/infantino-says-supported-vast-majority-soccer-fifa-elections/107305904"
-    ],
-    [
-      "36er knew his NBL days were numbered when he had the 'most pain ever'",
-      0,
-      "ABC-AU",
-      "https://www.abc.net.au/news/2026-10-25/isaac-humphries-nbl-retirement-was-made-inevitable-by-injury/107300468"
-    ],
-    [
-      "Western Sydney International Airport opens to passengers today",
-      0,
-      "ABC-AU",
-      "https://www.abc.net.au/news/2026-10-25/western-sydney-international-airport-open-day-sunday-october-25/107293784"
-    ],
-    [
-      "Some regions still climbing as nation sees record drop in house prices",
-      0,
-      "ABC-AU",
-      "https://www.abc.net.au/news/2026-10-25/sa-sees-nations-largest-increase-in-regional-house-prices/107300928"
-    ],
-    [
-      "Kim Jong Un crosses new bridge into China as trade ties warm",
-      0,
-      "ABC-AU",
-      "https://www.abc.net.au/news/2026-10-25/kim-jong-un-crosses-new-bridge-into-china/107305932"
-    ],
-    [
-      "Extraordinary discoveries emerge from the ruins of Juukan Gorge",
-      0,
-      "ABC-AU",
-      "https://www.abc.net.au/news/2026-10-25/juukan-gorge-archaeological-dig-uncovering-ancient-secrets/107298466"
-    ],
-    [
-      "Young men are turning on Trump, but not necessarily to Democrats",
-      0,
-      "ABC-AU",
-      "https://www.abc.net.au/news/2026-10-25/us-midterm-elections-donald-trump-losing-support-among-young-men/107299276"
-    ],
-    [
-      "The Tasmanian garden helping people with dementia live well",
-      0,
-      "ABC-AU",
-      "https://www.abc.net.au/news/2026-10-25/tas-dementia-gardening-program-utas-wicking/107284502"
     ],
     [
       "My Ex Is Encouraging My 12-Year-Old to Wear an Offensive Halloween Costume",
@@ -5829,16 +5820,16 @@
       "https://slate.com/podcasts/slate-money/2026/10/musk-zuckerberg-spacex-meta-merge-billionaire-tax-airbnb-stock-market?via=rss"
     ],
     [
-      "The “Tradwife” To Girlboss Pipeline",
-      0,
-      "Slate",
-      "https://slate.com/podcasts/icymi/2026/10/tradwives-are-rebranding-as-girlbosses?via=rss"
-    ],
-    [
       "Impeaching Trump Is a Legal and Constitutional Slam Dunk. It’s Also a Bad Idea.",
       0,
       "Slate",
       "https://slate.com/podcasts/amicus/2026/10/trump-impeachment-crimes-boat-strikes-corruption-congress?via=rss"
+    ],
+    [
+      "The “Tradwife” To Girlboss Pipeline",
+      0,
+      "Slate",
+      "https://slate.com/podcasts/icymi/2026/10/tradwives-are-rebranding-as-girlbosses?via=rss"
     ],
     [
       "One of the Original Wife Guys Really Seems to Have Cheated on His Wife. Let Me Explain Why Everyone Is Rejoicing.",
@@ -5895,10 +5886,10 @@
       "https://slate.com/advice/2026/10/neighbor-advice-halloween-decorations-scary.html?via=rss"
     ],
     [
-      "Slate SoundBites for October 23, 2026",
+      "I’m Getting Something Many Divorced People Would Be So Happy With. I Don’t Want It!",
       0,
       "Slate",
-      "https://slate.com/life/2026/10/slate-soundbites-for-october-23-2026.html?via=rss"
+      "https://slate.com/advice/2026/10/money-advice.html?via=rss"
     ],
     [
       "The one thing everyone can do to fight for free and fair elections",
@@ -6453,10 +6444,34 @@
       "https://www.dawn.com/news/2039363/fuel-dealers-urge-consumers-to-avoid-panic-buying"
     ],
     [
+      "North Korea’s Kim visits China as allies’ look to boost economic ties",
+      0,
+      "Japan Times",
+      "https://www.japantimes.co.jp/news/2026/10/25/asia-pacific/politics/north-korea-kim-jong-un-china-dandong/"
+    ],
+    [
+      "People-pleaser Kumaji is a true ‘bundle of joy’",
+      0,
+      "Japan Times",
+      "https://www.japantimes.co.jp/community/2026/10/25/kumaji-lovable-fellow/"
+    ],
+    [
       "James Suckling’s Great Wines World Tokyo marks its third edition",
       0,
       "Japan Times",
       "https://www.japantimes.co.jp/life/2026/10/25/food-drink/great-wines-world-tokyo-2026/"
+    ],
+    [
+      "Thousands rally for Lula and Bolsonaro on eve of tight Brazil vote",
+      0,
+      "Japan Times",
+      "https://www.japantimes.co.jp/news/2026/10/25/world/politics/rally-lula-bolsonaro-brazil-election/"
+    ],
+    [
+      "Trump prepares for Iran escalation after U.S. and Israeli elections",
+      0,
+      "Japan Times",
+      "https://www.japantimes.co.jp/news/2026/10/25/world/politics/iran-us-midterm-elections-war/"
     ],
     [
       "Amid potato protests, Hokkaido has its best spud harvest in years",
@@ -6487,12 +6502,6 @@
       0,
       "Japan Times",
       "https://www.japantimes.co.jp/business/2026/10/24/gmo-cyber-defense-government-request/"
-    ],
-    [
-      "North Korea’s Kim visits China ahead of key anniversary",
-      0,
-      "Japan Times",
-      "https://www.japantimes.co.jp/news/2026/10/24/asia-pacific/politics/north-korea-kim-jong-un-china-dandong/"
     ],
     [
       "What to know about the Chinese Communist Party’s Fifth Plenum",
@@ -6571,42 +6580,6 @@
       0,
       "Japan Times",
       "https://www.japantimes.co.jp/life/2026/10/24/lifestyle/festivals-japan-depopulation-matsuri-rural-life-tourism/"
-    ],
-    [
-      "Can a traditional ‘ryokan’ inn go global?",
-      0,
-      "Japan Times",
-      "https://www.japantimes.co.jp/life/2026/10/24/travel/gora-kadan-ryokan-hotel-travel-luxury-expansion/"
-    ],
-    [
-      "Government calls for stronger energy supply structure in white paper",
-      0,
-      "Japan Times",
-      "https://www.japantimes.co.jp/news/2026/10/23/japan/japan-energy-white-paper/"
-    ],
-    [
-      "Japanese prefectures showcase tourism and food culture in New York",
-      0,
-      "Japan Times",
-      "https://www.japantimes.co.jp/news/2026/10/23/japan/japan-tourism-new-york/"
-    ],
-    [
-      "Japan calls for more support amid rising youth suicides",
-      0,
-      "Japan Times",
-      "https://www.japantimes.co.jp/news/2026/10/23/japan/society/japan-youth-suicides-white-paper/"
-    ],
-    [
-      "[Update 3] Notice and Advisory for Business Partners and Former Employees Regarding Unauthorized Access to Group Managed Server and Potential Data Exposure",
-      0,
-      "Japan Times",
-      "https://www.japantimes.co.jp/press/2026/10/23/notice-ransomware-incident-3rd-report/"
-    ],
-    [
-      "【第3報】お取引先および退職者の皆さまへ、当社グループ管理サーバーへの不正アクセスおよび情報漏えいの可能性について注意喚起のお願い",
-      0,
-      "Japan Times",
-      "https://www.japantimes.co.jp/press/2026/10/23/notice-ransomware-incident-3rd-report-jp/"
     ],
     [
       "South Korea’s Ruling Democratic Party Is Tumbling in the Polls",
@@ -7377,6 +7350,12 @@
       "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-braces-for-very-severe-cyclonic-storm-landfall-likely-between-bapatla-and-vizag-on-october-28/article71621095.ece"
     ],
     [
+      "A development dream linked to Ravana’s birthplace",
+      0,
+      "The Hindu",
+      "https://www.thehindu.com/news/national/uttar-pradesh/a-development-dream-linked-to-ravanas-birthplace/article71616208.ece"
+    ],
+    [
       "Social security, welfare fund board pensions in Keralam to be distributed from October 26",
       0,
       "The Hindu",
@@ -7425,6 +7404,12 @@
       "https://www.thehindu.com/news/cities/chennai/srm-medical-college-holds-national-geriatric-summit/article71619667.ece"
     ],
     [
+      "Workers clear drains without adequate safety gear in Chennai",
+      0,
+      "The Hindu",
+      "https://www.thehindu.com/news/cities/chennai/workers-clear-drains-without-adequate-safety-gear-in-chennai/article71621020.ece"
+    ],
+    [
       "Healthcare challenges require collaborative, technology-ledsolutions, says Health Secretary",
       0,
       "The Hindu",
@@ -7465,6 +7450,12 @@
       0,
       "The Hindu",
       "https://www.thehindu.com/news/cities/chennai/corporation-rdcs-inspect-drain-cleaning-across-chennai/article71620352.ece"
+    ],
+    [
+      "Now, one more road proposed alongside Bengaluru’s Hebbal Lake",
+      0,
+      "The Hindu",
+      "https://www.thehindu.com/news/cities/bangalore/now-one-more-road-proposed-alongside-bengalurus-hebbal-lake/article71620417.ece"
     ],
     [
       "Missing KRIDL engineer traced to Mumbai after 40 days",
@@ -7551,6 +7542,12 @@
       "https://www.thehindu.com/news/cities/chennai/tn-awaits-centres-response-to-letters-regarding-chennais-existing-and-proposed-airports/article71620279.ece"
     ],
     [
+      "Hundreds of applications exposed in censor board data breach",
+      0,
+      "The Hindu",
+      "https://www.thehindu.com/sci-tech/technology/hundreds-of-applications-exposed-in-censor-board-data-breach/article71619870.ece"
+    ],
+    [
       "Tiruvannamalai Corporation sets up 10 temporary shelters for families in Arunachala Hills",
       0,
       "The Hindu",
@@ -7603,30 +7600,6 @@
       0,
       "The Hindu",
       "https://www.thehindu.com/news/national/andhra-pradesh/clarification/article71620059.ece"
-    ],
-    [
-      "We only tried to make Thirumavalavan the Chief Minister, says Dhinakaran",
-      0,
-      "The Hindu",
-      "https://www.thehindu.com/news/national/tamil-nadu/we-only-tried-to-make-thirumavalavan-the-chief-minister-says-dhinakaran/article71620472.ece"
-    ],
-    [
-      "Centre backs A.P.’s semiconductor push, approves rail links for nine ports",
-      0,
-      "The Hindu",
-      "https://www.thehindu.com/news/national/andhra-pradesh/centre-backs-aps-semiconductor-push-approves-rail-links-for-nine-ports/article71621247.ece"
-    ],
-    [
-      "Women entrepreneurs urged to focus on attractive, quality packaging at SARAS Mela",
-      0,
-      "The Hindu",
-      "https://www.thehindu.com/news/national/andhra-pradesh/women-entrepreneurs-urged-to-focus-on-attractive-quality-packaging-at-saras-mela/article71620789.ece"
-    ],
-    [
-      "Invitation Cup weekend: Royal Legacy runs to glory in the Mysore Derby",
-      0,
-      "The Hindu",
-      "https://www.thehindu.com/sport/races/invitation-cup-weekend-royal-legacy-runs-to-glory-in-the-mysore-derby/article71621150.ece"
     ],
     [
       "Over 100,000 rally in Tel Aviv demanding commission of inquiry into failures during October 7",
@@ -7725,22 +7698,58 @@
       "https://www.jpost.com/middle-east/article-912694"
     ],
     [
+      "Survivors of clergy sexual abuse reach $800m. settlement with New York Archdiocese",
+      0,
+      "Jerusalem Post",
+      "https://www.jpost.com/international/article-912727"
+    ],
+    [
       "Two former FBI agents charged with lying to Congress during Hunter Biden laptop inquiry - report",
       0,
       "Jerusalem Post",
       "https://www.jpost.com/american-politics/article-912693"
     ],
     [
-      "Would ousting Netanyahu cure Israel's chronic public relations failures? - opinion",
+      "Sacha Baron Cohen’s Ali G returns in two-day screening of 'Who Iz I?' amid pushback campaign",
       0,
       "Jerusalem Post",
-      "https://www.jpost.com/opinion/article-912504"
+      "https://www.jpost.com/israel-news/culture/article-912608"
     ],
     [
-      "Israel has not invested enough resources into hasbara, and now we are paying the price - opinion",
+      "Camille Cottin elevates French family drama 'Out of Love' as it opens in Israeli theaters - review",
       0,
       "Jerusalem Post",
-      "https://www.jpost.com/opinion/article-912537"
+      "https://www.jpost.com/israel-news/culture/article-912611"
+    ],
+    [
+      "Raiders mourn Super Bowl champion Pete Banaszak, key figure in iconic 'Holy Roller' play",
+      0,
+      "FOX News",
+      "https://www.foxnews.com/outkick-sports/raiders-mourn-super-bowl-champion-pete-banaszak-key-figure-iconic-holy-roller-play"
+    ],
+    [
+      "Sacha Baron Cohen says 'Ali G: Who Iz I?' is his last in this style of comedy, calling them too risky",
+      0,
+      "FOX News",
+      "https://www.foxnews.com/entertainment/sacha-baron-cohen-says-ali-g-who-iz-i-last-over-the-top-comedy-calling-them-too-risky"
+    ],
+    [
+      "UCF Knights pull off stunning upset over undefeated BYU in mind-boggling overtime thriller",
+      0,
+      "FOX News",
+      "https://www.foxnews.com/outkick-sports/ucf-knights-pull-off-stunning-upset-undefeated-byu-mind-boggling-overtime-thriller"
+    ],
+    [
+      "Ukraine's Starlink restored as Elon Musk claims Kyiv violated terms of service 'to kill people'",
+      0,
+      "FOX News",
+      "https://www.foxnews.com/politics/ukraines-starlink-restored-elon-musk-claims-kyiv-violated-terms-service-kill-people"
+    ],
+    [
+      "LaNorris Sellers' acrobatics, late fumble recovery help give South Carolina walk-off win over Tennessee",
+      0,
+      "FOX News",
+      "https://www.foxnews.com/outkick-sports/lanorris-sellers-acrobatics-late-fumble-recovery-help-give-south-carolina-walk-off-win-tennessee"
     ],
     [
       "NC State fires Dave Doeren after 14 years as Wolfpack football coach following loss to Stanford",
@@ -7839,36 +7848,6 @@
       "https://www.foxnews.com/outkick-betting/betr-promo-code-foxnews-get-200-bonus-four-sweat-free-picks-world-series-cfb-more"
     ],
     [
-      "Melania Trump's advisor reveals how she bridged Putin, Zelenskyy to broker frontline Ukraine truce",
-      0,
-      "FOX News",
-      "https://www.foxnews.com/media/melania-trumps-advisor-reveals-how-she-bridged-putin-zelenskyy-broker-front-line-ukraine-truce"
-    ],
-    [
-      "Jason Alexander admits ‘Seinfeld’ fame sent him to therapy",
-      0,
-      "FOX News",
-      "https://www.foxnews.com/entertainment/jason-alexander-admits-seinfeld-fame-sent-him-therapy"
-    ],
-    [
-      "Ric Flair shows off eyepatch in update after fall left him hospitalized: 'I will be okay'",
-      0,
-      "FOX News",
-      "https://www.foxnews.com/outkick-sports/ric-flair-shows-off-eyepatch-update-after-fall-left-him-hospitalized-i-will-be-okay"
-    ],
-    [
-      "Bill Maher fires back at liberal critics over second Trump dinner",
-      0,
-      "FOX News",
-      "https://www.foxnews.com/media/bill-maher-fires-back-liberal-critics-over-second-trump-dinner"
-    ],
-    [
-      "Thousands booked tropical Bahamas cruise and ended up in freezing Canada instead",
-      0,
-      "FOX News",
-      "https://www.foxnews.com/travel/thousands-booked-tropical-bahamas-cruise-ended-freezing-canada-instead"
-    ],
-    [
       "Bus carrying Georgia high school football team overturns",
       0,
       "CNN",
@@ -7911,16 +7890,22 @@
       "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVDNGQk1SMmlHN0VKcnNTeUMyWFROVTBEVC1Kbmh4amZWb0M0dERiSThCM2ZPT2ZTLXpGeDA4Yy03MGNzbXl0YUR3TjFyc0hCYm5MUXNzNXNtQXFxYVR1aXdMSFdFSVRuLUlGdFR4NmtKVDRWYnlpOFFCYUVYSXNzWnI1anpWbi1rS0RPUG9lQzJHZ3V5YVQ4YzB6TWJWRlpLX3R2LS1rNlB0ZXRJRTRXdHd3UWlXNkRZOVNLaGgwN0VIN29IdlVKa3QyOGtGbFJSRlpmY3VxSnVWc3BxY3ZKckZocUlQeGdrQ0Zqa2hB?oc=5"
     ],
     [
+      "A GOP congressman in a swing district faces angry voters: ‘I’m against the party that caused this’",
+      0,
+      "CNN",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE13SDBoSE1hTko0RWFZRkNCQk1OV3IyME9MemFyRjBfaExreVZMWkZ6Tmx0TkttaEg5T0dkWGpILVgwRnY4SmhCeE9mUnFaeUY4MXU2RTIwbkpBR2FpWk1NVEVFby1DeWJoRFJHR3Y4MFRFWGxEQVlSN2txdS0?oc=5"
+    ],
+    [
       "The 2026 campaign is getting ugly — especially on the right",
       0,
       "CNN",
       "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWWJ6VXpuZXdmTmhRcXE3Yko5bURpenBtYTNocWh0T3lYcHBJcE1OSnZZRVM1eFVZZmJ3cllnMGhwMVBGdnh3cjRjZUVuYzJlVmJHYWl2SS1wMG9WNmRTdDNoZG51OE9WbEtLQVVnUzZJNEdFR2dELUt2VDg1MzhMSHFscWE?oc=5"
     ],
     [
-      "A GOP congressman in a swing district faces angry voters: ‘I’m against the party that caused this’",
+      "Iranian twins tortured in Iranian prison, cousin says",
       0,
       "CNN",
-      "https://news.google.com/rss/articles/CBMifEFVX3lxTE13SDBoSE1hTko0RWFZRkNCQk1OV3IyME9MemFyRjBfaExreVZMWkZ6Tmx0TkttaEg5T0dkWGpILVgwRnY4SmhCeE9mUnFaeUY4MXU2RTIwbkpBR2FpWk1NVEVFby1DeWJoRFJHR3Y4MFRFWGxEQVlSN2txdS0?oc=5"
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZk1lMThSVkNqY0R4a2Q1Z1lmbF9UcmRTN3dldXc2WDFLNmNGaS04T0doeVh4S0VoaXZDR2NBbDZPclVsRnkzekFMTVN1TlNlMkRqUmc2eVpjekNXYmRvYVJPcVdab2h5UFpvdW41RnZmUVhtLW5IcHRBOXZmVks1Qk4wSlRDMFFfMmFlN2d2cG9rWWlfQUZBWElDLUFEdTU0SzZDekFRb0pZTERB?oc=5"
     ],
     [
       "Can electronic voting machines change your vote? Here’s what experts say",
@@ -7929,10 +7914,16 @@
       "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZWtRcVU4ZUlpemNUcUJrQkg5dWJaZVoyLXJyNE1sbnc5YjdOTTdGUEVjZTlBR29KZjFhYjJuN3JSZUpuRl96MVp3VjhnODFDQWpER0JiVjdyX2tTcDdGN0dxeHJvbmVSMXNBWmFsVHNhTjAtak5VTFFySU0wc0JjV0U3U3JuY3VhT1YyTnJJNHI?oc=5"
     ],
     [
-      "Iranian twins tortured in Iranian prison, cousin says",
+      "Is Nathan Fielder really like this?",
       0,
       "CNN",
-      "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZk1lMThSVkNqY0R4a2Q1Z1lmbF9UcmRTN3dldXc2WDFLNmNGaS04T0doeVh4S0VoaXZDR2NBbDZPclVsRnkzekFMTVN1TlNlMkRqUmc2eVpjekNXYmRvYVJPcVdab2h5UFpvdW41RnZmUVhtLW5IcHRBOXZmVks1Qk4wSlRDMFFfMmFlN2d2cG9rWWlfQUZBWElDLUFEdTU0SzZDekFRb0pZTERB?oc=5"
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVTZZY2g2Ylc4dEFEVkpDTUJ3cGM3VVNsRjlUY1V6N1FqekJQWVg4WmtVOVh3V1NXMGNNR0k2VnU3NS1tWXpIbFNhTHJKTEhhVUppR0E1Q20wQWVfOUhET2pUcmhMeTd2b2tFVlZkMWR4YzJMdHJkRV93TkRGZlhqT0lEZGlvVnNUV3BZSTNFRQ?oc=5"
+    ],
+    [
+      "This Justice Department official hustles to the forefront of Trump’s legal agenda",
+      0,
+      "CNN",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU0NoaGtGZ2FXam4tX2RpZVBfdENoYWxRZUxDSzh0RFhMT3FHVmtzR1YzbU5FYUVKWkV0aW11RC1xZGtlSHhsV3BVYXBiVFpqWjhVSVVvTkphV1F4YlM1OXpqQ09nS0loZ2MwRVBldWk0UV9EekduS3U0TnYyMlRjMFZkUnhlS21iQk1lbTdmaGQ5M0tBQkpkYjF3QTl1MDBkTVBOQg?oc=5"
     ],
     [
       "How reliant is Ukraine on US support – and could Kyiv carry on without it?",
@@ -7953,16 +7944,22 @@
       "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mdEFPdXFWeGdHUDFPNGZtZVBYbHJLWExRakxtNGNuTjhJN3JGSFJ3QVptMDRUVmd0d2wxRGdFczZXZ0VXRnpxNURsaUxiZXkwZE9waEhZMnBFbHZxaVNGVTdlVVEwX0xZNHR0TFZmSGNKanprWnctZHZ0MzJxcHM?oc=5"
     ],
     [
+      "How to respond to the ‘Gen Z stare’ without looking like a total boomer",
+      0,
+      "CNN",
+      "https://news.google.com/rss/articles/CBMiakFVX3lxTE5POTl2T1VzSFdmOE4xSHBHZGtEeFNoME02ZlJPV1I0c1FPT1NXR1JvaXBJdnpnRVUwMnZNd2lfV0diQjQ2emlHSEJyWENhdzV6RVVPbXNYcE9UbFN6ZVV5UktGcm5CM3RHWVE?oc=5"
+    ],
+    [
+      "This was a cost-saving way to travel the world. Then Covid changed everything",
+      0,
+      "CNN",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTFBwRU9HSlhQdW16RXU1Y2ZsMlJxZDhzd1NsRnl3dDhqZlplLU1HLURTRlBnZ3NHV0RSSGxiWWExUGNGVTBHNFczZzJaRUUtMjdpWldQQ0lVQklldDJaNUNJRkxXWkZaT2t5dzRhajV6a2Jad195WEtF?oc=5"
+    ],
+    [
       "Astronomers say van Gogh’s ‘The Starry Night’ may have been inspired by real celestial arrangement",
       0,
       "CNN",
       "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVjZYUXIzcGFTNmZSalBNOU1Yc0dUbUlLZHYzSlVuaThweVQwa2tuWHpqYnhMWkxkR0lQVkJRUFpNcG9hQ1hCdVozYkpTSXFla3M2NlFBMFVzMkdBeldtNUVTSC0tQ29xa3hKMFdLMVlMRmVKYkN6YzV2a2JSdGE5Z1hFSk5zMVVP?oc=5"
-    ],
-    [
-      "A fire devastates the Eagle’s Nest retreat built for Hitler in Germany. A suspect is detained",
-      0,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMiekFVX3lxTFBLYVNjc1RIWWRGa1laSkRUekhXdll4b1JET2o3WG51ZW5lYzlSajlUeDhLNl9xXzFzdUZzekt3akpLbTNINWp1U3RQc2I0blZHb0JyMUN6bXBHdDFyQ2ZiVms4SEk5MVRwaW5Md3hvdEhGU25EWDNiVERn?oc=5"
     ],
     [
       "Who is Gadi Eisenkot, Netanyahu’s main challenger in Israel’s elections?",
@@ -7989,22 +7986,10 @@
       "https://news.google.com/rss/articles/CBMirgFBVV95cUxOenRDUWFLRktZRnZDVWpYRDVFOVk0UThMRlBWcWF4ZWdfMTVVV2c4LThFNFF6U2JHZGJ0VE5heDdUSW9lS3JhZFpQbVJhMjhGWFluWVNYR0pWeWRSUnFnZW5pWl9NSWJ5MXpDZ2RsdV85V0dURVZVTlp4cVN6TGRmUmloZ3Y4d3pmbUJwbm04Slg4azZrYVdUU3hIZUdTbDJhOVFRR0hhVVVSXzlnZHc?oc=5"
     ],
     [
-      "How to respond to the ‘Gen Z stare’ without looking like a total boomer",
-      0,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMiakFVX3lxTE5POTl2T1VzSFdmOE4xSHBHZGtEeFNoME02ZlJPV1I0c1FPT1NXR1JvaXBJdnpnRVUwMnZNd2lfV0diQjQ2emlHSEJyWENhdzV6RVVPbXNYcE9UbFN6ZVV5UktGcm5CM3RHWVE?oc=5"
-    ],
-    [
       "New documents reveal Amy Acton’s estranged mother has troubling past",
       0,
       "CNN",
       "https://news.google.com/rss/articles/CBMizAFBVV95cUxOODR2cm1RandqUlJBZ2t2dmRiUXh2MlkwdTZZYzNsTl9pblBJZnE5dVRvLVpPRXFwQ19tQXJUaHNFcDZrWXVIYzc0U1ZOZW5xVTBDVVMxUWlsU3hja3RtRmthWXM3Ukh6RVNTZEgyVUYzam1La2hIb2dsc2MzU0RTTDZoQUFCd0UwcXdpQVRFX2lNU1oxdzhDMkVPcFZYYVZJbnJVb0lfNVhUVWxRemZOVGwtWHFHa3ZpUDFOc1RvUTRNMUw0QXVqcjBPWXc?oc=5"
-    ],
-    [
-      "Georgia man charged with throwing Molotov cocktail at Atlanta ICE building",
-      0,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tWDJUckRxYVU4NVZFaHVfaFRaRUxHZG8zMlRPTi1EXzBvdFhyVlZpR2ZWRGt1a2hvRDBnMVhNTF9tMXZ0dnFlVGMtR2NMM3JQbnMzOUxfSE9oTHItVHAxYTQ4VHdaeVNObGU3WWI4dkdZVmhk?oc=5"
     ],
     [
       "Top election forecaster: GOP path to holding the House \"has all but evaporated\"",
@@ -8013,16 +7998,10 @@
       "https://news.google.com/rss/articles/CBMiugFBVV95cUxPck1zcVFvX09wcmFxSjRDT3ZTQl9TS19pX1Faa19paFNxcjQ1ZF9qeEQwdks4Vlphek9KX2EwN1hxT2M1TjlxcFl2VFZyX1VoeS1FN2dCU1ZuXzBKQmFoS2xLVjdGQ2JfQkw2VlhEd0lfUElwTEJ0SnZ4WEFBNHJ5UDlHSFgtWVJOeElpZkJRTnQxbFZ1V0NNeU53dDZ3NjZnSndvMFBmbXI2X3R6cm9rejVMbmJvZU9Janc?oc=5"
     ],
     [
-      "This was a cost-saving way to travel the world. Then Covid changed everything",
+      "Georgia man charged with throwing Molotov cocktail at Atlanta ICE building",
       0,
       "CNN",
-      "https://news.google.com/rss/articles/CBMid0FVX3lxTFBwRU9HSlhQdW16RXU1Y2ZsMlJxZDhzd1NsRnl3dDhqZlplLU1HLURTRlBnZ3NHV0RSSGxiWWExUGNGVTBHNFczZzJaRUUtMjdpWldQQ0lVQklldDJaNUNJRkxXWkZaT2t5dzRhajV6a2Jad195WEtF?oc=5"
-    ],
-    [
-      "‘The most complicated launch campaign ever’: NASA lays out mad dash to test lunar landers",
-      0,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVkh0X3lBd2RiWGJnNmh3WDhfcUowaU83R0hVcmJOTmhUd012eWFBUXk3QTgwY3NveF8xQXMwTDZEWjBSdHZ6dkRnWElLSlhaS0loZ3VPcmk1a1JYSXhWT2VOVUpmeC1RRXp5OHM3ZENZc3JBeEk5QnM1ekJTQmRsaDhwN08zd25HVTc2VWdyTQ?oc=5"
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tWDJUckRxYVU4NVZFaHVfaFRaRUxHZG8zMlRPTi1EXzBvdFhyVlZpR2ZWRGt1a2hvRDBnMVhNTF9tMXZ0dnFlVGMtR2NMM3JQbnMzOUxfSE9oTHItVHAxYTQ4VHdaeVNObGU3WWI4dkdZVmhk?oc=5"
     ],
     [
       "Behind the scenes with Kaitlan Collins: Trump holds midterm rallies as approval rating hits new low",
@@ -8031,16 +8010,16 @@
       "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOa0VOdzdnd29CekNaeDEzWW1helhLc0U2blhHekoyM2lVNHkxbDZNVmZBSXpULV9zU3FtNTZ1emVqR2I3cWZncEhwcER0WExZWXBxWG1ZLTJBM2h5MEpLNVpCS3A1VmFCYmdncU5meHBqLVhZWTZGc21jTDRBMk1ZWjBsdzZlT3RrUEdPZThKVXY0UGpfdUVZWGxRZFd6RFhobkR4bm15ZEtOTTN6MGJEWjlXc2JfZDVVYXAxMWNOYnk0MzkxbzFMREVlV2FMSzZnaHBOV1Z2V3JvNS1ocmpxaUJR?oc=5"
     ],
     [
+      "‘The most complicated launch campaign ever’: NASA lays out mad dash to test lunar landers",
+      0,
+      "CNN",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVkh0X3lBd2RiWGJnNmh3WDhfcUowaU83R0hVcmJOTmhUd012eWFBUXk3QTgwY3NveF8xQXMwTDZEWjBSdHZ6dkRnWElLSlhaS0loZ3VPcmk1a1JYSXhWT2VOVUpmeC1RRXp5OHM3ZENZc3JBeEk5QnM1ekJTQmRsaDhwN08zd25HVTc2VWdyTQ?oc=5"
+    ],
+    [
       "More than $1.4 billion has been traded on prediction markets for the 2026 midterms",
       0,
       "CNN",
       "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTGlGaHhiUnVIaXkyY204c1RTSC1wLXUzM3hvWE5IRlROMTBlMkpybjBaUUJQaXFKc1czSGdYRlRiTkM1dlhyTm43THNJeW85Q01aSFlUN0hSMlJRZUFuMG5YM3J5RWMwMTY0bG12ZFpCNUFOYk5wWFI0dC1pakNNUUNndHpFNXlxRUt6WVJJTUVPZW5tWW9ULVVn?oc=5"
-    ],
-    [
-      "This Justice Department official hustles to the forefront of Trump’s legal agenda",
-      0,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU0NoaGtGZ2FXam4tX2RpZVBfdENoYWxRZUxDSzh0RFhMT3FHVmtzR1YzbU5FYUVKWkV0aW11RC1xZGtlSHhsV3BVYXBiVFpqWjhVSVVvTkphV1F4YlM1OXpqQ09nS0loZ2MwRVBldWk0UV9EekduS3U0TnYyMlRjMFZkUnhlS21iQk1lbTdmaGQ5M0tBQkpkYjF3QTl1MDBkTVBOQg?oc=5"
     ],
     [
       "Consumers across party lines are fed up with high gas prices",
@@ -8049,28 +8028,16 @@
       "https://news.google.com/rss/articles/CBMiigFBVV95cUxORUpObG9XVHlJUUJsSmVBdUtkTWFxQ1cwcXh3clRlOGFxLS0tbTZwQzg4TW5ib1ZyMHcxRGN4UW5VTkxxa3Izb0FoVmVmZXg3X3Z6cS1zdllVNHk1cnNXUTQzTnltWE0zWk9kbFVkbFhfMnlZYmQ0aVZISzhJbEttZzFNY0VDM3lfSlE?oc=5"
     ],
     [
-      "First on CNN: DOJ brings criminal charges against FBI officials it believes hampered Biden corruption investigation",
-      0,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVWZKYU43cHk3SXR1WE5XRHE4QlF2YnZJOXlIR3loeGw5Umw4ajdXQ09PZ1lMOXJnSDhFRTdmSmlla3BlMVdyS2NpZE9FWWpkNF9nTnFQbnhDMjFrdWVBODg5cnR5STI4UGpSVVhyOHZUdmtvazlrZUxILVc2X2QzanVmMmpUOHFjTG8tVlVPNTAwaFVtU01vQjB5b0QwOWNOLXlCaFVRUkNqRk9NbUZ1cWRWVWRINWJveTVsRDFTRDdhVUx0QTFKbjFPWWRiTnNZSDB1cTNfSzZ5NnJsOEFvRHJyMnRscnc?oc=5"
-    ],
-    [
-      "Melania Trump says she secured one-city ceasefire between Russia and Ukraine for humanitarian aid",
-      0,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdEMwQUhVTFFUX1FUVFp6SXpXNGI5S1JRNi02d2hIVVZYVWY4MFk2YjY5bEJmX2ZCUzVKZjZMX005anVKTG1JazVLS2EtR2Vud3BNUUd4RENodER0YWNKczJlWndWSmlqYXQ1OXJiQWhWbjlzbWJqa3ZjX0hnOExNNEZ4cURWVzR0NkE?oc=5"
-    ],
-    [
       "France braces for another weekend of protests as authorities launch massive security operation",
       0,
       "CNN",
       "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOUJWMWFjSmdPR0RCWmFuTUlFMDRWaDliUExTSmo2RG83eUNZN3F2VU9QU2JRR19DM3RLSGVyaWczUy1TcDJwVzktdXFPeTByaGN0di1VMXJldkZzeWZ5U2VMTElJTWZsZDM5cWxMYUdUU2ZNNDVmam8weWNyWEpqU3Y4LWl2WGFQUDVF?oc=5"
     ],
     [
-      "Mass extinction event that wiped out the dinosaurs set the stage for the giant fungus D. rex",
+      "First on CNN: DOJ brings criminal charges against FBI officials it believes hampered Biden corruption investigation",
       0,
       "CNN",
-      "https://news.google.com/rss/articles/CBMidkFVX3lxTE85ZjFHcHF2YUprZ1otUDBMR2pHNHVvUlFXdkR4U1hLSURRTUh2RFgydHlPX3R5Ump5cEpYTW9fVHFSR2VQbUZrWVJTZ0VHclFFcVhPU2I2MmFDVzN5Nm1zTTRKSHlTc2pfSlhzTUxqcTdVN19rN0E?oc=5"
+      "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZTlMSDFNQzJ2R0x0eTlyMnd5Qm4tUDFraHFuSHA1akFPa0huUk42TXRJNkNMbi1OckJmSVBWeDB5WmZGemV2dzRMSngtYjF2R2RkWm45QXdxenJjeWsyN21rTEs4ZjJvUnp3UmRaSnlaMjdnbHNiMWZkcUNsNTZBZ1NPUlBuVlNpZ0xBbUhVMWhlQ2hGNGdSYlJVNFNyVWVfMHViTmloLWVtejcyV2EtdHhOSnZpRWN1b1Q5MVBVV296YVgwRGFsVTFUMWo4bDAySnVSX3c5emJ1MldFOXN5YkJB?oc=5"
     ],
     [
       "We have more clothing options than ever. Why is shopping so hard?",
@@ -8079,16 +8046,22 @@
       "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSzl5UzJYVnlvTGwtbjhpdEkzMnZBQ3AxQ2ZTTGF0Q1FVNm1WLXRveDZYZVVrUUxWZXU0SmhhRkJ1WlNodnRNY0ZRWndPdUtIcGM1ZWZnRFVCSGJOVy1wc0Vwc0pLQklIUDdhdWVSY05jOVBqN1ZBS19NbnpoaEdKQ3JQbkgxblhxbEVOVXRsZkU?oc=5"
     ],
     [
-      "Forget ‘ferritin face’ — experts explain the truth about iron deficiency",
+      "Melania Trump says she secured one-city ceasefire between Russia and Ukraine for humanitarian aid",
       0,
       "CNN",
-      "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdk9vcE5lLUNGdkJQODlydHN0dmJNc3Nab0lESlgzMjY3dGFHOThTTkE2ZkxFbF9QZWxPQ1gxV3VaUGRWWk52bXZYUmxhWE1KdTdrSFdMUnltQmxXaGZfSVd1UUdUcVkzMUFieXM4VVFUT0g4NzVUN3lvOEdQMXJudlkyZkVpcUxRdjNQOXlXdVBuazl0?oc=5"
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQkhJZ25hOEJTTFUwTlpqdnd3SFdpdHRNWWZUVjhPd0xsUWpSMjJ4R1NUS21BM2RtTDRVQmg4MmZTU05EalMzTUJ0OU5PR1RDLTAxVUFXc2VwQ2VwQm9sTnIxV1FRMTN3ZUFUdW5rMFRJZ2F4dDZiWTl2R1lKeEYzZWNDeUE?oc=5"
     ],
     [
-      "‘Everyone here wants to have sex with Nathan Fielder’",
+      "Mass extinction event that wiped out the dinosaurs set the stage for the giant fungus D. rex",
       0,
       "CNN",
-      "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUTdoWjZmN2M3VTNHM1ptMzhndERualk5V1M3SVZBQ1h4TTBUZjFzUHdnejc5VzhhTlVvbVhLV2RocllpTXJNdWFaam1ZWkJkVUp2TnNGSWNsNXVuRFowakN6c2hMemJ3akxCWlU1YmY3MHg1TURXYjB1RlFobkxselFMdFpzUWpLMktEOUN3?oc=5"
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE85ZjFHcHF2YUprZ1otUDBMR2pHNHVvUlFXdkR4U1hLSURRTUh2RFgydHlPX3R5Ump5cEpYTW9fVHFSR2VQbUZrWVJTZ0VHclFFcVhPU2I2MmFDVzN5Nm1zTTRKSHlTc2pfSlhzTUxqcTdVN19rN0E?oc=5"
+    ],
+    [
+      "Electric shock gloves were used on students. Now Nebraska parents want them out of schools",
+      0,
+      "CNN",
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTE92Tmt2LWJvdTE5M1VIMjB1RTc2RzdpMmJmUFdIMDRNbWpvdzFTSDZQX0hZbGM5UW14QW5XaThGYjhmSExMRjdiM2hKTTdrZ2daQWx4elpGbGlTd0R6eEpFcUVCZTJXa3VJU2JnNmZaUDVPckEx?oc=5"
     ],
     [
       "How Title IX investigations work and why experts say the system failed Cornell’s Jane Doe",
@@ -8103,10 +8076,10 @@
       "https://news.google.com/rss/articles/CBMigwFBVV95cUxQanBpUHc2T21sVXE2TVZBNUQ1b2tLQzRHakZIdWFTRXBfeDVwV3V4T2pxQ1BSR3dReUJqUXZMMTVmY2lfVlMxVG5kMEpjODBJQzNEcXh4X3ZNM3VvZVRNdW9fZWRvSHpUOHNVRG1YQ19VMFpJMlA0b29oejhNam5lcGl1aw?oc=5"
     ],
     [
-      "Why young men are losing faith in Trump’s economy",
+      "Forget ‘ferritin face’ — experts explain the truth about iron deficiency",
       0,
       "CNN",
-      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaURRMDhPRzg2LUlkTUU0a1BFMk5Oc3hmM3JCLWVVTk9SbkxSZk8tLUlRa3dJcnBCMWV1RTNvMGV5VEJ0SlBDNnpIX0lCb2JiRXNYZEpmMHFMbm9YVFFpZFdxUEdEaTJNZXVrdEtEQmhzNjkwZHBac1NlVUpyZWc2WnhsbUhZaHhzcnln?oc=5"
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdk9vcE5lLUNGdkJQODlydHN0dmJNc3Nab0lESlgzMjY3dGFHOThTTkE2ZkxFbF9QZWxPQ1gxV3VaUGRWWk52bXZYUmxhWE1KdTdrSFdMUnltQmxXaGZfSVd1UUdUcVkzMUFieXM4VVFUT0g4NzVUN3lvOEdQMXJudlkyZkVpcUxRdjNQOXlXdVBuazl0?oc=5"
     ],
     [
       "Trump turns the GOP’s Ramaswamy ad headache into a migraine",
@@ -8115,10 +8088,10 @@
       "https://news.google.com/rss/articles/CBMickFVX3lxTFBfUXhMOWt0RHo3QVRXaXpHeE5CTUpHTFpaU1FmdXAyYkQzZDVZS3J3cVlIQ0xhZnJGQTU3MzVoRUpzV0VJeDBZWDZKbThTNkhnTHduS1daTklUbzk3NWllUnhDVmpYNTdyRkpRcFN4aGIzUQ?oc=5"
     ],
     [
-      "Ukraine’s defense ministry says access to Starshield has been restored",
+      "Why young men are losing faith in Trump’s economy",
       0,
       "CNN",
-      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTXd6SDRlbUlCVnkyY2FkRzZuNi1SdWdKS0VFS1hmUktTTVpPZ0FZMDNQV2xOS0NsWGZTRlZQSTg4b3hPZVpZbHVuRjkzd1ZEZGJsNnpxZnA4Q011b0I1YlBsYkhUNXhvbURCbEJFZUVCamRwejVZMEFROW9faV9sNE13WWlDcHhI?oc=5"
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaURRMDhPRzg2LUlkTUU0a1BFMk5Oc3hmM3JCLWVVTk9SbkxSZk8tLUlRa3dJcnBCMWV1RTNvMGV5VEJ0SlBDNnpIX0lCb2JiRXNYZEpmMHFMbm9YVFFpZFdxUEdEaTJNZXVrdEtEQmhzNjkwZHBac1NlVUpyZWc2WnhsbUhZaHhzcnln?oc=5"
     ],
     [
       "How London’s grimiest locations became the stars of ‘Slow Horses’",
@@ -8127,22 +8100,22 @@
       "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BeHAzd1JMbE8wYlgybHRqMVQ0a2x6bkRRRnVjQmg1V29iTUdYRXV0Tm9LOEl3N2k5ZzVXbEVMZC04NWo5aDFiM1R4UjY4eVpFbEp3WlRPU182ZU1BMVU4bFE2S1RXWEx2Q2U2Q0tTZ08?oc=5"
     ],
     [
+      "Ukraine’s defense ministry says access to Starshield has been restored",
+      0,
+      "CNN",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTXd6SDRlbUlCVnkyY2FkRzZuNi1SdWdKS0VFS1hmUktTTVpPZ0FZMDNQV2xOS0NsWGZTRlZQSTg4b3hPZVpZbHVuRjkzd1ZEZGJsNnpxZnA4Q011b0I1YlBsYkhUNXhvbURCbEJFZUVCamRwejVZMEFROW9faV9sNE13WWlDcHhI?oc=5"
+    ],
+    [
       "Man accused of beheading Iwo Jima statue in Virginia with sledgehammer",
       0,
       "CNN",
       "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xNUR5Snh5WU5rWlJBRnZ6ZTRDeTZyWXVuWngxcWRIRlpnTGktWHdUVlA5RGVCX3FDOFNQRGF4RkJjV1lGVWJfUGdzdm9jWEV1aVhZSlZDcFk1VU90UjY2M3ZGWmpINUJrdjNQVXlEUW5Mc2tXY09fWUdjcw?oc=5"
     ],
     [
-      "Analysis: Why Zelensky insists it’s not personal with Trump — even though it is | CNN Politics",
+      "‘Everyone here wants to have sex with Nathan Fielder’",
       0,
       "CNN",
-      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcm9RR1NjV3EwVVJ1Zk90Z1FRMC02eXlfUzJEc05McjVoekFOMjdMNXhmUnZsX2kxT1V1bkpaY1VCd3lrbXBfZXBQOXZydl83WVdHUTVpZWxhRmZ1UkZwUjBwOEZMM3A4bFV5VzNPNlZvN2FROWxibGN1ZUlsU05fdjA5MVBIS0df?oc=5"
-    ],
-    [
-      "Airfares are way up compared to last year. Don’t expect it to change this holiday season",
-      0,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JZWM2SndreWhpb0UwNEtEak94bkw4YmhyNTI2N19nMXJoaFNvejBIWjVWUE4zWU5UOGhhSzV2U2taREFEcjFjTDhmZUZpaFYwOXJhWEpKWVdWaGxhaERYZWNRb3lpZ2pacGl4c3NxWkdJMjUxN2xiSg?oc=5"
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUTdoWjZmN2M3VTNHM1ptMzhndERualk5V1M3SVZBQ1h4TTBUZjFzUHdnejc5VzhhTlVvbVhLV2RocllpTXJNdWFaam1ZWkJkVUp2TnNGSWNsNXVuRFowakN6c2hMemJ3akxCWlU1YmY3MHg1TURXYjB1RlFobkxselFMdFpzUWpLMktEOUN3?oc=5"
     ],
     [
       "In this border town, a library is trying to preserve a 125-year-old bond between the US and Canada",
@@ -8163,22 +8136,16 @@
       "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbjItNjhGYXd3QXJQcGpYQ0NPRU8tUWpGSnBRbzkxcHBwWXhiRmFPdE4xZVZ2d3V5YkszTllkNnhCYS1HcHFwTy1HOWh0NnhlTUVHd1BOSGYxRUh6UldxNmNBN2xnWVhBV1M1al9nUDJaa0NyYlgzMU9WNmFHeEswazF5Tnc?oc=5"
     ],
     [
+      "Tracking the early voting surge in battleground North Carolina",
+      0,
+      "CNN",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWnh1WExCQjZiUldYdG4zUXN1OG04OEFOT3JTMk1pM3NSWkc3cHh2MkU3dm9BaXlZUFhZS1dSWHdTX2xXVjlweUxqeVRCZGNUSHZUZFVxWlRFbkdrcVhqdDdBZmY2cEo2WEswRWtrUGRWZExYT3ZodTFNdU5oVWYxS19EdkE5bllwSDliSUpIbkNTRnZ1ZXpMMW5sX1F1UzFhY0dKa3Z3UFlNcUktNHJyUVNKT3VvdFFD?oc=5"
+    ],
+    [
       "Justice Department investigating Republican operative Corey Lewandowski over alleged contract misconduct at DHS, sources say",
       0,
       "CNN",
-      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUm5fQjF3ZXkyQzU2VE53Q0J0Wm9hVWFVVTVUNXI5RDExekNydnZ0OXBNZXZsVjBUeFFTMXFkeFJyb2o3X3IzSWFDWFJRMTRuZG1KUmdLdTdXcU5DSmZudGZEMUtoaUVIeDM4TVRtMlNINEJZT3dnMnVJLVdOanlMN0swTjQ2TU94REowNnlHaGFNdVVkeVhoZ3FBUWdIM0QyOENyTU0yVXM?oc=5"
-    ],
-    [
-      "Trump told Ramaswamy to thank God for ad featuring opponent’s estranged mother",
-      0,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNFQwVkJnRzVpRHV1cFpMMnNVNzNnemp4S0dlcWZEUmx5S1JnNGVJQWlzdF9yczJ5Q3hMeXByWTRoV3JKZHhNdXB2R1Q2TDJHTGhEVkxveGEyUGxhcU51YmJCbFZ1ZzVfNTA3UHhfb2dzd01vNGNYZnMzOTR0VmpLVmlGZ3BEM2w2YS15WFcwSHc5THJYdXJLdkVZSXFuanZm?oc=5"
-    ],
-    [
-      "Tom Skerritt, everyman actor of ‘Alien’ and ‘Picket Fences’ fame, dead at 93",
-      0,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JdTdXY0RXZU1KX1Z3MUdCZmJydXYxRDZoLUtxdTdGeFVyTHREUkZpYmpKQVhwb1ZhME4wWVc0ZXozanlmSmlFUEhWaF9sc2RjTlNjVnlSY3lxN3JpTWlmX21KcDByc0VzcmhsWU51aFc?oc=5"
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUEFNR1N4WklrZ0NJRkJFWWRvbHFKdklwZFE0S2k5b0hzV24wOVQzdUJrV1dPbnZfOXU5Nk5QUHItZWVGdmp5Y3B6aG1MOGxrRmlWbjN6MG1wdVlNTVlDNU5FUDZYd2ZHRnVzQlJFNXpkSFBPQTdrMHItcHpfdnJFUWxpbV9HMGJzaXlMRU1QQ0xJa2ZBVkV6TnlucXZBX3NVRE9B?oc=5"
     ],
     [
       "The latest sign of Republican midterm problems: A top super PAC is buying ads in Mississippi",
@@ -8199,10 +8166,16 @@
       "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc29CaHNVUjBfYjFKNzhodlRndDUyaUxTZjZzb2c2NTN5eGFIOWh4WmFBNF9ob3BtNDJxdDlJZDQ5WVRNYVhIM1ZDMjJRUFpsNTFmY3ZEM1ZwcDZha04tc3ZGRUdMLWdhSWxMZm42aktOM0VCOG8zcXhneXpEV2xQVEFxUWhoRzFKbEtmYjBnZkhDN29VeVQ4Yng0V1hVeHRYaVdOUWNmZngtZzdNdVh6Uw?oc=5"
     ],
     [
+      "Tom Skerritt, everyman actor of ‘Alien’ and ‘Picket Fences’ fame, dead at 93",
+      0,
+      "CNN",
+      "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JdTdXY0RXZU1KX1Z3MUdCZmJydXYxRDZoLUtxdTdGeFVyTHREUkZpYmpKQVhwb1ZhME4wWVc0ZXozanlmSmlFUEhWaF9sc2RjTlNjVnlSY3lxN3JpTWlmX21KcDByc0VzcmhsWU51aFc?oc=5"
+    ],
+    [
       "Nothing personal between me and Trump, Zelensky tells CNN",
       0,
       "CNN",
-      "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWU5NZkZOVGhfWEZrNTZIX0dndi1JSy1DRzJsZl9vR0R0Nm5YY0JqNDcwWkwwYTVTX29leENNQjdORS1veVJVdks1a1c5UzhCTHNkSDRUejlhTXpYVThSbm56WFNVUEYzc3pZMFVLdXRxV2lsLTJLNkVzNnZXck9HdndDVHd3VFhwSFhZbQ?oc=5"
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdjkwY24xMmRwd0k4UXFyNmtmN3BQTlhITUxmRDFuUjk3RzB6SUxWZzk4emlDQUxCUHRlMi1Dd1dvSzVmWnNRQWdwSVF3N2dWSWVJSDR1VG5yUHp1aDRsekEzeFZqTVhEVGJGallyeHc4SXJOcU53ZnE0T0tYTlJvYjJjd3pCMWxlRkR4c0NjLV9OQQ?oc=5"
     ],
     [
       "Virginia state Sen. L. Louise Lucas indicted on drug and money laundering charges",
@@ -8211,22 +8184,22 @@
       "https://news.google.com/rss/articles/CBMif0FVX3lxTE80QWVMc1dFUVpBVm1SandJbHNHVGwzQzJWUmZIRTMwTWhJbWM2MHR0NGk2RHpzeG83ZVllTDYyT0hGS09uV3V3QTJkd2tIWnBUb1ItVkdURnJwTThfX240SmRibXRIYllfU3NmOEE2Z3ZIRXR0a2ppcHFGTGJOMTQ?oc=5"
     ],
     [
-      "A mutated virus is driving the US into an early flu season, especially on the West Coast",
-      0,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMia0FVX3lxTE9oS0lmRmc0ejZoQm5SY3dxTWxWLURmc25nWEpyNXdtXzB4WGtkMnIxZ19hWlBHNk9lWmpIOXJ4ajByVVVTS19ndzN6VmZmMFFFUFFHT3dxeGFFQmZNQjh3M1o1b2xNYm9fTDZr?oc=5"
-    ],
-    [
       "‘Looksmaxxing’ streamer known as Clavicular pleads not guilty to rape charge",
       0,
       "CNN",
       "https://news.google.com/rss/articles/CBMid0FVX3lxTE5CUHBZTFpvZGlJZHlkTTQwSHhEZnVlMGktRzJ6b2pBanFMaGFmYWY3Mm9IU2ZkSkN2OWhGb0pIelZJZmJVeW1BRjZHcVh5RVpDRXVsZlpkQXFCc2JkODJvV1o4VTZaLVR4TS0wUXJOMk1lUUREVUJ3?oc=5"
     ],
     [
-      "Websites shut down globally after AI finds cybersecurity flaw affecting 70% of the internet",
+      "A mutated virus is driving the US into an early flu season, especially on the West Coast",
       0,
       "CNN",
-      "https://news.google.com/rss/articles/CBMie0FVX3lxTFBvRU1zeDJqczBYM1Fpb3ZvTjdySjVOYTF2SWVLdnhOZFFLTWpQVlY3d05WS3ZJYXFVY2dYZ29QbXJXN3hmSXdoZTNxd0xUSEhzV19IUi1WOEJJZU5ORHdPSVpiX0phX0xhaGk3YklGMGVpd0VmTXJRQ1pBMA?oc=5"
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vSE9VbTI5U0NaZXkwMllWUnhwNFRHQW9rSWhjUms4WWJUWG4tdVBGa3BtcUxCUEUwZ0pIbk9TZDY1MHhiekw2bFJKSGs3WjEwVDZZU1FXaEhIS2V1OVphVDFVWU41dw?oc=5"
+    ],
+    [
+      "What Republicans mean when they ask Abdul El-Sayed to ‘disavow’ the Muslim Brotherhood",
+      0,
+      "CNN",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Sc3ZrSUgtbzllTnhMMGRLNmtfX3EwcHNKME5OMVM4NFowWWRpR2wtRDF3OHh0MUlxdHVGR3ozWXN1UmlyMmhiMmhPcG5uUUcydTNiQnBObEh6cFlJeERvdTdpRnJOM3dVd3dQeWNvV09rZGQxMmV5elRmS1lYQQ?oc=5"
     ],
     [
       "What is Shamonda, the livestock virus found for the first time in a person in France?",
@@ -8235,10 +8208,16 @@
       "https://news.google.com/rss/articles/CBMib0FVX3lxTE5mRm5DYV9aYW9YNHdXMnJsSEtmRzAtQ2x3emZXVktTSWd0OVhhWk5fZGkwSEVMSzdNUmNlaGo2Nkd5WXB4eTVFSXo5Q29FSFVESzU0a0RBMFBKY1lMV3FyaEFOZXdVNXVtbXZ3SHVMcw?oc=5"
     ],
     [
-      "What Republicans mean when they ask Abdul El-Sayed to ‘disavow’ the Muslim Brotherhood",
+      "Construction on Trump’s 250-foot triumphal arch in DC could begin in just two weeks",
       0,
       "CNN",
-      "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Sc3ZrSUgtbzllTnhMMGRLNmtfX3EwcHNKME5OMVM4NFowWWRpR2wtRDF3OHh0MUlxdHVGR3ozWXN1UmlyMmhiMmhPcG5uUUcydTNiQnBObEh6cFlJeERvdTdpRnJOM3dVd3dQeWNvV09rZGQxMmV5elRmS1lYQQ?oc=5"
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR0ZGcGlZZXJtVGNQTlhZbXdncHFQTkN3NGZpenZCLTlJWVFKa0dNSUp4d1lCeUROcWJzenV2b28zZkdyTDZ4blFpMk41THkwc3lTMmhyeF9McGQxTkprVGtsQm5TRmlXMC1tTzdZcm9JU0pQbERwUGo1NGVVQk5nX2lVRHV4SEpJa2ZOQURmNi1MNU5ITVVJSjVlRQ?oc=5"
+    ],
+    [
+      "Witkoff calls Putin a ‘humanitarian’",
+      0,
+      "CNN",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWnV4V05QYzh5a19yQnVvNVJhNXJDc1dyT21FbUNsc25Sb0FQTHhNb1JMODNWUnpMVk1qd3Zib0tWaXR3V1NjNVlvN1VhMDRYYUoyc3pWaVhna1NfZU9oMGVucmhaeDJRUmJ4QmtXTXpndUNlNGQwS1BYQU5xWEFiaGdMbw?oc=5"
     ]
   ]
 }

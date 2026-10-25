@@ -373,35 +373,35 @@
     "verdict": "Mostly survivable.",
     "sources": {
       "BBC": 0.0,
-      "Al Jazeera": 4.0,
+      "Al Jazeera": 8.0,
       "CBS": 0.0,
       "PBS": 5.0,
-      "ABC": 8.0,
-      "NBC": 4.0,
-      "Sky": 28.6,
+      "ABC": 4.0,
+      "NBC": 8.0,
+      "Sky": 33.3,
       "DW": 4.6,
       "France24": 8.3,
-      "Guardian": 13.3,
+      "Guardian": 15.6,
       "The Hill": 4.0,
       "ZeroHedge": 12.0,
-      "TOI": 6.5,
-      "ABC-AU": 4.0,
+      "TOI": 2.2,
+      "ABC-AU": 8.0,
       "Slate": 0.0,
       "Vox": 0.0,
       "Euronews": 20.0,
       "CNBC": 10.0,
       "ProPublica": 5.0,
       "Dawn": 11.1,
-      "Japan Times": 6.7,
+      "Japan Times": 10.0,
       "The Diplomat": 11.5,
       "Reason": 4.2,
       "The Hindu": 6.7,
-      "Jerusalem Post": 15.4,
+      "Jerusalem Post": 11.5,
       "FOX News": 0.0,
-      "CNN": 21.0
+      "CNN": 19.0
     },
     "topics": {
-      "War": 17.4,
+      "War": 16.3,
       "Crime": 16.3,
       "Disaster": 8.1,
       "Politics": 4.7,
@@ -409,20 +409,20 @@
       "Economy": 2.3
     },
     "top_keywords": [
-      "killed",
       "death",
-      "shooting"
+      "shooting",
+      "killed"
     ],
     "top": [
-      {
-        "title": "Macron says Paris suburb shooting that killed one person was terrorist and racist act",
-        "score": 77,
-        "source": "CNN"
-      },
       {
         "title": "Israel begins demolitions in West Bank city after two soldiers killed in shooting attack",
         "score": 63,
         "source": "CNN"
+      },
+      {
+        "title": "Terrorist shooting in Paris suburb marks 'turning point for France', Macron says",
+        "score": 52,
+        "source": "Sky"
       },
       {
         "title": "Mississippi officer resigns after deadly shooting of one-year-old",
