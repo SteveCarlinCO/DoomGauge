@@ -443,54 +443,54 @@
   },
   {
     "date": "2026-10-25",
-    "score": 8.8,
+    "score": 9.8,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 8.0,
-      "Al Jazeera": 20.0,
+      "BBC": 10.7,
+      "Al Jazeera": 16.0,
       "CBS": 10.0,
       "PBS": 5.0,
       "ABC": 4.0,
-      "NBC": 20.0,
+      "NBC": 24.0,
       "DW": 3.8,
       "France24": 4.2,
       "Guardian": 15.6,
       "The Hill": 3.0,
-      "ZeroHedge": 8.0,
-      "TOI": 6.7,
-      "ABC-AU": 12.0,
+      "ZeroHedge": 12.0,
+      "TOI": 7.1,
+      "ABC-AU": 20.0,
       "Slate": 0.0,
       "Vox": 10.0,
       "Euronews": 22.0,
       "CNBC": 10.0,
       "ProPublica": 5.0,
-      "Dawn": 17.2,
+      "Dawn": 20.7,
       "Japan Times": 3.3,
       "The Diplomat": 11.5,
-      "Reason": 4.2,
-      "The Hindu": 3.3,
-      "Jerusalem Post": 20.0,
-      "FOX News": 20.0,
-      "CNN": 14.0
+      "Reason": 6.2,
+      "The Hindu": 8.3,
+      "Jerusalem Post": 23.1,
+      "FOX News": 4.0,
+      "CNN": 15.0
     },
     "topics": {
-      "War": 23.9,
-      "Crime": 17.4,
-      "Politics": 7.6,
-      "Disaster": 6.5,
-      "Economy": 2.2,
-      "Health": 2.2
+      "War": 22.8,
+      "Crime": 16.8,
+      "Disaster": 6.9,
+      "Politics": 5.9,
+      "Economy": 5.0,
+      "Health": 5.0
     },
     "top_keywords": [
       "shooting",
-      "killed",
-      "death"
+      "death",
+      "killed"
     ],
     "top": [
       {
-        "title": "IDF pushing for Hebron attack to be classified as clash between soldiers, terrorists, not terror",
-        "score": 72,
+        "title": "UK arrests pro-Palestinian activist for spitting on statue of British MP murdered in terror attack",
+        "score": 66,
         "source": "Jerusalem Post"
       },
       {
@@ -504,9 +504,9 @@
         "source": "Jerusalem Post"
       },
       {
-        "title": "Suspect in St. Louis teen’s fatal freeway shooting investigated in another roadway attack",
-        "score": 56,
-        "source": "NBC"
+        "title": "6 terrorists killed, 2 soldiers martyred during Dera Ismail Khan IBO: ISPR",
+        "score": 53,
+        "source": "Dawn"
       },
       {
         "title": "Terrorist commander killed during IBO in Balochistan's Qila Saifullah: state media",
