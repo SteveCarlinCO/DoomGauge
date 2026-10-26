@@ -443,56 +443,51 @@
   },
   {
     "date": "2026-10-25",
-    "score": 9.2,
+    "score": 9.4,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 10.0,
-      "BBC": 11.1,
+      "BBC": 10.3,
       "Al Jazeera": 8.0,
-      "CBS": 10.0,
+      "CBS": 13.3,
       "PBS": 15.0,
-      "ABC": 4.0,
+      "ABC": 0.0,
       "NBC": 12.0,
-      "DW": 3.8,
+      "DW": 3.9,
       "France24": 0.0,
-      "Guardian": 15.6,
+      "Guardian": 8.9,
       "The Hill": 4.0,
       "ZeroHedge": 12.0,
-      "TOI": 9.1,
-      "ABC-AU": 4.0,
+      "TOI": 13.0,
+      "ABC-AU": 8.0,
       "Slate": 0.0,
       "Vox": 10.0,
       "Euronews": 20.0,
-      "CNBC": 10.0,
+      "CNBC": 13.3,
       "ProPublica": 5.0,
       "Dawn": 20.7,
       "Japan Times": 3.3,
       "The Diplomat": 11.5,
       "Reason": 6.2,
       "The Hindu": 8.3,
-      "Jerusalem Post": 19.2,
-      "FOX News": 0.0,
+      "Jerusalem Post": 15.4,
+      "FOX News": 4.0,
       "CNN": 12.0
     },
     "topics": {
-      "War": 23.2,
-      "Crime": 11.6,
-      "Disaster": 8.4,
-      "Economy": 8.4,
-      "Politics": 8.4,
-      "Health": 5.3
+      "War": 25.8,
+      "Crime": 13.4,
+      "Economy": 9.3,
+      "Disaster": 7.2,
+      "Politics": 7.2,
+      "Health": 4.1
     },
     "top_keywords": [
-      "death",
       "war",
-      "killed"
+      "death",
+      "shooting"
     ],
     "top": [
-      {
-        "title": "UK arrests pro-Palestinian activist for spitting on statue of British MP murdered in terror attack",
-        "score": 66,
-        "source": "Jerusalem Post"
-      },
       {
         "title": "Israel begins demolitions in West Bank city after two soldiers killed in shooting attack",
         "score": 63,
@@ -512,6 +507,11 @@
         "title": "Mississippi officer resigns after deadly shooting of one-year-old",
         "score": 52,
         "source": "CNN"
+      },
+      {
+        "title": "Israeli strike on Gaza university kills 3; another 4 Palestinians killed in other attacks",
+        "score": 49,
+        "source": "Dawn"
       }
     ]
   }
