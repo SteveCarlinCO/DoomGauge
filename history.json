@@ -517,44 +517,43 @@
   },
   {
     "date": "2026-10-26",
-    "score": 9.5,
+    "score": 8.6,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 10.0,
-      "BBC": 3.0,
-      "Al Jazeera": 16.0,
-      "CBS": 13.3,
+      "NPR": 0.0,
+      "BBC": 8.8,
+      "Al Jazeera": 8.0,
+      "CBS": 6.7,
       "PBS": 15.0,
       "ABC": 0.0,
       "NBC": 12.0,
-      "Sky": 14.3,
+      "Sky": 10.0,
       "DW": 4.7,
-      "France24": 0.0,
-      "Guardian": 4.4,
-      "The Hill": 6.0,
-      "ZeroHedge": 28.0,
-      "TOI": 6.5,
-      "ABC-AU": 12.0,
+      "France24": 4.2,
+      "Guardian": 6.7,
+      "The Hill": 7.0,
+      "ZeroHedge": 16.0,
+      "TOI": 14.9,
+      "ABC-AU": 8.0,
       "Vox": 10.0,
-      "Euronews": 16.0,
-      "CNBC": 23.3,
+      "Euronews": 14.0,
+      "CNBC": 10.0,
       "ProPublica": 5.0,
-      "Dawn": 7.7,
+      "Dawn": 7.4,
       "Japan Times": 13.3,
       "The Diplomat": 11.5,
       "Reason": 6.2,
-      "The Hindu": 8.3,
-      "Jerusalem Post": 11.5,
-      "FOX News": 16.0,
-      "CNN": 9.0
+      "The Hindu": 6.7,
+      "Jerusalem Post": 15.4,
+      "FOX News": 4.0,
+      "CNN": 6.0
     },
     "topics": {
-      "War": 29.2,
-      "Crime": 13.5,
-      "Economy": 9.4,
-      "Politics": 7.3,
-      "Disaster": 5.2,
-      "Health": 1.0
+      "War": 36.8,
+      "Economy": 10.3,
+      "Crime": 9.2,
+      "Disaster": 6.9,
+      "Politics": 6.9
     },
     "top_keywords": [
       "war",
@@ -568,9 +567,9 @@
         "source": "Reason"
       },
       {
-        "title": "Israel begins demolitions in West Bank city after two soldiers killed in shooting attack",
-        "score": 63,
-        "source": "CNN"
+        "title": "Jordan arrests three following deadly terror attack on church",
+        "score": 64,
+        "source": "France24"
       },
       {
         "title": "Mississippi officer resigns after deadly shooting of one-year-old",
@@ -578,14 +577,14 @@
         "source": "CNN"
       },
       {
-        "title": "At least 9 people killed in unprecedented shooting at church in Jordan",
+        "title": "Guwahati shooting: Four of same family killed in hotel Bilas Inn firing; accused arrested",
         "score": 49,
-        "source": "CNN"
+        "source": "TOI"
       },
       {
-        "title": "Mississippi officer and interim police chief resign after officer’s fatal shooting of 1-year-old in car during pursuit",
-        "score": 48,
-        "source": "CNN"
+        "title": "Saudi-led forces strike Houthi missile facilities after Riyadh airport attack",
+        "score": 44,
+        "source": "Japan Times"
       }
     ]
   }
