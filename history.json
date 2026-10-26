@@ -514,5 +514,79 @@
         "source": "Dawn"
       }
     ]
+  },
+  {
+    "date": "2026-10-26",
+    "score": 9.0,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 10.0,
+      "BBC": 2.7,
+      "Al Jazeera": 4.0,
+      "CBS": 13.3,
+      "PBS": 15.0,
+      "ABC": 0.0,
+      "NBC": 12.0,
+      "DW": 3.9,
+      "France24": 0.0,
+      "Guardian": 8.9,
+      "The Hill": 4.0,
+      "ZeroHedge": 20.0,
+      "TOI": 13.3,
+      "ABC-AU": 8.0,
+      "Slate": 0.0,
+      "Vox": 10.0,
+      "Euronews": 18.0,
+      "CNBC": 16.7,
+      "ProPublica": 5.0,
+      "Dawn": 14.3,
+      "Japan Times": 0.0,
+      "The Diplomat": 11.5,
+      "Reason": 6.2,
+      "The Hindu": 5.0,
+      "Jerusalem Post": 23.1,
+      "FOX News": 8.0,
+      "CNN": 14.0
+    },
+    "topics": {
+      "War": 28.0,
+      "Crime": 11.8,
+      "Economy": 8.6,
+      "Disaster": 7.5,
+      "Politics": 7.5,
+      "Health": 2.2
+    },
+    "top_keywords": [
+      "war",
+      "death",
+      "killed"
+    ],
+    "top": [
+      {
+        "title": "Israel begins demolitions in West Bank city after two soldiers killed in shooting attack",
+        "score": 63,
+        "source": "CNN"
+      },
+      {
+        "title": "6 terrorists killed, 2 soldiers martyred during Dera Ismail Khan IBO: ISPR",
+        "score": 53,
+        "source": "Dawn"
+      },
+      {
+        "title": "Mississippi officer resigns after deadly shooting of one-year-old",
+        "score": 52,
+        "source": "CNN"
+      },
+      {
+        "title": "Israeli strike on Gaza university kills 3; another 4 Palestinians killed in other attacks",
+        "score": 49,
+        "source": "Dawn"
+      },
+      {
+        "title": "At least 9 people killed in unprecedented shooting at church in Jordan",
+        "score": 49,
+        "source": "CNN"
+      }
+    ]
   }
 ]
