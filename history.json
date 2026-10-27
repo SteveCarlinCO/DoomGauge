@@ -591,50 +591,49 @@
   },
   {
     "date": "2026-10-27",
-    "score": 6.6,
+    "score": 5.8,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 0.0,
-      "BBC": 6.2,
+      "NPR": 10.0,
+      "BBC": 3.6,
       "Al Jazeera": 16.0,
       "CBS": 10.0,
       "PBS": 5.0,
       "ABC": 4.0,
-      "NBC": 4.0,
+      "NBC": 8.0,
       "Sky": 20.0,
       "DW": 6.2,
       "France24": 4.2,
-      "Guardian": 4.4,
-      "The Hill": 4.0,
-      "ZeroHedge": 20.0,
-      "TOI": 8.5,
-      "ABC-AU": 16.0,
+      "Guardian": 6.7,
+      "The Hill": 1.0,
+      "ZeroHedge": 8.0,
+      "TOI": 6.8,
+      "ABC-AU": 8.0,
       "Slate": 0.0,
-      "Vox": 10.0,
-      "Euronews": 10.0,
+      "Euronews": 6.0,
       "CNBC": 0.0,
       "ProPublica": 5.0,
-      "Dawn": 11.5,
+      "Dawn": 10.7,
       "Japan Times": 6.7,
       "The Diplomat": 8.3,
       "Reason": 4.2,
-      "The Hindu": 1.7,
+      "The Hindu": 6.7,
       "Jerusalem Post": 3.8,
-      "FOX News": 8.0,
-      "CNN": 4.0
+      "FOX News": 4.0,
+      "CNN": 2.0
     },
     "topics": {
-      "War": 52.9,
-      "Economy": 8.6,
-      "Politics": 8.6,
-      "Health": 5.7,
-      "Crime": 4.3,
-      "Disaster": 1.4
+      "War": 46.7,
+      "Politics": 8.3,
+      "Health": 6.7,
+      "Disaster": 3.3,
+      "Economy": 3.3,
+      "Crime": 3.3
     },
     "top_keywords": [
       "war",
       "killed",
-      "death"
+      "nuclear"
     ],
     "top": [
       {
@@ -643,24 +642,24 @@
         "source": "Reason"
       },
       {
-        "title": "Mother grieves for son killed in 'skid car' crash as driver is jailed",
-        "score": 41,
-        "source": "ABC-AU"
+        "title": "Funeral held for family killed in Jordanian airstrikes in Syria",
+        "score": 49,
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "Deadly tornado strikes construction site in Turkiye",
+        "score": 46,
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "Alex Pretti’s parents demand DOJ release evidence of fatal ICE shooting",
+        "score": 42,
+        "source": "NBC"
       },
       {
         "title": "At least 1 killed, 7 injured as roof of under-construction building collapses in Multan",
         "score": 41,
         "source": "Dawn"
-      },
-      {
-        "title": "At least 62 killed and thousands displaced in gunmen attack in Nigeria",
-        "score": 39,
-        "source": "Sky"
-      },
-      {
-        "title": "Jordan acknowledges civilian casualties in Syria airstrike against 'Islamic State'",
-        "score": 39,
-        "source": "DW"
       }
     ]
   }
