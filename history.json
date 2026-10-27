@@ -517,47 +517,48 @@
   },
   {
     "date": "2026-10-26",
-    "score": 8.8,
+    "score": 7.5,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 8.6,
-      "Al Jazeera": 16.0,
-      "CBS": 6.7,
+      "BBC": 8.3,
+      "Al Jazeera": 12.0,
+      "CBS": 3.3,
       "PBS": 5.0,
-      "ABC": 4.0,
-      "NBC": 4.0,
-      "Sky": 20.0,
-      "DW": 4.7,
+      "ABC": 8.0,
+      "NBC": 8.0,
+      "Sky": 22.2,
+      "DW": 4.6,
       "France24": 8.3,
-      "Guardian": 0.0,
+      "Guardian": 2.2,
       "The Hill": 7.0,
-      "ZeroHedge": 4.0,
-      "TOI": 8.7,
+      "ZeroHedge": 8.0,
+      "TOI": 13.3,
       "ABC-AU": 12.0,
       "Vox": 10.0,
-      "Euronews": 14.0,
+      "Euronews": 12.0,
       "CNBC": 6.7,
       "ProPublica": 5.0,
-      "Dawn": 7.4,
-      "Japan Times": 13.3,
+      "Dawn": 7.1,
+      "Japan Times": 3.3,
       "The Diplomat": 12.5,
       "Reason": 6.2,
-      "The Hindu": 5.0,
-      "Jerusalem Post": 15.4,
-      "FOX News": 20.0,
-      "CNN": 11.0
+      "The Hindu": 3.3,
+      "Jerusalem Post": 3.8,
+      "FOX News": 4.0,
+      "CNN": 4.0
     },
     "topics": {
-      "War": 36.3,
-      "Crime": 12.1,
-      "Disaster": 6.6,
-      "Politics": 6.6,
-      "Economy": 4.4
+      "War": 40.8,
+      "Economy": 7.9,
+      "Crime": 7.9,
+      "Disaster": 5.3,
+      "Politics": 5.3,
+      "Health": 1.3
     },
     "top_keywords": [
       "war",
-      "shooting",
+      "killed",
       "death"
     ],
     "top": [
@@ -567,24 +568,24 @@
         "source": "Reason"
       },
       {
-        "title": "Israel begins demolitions in West Bank city after two soldiers killed in shooting attack",
-        "score": 63,
-        "source": "CNN"
-      },
-      {
-        "title": "Mississippi officer resigns after deadly shooting of one-year-old",
-        "score": 52,
-        "source": "CNN"
-      },
-      {
-        "title": "Guwahati shooting: Four of same family killed in hotel Bilas Inn firing; accused arrested",
+        "title": "Guwahati shooting: Four of same family killed in hotel firing; accused arrested",
         "score": 49,
         "source": "TOI"
       },
       {
-        "title": "At least 9 people killed in unprecedented shooting at church in Jordan",
+        "title": "7 civilians killed in Jordan strike on Syrian militants in retaliation to church attack",
         "score": 49,
-        "source": "CNN"
+        "source": "TOI"
+      },
+      {
+        "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
+        "score": 46,
+        "source": "BBC"
+      },
+      {
+        "title": "Parents of 4yo killed in Canberra crash call for 'lightest possible sentence'",
+        "score": 41,
+        "source": "ABC-AU"
       }
     ]
   }
