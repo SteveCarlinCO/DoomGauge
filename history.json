@@ -591,56 +591,52 @@
   },
   {
     "date": "2026-10-27",
-    "score": 7.7,
+    "score": 6.6,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 6.1,
+      "BBC": 6.2,
       "Al Jazeera": 16.0,
-      "CBS": 3.3,
+      "CBS": 10.0,
       "PBS": 5.0,
-      "NBC": 8.0,
-      "Sky": 22.2,
-      "DW": 5.3,
-      "France24": 8.3,
-      "Guardian": 8.9,
-      "The Hill": 7.0,
-      "ZeroHedge": 12.0,
-      "TOI": 6.7,
-      "ABC-AU": 20.0,
+      "ABC": 4.0,
+      "NBC": 4.0,
+      "Sky": 20.0,
+      "DW": 6.2,
+      "France24": 4.2,
+      "Guardian": 4.4,
+      "The Hill": 4.0,
+      "ZeroHedge": 20.0,
+      "TOI": 8.5,
+      "ABC-AU": 16.0,
       "Slate": 0.0,
       "Vox": 10.0,
-      "Euronews": 8.0,
-      "CNBC": 3.3,
+      "Euronews": 10.0,
+      "CNBC": 0.0,
       "ProPublica": 5.0,
-      "Dawn": 4.3,
+      "Dawn": 11.5,
       "Japan Times": 6.7,
-      "The Diplomat": 11.5,
-      "Reason": 6.2,
-      "The Hindu": 6.7,
-      "Jerusalem Post": 19.2,
-      "FOX News": 0.0,
-      "CNN": 5.0
+      "The Diplomat": 8.3,
+      "Reason": 4.2,
+      "The Hindu": 1.7,
+      "Jerusalem Post": 3.8,
+      "FOX News": 8.0,
+      "CNN": 4.0
     },
     "topics": {
-      "War": 39.2,
-      "Politics": 12.7,
-      "Economy": 10.1,
-      "Disaster": 6.3,
-      "Crime": 3.8,
-      "Health": 2.5
+      "War": 52.9,
+      "Economy": 8.6,
+      "Politics": 8.6,
+      "Health": 5.7,
+      "Crime": 4.3,
+      "Disaster": 1.4
     },
     "top_keywords": [
       "war",
-      "death",
-      "killed"
+      "killed",
+      "death"
     ],
     "top": [
-      {
-        "title": "Jordan strikes Syria after church attack, claims 20-plus Islamic State terrorists killed",
-        "score": 77,
-        "source": "TOI"
-      },
       {
         "title": "America Is Spending Billions To Fight the War on Terror in Africa. The Terrorists Are Winning.",
         "score": 70,
@@ -652,13 +648,18 @@
         "source": "ABC-AU"
       },
       {
-        "title": "Jordan says its military struck 'militant hideouts' in Syria after deadly church attack",
-        "score": 36,
-        "source": "DW"
+        "title": "At least 1 killed, 7 injured as roof of under-construction building collapses in Multan",
+        "score": 41,
+        "source": "Dawn"
       },
       {
-        "title": "Israel election: Israelis vote for 1st time since October 7 terror attack",
-        "score": 34,
+        "title": "At least 62 killed and thousands displaced in gunmen attack in Nigeria",
+        "score": 39,
+        "source": "Sky"
+      },
+      {
+        "title": "Jordan acknowledges civilian casualties in Syria airstrike against 'Islamic State'",
+        "score": 39,
         "source": "DW"
       }
     ]
