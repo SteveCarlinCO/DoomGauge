@@ -662,5 +662,78 @@
         "source": "NBC"
       }
     ]
+  },
+  {
+    "date": "2026-10-28",
+    "score": 5.5,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 10.0,
+      "BBC": 0.0,
+      "Al Jazeera": 4.0,
+      "CBS": 6.7,
+      "PBS": 5.0,
+      "ABC": 4.0,
+      "NBC": 8.0,
+      "Sky": 28.6,
+      "DW": 5.6,
+      "France24": 4.2,
+      "Guardian": 2.2,
+      "The Hill": 3.0,
+      "ZeroHedge": 8.0,
+      "TOI": 2.3,
+      "ABC-AU": 8.0,
+      "Slate": 0.0,
+      "Euronews": 6.0,
+      "CNBC": 3.3,
+      "ProPublica": 5.0,
+      "Dawn": 15.4,
+      "Japan Times": 3.3,
+      "The Diplomat": 9.4,
+      "Reason": 4.2,
+      "The Hindu": 11.7,
+      "Jerusalem Post": 7.7,
+      "FOX News": 0.0,
+      "CNN": 3.0
+    },
+    "topics": {
+      "War": 50.9,
+      "Health": 8.8,
+      "Economy": 7.0,
+      "Politics": 5.3,
+      "Crime": 1.8
+    },
+    "top_keywords": [
+      "war",
+      "killed",
+      "nuclear"
+    ],
+    "top": [
+      {
+        "title": "America Is Spending Billions To Fight the War on Terror in Africa. The Terrorists Are Winning.",
+        "score": 70,
+        "source": "Reason"
+      },
+      {
+        "title": "9 Indian-sponsored terrorists killed in Balochistan IBOs: ISPR",
+        "score": 53,
+        "source": "Dawn"
+      },
+      {
+        "title": "Ebola outbreak passes 10,000 cases in DRC after nurse killed, another injured",
+        "score": 41,
+        "source": "ABC-AU"
+      },
+      {
+        "title": "At least 62 killed and thousands displaced in gunmen attack in Nigeria",
+        "score": 39,
+        "source": "Sky"
+      },
+      {
+        "title": "Jordan acknowledges civilian casualties in Syria airstrike against 'Islamic State'",
+        "score": 39,
+        "source": "DW"
+      }
+    ]
   }
 ]
