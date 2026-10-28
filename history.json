@@ -591,49 +591,49 @@
   },
   {
     "date": "2026-10-27",
-    "score": 5.8,
+    "score": 6.2,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 10.0,
-      "BBC": 3.6,
-      "Al Jazeera": 16.0,
-      "CBS": 10.0,
+      "BBC": 0.0,
+      "Al Jazeera": 12.0,
+      "CBS": 0.0,
       "PBS": 5.0,
-      "ABC": 4.0,
-      "NBC": 8.0,
-      "Sky": 20.0,
-      "DW": 6.2,
+      "ABC": 8.0,
+      "NBC": 12.0,
+      "Sky": 28.6,
+      "DW": 5.6,
       "France24": 4.2,
-      "Guardian": 6.7,
-      "The Hill": 1.0,
-      "ZeroHedge": 8.0,
-      "TOI": 6.8,
+      "Guardian": 8.9,
+      "The Hill": 3.0,
+      "ZeroHedge": 4.0,
+      "TOI": 8.9,
       "ABC-AU": 8.0,
       "Slate": 0.0,
-      "Euronews": 6.0,
+      "Euronews": 8.0,
       "CNBC": 0.0,
       "ProPublica": 5.0,
       "Dawn": 10.7,
-      "Japan Times": 6.7,
-      "The Diplomat": 8.3,
+      "Japan Times": 3.3,
+      "The Diplomat": 9.4,
       "Reason": 4.2,
-      "The Hindu": 6.7,
+      "The Hindu": 3.3,
       "Jerusalem Post": 3.8,
-      "FOX News": 4.0,
-      "CNN": 2.0
+      "FOX News": 0.0,
+      "CNN": 10.0
     },
     "topics": {
-      "War": 46.7,
-      "Politics": 8.3,
-      "Health": 6.7,
-      "Disaster": 3.3,
-      "Economy": 3.3,
-      "Crime": 3.3
+      "War": 43.8,
+      "Crime": 10.9,
+      "Politics": 7.8,
+      "Health": 6.2,
+      "Economy": 4.7,
+      "Disaster": 1.6
     },
     "top_keywords": [
       "war",
       "killed",
-      "nuclear"
+      "shooting"
     ],
     "top": [
       {
@@ -642,24 +642,24 @@
         "source": "Reason"
       },
       {
-        "title": "Funeral held for family killed in Jordanian airstrikes in Syria",
-        "score": 49,
-        "source": "Al Jazeera"
+        "title": "Israel begins demolitions in West Bank city after two soldiers killed in shooting attack",
+        "score": 63,
+        "source": "CNN"
       },
       {
-        "title": "Deadly tornado strikes construction site in Turkiye",
-        "score": 46,
-        "source": "Al Jazeera"
+        "title": "At least 9 people killed in unprecedented shooting at church in Jordan",
+        "score": 49,
+        "source": "CNN"
+      },
+      {
+        "title": "Mississippi officer and interim police chief resign after officer’s fatal shooting of 1-year-old in car during pursuit",
+        "score": 48,
+        "source": "CNN"
       },
       {
         "title": "Alex Pretti’s parents demand DOJ release evidence of fatal ICE shooting",
         "score": 42,
         "source": "NBC"
-      },
-      {
-        "title": "At least 1 killed, 7 injured as roof of under-construction building collapses in Multan",
-        "score": 41,
-        "source": "Dawn"
       }
     ]
   }
