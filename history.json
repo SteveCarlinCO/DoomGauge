@@ -740,76 +740,76 @@
   },
   {
     "date": "2026-10-29",
-    "score": 7.7,
+    "score": 7.8,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 20.0,
-      "BBC": 5.6,
-      "Al Jazeera": 12.0,
-      "CBS": 13.3,
+      "NPR": 10.0,
+      "BBC": 11.8,
+      "Al Jazeera": 16.0,
+      "CBS": 10.0,
       "PBS": 10.0,
       "ABC": 8.0,
-      "NBC": 8.0,
-      "Sky": 0.0,
-      "DW": 7.3,
-      "France24": 20.8,
-      "Guardian": 8.9,
-      "The Hill": 3.0,
+      "NBC": 24.0,
+      "Sky": 10.0,
+      "DW": 6.3,
+      "France24": 33.3,
+      "Guardian": 11.1,
+      "The Hill": 1.0,
       "ZeroHedge": 8.0,
-      "TOI": 15.2,
-      "ABC-AU": 8.0,
-      "Slate": 4.0,
+      "TOI": 9.1,
+      "ABC-AU": 4.0,
+      "Slate": 0.0,
       "Vox": 10.0,
       "Euronews": 14.0,
       "CNBC": 0.0,
       "ProPublica": 5.0,
-      "Dawn": 23.1,
-      "Japan Times": 10.0,
+      "Dawn": 20.0,
+      "Japan Times": 6.7,
       "The Diplomat": 8.3,
       "Reason": 0.0,
-      "The Hindu": 5.0,
+      "The Hindu": 3.3,
       "Jerusalem Post": 11.5,
       "FOX News": 8.0,
-      "CNN": 6.0
+      "CNN": 7.0
     },
     "topics": {
-      "War": 41.2,
-      "Economy": 23.8,
-      "Politics": 7.5,
-      "Health": 3.8,
-      "Disaster": 2.5,
-      "Crime": 1.2
+      "War": 31.7,
+      "Economy": 20.7,
+      "Crime": 4.9,
+      "Politics": 4.9,
+      "Disaster": 2.4,
+      "Health": 1.2
     },
     "top_keywords": [
       "war",
       "crash",
-      "deadly"
+      "killed"
     ],
     "top": [
       {
-        "title": "‘We have run down our stock of missiles’: Obama asks 'how is this war going' - watch",
-        "score": 42,
-        "source": "TOI"
-      },
-      {
-        "title": "Driver jailed over high-speed crash that killed teenager",
-        "score": 41,
-        "source": "ABC-AU"
-      },
-      {
-        "title": "Spain reckons with 2nd deadly train crash of the year ahead of national election",
-        "score": 38,
-        "source": "NPR"
-      },
-      {
-        "title": "Riot police deployed in Madrid as protests erupt over deadly train crash",
-        "score": 38,
-        "source": "Al Jazeera"
-      },
-      {
-        "title": "'Desolation, despair': Spain begins three days of mourning after deadly train crash",
-        "score": 38,
+        "title": "Trappes residents reel from deadly racist attack that killed one",
+        "score": 61,
         "source": "France24"
+      },
+      {
+        "title": "Spain train crash death toll rises to 69, emergency crews continue operations",
+        "score": 50,
+        "source": "France24"
+      },
+      {
+        "title": "🔴 Suspect in deadly shooting near Paris admits racist intent, French anti-terrorism prosecutor says",
+        "score": 46,
+        "source": "France24"
+      },
+      {
+        "title": "'Baby killers, cop killers' have an ally in Newsom, murdered girl's father says amid death row controversy",
+        "score": 44,
+        "source": "FOX News"
+      },
+      {
+        "title": "Kevin Bleyer, an Emmy-winning ‘Daily Show’ writer, killed in car crash at 54",
+        "score": 41,
+        "source": "NBC"
       }
     ]
   }
