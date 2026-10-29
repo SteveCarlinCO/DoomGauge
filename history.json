@@ -740,75 +740,74 @@
   },
   {
     "date": "2026-10-29",
-    "score": 7.8,
+    "score": 8.0,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 10.0,
-      "BBC": 11.8,
-      "Al Jazeera": 16.0,
-      "CBS": 10.0,
-      "PBS": 10.0,
-      "ABC": 8.0,
-      "NBC": 24.0,
-      "Sky": 10.0,
-      "DW": 6.3,
-      "France24": 33.3,
+      "NPR": 20.0,
+      "BBC": 14.7,
+      "Al Jazeera": 12.0,
+      "CBS": 6.7,
+      "PBS": 5.0,
+      "ABC": 4.0,
+      "NBC": 16.0,
+      "Sky": 11.1,
+      "DW": 7.1,
+      "France24": 25.0,
       "Guardian": 11.1,
-      "The Hill": 1.0,
+      "The Hill": 2.0,
       "ZeroHedge": 8.0,
-      "TOI": 9.1,
-      "ABC-AU": 4.0,
+      "TOI": 6.4,
+      "ABC-AU": 16.0,
       "Slate": 0.0,
-      "Vox": 10.0,
-      "Euronews": 14.0,
-      "CNBC": 0.0,
+      "Euronews": 16.0,
+      "CNBC": 3.3,
       "ProPublica": 5.0,
-      "Dawn": 20.0,
+      "Dawn": 11.1,
       "Japan Times": 6.7,
       "The Diplomat": 8.3,
       "Reason": 0.0,
-      "The Hindu": 3.3,
-      "Jerusalem Post": 11.5,
-      "FOX News": 8.0,
-      "CNN": 7.0
+      "The Hindu": 5.0,
+      "Jerusalem Post": 7.7,
+      "FOX News": 4.0,
+      "CNN": 10.0
     },
     "topics": {
-      "War": 31.7,
-      "Economy": 20.7,
-      "Crime": 4.9,
-      "Politics": 4.9,
-      "Disaster": 2.4,
-      "Health": 1.2
+      "War": 30.1,
+      "Economy": 22.9,
+      "Crime": 4.8,
+      "Disaster": 3.6,
+      "Politics": 3.6,
+      "Health": 2.4
     },
     "top_keywords": [
       "war",
-      "crash",
-      "killed"
+      "deadly",
+      "crash"
     ],
     "top": [
       {
-        "title": "Trappes residents reel from deadly racist attack that killed one",
-        "score": 61,
-        "source": "France24"
-      },
-      {
-        "title": "Spain train crash death toll rises to 69, emergency crews continue operations",
-        "score": 50,
-        "source": "France24"
-      },
-      {
-        "title": "🔴 Suspect in deadly shooting near Paris admits racist intent, French anti-terrorism prosecutor says",
-        "score": 46,
-        "source": "France24"
-      },
-      {
-        "title": "'Baby killers, cop killers' have an ally in Newsom, murdered girl's father says amid death row controversy",
-        "score": 44,
-        "source": "FOX News"
-      },
-      {
-        "title": "Kevin Bleyer, an Emmy-winning ‘Daily Show’ writer, killed in car crash at 54",
+        "title": "Spain train tragedy: Glitch, 3 operator errors behind crash that killed 68",
         "score": 41,
+        "source": "TOI"
+      },
+      {
+        "title": "At least 14 people killed in attack on Ukraine train station",
+        "score": 39,
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
+        "score": 38,
+        "source": "BBC"
+      },
+      {
+        "title": "Deadly rock collapse at famous Turkiye tourist site",
+        "score": 38,
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "Audio recordings reveal decisions made moments before deadly train crash in Spain",
+        "score": 38,
         "source": "NBC"
       }
     ]
