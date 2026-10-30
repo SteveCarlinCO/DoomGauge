@@ -814,48 +814,48 @@
   },
   {
     "date": "2026-10-30",
-    "score": 9.2,
+    "score": 8.2,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 10.0,
-      "BBC": 14.7,
+      "BBC": 13.8,
       "Al Jazeera": 20.0,
-      "CBS": 10.0,
+      "CBS": 6.7,
       "PBS": 0.0,
-      "NBC": 0.0,
-      "Sky": 22.2,
-      "DW": 4.0,
+      "NBC": 4.0,
+      "Sky": 12.5,
+      "DW": 3.2,
       "France24": 20.8,
-      "Guardian": 15.6,
-      "The Hill": 4.0,
-      "ZeroHedge": 28.0,
-      "TOI": 19.1,
+      "Guardian": 20.0,
+      "The Hill": 3.0,
+      "ZeroHedge": 20.0,
+      "TOI": 8.3,
       "ABC-AU": 8.0,
       "Slate": 0.0,
-      "Euronews": 18.0,
+      "Euronews": 14.0,
       "CNBC": 10.0,
       "ProPublica": 5.0,
-      "Dawn": 12.0,
+      "Dawn": 11.1,
       "Japan Times": 10.0,
       "The Diplomat": 7.3,
       "Reason": 0.0,
-      "The Hindu": 6.7,
+      "The Hindu": 0.0,
       "Jerusalem Post": 15.4,
-      "FOX News": 4.0,
-      "CNN": 7.0
+      "FOX News": 8.0,
+      "CNN": 10.0
     },
     "topics": {
-      "War": 35.8,
-      "Economy": 18.9,
-      "Disaster": 8.4,
-      "Politics": 5.3,
-      "Health": 3.2,
-      "Crime": 1.1
+      "War": 40.0,
+      "Economy": 17.6,
+      "Disaster": 7.1,
+      "Politics": 3.5,
+      "Health": 3.5,
+      "Crime": 2.4
     },
     "top_keywords": [
       "war",
       "crash",
-      "death"
+      "killed"
     ],
     "top": [
       {
@@ -864,17 +864,17 @@
         "source": "CNBC"
       },
       {
+        "title": "‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall",
+        "score": 42,
+        "source": "Al Jazeera"
+      },
+      {
         "title": "Cop martyred in KP's Bajaur as terrorists attack police post: official",
         "score": 42,
         "source": "Dawn"
       },
       {
-        "title": "‘Your kids are the target’: College drug deaths, alleged coke ring expose lethal threat, warns retired cop",
-        "score": 42,
-        "source": "FOX News"
-      },
-      {
-        "title": "People of 27 nationalities may be among those killed or injured in Spain train crash, Sánchez says – Europe live",
+        "title": "People of 27 nationalities may be among those killed or injured in Spain train crash, Sánchez says – as it happened",
         "score": 41,
         "source": "Guardian"
       },
