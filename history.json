@@ -814,74 +814,74 @@
   },
   {
     "date": "2026-10-30",
-    "score": 8.5,
+    "score": 9.2,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 20.0,
-      "BBC": 12.9,
-      "Al Jazeera": 12.0,
+      "NPR": 10.0,
+      "BBC": 14.7,
+      "Al Jazeera": 20.0,
       "CBS": 10.0,
       "PBS": 0.0,
-      "ABC": 8.0,
-      "NBC": 4.0,
-      "Sky": 25.0,
-      "DW": 4.1,
-      "France24": 25.0,
-      "Guardian": 11.1,
-      "The Hill": 3.0,
-      "ZeroHedge": 12.0,
-      "TOI": 9.5,
+      "NBC": 0.0,
+      "Sky": 22.2,
+      "DW": 4.0,
+      "France24": 20.8,
+      "Guardian": 15.6,
+      "The Hill": 4.0,
+      "ZeroHedge": 28.0,
+      "TOI": 19.1,
+      "ABC-AU": 8.0,
       "Slate": 0.0,
       "Euronews": 18.0,
-      "CNBC": 3.3,
+      "CNBC": 10.0,
       "ProPublica": 5.0,
-      "Dawn": 7.7,
-      "Japan Times": 6.7,
+      "Dawn": 12.0,
+      "Japan Times": 10.0,
       "The Diplomat": 7.3,
       "Reason": 0.0,
-      "The Hindu": 10.0,
-      "Jerusalem Post": 19.2,
-      "FOX News": 12.0,
-      "CNN": 9.0
+      "The Hindu": 6.7,
+      "Jerusalem Post": 15.4,
+      "FOX News": 4.0,
+      "CNN": 7.0
     },
     "topics": {
-      "War": 30.2,
-      "Economy": 22.1,
-      "Disaster": 7.0,
-      "Politics": 4.7,
-      "Health": 4.7,
-      "Crime": 3.5
+      "War": 35.8,
+      "Economy": 18.9,
+      "Disaster": 8.4,
+      "Politics": 5.3,
+      "Health": 3.2,
+      "Crime": 1.1
     },
     "top_keywords": [
       "war",
       "crash",
-      "killed"
+      "death"
     ],
     "top": [
       {
-        "title": "IDF prepares to demolish homes of terrorists who killed two Israeli soldiers in Hebron attack",
-        "score": 67,
-        "source": "Jerusalem Post"
+        "title": "Russian strikes plunge Ukrainian city into blackout as Zelenskyy warns of more missile attacks",
+        "score": 54,
+        "source": "CNBC"
       },
       {
-        "title": "Terror financing module: 10 associates of terrorists arrested in J&K",
-        "score": 48,
-        "source": "The Hindu"
+        "title": "Cop martyred in KP's Bajaur as terrorists attack police post: official",
+        "score": 42,
+        "source": "Dawn"
       },
       {
-        "title": "Two youths killed as motorcycle crashes into concrete post in Keralam’s Idukki",
+        "title": "‘Your kids are the target’: College drug deaths, alleged coke ring expose lethal threat, warns retired cop",
+        "score": 42,
+        "source": "FOX News"
+      },
+      {
+        "title": "People of 27 nationalities may be among those killed or injured in Spain train crash, Sánchez says – Europe live",
         "score": 41,
-        "source": "The Hindu"
+        "source": "Guardian"
       },
       {
-        "title": "'An absurdity' to blame human error: Spain's deadly train crash 'should never' have happened",
-        "score": 38,
-        "source": "France24"
-      },
-      {
-        "title": "Spain: First footage reveals wreckage of deadly high-speed train crash",
-        "score": 38,
-        "source": "Euronews"
+        "title": "U'khand chopper crash: All 6 killed, bodies found; contact lost 2 mins after take off",
+        "score": 41,
+        "source": "TOI"
       }
     ]
   }
