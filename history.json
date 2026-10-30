@@ -811,5 +811,78 @@
         "source": "France24"
       }
     ]
+  },
+  {
+    "date": "2026-10-30",
+    "score": 8.5,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 20.0,
+      "BBC": 12.9,
+      "Al Jazeera": 12.0,
+      "CBS": 10.0,
+      "PBS": 0.0,
+      "ABC": 8.0,
+      "NBC": 4.0,
+      "Sky": 25.0,
+      "DW": 4.1,
+      "France24": 25.0,
+      "Guardian": 11.1,
+      "The Hill": 3.0,
+      "ZeroHedge": 12.0,
+      "TOI": 9.5,
+      "Slate": 0.0,
+      "Euronews": 18.0,
+      "CNBC": 3.3,
+      "ProPublica": 5.0,
+      "Dawn": 7.7,
+      "Japan Times": 6.7,
+      "The Diplomat": 7.3,
+      "Reason": 0.0,
+      "The Hindu": 10.0,
+      "Jerusalem Post": 19.2,
+      "FOX News": 12.0,
+      "CNN": 9.0
+    },
+    "topics": {
+      "War": 30.2,
+      "Economy": 22.1,
+      "Disaster": 7.0,
+      "Politics": 4.7,
+      "Health": 4.7,
+      "Crime": 3.5
+    },
+    "top_keywords": [
+      "war",
+      "crash",
+      "killed"
+    ],
+    "top": [
+      {
+        "title": "IDF prepares to demolish homes of terrorists who killed two Israeli soldiers in Hebron attack",
+        "score": 67,
+        "source": "Jerusalem Post"
+      },
+      {
+        "title": "Terror financing module: 10 associates of terrorists arrested in J&K",
+        "score": 48,
+        "source": "The Hindu"
+      },
+      {
+        "title": "Two youths killed as motorcycle crashes into concrete post in Keralam’s Idukki",
+        "score": 41,
+        "source": "The Hindu"
+      },
+      {
+        "title": "'An absurdity' to blame human error: Spain's deadly train crash 'should never' have happened",
+        "score": 38,
+        "source": "France24"
+      },
+      {
+        "title": "Spain: First footage reveals wreckage of deadly high-speed train crash",
+        "score": 38,
+        "source": "Euronews"
+      }
+    ]
   }
 ]
