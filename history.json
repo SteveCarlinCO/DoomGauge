@@ -740,51 +740,56 @@
   },
   {
     "date": "2026-10-29",
-    "score": 8.0,
+    "score": 7.6,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 20.0,
-      "BBC": 14.7,
+      "BBC": 11.8,
       "Al Jazeera": 12.0,
-      "CBS": 6.7,
-      "PBS": 5.0,
+      "CBS": 10.0,
+      "PBS": 0.0,
       "ABC": 4.0,
-      "NBC": 16.0,
+      "NBC": 8.0,
       "Sky": 11.1,
-      "DW": 7.1,
+      "DW": 4.9,
       "France24": 25.0,
-      "Guardian": 11.1,
-      "The Hill": 2.0,
-      "ZeroHedge": 8.0,
-      "TOI": 6.4,
-      "ABC-AU": 16.0,
+      "Guardian": 8.9,
+      "The Hill": 3.0,
+      "ZeroHedge": 0.0,
+      "TOI": 7.0,
+      "ABC-AU": 4.0,
       "Slate": 0.0,
-      "Euronews": 16.0,
+      "Euronews": 18.0,
       "CNBC": 3.3,
       "ProPublica": 5.0,
-      "Dawn": 11.1,
-      "Japan Times": 6.7,
-      "The Diplomat": 8.3,
+      "Dawn": 11.5,
+      "Japan Times": 3.3,
+      "The Diplomat": 7.3,
       "Reason": 0.0,
       "The Hindu": 5.0,
-      "Jerusalem Post": 7.7,
-      "FOX News": 4.0,
+      "Jerusalem Post": 15.4,
+      "FOX News": 8.0,
       "CNN": 10.0
     },
     "topics": {
-      "War": 30.1,
-      "Economy": 22.9,
-      "Crime": 4.8,
-      "Disaster": 3.6,
-      "Politics": 3.6,
-      "Health": 2.4
+      "War": 31.6,
+      "Economy": 24.1,
+      "Crime": 5.1,
+      "Health": 5.1,
+      "Politics": 3.8,
+      "Disaster": 2.5
     },
     "top_keywords": [
       "war",
-      "deadly",
-      "crash"
+      "crash",
+      "deadly"
     ],
     "top": [
+      {
+        "title": "Breaking: Perth man, 22, charged with planning terrorist attack",
+        "score": 42,
+        "source": "ABC-AU"
+      },
       {
         "title": "Spain train tragedy: Glitch, 3 operator errors behind crash that killed 68",
         "score": 41,
@@ -796,19 +801,14 @@
         "source": "Al Jazeera"
       },
       {
-        "title": "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
-        "score": 38,
-        "source": "BBC"
-      },
-      {
-        "title": "Deadly rock collapse at famous Turkiye tourist site",
-        "score": 38,
-        "source": "Al Jazeera"
-      },
-      {
         "title": "Audio recordings reveal decisions made moments before deadly train crash in Spain",
         "score": 38,
         "source": "NBC"
+      },
+      {
+        "title": "'An absurdity' to blame human error: Spain's deadly train crash 'should never' have happened",
+        "score": 38,
+        "source": "France24"
       }
     ]
   }
