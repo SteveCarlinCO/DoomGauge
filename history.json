@@ -814,59 +814,55 @@
   },
   {
     "date": "2026-10-30",
-    "score": 8.2,
+    "score": 8.1,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 10.0,
-      "BBC": 13.8,
-      "Al Jazeera": 20.0,
-      "CBS": 6.7,
+      "BBC": 12.9,
+      "Al Jazeera": 0.0,
+      "CBS": 10.0,
       "PBS": 0.0,
+      "ABC": 0.0,
       "NBC": 4.0,
-      "Sky": 12.5,
-      "DW": 3.2,
+      "Sky": 28.6,
+      "DW": 4.0,
       "France24": 20.8,
-      "Guardian": 20.0,
-      "The Hill": 3.0,
-      "ZeroHedge": 20.0,
-      "TOI": 8.3,
-      "ABC-AU": 8.0,
-      "Slate": 0.0,
+      "Guardian": 17.8,
+      "The Hill": 4.0,
+      "ZeroHedge": 12.0,
+      "TOI": 6.4,
+      "ABC-AU": 16.0,
+      "Slate": 4.0,
       "Euronews": 14.0,
       "CNBC": 10.0,
       "ProPublica": 5.0,
       "Dawn": 11.1,
       "Japan Times": 10.0,
-      "The Diplomat": 7.3,
-      "Reason": 0.0,
+      "The Diplomat": 9.4,
+      "Reason": 4.2,
       "The Hindu": 0.0,
-      "Jerusalem Post": 15.4,
-      "FOX News": 8.0,
-      "CNN": 10.0
+      "Jerusalem Post": 19.2,
+      "FOX News": 4.0,
+      "CNN": 11.0
     },
     "topics": {
-      "War": 40.0,
-      "Economy": 17.6,
-      "Disaster": 7.1,
-      "Politics": 3.5,
-      "Health": 3.5,
-      "Crime": 2.4
+      "War": 43.0,
+      "Economy": 16.3,
+      "Disaster": 5.8,
+      "Health": 4.7,
+      "Crime": 2.3,
+      "Politics": 2.3
     },
     "top_keywords": [
       "war",
       "crash",
-      "killed"
+      "crisis"
     ],
     "top": [
       {
         "title": "Russian strikes plunge Ukrainian city into blackout as Zelenskyy warns of more missile attacks",
         "score": 54,
         "source": "CNBC"
-      },
-      {
-        "title": "‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall",
-        "score": 42,
-        "source": "Al Jazeera"
       },
       {
         "title": "Cop martyred in KP's Bajaur as terrorists attack police post: official",
@@ -879,9 +875,14 @@
         "source": "Guardian"
       },
       {
-        "title": "U'khand chopper crash: All 6 killed, bodies found; contact lost 2 mins after take off",
-        "score": 41,
-        "source": "TOI"
+        "title": "Spanish transport minister faces calls to quit after deadly train crash",
+        "score": 38,
+        "source": "France24"
+      },
+      {
+        "title": "What caused the deadly train crash in Spain? What we know so far",
+        "score": 38,
+        "source": "CNN"
       }
     ]
   }
