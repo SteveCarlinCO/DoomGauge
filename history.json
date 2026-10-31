@@ -885,5 +885,79 @@
         "source": "France24"
       }
     ]
+  },
+  {
+    "date": "2026-10-31",
+    "score": 7.8,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 10.0,
+      "BBC": 14.8,
+      "Al Jazeera": 12.0,
+      "CBS": 10.0,
+      "PBS": 5.0,
+      "ABC": 8.0,
+      "NBC": 16.0,
+      "Sky": 28.6,
+      "DW": 4.0,
+      "France24": 8.3,
+      "Guardian": 15.6,
+      "The Hill": 6.0,
+      "ZeroHedge": 0.0,
+      "TOI": 6.5,
+      "ABC-AU": 8.0,
+      "Slate": 4.0,
+      "Euronews": 14.0,
+      "CNBC": 3.3,
+      "ProPublica": 5.0,
+      "Dawn": 15.4,
+      "Japan Times": 13.3,
+      "The Diplomat": 9.4,
+      "Reason": 4.2,
+      "The Hindu": 6.7,
+      "Jerusalem Post": 15.4,
+      "FOX News": 16.0,
+      "CNN": 9.0
+    },
+    "topics": {
+      "War": 39.5,
+      "Economy": 8.6,
+      "Disaster": 7.4,
+      "Politics": 7.4,
+      "Crime": 6.2,
+      "Health": 4.9
+    },
+    "top_keywords": [
+      "war",
+      "missile",
+      "crisis"
+    ],
+    "top": [
+      {
+        "title": "California police investigate deadly shooting at Spirit Halloween store",
+        "score": 46,
+        "source": "FOX News"
+      },
+      {
+        "title": "What caused the deadly train crash in Spain? What we know so far",
+        "score": 38,
+        "source": "CNN"
+      },
+      {
+        "title": "Ukraine: Oleshky residents evacuate war-ravaged city",
+        "score": 36,
+        "source": "DW"
+      },
+      {
+        "title": "Trump hammers culture war attacks on Andrews in final rally for Graham",
+        "score": 36,
+        "source": "The Hill"
+      },
+      {
+        "title": "US rolls out Stinger missiles to shield Trump's Florida estate from drone threats",
+        "score": 32,
+        "source": "TOI"
+      }
+    ]
   }
 ]
