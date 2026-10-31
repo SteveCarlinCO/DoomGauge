@@ -888,60 +888,64 @@
   },
   {
     "date": "2026-10-31",
-    "score": 7.8,
+    "score": 7.0,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 10.0,
-      "BBC": 14.8,
-      "Al Jazeera": 12.0,
-      "CBS": 10.0,
-      "PBS": 5.0,
+      "BBC": 19.2,
+      "Al Jazeera": 8.0,
+      "CBS": 13.3,
+      "PBS": 10.0,
       "ABC": 8.0,
-      "NBC": 16.0,
-      "Sky": 28.6,
+      "NBC": 8.0,
+      "Sky": 12.5,
       "DW": 4.0,
-      "France24": 8.3,
-      "Guardian": 15.6,
+      "France24": 12.5,
+      "Guardian": 13.3,
       "The Hill": 6.0,
       "ZeroHedge": 0.0,
-      "TOI": 6.5,
-      "ABC-AU": 8.0,
-      "Slate": 4.0,
-      "Euronews": 14.0,
-      "CNBC": 3.3,
+      "TOI": 2.1,
+      "ABC-AU": 4.0,
+      "Slate": 12.0,
+      "Euronews": 12.0,
       "ProPublica": 5.0,
-      "Dawn": 15.4,
+      "Dawn": 14.8,
       "Japan Times": 13.3,
       "The Diplomat": 9.4,
       "Reason": 4.2,
-      "The Hindu": 6.7,
-      "Jerusalem Post": 15.4,
-      "FOX News": 16.0,
-      "CNN": 9.0
+      "The Hindu": 5.0,
+      "Jerusalem Post": 3.8,
+      "FOX News": 4.0,
+      "CNN": 7.0
     },
     "topics": {
-      "War": 39.5,
-      "Economy": 8.6,
-      "Disaster": 7.4,
-      "Politics": 7.4,
-      "Crime": 6.2,
-      "Health": 4.9
+      "War": 36.6,
+      "Disaster": 7.0,
+      "Economy": 7.0,
+      "Crime": 7.0,
+      "Health": 7.0,
+      "Politics": 5.6
     },
     "top_keywords": [
       "war",
-      "missile",
+      "killed",
       "crisis"
     ],
     "top": [
       {
-        "title": "California police investigate deadly shooting at Spirit Halloween store",
-        "score": 46,
-        "source": "FOX News"
+        "title": "Uttarakhand makes co-pilots mandatory on Char Dham chartered flights after crash killed six",
+        "score": 41,
+        "source": "The Hindu"
       },
       {
         "title": "What caused the deadly train crash in Spain? What we know so far",
         "score": 38,
         "source": "CNN"
+      },
+      {
+        "title": "US Embassy warns of credible 'mass casualty' threat at popular Moscow tourist attraction",
+        "score": 37,
+        "source": "FOX News"
       },
       {
         "title": "Ukraine: Oleshky residents evacuate war-ravaged city",
@@ -952,11 +956,6 @@
         "title": "Trump hammers culture war attacks on Andrews in final rally for Graham",
         "score": 36,
         "source": "The Hill"
-      },
-      {
-        "title": "US rolls out Stinger missiles to shield Trump's Florida estate from drone threats",
-        "score": 32,
-        "source": "TOI"
       }
     ]
   }
