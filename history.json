@@ -814,49 +814,49 @@
   },
   {
     "date": "2026-10-30",
-    "score": 8.1,
+    "score": 8.3,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 10.0,
-      "BBC": 12.9,
-      "Al Jazeera": 0.0,
-      "CBS": 10.0,
-      "PBS": 0.0,
+      "BBC": 12.1,
+      "Al Jazeera": 20.0,
+      "CBS": 6.7,
+      "PBS": 5.0,
       "ABC": 0.0,
       "NBC": 4.0,
-      "Sky": 28.6,
+      "Sky": 33.3,
       "DW": 4.0,
-      "France24": 20.8,
-      "Guardian": 17.8,
-      "The Hill": 4.0,
-      "ZeroHedge": 12.0,
-      "TOI": 6.4,
-      "ABC-AU": 16.0,
+      "France24": 16.7,
+      "Guardian": 20.0,
+      "The Hill": 6.0,
+      "ZeroHedge": 4.0,
+      "TOI": 11.1,
+      "ABC-AU": 12.0,
       "Slate": 4.0,
       "Euronews": 14.0,
       "CNBC": 10.0,
       "ProPublica": 5.0,
-      "Dawn": 11.1,
+      "Dawn": 3.4,
       "Japan Times": 10.0,
       "The Diplomat": 9.4,
       "Reason": 4.2,
-      "The Hindu": 0.0,
-      "Jerusalem Post": 19.2,
+      "The Hindu": 1.7,
+      "Jerusalem Post": 23.1,
       "FOX News": 4.0,
-      "CNN": 11.0
+      "CNN": 8.0
     },
     "topics": {
-      "War": 43.0,
-      "Economy": 16.3,
-      "Disaster": 5.8,
-      "Health": 4.7,
-      "Crime": 2.3,
+      "War": 47.1,
+      "Economy": 12.6,
+      "Disaster": 5.7,
+      "Health": 5.7,
+      "Crime": 4.6,
       "Politics": 2.3
     },
     "top_keywords": [
       "war",
-      "crash",
-      "crisis"
+      "crisis",
+      "missile"
     ],
     "top": [
       {
@@ -865,24 +865,24 @@
         "source": "CNBC"
       },
       {
-        "title": "Cop martyred in KP's Bajaur as terrorists attack police post: official",
-        "score": 42,
-        "source": "Dawn"
-      },
-      {
         "title": "People of 27 nationalities may be among those killed or injured in Spain train crash, Sánchez says – as it happened",
         "score": 41,
         "source": "Guardian"
       },
       {
-        "title": "Spanish transport minister faces calls to quit after deadly train crash",
-        "score": 38,
-        "source": "France24"
-      },
-      {
         "title": "What caused the deadly train crash in Spain? What we know so far",
         "score": 38,
         "source": "CNN"
+      },
+      {
+        "title": "Ukraine: Oleshky residents evacuate war-ravaged city",
+        "score": 36,
+        "source": "DW"
+      },
+      {
+        "title": "War in Ukraine: Evacuations under way in Russian-occupied Oleshky",
+        "score": 36,
+        "source": "France24"
       }
     ]
   }
