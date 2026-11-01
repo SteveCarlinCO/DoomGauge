@@ -891,40 +891,40 @@
     "score": 7.1,
     "verdict": "Mostly survivable.",
     "sources": {
-      "BBC": 18.5,
-      "Al Jazeera": 4.0,
+      "BBC": 5.4,
+      "Al Jazeera": 12.0,
       "CBS": 16.7,
       "PBS": 10.0,
-      "ABC": 12.0,
-      "NBC": 4.0,
+      "ABC": 4.0,
+      "NBC": 8.0,
       "Sky": 16.7,
-      "DW": 4.0,
+      "DW": 4.1,
       "France24": 12.5,
       "Guardian": 13.3,
       "The Hill": 5.0,
-      "ZeroHedge": 0.0,
-      "TOI": 6.4,
-      "ABC-AU": 8.0,
+      "ZeroHedge": 8.0,
+      "TOI": 8.5,
+      "ABC-AU": 4.0,
       "Slate": 12.0,
       "Euronews": 12.0,
       "CNBC": 0.0,
       "ProPublica": 5.0,
       "Dawn": 14.8,
-      "Japan Times": 13.3,
+      "Japan Times": 10.0,
       "The Diplomat": 9.4,
       "Reason": 4.2,
-      "The Hindu": 1.7,
+      "The Hindu": 3.3,
       "Jerusalem Post": 15.4,
-      "FOX News": 4.0,
-      "CNN": 6.0
+      "FOX News": 0.0,
+      "CNN": 7.0
     },
     "topics": {
-      "War": 37.8,
+      "War": 35.1,
       "Crime": 8.1,
-      "Disaster": 6.8,
       "Health": 6.8,
+      "Disaster": 5.4,
       "Economy": 5.4,
-      "Politics": 4.1
+      "Politics": 2.7
     },
     "top_keywords": [
       "war",
@@ -932,6 +932,21 @@
       "crisis"
     ],
     "top": [
+      {
+        "title": "First Doomsday Warnings, Then Poland Crisis, Iran's \"No Limits\" Threat, & Now \"Mass Casualty\" Risk In Moscow",
+        "score": 58,
+        "source": "ZeroHedge"
+      },
+      {
+        "title": "Mamdani says Trump has agreed to grant visa to mother of Ghanian teen killed in Bronx shooting",
+        "score": 49,
+        "source": "The Hindu"
+      },
+      {
+        "title": "Pregnant woman killed, 6 others wounded in targeted shooting at California Spirit Halloween store, police say",
+        "score": 49,
+        "source": "CNN"
+      },
       {
         "title": "At least four Palestinians killed in Gaza as Israeli attacks continue",
         "score": 39,
@@ -941,21 +956,6 @@
         "title": "Ukraine: Oleshky residents evacuate war-ravaged city",
         "score": 36,
         "source": "DW"
-      },
-      {
-        "title": "The Bundestag has debated the genocide Germany carried out in Namibia a century ago. But will it spur progress on addressing colonial crimes?",
-        "score": 30,
-        "source": "DW"
-      },
-      {
-        "title": "Zelenskyy thanks US over deal for 500 Patriot missiles but warns delivery could take years",
-        "score": 30,
-        "source": "Euronews"
-      },
-      {
-        "title": "North Korea warns South Korea with ballistic missiles as Seoul calls for talks to ease border tensions",
-        "score": 30,
-        "source": "Euronews"
       }
     ]
   }
