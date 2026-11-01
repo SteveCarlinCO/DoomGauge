@@ -961,22 +961,22 @@
   },
   {
     "date": "2026-11-01",
-    "score": 8.3,
+    "score": 7.7,
     "verdict": "Mostly survivable.",
     "sources": {
-      "BBC": 6.5,
-      "Al Jazeera": 16.0,
+      "BBC": 6.9,
+      "Al Jazeera": 8.0,
       "CBS": 6.7,
       "PBS": 10.0,
       "ABC": 8.0,
       "NBC": 8.0,
-      "Sky": 30.0,
-      "DW": 6.6,
+      "Sky": 12.5,
+      "DW": 5.7,
       "France24": 4.2,
-      "Guardian": 17.8,
-      "The Hill": 6.0,
-      "ZeroHedge": 8.0,
-      "TOI": 6.7,
+      "Guardian": 13.3,
+      "The Hill": 5.0,
+      "ZeroHedge": 12.0,
+      "TOI": 2.1,
       "ABC-AU": 12.0,
       "Slate": 12.0,
       "Euronews": 14.0,
@@ -986,22 +986,23 @@
       "Japan Times": 6.7,
       "The Diplomat": 9.4,
       "Reason": 4.2,
-      "The Hindu": 3.3,
+      "The Hindu": 0.0,
       "Jerusalem Post": 26.9,
-      "CNN": 5.0
+      "FOX News": 8.0,
+      "CNN": 7.0
     },
     "topics": {
-      "War": 39.8,
-      "Crime": 7.2,
-      "Economy": 6.0,
-      "Health": 6.0,
-      "Disaster": 4.8,
-      "Politics": 1.2
+      "War": 39.0,
+      "Crime": 10.4,
+      "Disaster": 5.2,
+      "Economy": 5.2,
+      "Health": 3.9,
+      "Politics": 1.3
     },
     "top_keywords": [
       "war",
-      "killed",
-      "crisis"
+      "shooting",
+      "killed"
     ],
     "top": [
       {
@@ -1015,9 +1016,9 @@
         "source": "Dawn"
       },
       {
-        "title": "One person killed in shooting outside Magic City Classic football game in Alabama",
+        "title": "4 killed, about 15 injured after multiple overnight shootings in Dallas neighborhood, police say",
         "score": 49,
-        "source": "Guardian"
+        "source": "CNN"
       },
       {
         "title": "Mamdani says Trump agrees to grant visa to mother of teen from Ghana killed in Bronx shooting",
