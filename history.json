@@ -961,50 +961,55 @@
   },
   {
     "date": "2026-11-01",
-    "score": 7.7,
+    "score": 8.6,
     "verdict": "Mostly survivable.",
     "sources": {
-      "BBC": 6.9,
-      "Al Jazeera": 8.0,
+      "BBC": 9.1,
+      "Al Jazeera": 20.0,
       "CBS": 6.7,
-      "PBS": 10.0,
-      "ABC": 8.0,
-      "NBC": 8.0,
+      "PBS": 5.0,
+      "ABC": 12.0,
+      "NBC": 12.0,
       "Sky": 12.5,
       "DW": 5.7,
       "France24": 4.2,
       "Guardian": 13.3,
       "The Hill": 5.0,
-      "ZeroHedge": 12.0,
-      "TOI": 2.1,
-      "ABC-AU": 12.0,
+      "ZeroHedge": 16.0,
+      "TOI": 4.2,
+      "ABC-AU": 16.0,
       "Slate": 12.0,
       "Euronews": 14.0,
       "CNBC": 0.0,
       "ProPublica": 5.0,
       "Dawn": 10.3,
-      "Japan Times": 6.7,
+      "Japan Times": 10.0,
       "The Diplomat": 9.4,
       "Reason": 4.2,
-      "The Hindu": 0.0,
-      "Jerusalem Post": 26.9,
-      "FOX News": 8.0,
-      "CNN": 7.0
+      "The Hindu": 1.7,
+      "Jerusalem Post": 34.6,
+      "FOX News": 4.0,
+      "CNN": 8.0
     },
     "topics": {
-      "War": 39.0,
-      "Crime": 10.4,
-      "Disaster": 5.2,
-      "Economy": 5.2,
-      "Health": 3.9,
-      "Politics": 1.3
+      "War": 36.8,
+      "Economy": 17.2,
+      "Crime": 6.9,
+      "Disaster": 5.7,
+      "Health": 3.4,
+      "Politics": 1.1
     },
     "top_keywords": [
       "war",
-      "shooting",
+      "crash",
       "killed"
     ],
     "top": [
+      {
+        "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
+        "score": 61,
+        "source": "BBC"
+      },
       {
         "title": "First Doomsday Warnings, Then Poland Crisis, Iran's \"No Limits\" Threat, & Now \"Mass Casualty\" Risk In Moscow",
         "score": 58,
@@ -1022,11 +1027,6 @@
       },
       {
         "title": "Mamdani says Trump agrees to grant visa to mother of teen from Ghana killed in Bronx shooting",
-        "score": 49,
-        "source": "CNN"
-      },
-      {
-        "title": "Pregnant woman killed, 6 others wounded in targeted shooting at California Spirit Halloween store, police say",
         "score": 49,
         "source": "CNN"
       }
