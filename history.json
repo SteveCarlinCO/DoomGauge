@@ -958,5 +958,77 @@
         "source": "DW"
       }
     ]
+  },
+  {
+    "date": "2026-11-01",
+    "score": 7.5,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "BBC": 0.0,
+      "Al Jazeera": 16.0,
+      "CBS": 16.7,
+      "PBS": 10.0,
+      "ABC": 8.0,
+      "NBC": 8.0,
+      "Sky": 25.0,
+      "DW": 6.6,
+      "France24": 8.3,
+      "Guardian": 11.1,
+      "The Hill": 5.0,
+      "ZeroHedge": 8.0,
+      "TOI": 6.5,
+      "ABC-AU": 16.0,
+      "Slate": 12.0,
+      "Euronews": 12.0,
+      "CNBC": 0.0,
+      "ProPublica": 5.0,
+      "Dawn": 6.9,
+      "Japan Times": 10.0,
+      "The Diplomat": 9.4,
+      "Reason": 4.2,
+      "The Hindu": 3.3,
+      "Jerusalem Post": 23.1,
+      "CNN": 5.0
+    },
+    "topics": {
+      "War": 38.2,
+      "Economy": 7.9,
+      "Disaster": 6.6,
+      "Crime": 5.3,
+      "Health": 5.3,
+      "Politics": 3.9
+    },
+    "top_keywords": [
+      "war",
+      "crisis",
+      "killed"
+    ],
+    "top": [
+      {
+        "title": "First Doomsday Warnings, Then Poland Crisis, Iran's \"No Limits\" Threat, & Now \"Mass Casualty\" Risk In Moscow",
+        "score": 58,
+        "source": "ZeroHedge"
+      },
+      {
+        "title": "1 killed, several injured in shooting at US stadium after Alabama football game",
+        "score": 49,
+        "source": "TOI"
+      },
+      {
+        "title": "Mamdani says Trump agrees to grant visa to mother of teen from Ghana killed in Bronx shooting",
+        "score": 49,
+        "source": "CNN"
+      },
+      {
+        "title": "Pregnant woman killed, 6 others wounded in targeted shooting at California Spirit Halloween store, police say",
+        "score": 49,
+        "source": "CNN"
+      },
+      {
+        "title": "Two boys, 16, killed in stolen car crash in Perth's north-east",
+        "score": 41,
+        "source": "ABC-AU"
+      }
+    ]
   }
 ]
