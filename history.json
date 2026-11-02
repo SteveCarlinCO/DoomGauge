@@ -961,43 +961,44 @@
   },
   {
     "date": "2026-11-01",
-    "score": 8.6,
+    "score": 9.7,
     "verdict": "Mostly survivable.",
     "sources": {
-      "BBC": 9.1,
+      "NPR": 0.0,
+      "BBC": 8.3,
       "Al Jazeera": 20.0,
-      "CBS": 6.7,
-      "PBS": 5.0,
+      "CBS": 16.7,
+      "PBS": 10.0,
       "ABC": 12.0,
       "NBC": 12.0,
-      "Sky": 12.5,
-      "DW": 5.7,
-      "France24": 4.2,
-      "Guardian": 13.3,
+      "Sky": 14.3,
+      "DW": 6.5,
+      "France24": 16.7,
+      "Guardian": 15.6,
       "The Hill": 5.0,
-      "ZeroHedge": 16.0,
-      "TOI": 4.2,
-      "ABC-AU": 16.0,
+      "ZeroHedge": 20.0,
+      "TOI": 11.6,
+      "ABC-AU": 4.0,
       "Slate": 12.0,
       "Euronews": 14.0,
-      "CNBC": 0.0,
+      "CNBC": 3.3,
       "ProPublica": 5.0,
-      "Dawn": 10.3,
-      "Japan Times": 10.0,
-      "The Diplomat": 9.4,
+      "Dawn": 14.3,
+      "Japan Times": 3.3,
+      "The Diplomat": 9.5,
       "Reason": 4.2,
-      "The Hindu": 1.7,
-      "Jerusalem Post": 34.6,
+      "The Hindu": 6.7,
+      "Jerusalem Post": 38.5,
       "FOX News": 4.0,
-      "CNN": 8.0
+      "CNN": 9.0
     },
     "topics": {
-      "War": 36.8,
-      "Economy": 17.2,
-      "Crime": 6.9,
-      "Disaster": 5.7,
-      "Health": 3.4,
-      "Politics": 1.1
+      "War": 40.4,
+      "Economy": 22.2,
+      "Crime": 6.1,
+      "Disaster": 3.0,
+      "Health": 3.0,
+      "Politics": 2.0
     },
     "top_keywords": [
       "war",
@@ -1011,16 +1012,6 @@
         "source": "BBC"
       },
       {
-        "title": "First Doomsday Warnings, Then Poland Crisis, Iran's \"No Limits\" Threat, & Now \"Mass Casualty\" Risk In Moscow",
-        "score": 58,
-        "source": "ZeroHedge"
-      },
-      {
-        "title": "Iran warns new war could last longer after Trump threatens strikes",
-        "score": 54,
-        "source": "Dawn"
-      },
-      {
         "title": "4 killed, about 15 injured after multiple overnight shootings in Dallas neighborhood, police say",
         "score": 49,
         "source": "CNN"
@@ -1029,6 +1020,16 @@
         "title": "Mamdani says Trump agrees to grant visa to mother of teen from Ghana killed in Bronx shooting",
         "score": 49,
         "source": "CNN"
+      },
+      {
+        "title": "Pregnant woman killed, 6 others wounded in targeted shooting at California Spirit Halloween store, police say",
+        "score": 49,
+        "source": "CNN"
+      },
+      {
+        "title": "A Cold War blueprint for today’s nuclear dangers",
+        "score": 48,
+        "source": "Japan Times"
       }
     ]
   }
