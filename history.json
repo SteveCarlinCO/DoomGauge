@@ -1113,46 +1113,45 @@
     "score": 8.5,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 20.0,
-      "BBC": 5.6,
-      "Al Jazeera": 24.0,
+      "NPR": 10.0,
+      "BBC": 8.8,
+      "Al Jazeera": 12.0,
       "CBS": 6.7,
+      "PBS": 10.0,
       "ABC": 0.0,
-      "NBC": 16.0,
+      "NBC": 0.0,
       "Sky": 0.0,
-      "DW": 4.0,
-      "France24": 8.3,
-      "Guardian": 6.7,
-      "The Hill": 6.0,
-      "ZeroHedge": 24.0,
-      "TOI": 4.5,
+      "DW": 4.8,
+      "France24": 20.8,
+      "Guardian": 8.9,
+      "The Hill": 2.0,
+      "ZeroHedge": 12.0,
+      "TOI": 4.8,
       "ABC-AU": 8.0,
-      "Slate": 4.0,
-      "Vox": 10.0,
       "Euronews": 16.0,
-      "CNBC": 13.3,
+      "CNBC": 10.0,
       "ProPublica": 5.0,
-      "Dawn": 11.1,
+      "Dawn": 14.3,
       "Japan Times": 10.0,
       "The Diplomat": 8.3,
-      "Reason": 0.0,
-      "The Hindu": 5.0,
-      "Jerusalem Post": 11.5,
+      "Reason": 2.1,
+      "The Hindu": 1.7,
+      "Jerusalem Post": 23.1,
       "FOX News": 4.0,
-      "CNN": 14.0
+      "CNN": 11.0
     },
     "topics": {
-      "War": 33.0,
-      "Economy": 23.9,
-      "Crime": 6.8,
-      "Politics": 3.4,
-      "Health": 2.3,
-      "Disaster": 1.1
+      "War": 38.3,
+      "Economy": 21.0,
+      "Disaster": 4.9,
+      "Politics": 3.7,
+      "Health": 2.5,
+      "Crime": 1.2
     },
     "top_keywords": [
       "war",
-      "killed",
-      "crash"
+      "crash",
+      "killed"
     ],
     "top": [
       {
@@ -1166,19 +1165,19 @@
         "source": "Dawn"
       },
       {
-        "title": "Teen arrested in Spirit Halloween shooting that killed pregnant woman and injured 6",
-        "score": 49,
-        "source": "NBC"
-      },
-      {
         "title": "Violent Halloween weekend in US with more than a dozen killed, over 90 injured in shootings",
         "score": 49,
         "source": "CNN"
       },
       {
-        "title": "New bodycam video shows aftermath of fatal National Guard shooting",
+        "title": "Spanish transport minister resigns days after deadly train crash",
+        "score": 44,
+        "source": "BBC"
+      },
+      {
+        "title": "‘Vile terrorist attack’: Russia bombs Ukraine aid centre",
         "score": 42,
-        "source": "Al Jazeera"
+        "source": "France24"
       }
     ]
   }
