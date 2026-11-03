@@ -1035,45 +1035,45 @@
   },
   {
     "date": "2026-11-02",
-    "score": 9.4,
+    "score": 8.6,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 16.7,
-      "Al Jazeera": 12.0,
-      "CBS": 16.7,
-      "PBS": 15.0,
-      "ABC": 4.0,
-      "NBC": 12.0,
-      "Sky": 10.0,
-      "DW": 4.9,
-      "France24": 16.7,
-      "Guardian": 11.1,
+      "BBC": 5.0,
+      "Al Jazeera": 16.0,
+      "CBS": 6.7,
+      "PBS": 25.0,
+      "ABC": 8.0,
+      "NBC": 16.0,
+      "Sky": 0.0,
+      "DW": 4.8,
+      "France24": 8.3,
+      "Guardian": 13.3,
       "The Hill": 6.0,
       "ZeroHedge": 4.0,
-      "TOI": 10.9,
-      "ABC-AU": 0.0,
+      "TOI": 8.5,
+      "ABC-AU": 4.0,
       "Slate": 4.0,
       "Vox": 10.0,
       "Euronews": 12.0,
-      "CNBC": 6.7,
+      "CNBC": 3.3,
       "ProPublica": 5.0,
-      "Dawn": 3.6,
-      "Japan Times": 13.3,
+      "Dawn": 0.0,
+      "Japan Times": 10.0,
       "The Diplomat": 8.3,
       "Reason": 4.2,
-      "The Hindu": 8.3,
+      "The Hindu": 10.0,
       "Jerusalem Post": 26.9,
-      "FOX News": 8.0,
-      "CNN": 15.0
+      "FOX News": 16.0,
+      "CNN": 16.0
     },
     "topics": {
-      "War": 36.7,
-      "Economy": 19.4,
-      "Disaster": 7.1,
-      "Crime": 7.1,
-      "Politics": 3.1,
-      "Health": 3.1
+      "War": 38.9,
+      "Economy": 23.3,
+      "Disaster": 5.6,
+      "Crime": 5.6,
+      "Health": 3.3,
+      "Politics": 2.2
     },
     "top_keywords": [
       "war",
@@ -1087,9 +1087,9 @@
         "source": "CNN"
       },
       {
-        "title": "Multiple people killed, others injured in shooting near California beach",
+        "title": "17-year-old arrested in Spirit Halloween shooting that killed pregnant woman, injured 6 other people",
         "score": 49,
-        "source": "FOX News"
+        "source": "NBC"
       },
       {
         "title": "Violent Halloween weekend in US with more than a dozen killed, over 90 injured in shootings",
@@ -1102,9 +1102,9 @@
         "source": "CNN"
       },
       {
-        "title": "Mamdani says Trump agrees to grant visa to mother of teen from Ghana killed in Bronx shooting",
-        "score": 49,
-        "source": "CNN"
+        "title": "Parts of a Learjet may have broken off midair before Florida crash that killed 9, investigators say",
+        "score": 41,
+        "source": "PBS"
       }
     ]
   }
