@@ -1107,5 +1107,79 @@
         "source": "PBS"
       }
     ]
+  },
+  {
+    "date": "2026-11-03",
+    "score": 8.5,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 20.0,
+      "BBC": 5.6,
+      "Al Jazeera": 24.0,
+      "CBS": 6.7,
+      "ABC": 0.0,
+      "NBC": 16.0,
+      "Sky": 0.0,
+      "DW": 4.0,
+      "France24": 8.3,
+      "Guardian": 6.7,
+      "The Hill": 6.0,
+      "ZeroHedge": 24.0,
+      "TOI": 4.5,
+      "ABC-AU": 8.0,
+      "Slate": 4.0,
+      "Vox": 10.0,
+      "Euronews": 16.0,
+      "CNBC": 13.3,
+      "ProPublica": 5.0,
+      "Dawn": 11.1,
+      "Japan Times": 10.0,
+      "The Diplomat": 8.3,
+      "Reason": 0.0,
+      "The Hindu": 5.0,
+      "Jerusalem Post": 11.5,
+      "FOX News": 4.0,
+      "CNN": 14.0
+    },
+    "topics": {
+      "War": 33.0,
+      "Economy": 23.9,
+      "Crime": 6.8,
+      "Politics": 3.4,
+      "Health": 2.3,
+      "Disaster": 1.1
+    },
+    "top_keywords": [
+      "war",
+      "killed",
+      "crash"
+    ],
+    "top": [
+      {
+        "title": "Fake warnings of nuclear attack posted on hacked Russian and Ukrainian emergency apps",
+        "score": 58,
+        "source": "CNN"
+      },
+      {
+        "title": "Soldier martyred, 17 terrorists killed in intelligence-based operations in Balochistan: ISPR",
+        "score": 53,
+        "source": "Dawn"
+      },
+      {
+        "title": "Teen arrested in Spirit Halloween shooting that killed pregnant woman and injured 6",
+        "score": 49,
+        "source": "NBC"
+      },
+      {
+        "title": "Violent Halloween weekend in US with more than a dozen killed, over 90 injured in shootings",
+        "score": 49,
+        "source": "CNN"
+      },
+      {
+        "title": "New bodycam video shows aftermath of fatal National Guard shooting",
+        "score": 42,
+        "source": "Al Jazeera"
+      }
+    ]
   }
 ]
