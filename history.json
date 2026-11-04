@@ -1180,5 +1180,76 @@
         "source": "Sky"
       }
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "score": 6.5,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "BBC": 12.5,
+      "Al Jazeera": 8.0,
+      "CBS": 3.3,
+      "ABC": 4.0,
+      "NBC": 0.0,
+      "Sky": 14.3,
+      "DW": 3.3,
+      "France24": 4.2,
+      "Guardian": 11.1,
+      "The Hill": 1.0,
+      "ZeroHedge": 8.0,
+      "TOI": 16.7,
+      "ABC-AU": 4.0,
+      "Euronews": 12.0,
+      "CNBC": 3.3,
+      "ProPublica": 5.0,
+      "Dawn": 3.8,
+      "Japan Times": 13.3,
+      "The Diplomat": 7.3,
+      "Reason": 4.2,
+      "The Hindu": 3.3,
+      "Jerusalem Post": 15.4,
+      "FOX News": 8.0,
+      "CNN": 8.0
+    },
+    "topics": {
+      "War": 45.2,
+      "Economy": 12.9,
+      "Disaster": 8.1,
+      "Crime": 6.5,
+      "Politics": 3.2,
+      "Health": 1.6
+    },
+    "top_keywords": [
+      "war",
+      "missile",
+      "killed"
+    ],
+    "top": [
+      {
+        "title": "Russian bombing of Ukrainian aid center is one of the war’s ‘deadliest attacks,’ Zelensky says",
+        "score": 61,
+        "source": "CNN"
+      },
+      {
+        "title": "Violent Halloween weekend in US with more than a dozen killed, over 90 injured in shootings",
+        "score": 49,
+        "source": "CNN"
+      },
+      {
+        "title": "Spanish transport minister resigns after train crash killed 69 people",
+        "score": 47,
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
+        "score": 41,
+        "source": "Euronews"
+      },
+      {
+        "title": "Dashcam captures deadly private jet crash in Florida",
+        "score": 38,
+        "source": "Euronews"
+      }
+    ]
   }
 ]
