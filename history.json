@@ -1183,45 +1183,45 @@
   },
   {
     "date": "2026-11-04",
-    "score": 6.5,
+    "score": 7.5,
     "verdict": "Mostly survivable.",
     "sources": {
-      "BBC": 12.5,
-      "Al Jazeera": 8.0,
-      "CBS": 3.3,
+      "BBC": 9.4,
+      "Al Jazeera": 20.0,
+      "CBS": 16.7,
+      "PBS": 5.0,
       "ABC": 4.0,
-      "NBC": 0.0,
-      "Sky": 14.3,
-      "DW": 3.3,
-      "France24": 4.2,
-      "Guardian": 11.1,
-      "The Hill": 1.0,
+      "NBC": 8.0,
+      "Sky": 22.2,
+      "DW": 3.2,
+      "France24": 8.3,
+      "Guardian": 17.8,
+      "The Hill": 6.0,
       "ZeroHedge": 8.0,
-      "TOI": 16.7,
-      "ABC-AU": 4.0,
-      "Euronews": 12.0,
-      "CNBC": 3.3,
+      "TOI": 4.3,
+      "ABC-AU": 8.0,
+      "Euronews": 10.0,
+      "CNBC": 6.7,
       "ProPublica": 5.0,
-      "Dawn": 3.8,
+      "Dawn": 3.7,
       "Japan Times": 13.3,
       "The Diplomat": 7.3,
       "Reason": 4.2,
-      "The Hindu": 3.3,
-      "Jerusalem Post": 15.4,
+      "The Hindu": 8.3,
+      "Jerusalem Post": 19.2,
       "FOX News": 8.0,
-      "CNN": 8.0
+      "CNN": 4.0
     },
     "topics": {
-      "War": 45.2,
-      "Economy": 12.9,
-      "Disaster": 8.1,
-      "Crime": 6.5,
-      "Politics": 3.2,
-      "Health": 1.6
+      "War": 53.3,
+      "Economy": 9.3,
+      "Politics": 6.7,
+      "Disaster": 4.0,
+      "Health": 1.3
     },
     "top_keywords": [
       "war",
-      "missile",
+      "death",
       "killed"
     ],
     "top": [
@@ -1231,24 +1231,24 @@
         "source": "CNN"
       },
       {
-        "title": "Violent Halloween weekend in US with more than a dozen killed, over 90 injured in shootings",
-        "score": 49,
+        "title": "Spain's transport minister to resign after train crash killed 69 people",
+        "score": 47,
+        "source": "Sky"
+      },
+      {
+        "title": "Spanish transport minister resigns after two deadly train crashes in one year",
+        "score": 44,
         "source": "CNN"
       },
       {
-        "title": "Spanish transport minister resigns after train crash killed 69 people",
-        "score": 47,
-        "source": "Al Jazeera"
+        "title": "Pakistan, UK express concern at threat posed by terrorist groups operating in and from Afghanistan: FO",
+        "score": 40,
+        "source": "Dawn"
       },
       {
-        "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
-        "score": 41,
-        "source": "Euronews"
-      },
-      {
-        "title": "Dashcam captures deadly private jet crash in Florida",
-        "score": 38,
-        "source": "Euronews"
+        "title": "Ukraine says \"insane attack\" on aid center may have killed 70",
+        "score": 39,
+        "source": "CBS"
       }
     ]
   }
