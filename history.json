@@ -1110,43 +1110,43 @@
   },
   {
     "date": "2026-11-03",
-    "score": 8.5,
+    "score": 8.4,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 10.0,
-      "BBC": 8.8,
-      "Al Jazeera": 12.0,
-      "CBS": 6.7,
-      "PBS": 10.0,
+      "BBC": 17.1,
+      "Al Jazeera": 8.0,
+      "CBS": 3.3,
+      "PBS": 15.0,
       "ABC": 0.0,
       "NBC": 0.0,
-      "Sky": 0.0,
-      "DW": 4.8,
+      "Sky": 12.5,
+      "DW": 3.3,
       "France24": 20.8,
-      "Guardian": 8.9,
-      "The Hill": 2.0,
+      "Guardian": 11.1,
+      "The Hill": 5.0,
       "ZeroHedge": 12.0,
-      "TOI": 4.8,
-      "ABC-AU": 8.0,
+      "TOI": 5.0,
+      "ABC-AU": 28.0,
       "Euronews": 16.0,
       "CNBC": 10.0,
       "ProPublica": 5.0,
       "Dawn": 14.3,
-      "Japan Times": 10.0,
-      "The Diplomat": 8.3,
+      "Japan Times": 6.7,
+      "The Diplomat": 7.3,
       "Reason": 2.1,
-      "The Hindu": 1.7,
-      "Jerusalem Post": 23.1,
+      "The Hindu": 3.3,
+      "Jerusalem Post": 15.4,
       "FOX News": 4.0,
-      "CNN": 11.0
+      "CNN": 12.0
     },
     "topics": {
-      "War": 38.3,
-      "Economy": 21.0,
-      "Disaster": 4.9,
-      "Politics": 3.7,
-      "Health": 2.5,
-      "Crime": 1.2
+      "War": 38.1,
+      "Economy": 22.6,
+      "Disaster": 7.1,
+      "Politics": 4.8,
+      "Crime": 2.4,
+      "Health": 2.4
     },
     "top_keywords": [
       "war",
@@ -1160,6 +1160,11 @@
         "source": "CNN"
       },
       {
+        "title": "Police arrest 17-year-old in deadly mass shooting at California mall",
+        "score": 54,
+        "source": "The Hill"
+      },
+      {
         "title": "Soldier martyred, 17 terrorists killed in intelligence-based operations in Balochistan: ISPR",
         "score": 53,
         "source": "Dawn"
@@ -1170,14 +1175,9 @@
         "source": "CNN"
       },
       {
-        "title": "Spanish transport minister resigns days after deadly train crash",
-        "score": 44,
-        "source": "BBC"
-      },
-      {
-        "title": "‘Vile terrorist attack’: Russia bombs Ukraine aid centre",
-        "score": 42,
-        "source": "France24"
+        "title": "Spain's transport minister to resign after train crash killed 69 people",
+        "score": 47,
+        "source": "Sky"
       }
     ]
   }
