@@ -1253,5 +1253,78 @@
         "source": "Sky"
       }
     ]
+  },
+  {
+    "date": "2026-11-05",
+    "score": 7.1,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "BBC": 2.9,
+      "Al Jazeera": 12.0,
+      "CBS": 6.7,
+      "PBS": 15.0,
+      "ABC": 4.0,
+      "NBC": 4.0,
+      "Sky": 37.5,
+      "DW": 3.2,
+      "France24": 8.3,
+      "Guardian": 8.9,
+      "The Hill": 6.0,
+      "ZeroHedge": 4.0,
+      "TOI": 8.3,
+      "ABC-AU": 4.0,
+      "Slate": 4.0,
+      "Vox": 0.0,
+      "Euronews": 6.0,
+      "CNBC": 6.7,
+      "ProPublica": 5.0,
+      "Dawn": 3.7,
+      "Japan Times": 6.7,
+      "The Diplomat": 7.3,
+      "Reason": 4.2,
+      "The Hindu": 6.7,
+      "Jerusalem Post": 19.2,
+      "FOX News": 16.0,
+      "CNN": 6.0
+    },
+    "topics": {
+      "War": 56.8,
+      "Economy": 14.9,
+      "Crime": 6.8,
+      "Politics": 5.4,
+      "Disaster": 2.7
+    },
+    "top_keywords": [
+      "war",
+      "killed",
+      "crash"
+    ],
+    "top": [
+      {
+        "title": "Russian bombing of Ukrainian aid center is one of the war’s ‘deadliest attacks,’ Zelensky says",
+        "score": 61,
+        "source": "CNN"
+      },
+      {
+        "title": "Sbarro bombing terrorist Ahlam Tamimi served with US lawsuit via X",
+        "score": 59,
+        "source": "Jerusalem Post"
+      },
+      {
+        "title": "Spain's transport minister to resign after train crash killed 69 people",
+        "score": 47,
+        "source": "Sky"
+      },
+      {
+        "title": "Russia attacks Ukrainian aid hub in one of the deadliest strikes since war began",
+        "score": 46,
+        "source": "Sky"
+      },
+      {
+        "title": "WATCH: Bodycam captures chaotic response to deadly Citibank shooting in Florida",
+        "score": 46,
+        "source": "FOX News"
+      }
+    ]
   }
 ]
