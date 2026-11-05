@@ -1183,47 +1183,47 @@
   },
   {
     "date": "2026-11-04",
-    "score": 8.5,
+    "score": 7.5,
     "verdict": "Mostly survivable.",
     "sources": {
-      "BBC": 17.2,
+      "BBC": 5.9,
       "Al Jazeera": 16.0,
-      "CBS": 3.3,
+      "CBS": 6.7,
       "PBS": 15.0,
       "ABC": 4.0,
-      "NBC": 4.0,
-      "Sky": 22.2,
-      "DW": 3.2,
+      "NBC": 0.0,
+      "Sky": 33.3,
+      "DW": 3.3,
       "France24": 8.3,
-      "Guardian": 15.6,
+      "Guardian": 13.3,
       "The Hill": 8.0,
-      "ZeroHedge": 8.0,
-      "TOI": 8.7,
-      "ABC-AU": 16.0,
+      "ZeroHedge": 4.0,
+      "TOI": 12.8,
+      "ABC-AU": 4.0,
       "Slate": 4.0,
       "Vox": 0.0,
       "Euronews": 10.0,
       "CNBC": 6.7,
       "ProPublica": 5.0,
-      "Dawn": 7.1,
-      "Japan Times": 13.3,
+      "Dawn": 6.9,
+      "Japan Times": 3.3,
       "The Diplomat": 7.3,
       "Reason": 4.2,
-      "The Hindu": 10.0,
-      "Jerusalem Post": 19.2,
-      "FOX News": 8.0,
+      "The Hindu": 6.7,
+      "Jerusalem Post": 23.1,
+      "FOX News": 12.0,
       "CNN": 7.0
     },
     "topics": {
-      "War": 55.6,
-      "Economy": 8.9,
-      "Politics": 6.7,
-      "Disaster": 3.3,
-      "Crime": 3.3
+      "War": 60.8,
+      "Politics": 11.4,
+      "Economy": 10.1,
+      "Disaster": 3.8,
+      "Crime": 3.8
     },
     "top_keywords": [
       "war",
-      "death",
+      "killed",
       "deadly"
     ],
     "top": [
@@ -1238,11 +1238,6 @@
         "source": "Jerusalem Post"
       },
       {
-        "title": "Ohio father's lawsuit over son's fatal police shooting revived on appeal",
-        "score": 48,
-        "source": "TOI"
-      },
-      {
         "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
         "score": 47,
         "source": "BBC"
@@ -1250,6 +1245,11 @@
       {
         "title": "Spain's transport minister to resign after train crash killed 69 people",
         "score": 47,
+        "source": "Sky"
+      },
+      {
+        "title": "Russia attacks Ukrainian aid hub in one of the deadliest strikes since war began",
+        "score": 46,
         "source": "Sky"
       }
     ]
