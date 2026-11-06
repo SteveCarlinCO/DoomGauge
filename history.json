@@ -1332,45 +1332,46 @@
     "score": 7.9,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 10.0,
-      "BBC": 3.1,
-      "Al Jazeera": 8.0,
-      "CBS": 10.0,
-      "PBS": 15.0,
+      "NPR": 0.0,
+      "BBC": 2.9,
+      "Al Jazeera": 12.0,
+      "CBS": 3.3,
+      "PBS": 20.0,
       "ABC": 12.0,
-      "NBC": 16.0,
-      "DW": 5.0,
-      "France24": 4.2,
-      "Guardian": 15.6,
-      "The Hill": 7.0,
-      "ZeroHedge": 12.0,
-      "TOI": 2.2,
+      "NBC": 8.0,
+      "Sky": 20.0,
+      "DW": 5.8,
+      "France24": 8.3,
+      "Guardian": 13.3,
+      "The Hill": 6.0,
+      "ZeroHedge": 20.0,
+      "TOI": 4.5,
       "ABC-AU": 8.0,
       "Slate": 4.0,
-      "Euronews": 12.0,
-      "CNBC": 10.0,
+      "Euronews": 8.0,
+      "CNBC": 3.3,
       "ProPublica": 5.0,
-      "Dawn": 11.1,
-      "Japan Times": 10.0,
-      "The Diplomat": 8.4,
+      "Dawn": 11.5,
+      "Japan Times": 6.7,
+      "The Diplomat": 7.3,
       "Reason": 8.3,
-      "The Hindu": 5.0,
-      "Jerusalem Post": 11.5,
-      "FOX News": 12.0,
-      "CNN": 11.0
+      "The Hindu": 0.0,
+      "Jerusalem Post": 7.7,
+      "FOX News": 8.0,
+      "CNN": 12.0
     },
     "topics": {
-      "War": 39.5,
-      "Crime": 11.1,
-      "Politics": 6.2,
-      "Economy": 4.9,
+      "War": 28.4,
+      "Economy": 12.3,
+      "Crime": 8.6,
+      "Politics": 3.7,
       "Disaster": 2.5,
-      "Health": 2.5
+      "Health": 1.2
     },
     "top_keywords": [
       "war",
       "death",
-      "shooting"
+      "crisis"
     ],
     "top": [
       {
@@ -1379,24 +1380,24 @@
         "source": "Guardian"
       },
       {
-        "title": "New details, bodycam video of deadly Citibank shooting",
-        "score": 46,
-        "source": "CBS"
-      },
-      {
-        "title": "Deadly Florida workplace shooting",
-        "score": 46,
-        "source": "NBC"
-      },
-      {
-        "title": "Man who owed Citibank $2,500 carried out fatal shooting at bank complex near Tampa, authorities say",
+        "title": "Russia secretly bolstered Iran's missile arsenal before war with US, records uncover",
         "score": 42,
-        "source": "CNN"
+        "source": "FOX News"
       },
       {
-        "title": "Bomb threats disrupt dozens of flights across Europe, raising hybrid war fears",
+        "title": "France's Debt Crisis Could Trigger A Much Bigger European Meltdown",
+        "score": 41,
+        "source": "ZeroHedge"
+      },
+      {
+        "title": "IDF on high alert in Hebron as 20,000 Israelis expected for Shabbat amid terror attack fears",
         "score": 40,
-        "source": "Guardian"
+        "source": "Jerusalem Post"
+      },
+      {
+        "title": "Millions fleeing Sudan’s war risk losing shelter as funds run low, UN warns",
+        "score": 37,
+        "source": "Al Jazeera"
       }
     ]
   }
