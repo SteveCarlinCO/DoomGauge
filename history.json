@@ -1256,55 +1256,64 @@
   },
   {
     "date": "2026-11-05",
-    "score": 7.9,
+    "score": 8.2,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 20.0,
-      "BBC": 12.1,
-      "Al Jazeera": 16.0,
-      "CBS": 10.0,
-      "PBS": 20.0,
-      "ABC": 12.0,
-      "NBC": 16.0,
+      "NPR": 10.0,
+      "BBC": 8.3,
+      "Al Jazeera": 28.0,
+      "CBS": 13.3,
+      "PBS": 15.0,
+      "ABC": 8.0,
+      "NBC": 20.0,
       "Sky": 16.7,
-      "DW": 4.8,
+      "DW": 5.0,
       "France24": 4.2,
       "Guardian": 13.3,
-      "The Hill": 5.0,
-      "ZeroHedge": 24.0,
-      "TOI": 8.9,
-      "ABC-AU": 0.0,
+      "The Hill": 7.0,
+      "ZeroHedge": 12.0,
+      "TOI": 6.4,
+      "ABC-AU": 16.0,
       "Slate": 4.0,
-      "Vox": 0.0,
       "Euronews": 10.0,
       "CNBC": 3.3,
       "ProPublica": 5.0,
       "Dawn": 3.4,
-      "Japan Times": 6.7,
+      "Japan Times": 0.0,
       "The Diplomat": 8.3,
-      "Reason": 4.2,
-      "The Hindu": 13.3,
-      "Jerusalem Post": 11.5,
-      "FOX News": 0.0,
+      "Reason": 8.3,
+      "The Hindu": 16.7,
+      "Jerusalem Post": 7.7,
+      "FOX News": 4.0,
       "CNN": 9.0
     },
     "topics": {
-      "War": 48.2,
-      "Crime": 8.4,
-      "Politics": 8.4,
-      "Disaster": 4.8,
-      "Economy": 4.8
+      "War": 45.9,
+      "Crime": 11.8,
+      "Politics": 7.1,
+      "Economy": 4.7,
+      "Disaster": 3.5
     },
     "top_keywords": [
       "war",
-      "killed",
-      "death"
+      "shooting",
+      "collapse"
     ],
     "top": [
+      {
+        "title": "Just one local terrorist active in Kashmir, but terror threat remains: IGP Sujit Kumar",
+        "score": 60,
+        "source": "The Hindu"
+      },
       {
         "title": "Russia attacks Ukrainian aid hub in one of the deadliest strikes since war began",
         "score": 46,
         "source": "Sky"
+      },
+      {
+        "title": "Bodycam footage released from deadly shooting at Citibank complex",
+        "score": 46,
+        "source": "CNN"
       },
       {
         "title": "Man who owed Citibank $2,500 carried out fatal shooting at bank complex near Tampa, authorities say",
@@ -1312,19 +1321,9 @@
         "source": "CNN"
       },
       {
-        "title": "Three killed, four injured as concrete structure collapses at Hosur SIPCOT",
+        "title": "At least two killed, two injured as three-storey building collapses in Old Delhi’s Chawri Bazar; rescuers struggle to find number of trapped",
         "score": 41,
         "source": "The Hindu"
-      },
-      {
-        "title": "1 killed and 2 hurt in small helicopter crash off Miami, officials say",
-        "score": 41,
-        "source": "CNN"
-      },
-      {
-        "title": "Farage says he is worried Trump will step up Iran war after midterm 'disaster'",
-        "score": 40,
-        "source": "BBC"
       }
     ]
   }
