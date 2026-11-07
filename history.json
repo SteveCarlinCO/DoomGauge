@@ -1400,5 +1400,78 @@
         "source": "DW"
       }
     ]
+  },
+  {
+    "date": "2026-11-07",
+    "score": 8.4,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 0.0,
+      "BBC": 6.1,
+      "Al Jazeera": 24.0,
+      "CBS": 6.7,
+      "PBS": 5.0,
+      "ABC": 4.0,
+      "NBC": 4.0,
+      "Sky": 28.6,
+      "DW": 5.1,
+      "France24": 4.2,
+      "Guardian": 11.1,
+      "The Hill": 4.0,
+      "ZeroHedge": 12.0,
+      "TOI": 8.9,
+      "ABC-AU": 12.0,
+      "Slate": 8.0,
+      "Euronews": 6.0,
+      "CNBC": 3.3,
+      "ProPublica": 5.0,
+      "Dawn": 4.0,
+      "Japan Times": 13.3,
+      "The Diplomat": 6.2,
+      "Reason": 8.3,
+      "The Hindu": 8.3,
+      "Jerusalem Post": 17.4,
+      "FOX News": 20.0,
+      "CNN": 12.0
+    },
+    "topics": {
+      "War": 39.3,
+      "Crime": 7.1,
+      "Economy": 6.0,
+      "Politics": 6.0,
+      "Health": 2.4
+    },
+    "top_keywords": [
+      "war",
+      "killed",
+      "death"
+    ],
+    "top": [
+      {
+        "title": "Top Gulf official offers glimmer of hope on Trump-Iran nuclear talks as threat of war hangs over region",
+        "score": 54,
+        "source": "FOX News"
+      },
+      {
+        "title": "Iran war: Gulf tanker attacked, 1 seaferer killed",
+        "score": 47,
+        "source": "DW"
+      },
+      {
+        "title": "Father of 20-year-old co-pilot killed in Florida crash says she fought until the last minute",
+        "score": 41,
+        "source": "CBS"
+      },
+      {
+        "title": "Father of young co-pilot killed in jet crash speaks out",
+        "score": 41,
+        "source": "NBC"
+      },
+      {
+        "title": "Why does Delhi keep witnessing deadly building fires and collapses? | Explained",
+        "score": 38,
+        "source": "The Hindu"
+      }
+    ]
   }
 ]
