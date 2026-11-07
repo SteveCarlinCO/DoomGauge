@@ -1403,75 +1403,75 @@
   },
   {
     "date": "2026-11-07",
-    "score": 9.0,
+    "score": 8.4,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 10.0,
-      "BBC": 4.3,
-      "Al Jazeera": 36.0,
-      "CBS": 10.0,
-      "PBS": 5.0,
-      "ABC": 4.0,
-      "NBC": 12.0,
-      "Sky": 33.3,
-      "DW": 5.0,
-      "France24": 12.5,
-      "Guardian": 15.6,
-      "The Hill": 3.0,
-      "ZeroHedge": 8.0,
-      "TOI": 14.9,
-      "ABC-AU": 12.0,
+      "BBC": 4.2,
+      "Al Jazeera": 24.0,
+      "CBS": 6.7,
+      "PBS": 10.0,
+      "ABC": 8.0,
+      "NBC": 20.0,
+      "Sky": 37.5,
+      "DW": 4.2,
+      "France24": 8.3,
+      "Guardian": 13.3,
+      "The Hill": 2.0,
+      "ZeroHedge": 12.0,
+      "TOI": 12.8,
+      "ABC-AU": 4.0,
       "Slate": 8.0,
       "Euronews": 8.0,
       "CNBC": 6.7,
       "ProPublica": 5.0,
-      "Dawn": 7.7,
+      "Dawn": 10.7,
       "Japan Times": 13.3,
       "The Diplomat": 6.2,
       "Reason": 6.2,
-      "The Hindu": 3.3,
-      "Jerusalem Post": 24.0,
-      "FOX News": 16.0,
-      "CNN": 14.0
+      "The Hindu": 1.7,
+      "Jerusalem Post": 15.4,
+      "FOX News": 12.0,
+      "CNN": 15.0
     },
     "topics": {
-      "War": 35.9,
-      "Crime": 14.1,
-      "Economy": 8.7,
-      "Politics": 4.3,
-      "Disaster": 3.3,
-      "Health": 2.2
+      "War": 31.8,
+      "Crime": 17.6,
+      "Economy": 8.2,
+      "Politics": 4.7,
+      "Disaster": 2.4,
+      "Health": 2.4
     },
     "top_keywords": [
-      "war",
       "killed",
-      "death"
+      "shooting",
+      "war"
     ],
     "top": [
-      {
-        "title": "Dozens killed as humanitarian crisis mounts in Yemen: What next for war?",
-        "score": 63,
-        "source": "Al Jazeera"
-      },
       {
         "title": "Five killed and at least 10 injured in Krakow shooting",
         "score": 49,
         "source": "Al Jazeera"
       },
       {
-        "title": "Five people killed, multiple injured in Poland market shooting",
+        "title": "At least 6 killed in shooting in Polish city of Krakow, police say",
         "score": 49,
-        "source": "NBC"
+        "source": "DW"
       },
       {
-        "title": "Kraków shooting latest updates: five killed and more than a dozen injured, police say",
+        "title": "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
         "score": 49,
         "source": "Guardian"
       },
       {
-        "title": "At least 5 killed, 10 injured in Poland shooting; gunman shot",
+        "title": "At least 6 killed, 15 injured in Poland shooting; gunman shot",
         "score": 49,
         "source": "TOI"
+      },
+      {
+        "title": "Poland says 6 killed in shooting in central Krakow",
+        "score": 49,
+        "source": "Dawn"
       }
     ]
   }
