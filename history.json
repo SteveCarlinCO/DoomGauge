@@ -1333,71 +1333,71 @@
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 5.9,
+      "BBC": 5.4,
       "Al Jazeera": 12.0,
-      "CBS": 0.0,
-      "PBS": 10.0,
-      "ABC": 12.0,
-      "NBC": 16.0,
+      "CBS": 3.3,
+      "PBS": 5.0,
+      "ABC": 4.0,
+      "NBC": 8.0,
       "Sky": 40.0,
-      "DW": 5.7,
+      "DW": 6.8,
       "France24": 4.2,
-      "Guardian": 13.3,
-      "The Hill": 7.0,
+      "Guardian": 15.6,
+      "The Hill": 4.0,
       "ZeroHedge": 12.0,
-      "TOI": 2.2,
-      "ABC-AU": 4.0,
+      "TOI": 6.7,
+      "ABC-AU": 12.0,
       "Slate": 4.0,
       "Euronews": 8.0,
       "CNBC": 0.0,
       "ProPublica": 5.0,
-      "Dawn": 10.3,
-      "Japan Times": 3.3,
+      "Dawn": 3.4,
+      "Japan Times": 13.3,
       "The Diplomat": 6.2,
       "Reason": 8.3,
-      "The Hindu": 5.0,
-      "Jerusalem Post": 16.0,
-      "FOX News": 8.0,
-      "CNN": 14.0
+      "The Hindu": 10.0,
+      "Jerusalem Post": 17.4,
+      "FOX News": 16.0,
+      "CNN": 11.0
     },
     "topics": {
-      "War": 26.5,
-      "Economy": 10.8,
-      "Crime": 10.8,
-      "Politics": 4.8,
-      "Disaster": 3.6,
-      "Health": 2.4
+      "War": 30.5,
+      "Economy": 7.3,
+      "Crime": 7.3,
+      "Politics": 6.1,
+      "Health": 2.4,
+      "Disaster": 1.2
     },
     "top_keywords": [
       "war",
       "death",
-      "shooting"
+      "crisis"
     ],
     "top": [
-      {
-        "title": "Bondi beach shooting: Eva Geller, 90, shot during massacre dies in hospital year after antisemitic attack",
-        "score": 68,
-        "source": "Guardian"
-      },
-      {
-        "title": "Russian bombing of Ukrainian aid center is one of the war’s ‘deadliest attacks,’ Zelensky says",
-        "score": 61,
-        "source": "CNN"
-      },
       {
         "title": "Iran war: Gulf tanker attacked, 1 seaferer killed",
         "score": 47,
         "source": "DW"
       },
       {
-        "title": "Man who owed Citibank $2,500 carried out fatal shooting at bank complex near Tampa, authorities say",
-        "score": 42,
+        "title": "Video released of deadly shooting at Citibank Center in Florida",
+        "score": 46,
         "source": "CNN"
       },
       {
-        "title": "Father of young co-pilot killed in jet crash says recording shows she fought until the last minute",
+        "title": "Father of 20-year-old co-pilot killed in Florida crash says she fought until the last minute",
         "score": 41,
-        "source": "NBC"
+        "source": "CBS"
+      },
+      {
+        "title": "EU prosecutor office investigates fatal train crash in Spain",
+        "score": 34,
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "For people in Iran, a constant threat of war and dearth of information",
+        "score": 34,
+        "source": "DW"
       }
     ]
   }
