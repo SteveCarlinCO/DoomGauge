@@ -1474,5 +1474,79 @@
         "source": "Jerusalem Post"
       }
     ]
+  },
+  {
+    "date": "2026-11-08",
+    "score": 8.9,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 20.0,
+      "BBC": 9.4,
+      "Al Jazeera": 16.0,
+      "CBS": 6.7,
+      "PBS": 5.0,
+      "ABC": 12.0,
+      "NBC": 20.0,
+      "Sky": 37.5,
+      "DW": 2.6,
+      "France24": 12.5,
+      "Guardian": 13.3,
+      "The Hill": 2.0,
+      "ZeroHedge": 16.0,
+      "TOI": 8.9,
+      "ABC-AU": 8.0,
+      "Slate": 8.0,
+      "Euronews": 6.0,
+      "CNBC": 6.7,
+      "ProPublica": 5.0,
+      "Dawn": 3.4,
+      "Japan Times": 13.3,
+      "The Diplomat": 6.2,
+      "Reason": 6.2,
+      "The Hindu": 15.0,
+      "Jerusalem Post": 15.4,
+      "FOX News": 8.0,
+      "CNN": 14.0
+    },
+    "topics": {
+      "Crime": 28.6,
+      "War": 25.3,
+      "Disaster": 6.6,
+      "Economy": 5.5,
+      "Politics": 3.3,
+      "Health": 2.2
+    },
+    "top_keywords": [
+      "killed",
+      "shooting",
+      "death"
+    ],
+    "top": [
+      {
+        "title": "Houthis claim at least 33 killed, 39 wounded in Saudi airstrikes, amid continued attacks on Riyadh",
+        "score": 63,
+        "source": "Jerusalem Post"
+      },
+      {
+        "title": "Briton among six killed in Krakow shooting as three more bodies found at suspect's home",
+        "score": 49,
+        "source": "BBC"
+      },
+      {
+        "title": "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
+        "score": 49,
+        "source": "NBC"
+      },
+      {
+        "title": "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
+        "score": 49,
+        "source": "France24"
+      },
+      {
+        "title": "Kraków shooting latest updates: six killed and more than a dozen injured – as it happened",
+        "score": 49,
+        "source": "Guardian"
+      }
+    ]
   }
 ]
