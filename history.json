@@ -1407,20 +1407,20 @@
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 10.0,
-      "BBC": 4.2,
-      "Al Jazeera": 24.0,
-      "CBS": 6.7,
-      "PBS": 10.0,
-      "ABC": 8.0,
+      "BBC": 10.0,
+      "Al Jazeera": 16.0,
+      "CBS": 10.0,
+      "PBS": 5.0,
+      "ABC": 12.0,
       "NBC": 20.0,
       "Sky": 37.5,
-      "DW": 4.2,
+      "DW": 2.6,
       "France24": 8.3,
       "Guardian": 13.3,
       "The Hill": 2.0,
       "ZeroHedge": 12.0,
-      "TOI": 12.8,
-      "ABC-AU": 4.0,
+      "TOI": 10.4,
+      "ABC-AU": 0.0,
       "Slate": 8.0,
       "Euronews": 8.0,
       "CNBC": 6.7,
@@ -1429,18 +1429,18 @@
       "Japan Times": 13.3,
       "The Diplomat": 6.2,
       "Reason": 6.2,
-      "The Hindu": 1.7,
+      "The Hindu": 3.3,
       "Jerusalem Post": 15.4,
       "FOX News": 12.0,
-      "CNN": 15.0
+      "CNN": 13.0
     },
     "topics": {
-      "War": 31.8,
-      "Crime": 17.6,
-      "Economy": 8.2,
+      "War": 30.2,
+      "Crime": 24.4,
+      "Economy": 5.8,
+      "Disaster": 4.7,
       "Politics": 4.7,
-      "Disaster": 2.4,
-      "Health": 2.4
+      "Health": 1.2
     },
     "top_keywords": [
       "killed",
@@ -1449,29 +1449,29 @@
     ],
     "top": [
       {
-        "title": "Five killed and at least 10 injured in Krakow shooting",
+        "title": "Briton among six killed in 'far-right' shooting in Krakow",
         "score": 49,
-        "source": "Al Jazeera"
+        "source": "BBC"
       },
       {
-        "title": "At least 6 killed in shooting in Polish city of Krakow, police say",
+        "title": "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
         "score": 49,
-        "source": "DW"
+        "source": "France24"
       },
       {
-        "title": "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
+        "title": "Kraków shooting latest updates: six killed and more than a dozen injured – as it happened",
         "score": 49,
         "source": "Guardian"
-      },
-      {
-        "title": "At least 6 killed, 15 injured in Poland shooting; gunman shot",
-        "score": 49,
-        "source": "TOI"
       },
       {
         "title": "Poland says 6 killed in shooting in central Krakow",
         "score": 49,
         "source": "Dawn"
+      },
+      {
+        "title": "Nine killed, 15 injured in mass shooting at two locations in Polish city of Krakow",
+        "score": 49,
+        "source": "Jerusalem Post"
       }
     ]
   }
