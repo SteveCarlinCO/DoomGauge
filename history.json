@@ -1477,60 +1477,53 @@
   },
   {
     "date": "2026-11-08",
-    "score": 8.9,
+    "score": 8.4,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 20.0,
-      "BBC": 9.4,
-      "Al Jazeera": 16.0,
+      "NPR": 10.0,
+      "BBC": 0.0,
+      "Al Jazeera": 8.0,
       "CBS": 6.7,
       "PBS": 5.0,
       "ABC": 12.0,
       "NBC": 20.0,
-      "Sky": 37.5,
-      "DW": 2.6,
-      "France24": 12.5,
+      "Sky": 44.4,
+      "DW": 4.3,
+      "France24": 20.8,
       "Guardian": 13.3,
-      "The Hill": 2.0,
+      "The Hill": 3.0,
       "ZeroHedge": 16.0,
       "TOI": 8.9,
-      "ABC-AU": 8.0,
+      "ABC-AU": 12.0,
       "Slate": 8.0,
-      "Euronews": 6.0,
+      "Euronews": 8.0,
       "CNBC": 6.7,
       "ProPublica": 5.0,
-      "Dawn": 3.4,
-      "Japan Times": 13.3,
+      "Dawn": 0.0,
+      "Japan Times": 10.0,
       "The Diplomat": 6.2,
       "Reason": 6.2,
-      "The Hindu": 15.0,
+      "The Hindu": 16.7,
       "Jerusalem Post": 15.4,
-      "FOX News": 8.0,
-      "CNN": 14.0
+      "FOX News": 8.0
     },
     "topics": {
-      "Crime": 28.6,
-      "War": 25.3,
-      "Disaster": 6.6,
-      "Economy": 5.5,
-      "Politics": 3.3,
-      "Health": 2.2
+      "War": 32.5,
+      "Crime": 22.1,
+      "Disaster": 6.5,
+      "Economy": 6.5,
+      "Politics": 3.9
     },
     "top_keywords": [
-      "killed",
       "shooting",
-      "death"
+      "killed",
+      "war"
     ],
     "top": [
       {
-        "title": "Houthis claim at least 33 killed, 39 wounded in Saudi airstrikes, amid continued attacks on Riyadh",
-        "score": 63,
-        "source": "Jerusalem Post"
-      },
-      {
-        "title": "Briton among six killed in Krakow shooting as three more bodies found at suspect's home",
-        "score": 49,
-        "source": "BBC"
+        "title": "Poland calls Krakow shooting rampage 'terrorist' attack",
+        "score": 66,
+        "source": "The Hindu"
       },
       {
         "title": "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
@@ -1538,14 +1531,19 @@
         "source": "NBC"
       },
       {
-        "title": "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
+        "title": "Kraków shooting that killed 6 was motivated by far-right views, authorities say",
+        "score": 49,
+        "source": "NBC"
+      },
+      {
+        "title": "Poland in shock after 6 killed in Krakow far-right shooting",
         "score": 49,
         "source": "France24"
       },
       {
-        "title": "Kraków shooting latest updates: six killed and more than a dozen injured – as it happened",
+        "title": "1 killed, 3 injured in two shootings in North Carolina university",
         "score": 49,
-        "source": "Guardian"
+        "source": "TOI"
       }
     ]
   }
