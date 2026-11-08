@@ -1477,73 +1477,73 @@
   },
   {
     "date": "2026-11-08",
-    "score": 9.5,
+    "score": 8.4,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 10.0,
-      "Al Jazeera": 12.0,
-      "PBS": 5.0,
-      "ABC": 12.0,
-      "NBC": 16.0,
-      "Sky": 66.7,
+      "BBC": 5.9,
+      "Al Jazeera": 16.0,
+      "PBS": 0.0,
+      "ABC": 8.0,
+      "NBC": 4.0,
+      "Sky": 50.0,
       "DW": 5.1,
-      "France24": 20.8,
-      "Guardian": 13.3,
+      "France24": 16.7,
+      "Guardian": 17.8,
       "The Hill": 4.0,
-      "ZeroHedge": 8.0,
+      "ZeroHedge": 4.0,
       "TOI": 8.5,
-      "ABC-AU": 20.0,
+      "ABC-AU": 12.0,
       "Slate": 8.0,
-      "Euronews": 8.0,
-      "CNBC": 6.7,
+      "Euronews": 10.0,
+      "CNBC": 10.0,
       "ProPublica": 5.0,
       "Dawn": 3.4,
       "Japan Times": 10.0,
       "The Diplomat": 6.2,
       "Reason": 6.2,
-      "The Hindu": 11.7,
-      "Jerusalem Post": 23.1,
+      "The Hindu": 10.0,
+      "Jerusalem Post": 3.8,
       "FOX News": 8.0,
-      "CNN": 16.0
+      "CNN": 17.0
     },
     "topics": {
-      "War": 35.8,
-      "Crime": 20.0,
-      "Economy": 6.3,
-      "Disaster": 4.2,
-      "Politics": 3.2
+      "War": 33.7,
+      "Crime": 22.9,
+      "Economy": 6.0,
+      "Disaster": 2.4,
+      "Politics": 2.4
     },
     "top_keywords": [
-      "war",
       "shooting",
+      "war",
       "killed"
     ],
     "top": [
+      {
+        "title": "Poland treats fatal mass shooting as 'terrorist offence'",
+        "score": 70,
+        "source": "ABC-AU"
+      },
       {
         "title": "Poland calls Krakow shooting rampage 'terrorist' attack",
         "score": 66,
         "source": "The Hindu"
       },
       {
-        "title": "Arrest made following shootings that killed 1 and injured 3 others on Winston-Salem State University campus",
-        "score": 57,
-        "source": "NBC"
-      },
-      {
-        "title": "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
-        "score": 49,
-        "source": "NBC"
-      },
-      {
-        "title": "Kraków shooting that killed 6 was motivated by far-right views, authorities say",
-        "score": 49,
-        "source": "NBC"
+        "title": "Arrest made in deadly shooting during Winston-Salem State homecoming weekend",
+        "score": 54,
+        "source": "ABC"
       },
       {
         "title": "Poland in shock after 6 killed in Krakow far-right shooting",
         "score": 49,
         "source": "France24"
+      },
+      {
+        "title": "1 killed, 3 injured in two shootings in North Carolina university",
+        "score": 49,
+        "source": "TOI"
       }
     ]
   }
