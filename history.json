@@ -1477,53 +1477,58 @@
   },
   {
     "date": "2026-11-08",
-    "score": 8.4,
+    "score": 9.5,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 10.0,
-      "BBC": 0.0,
-      "Al Jazeera": 8.0,
-      "CBS": 6.7,
+      "NPR": 0.0,
+      "BBC": 10.0,
+      "Al Jazeera": 12.0,
       "PBS": 5.0,
       "ABC": 12.0,
-      "NBC": 20.0,
-      "Sky": 44.4,
-      "DW": 4.3,
+      "NBC": 16.0,
+      "Sky": 66.7,
+      "DW": 5.1,
       "France24": 20.8,
       "Guardian": 13.3,
-      "The Hill": 3.0,
-      "ZeroHedge": 16.0,
-      "TOI": 8.9,
-      "ABC-AU": 12.0,
+      "The Hill": 4.0,
+      "ZeroHedge": 8.0,
+      "TOI": 8.5,
+      "ABC-AU": 20.0,
       "Slate": 8.0,
       "Euronews": 8.0,
       "CNBC": 6.7,
       "ProPublica": 5.0,
-      "Dawn": 0.0,
+      "Dawn": 3.4,
       "Japan Times": 10.0,
       "The Diplomat": 6.2,
       "Reason": 6.2,
-      "The Hindu": 16.7,
-      "Jerusalem Post": 15.4,
-      "FOX News": 8.0
+      "The Hindu": 11.7,
+      "Jerusalem Post": 23.1,
+      "FOX News": 8.0,
+      "CNN": 16.0
     },
     "topics": {
-      "War": 32.5,
-      "Crime": 22.1,
-      "Disaster": 6.5,
-      "Economy": 6.5,
-      "Politics": 3.9
+      "War": 35.8,
+      "Crime": 20.0,
+      "Economy": 6.3,
+      "Disaster": 4.2,
+      "Politics": 3.2
     },
     "top_keywords": [
+      "war",
       "shooting",
-      "killed",
-      "war"
+      "killed"
     ],
     "top": [
       {
         "title": "Poland calls Krakow shooting rampage 'terrorist' attack",
         "score": 66,
         "source": "The Hindu"
+      },
+      {
+        "title": "Arrest made following shootings that killed 1 and injured 3 others on Winston-Salem State University campus",
+        "score": 57,
+        "source": "NBC"
       },
       {
         "title": "6 killed, 15 injured in shooting at main market square of Krakow, Poland",
@@ -1539,11 +1544,6 @@
         "title": "Poland in shock after 6 killed in Krakow far-right shooting",
         "score": 49,
         "source": "France24"
-      },
-      {
-        "title": "1 killed, 3 injured in two shootings in North Carolina university",
-        "score": 49,
-        "source": "TOI"
       }
     ]
   }
