@@ -1547,5 +1547,78 @@
         "source": "Guardian"
       }
     ]
+  },
+  {
+    "date": "2026-11-09",
+    "score": 8.4,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 0.0,
+      "BBC": 12.5,
+      "Al Jazeera": 24.0,
+      "CBS": 13.3,
+      "PBS": 5.0,
+      "ABC": 0.0,
+      "NBC": 8.0,
+      "Sky": 20.0,
+      "DW": 3.4,
+      "France24": 4.2,
+      "Guardian": 8.9,
+      "The Hill": 7.0,
+      "ZeroHedge": 8.0,
+      "TOI": 13.0,
+      "ABC-AU": 16.0,
+      "Slate": 0.0,
+      "Euronews": 10.0,
+      "CNBC": 0.0,
+      "ProPublica": 5.0,
+      "Dawn": 10.7,
+      "Japan Times": 13.3,
+      "The Diplomat": 6.2,
+      "Reason": 4.2,
+      "The Hindu": 5.0,
+      "Jerusalem Post": 15.4,
+      "FOX News": 8.0,
+      "CNN": 14.0
+    },
+    "topics": {
+      "War": 38.1,
+      "Crime": 15.5,
+      "Economy": 8.3,
+      "Health": 4.8,
+      "Disaster": 3.6
+    },
+    "top_keywords": [
+      "war",
+      "shooting",
+      "deadly"
+    ],
+    "top": [
+      {
+        "title": "Police make arrest in a deadly shooting at Winston-Salem State during homecoming weekend",
+        "score": 54,
+        "source": "CNN"
+      },
+      {
+        "title": "IDF, Border Police arrest 10 PIJ terrorists near Jenin who planned attack on Israeli citizens",
+        "score": 50,
+        "source": "Jerusalem Post"
+      },
+      {
+        "title": "Gunman who killed at least 6 in Kraków mass shooting has died in hospital",
+        "score": 49,
+        "source": "CNN"
+      },
+      {
+        "title": "His daughter was abducted during a sleepover and killed. He is among families grappling with Newsom’s death row commutation",
+        "score": 45,
+        "source": "CNN"
+      },
+      {
+        "title": "Rosstat hack: data obtained suggests over 390,000 Russian deaths in Ukraine war",
+        "score": 42,
+        "source": "Euronews"
+      }
+    ]
   }
 ]
