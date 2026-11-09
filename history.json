@@ -1477,58 +1477,59 @@
   },
   {
     "date": "2026-11-08",
-    "score": 8.4,
+    "score": 9.7,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 0.0,
-      "BBC": 5.9,
-      "Al Jazeera": 16.0,
+      "NPR": 10.0,
+      "BBC": 6.2,
+      "Al Jazeera": 12.0,
+      "CBS": 10.0,
       "PBS": 0.0,
       "ABC": 8.0,
-      "NBC": 4.0,
+      "NBC": 12.0,
       "Sky": 50.0,
       "DW": 5.1,
-      "France24": 16.7,
+      "France24": 20.8,
       "Guardian": 17.8,
-      "The Hill": 4.0,
-      "ZeroHedge": 4.0,
-      "TOI": 8.5,
-      "ABC-AU": 12.0,
+      "The Hill": 5.0,
+      "ZeroHedge": 24.0,
+      "TOI": 10.9,
+      "ABC-AU": 20.0,
       "Slate": 8.0,
       "Euronews": 10.0,
       "CNBC": 10.0,
       "ProPublica": 5.0,
-      "Dawn": 3.4,
-      "Japan Times": 10.0,
+      "Dawn": 3.7,
+      "Japan Times": 16.7,
       "The Diplomat": 6.2,
       "Reason": 6.2,
       "The Hindu": 10.0,
-      "Jerusalem Post": 3.8,
-      "FOX News": 8.0,
-      "CNN": 17.0
+      "Jerusalem Post": 7.7,
+      "FOX News": 12.0,
+      "CNN": 16.0
     },
     "topics": {
-      "War": 33.7,
-      "Crime": 22.9,
-      "Economy": 6.0,
-      "Disaster": 2.4,
-      "Politics": 2.4
+      "War": 35.1,
+      "Crime": 18.6,
+      "Economy": 7.2,
+      "Disaster": 2.1,
+      "Politics": 1.0
     },
     "top_keywords": [
-      "shooting",
       "war",
-      "killed"
+      "killed",
+      "shooting"
     ],
     "top": [
       {
-        "title": "Poland treats fatal mass shooting as 'terrorist offence'",
-        "score": 70,
-        "source": "ABC-AU"
+        "title": "6 killed, 15 wounded in Poland terror attack",
+        "score": 59,
+        "source": "CBS"
       },
       {
-        "title": "Poland calls Krakow shooting rampage 'terrorist' attack",
-        "score": 66,
-        "source": "The Hindu"
+        "title": "Rubio says war on Iran unpopular but ‘necessary’ to stop nuclear threat",
+        "score": 54,
+        "source": "Al Jazeera"
       },
       {
         "title": "Arrest made in deadly shooting during Winston-Salem State homecoming weekend",
@@ -1541,9 +1542,9 @@
         "source": "France24"
       },
       {
-        "title": "1 killed, 3 injured in two shootings in North Carolina university",
-        "score": 49,
-        "source": "TOI"
+        "title": "‘I never executed Jesse Baird’: Beau Lamarre-Condon re-enacts shooting when giving evidence in NSW trial",
+        "score": 46,
+        "source": "Guardian"
       }
     ]
   }
