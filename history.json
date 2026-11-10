@@ -1623,47 +1623,47 @@
   },
   {
     "date": "2026-11-10",
-    "score": 7.6,
+    "score": 7.2,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 3.0,
-      "Al Jazeera": 12.0,
-      "CBS": 10.0,
+      "BBC": 0.0,
+      "Al Jazeera": 20.0,
+      "CBS": 13.3,
       "PBS": 10.0,
-      "ABC": 4.0,
-      "NBC": 4.0,
-      "Sky": 12.5,
-      "DW": 6.6,
-      "France24": 0.0,
-      "Guardian": 15.6,
+      "NBC": 0.0,
+      "Sky": 10.0,
+      "DW": 7.3,
+      "France24": 4.2,
+      "Guardian": 8.9,
       "The Hill": 6.0,
-      "ZeroHedge": 16.0,
-      "TOI": 8.7,
+      "ZeroHedge": 8.0,
+      "TOI": 10.9,
       "ABC-AU": 8.0,
-      "Slate": 0.0,
-      "Euronews": 12.0,
+      "Slate": 4.0,
+      "Vox": 0.0,
+      "Euronews": 14.0,
       "CNBC": 10.0,
       "ProPublica": 5.0,
       "Dawn": 7.4,
-      "Japan Times": 13.3,
+      "Japan Times": 10.0,
       "The Diplomat": 6.2,
       "Reason": 2.1,
-      "The Hindu": 5.0,
-      "Jerusalem Post": 7.7,
-      "FOX News": 8.0,
-      "CNN": 7.0
+      "The Hindu": 3.3,
+      "Jerusalem Post": 11.5,
+      "FOX News": 0.0,
+      "CNN": 5.0
     },
     "topics": {
-      "War": 44.7,
-      "Crime": 10.5,
-      "Economy": 7.9,
-      "Disaster": 3.9,
-      "Health": 2.6
+      "War": 42.5,
+      "Crime": 12.3,
+      "Economy": 8.2,
+      "Disaster": 2.7,
+      "Health": 2.7
     },
     "top_keywords": [
       "war",
-      "death",
+      "shooting",
       "killed"
     ],
     "top": [
@@ -1673,24 +1673,24 @@
         "source": "CNN"
       },
       {
+        "title": "Moscow's Statistics Agency Was Wiped Out By Hackers - Who Posted 'Official' Death Toll From War",
+        "score": 42,
+        "source": "ZeroHedge"
+      },
+      {
         "title": "Rosstat hack: data obtained suggests over 390,000 Russian deaths in Ukraine war",
         "score": 42,
         "source": "Euronews"
       },
       {
-        "title": "Three members of family killed, four injured as house collapses in MP's Singrauli",
+        "title": "Investigators recover voice recorder from a jet crash in Florida that killed 9",
         "score": 41,
-        "source": "The Hindu"
+        "source": "The Hill"
       },
       {
-        "title": "Man killed in fiery Kentucky jet crash told daughter of trouble in midair",
+        "title": "Watch: Thick fog triggers multiple crashes on Bulgaria motorway; 12 killed",
         "score": 41,
-        "source": "FOX News"
-      },
-      {
-        "title": "Where the Iran war stands as Trump says he sees \"no reason\" to escalate attacks",
-        "score": 36,
-        "source": "CBS"
+        "source": "TOI"
       }
     ]
   }
