@@ -1623,65 +1623,66 @@
   },
   {
     "date": "2026-11-10",
-    "score": 8.4,
+    "score": 8.3,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 0.0,
-      "Al Jazeera": 12.0,
-      "CBS": 10.0,
+      "BBC": 6.5,
+      "Al Jazeera": 24.0,
+      "CBS": 3.3,
       "PBS": 15.0,
       "ABC": 0.0,
-      "NBC": 0.0,
-      "Sky": 20.0,
-      "DW": 8.0,
+      "NBC": 8.0,
+      "Sky": 30.0,
+      "DW": 7.3,
       "France24": 8.3,
-      "Guardian": 11.1,
+      "Guardian": 8.9,
       "The Hill": 5.0,
-      "ZeroHedge": 16.0,
-      "TOI": 4.3,
-      "ABC-AU": 12.0,
+      "ZeroHedge": 20.0,
+      "TOI": 6.5,
+      "ABC-AU": 4.0,
       "Slate": 4.0,
       "Vox": 0.0,
       "Euronews": 18.0,
-      "CNBC": 3.3,
+      "CNBC": 0.0,
       "ProPublica": 5.0,
-      "Dawn": 10.7,
-      "Japan Times": 10.0,
+      "Dawn": 3.7,
+      "Japan Times": 6.7,
       "The Diplomat": 6.2,
       "Reason": 6.2,
       "The Hindu": 6.7,
-      "Jerusalem Post": 15.4,
+      "Jerusalem Post": 23.1,
       "FOX News": 16.0,
-      "CNN": 8.0
+      "CNN": 9.0
     },
     "topics": {
-      "War": 41.4,
-      "Crime": 12.6,
-      "Economy": 6.9,
-      "Health": 3.4,
-      "Disaster": 2.3
+      "War": 48.8,
+      "Economy": 11.6,
+      "Crime": 10.5,
+      "Disaster": 3.5,
+      "Politics": 2.3,
+      "Health": 2.3
     },
     "top_keywords": [
       "war",
       "killed",
-      "death"
+      "crash"
     ],
     "top": [
-      {
-        "title": "Gunman who killed at least 6 in Kraków mass shooting dies in hospital",
-        "score": 49,
-        "source": "CNN"
-      },
       {
         "title": "U.S. charges 3 men with plotting terror attacks, including planned assault on UK airbase",
         "score": 42,
         "source": "PBS"
       },
       {
-        "title": "Rosstat hack: data obtained suggests over 390,000 Russian deaths in Ukraine war",
+        "title": "IRGC Unveils New Missile City, Touts Underground Production Amid War",
         "score": 42,
-        "source": "Euronews"
+        "source": "ZeroHedge"
+      },
+      {
+        "title": "At least 3 killed when SUV crashes into North Hollywood food stand",
+        "score": 41,
+        "source": "CBS"
       },
       {
         "title": "Investigators recover voice recorder from a jet crash in Florida that killed 9",
@@ -1689,9 +1690,9 @@
         "source": "The Hill"
       },
       {
-        "title": "Motorcyclist and car driver killed in crash in Melbourne's south-east",
+        "title": "3 killed after vehicle crashes into pedestrians in North Hollywood",
         "score": 41,
-        "source": "ABC-AU"
+        "source": "TOI"
       }
     ]
   }
