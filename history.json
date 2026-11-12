@@ -1771,75 +1771,75 @@
   },
   {
     "date": "2026-11-12",
-    "score": 10.1,
+    "score": 10.3,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 0.0,
-      "BBC": 3.3,
-      "Al Jazeera": 20.0,
+      "NPR": 20.0,
+      "BBC": 18.8,
+      "Al Jazeera": 24.0,
       "CBS": 16.7,
-      "PBS": 5.0,
-      "ABC": 4.0,
-      "NBC": 20.0,
-      "Sky": 42.9,
-      "DW": 7.3,
+      "PBS": 10.0,
+      "ABC": 8.0,
+      "NBC": 16.0,
+      "Sky": 40.0,
+      "DW": 7.1,
       "France24": 20.8,
-      "Guardian": 4.4,
+      "Guardian": 15.6,
       "The Hill": 5.0,
-      "ZeroHedge": 16.0,
-      "TOI": 13.3,
-      "ABC-AU": 16.0,
+      "ZeroHedge": 8.0,
+      "TOI": 15.9,
+      "ABC-AU": 12.0,
       "Vox": 0.0,
       "Euronews": 20.0,
       "CNBC": 6.7,
       "ProPublica": 5.0,
-      "Dawn": 7.4,
+      "Dawn": 7.1,
       "Japan Times": 10.0,
       "The Diplomat": 6.2,
-      "Reason": 4.2,
-      "The Hindu": 10.0,
+      "Reason": 0.0,
+      "The Hindu": 3.3,
       "Jerusalem Post": 23.1,
       "FOX News": 8.0,
-      "CNN": 13.0
+      "CNN": 11.0
     },
     "topics": {
-      "War": 35.0,
-      "Crime": 9.0,
-      "Health": 7.0,
-      "Economy": 6.0,
-      "Politics": 4.0,
+      "War": 34.3,
+      "Crime": 17.6,
+      "Economy": 7.8,
+      "Health": 7.8,
+      "Politics": 3.9,
       "Disaster": 2.0
     },
     "top_keywords": [
       "war",
-      "death",
-      "killed"
+      "killed",
+      "shooting"
     ],
     "top": [
       {
-        "title": "10 cops martyred, 18 terrorists killed as police party comes under attack in KP's Kohat",
+        "title": "3 terrorists killed, 2 civilians dead as attack on Mastung post repelled: state media",
         "score": 67,
         "source": "Dawn"
       },
       {
-        "title": "Israel launch deadly airstrike on Gaza’s Nasser Hospital",
-        "score": 46,
-        "source": "NBC"
+        "title": "Indian nationals among 14 killed in deadly multi-vehicle crash in UAE's Fujairah",
+        "score": 63,
+        "source": "TOI"
       },
       {
-        "title": "Stories of life, death – and crows – from ‘The Forgotten War’",
-        "score": 42,
-        "source": "CNN"
+        "title": "D.C. shooting leaves 1 person killed, 4 injured. Gunman dead",
+        "score": 49,
+        "source": "NPR"
       },
       {
-        "title": "At least 3 killed, 17 hurt in Brooklyn building collapse",
-        "score": 41,
-        "source": "CBS"
+        "title": "Five Shot, One Killed In DC's Logan Circle Rampage; Suspect Dies After Shooting Self",
+        "score": 49,
+        "source": "ZeroHedge"
       },
       {
-        "title": "3 killed when SUV crashes into North Hollywood food stand",
-        "score": 41,
-        "source": "CBS"
+        "title": "‘Labelled terrorists’: How France is using anti-terror powers to deter protests",
+        "score": 48,
+        "source": "France24"
       }
     ]
   }
