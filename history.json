@@ -1768,5 +1768,79 @@
         "source": "CBS"
       }
     ]
+  },
+  {
+    "date": "2026-11-12",
+    "score": 10.1,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 0.0,
+      "BBC": 3.3,
+      "Al Jazeera": 20.0,
+      "CBS": 16.7,
+      "PBS": 5.0,
+      "ABC": 4.0,
+      "NBC": 20.0,
+      "Sky": 42.9,
+      "DW": 7.3,
+      "France24": 20.8,
+      "Guardian": 4.4,
+      "The Hill": 5.0,
+      "ZeroHedge": 16.0,
+      "TOI": 13.3,
+      "ABC-AU": 16.0,
+      "Vox": 0.0,
+      "Euronews": 20.0,
+      "CNBC": 6.7,
+      "ProPublica": 5.0,
+      "Dawn": 7.4,
+      "Japan Times": 10.0,
+      "The Diplomat": 6.2,
+      "Reason": 4.2,
+      "The Hindu": 10.0,
+      "Jerusalem Post": 23.1,
+      "FOX News": 8.0,
+      "CNN": 13.0
+    },
+    "topics": {
+      "War": 35.0,
+      "Crime": 9.0,
+      "Health": 7.0,
+      "Economy": 6.0,
+      "Politics": 4.0,
+      "Disaster": 2.0
+    },
+    "top_keywords": [
+      "war",
+      "death",
+      "killed"
+    ],
+    "top": [
+      {
+        "title": "10 cops martyred, 18 terrorists killed as police party comes under attack in KP's Kohat",
+        "score": 67,
+        "source": "Dawn"
+      },
+      {
+        "title": "Israel launch deadly airstrike on Gaza’s Nasser Hospital",
+        "score": 46,
+        "source": "NBC"
+      },
+      {
+        "title": "Stories of life, death – and crows – from ‘The Forgotten War’",
+        "score": 42,
+        "source": "CNN"
+      },
+      {
+        "title": "At least 3 killed, 17 hurt in Brooklyn building collapse",
+        "score": 41,
+        "source": "CBS"
+      },
+      {
+        "title": "3 killed when SUV crashes into North Hollywood food stand",
+        "score": 41,
+        "source": "CBS"
+      }
+    ]
   }
 ]
