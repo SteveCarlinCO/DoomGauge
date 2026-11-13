@@ -1846,69 +1846,68 @@
     "score": 8.2,
     "verdict": "Mostly survivable.",
     "sources": {
-      "BBC": 10.5,
-      "Al Jazeera": 24.0,
+      "BBC": 5.9,
+      "Al Jazeera": 32.0,
       "CBS": 6.7,
-      "PBS": 15.0,
-      "ABC": 4.0,
-      "NBC": 8.0,
-      "Sky": 33.3,
+      "PBS": 10.0,
+      "ABC": 8.0,
+      "Sky": 20.0,
       "DW": 4.7,
-      "France24": 16.7,
-      "Guardian": 6.7,
-      "The Hill": 4.0,
-      "ZeroHedge": 20.0,
-      "TOI": 13.0,
-      "ABC-AU": 8.0,
-      "Euronews": 14.0,
-      "CNBC": 10.0,
+      "France24": 20.8,
+      "Guardian": 8.9,
+      "The Hill": 5.0,
+      "ZeroHedge": 12.0,
+      "TOI": 8.5,
+      "ABC-AU": 0.0,
+      "Euronews": 16.0,
+      "CNBC": 6.7,
       "ProPublica": 10.0,
       "Dawn": 7.1,
       "Japan Times": 3.3,
-      "The Diplomat": 6.2,
-      "Reason": 0.0,
-      "The Hindu": 5.0,
-      "Jerusalem Post": 15.4,
-      "FOX News": 0.0,
-      "CNN": 7.0
+      "The Diplomat": 7.3,
+      "Reason": 4.2,
+      "The Hindu": 3.3,
+      "Jerusalem Post": 11.5,
+      "FOX News": 12.0,
+      "CNN": 6.0
     },
     "topics": {
-      "War": 37.3,
-      "Crime": 9.6,
-      "Health": 6.0,
-      "Economy": 4.8,
-      "Disaster": 1.2,
+      "War": 42.0,
+      "Economy": 11.1,
+      "Crime": 9.9,
+      "Health": 4.9,
+      "Disaster": 2.5,
       "Politics": 1.2
     },
     "top_keywords": [
       "war",
       "killed",
-      "death"
+      "crash"
     ],
     "top": [
-      {
-        "title": "Pakistan military reports it killed 74 ‘terrorists’ during raids",
-        "score": 53,
-        "source": "Al Jazeera"
-      },
       {
         "title": "5 killed, 13 hurt in suicide car bombing at security checkpoint in Pakistan",
         "score": 50,
         "source": "TOI"
       },
       {
-        "title": "1 killed, 5 injured in shooting in D.C.; suspect is dead",
-        "score": 49,
-        "source": "CBS"
-      },
-      {
-        "title": "News Wrap: 1 killed and 4 injured in D.C. shooting",
-        "score": 49,
-        "source": "PBS"
-      },
-      {
-        "title": "Stories of life, death – and crows – from ‘The Forgotten War’",
+        "title": "Iran honours fallen soldiers in Iran-Iraq war with missile display",
         "score": 42,
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "Driver arrested on murder and DUI charges after 3 killed in North Hollywood crash",
+        "score": 41,
+        "source": "CNN"
+      },
+      {
+        "title": "US: Survivor pulled alive from rubble after deadly Brooklyn collapse",
+        "score": 38,
+        "source": "Euronews"
+      },
+      {
+        "title": "Grief reverberates through this church near the deadly Brooklyn collapse",
+        "score": 38,
         "source": "CNN"
       }
     ]
