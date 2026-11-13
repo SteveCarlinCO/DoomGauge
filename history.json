@@ -1771,44 +1771,42 @@
   },
   {
     "date": "2026-11-12",
-    "score": 10.3,
+    "score": 9.0,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 20.0,
-      "BBC": 18.8,
-      "Al Jazeera": 24.0,
-      "CBS": 16.7,
-      "PBS": 10.0,
-      "ABC": 8.0,
+      "BBC": 11.4,
+      "Al Jazeera": 16.0,
+      "CBS": 10.0,
+      "PBS": 15.0,
+      "ABC": 0.0,
       "NBC": 16.0,
-      "Sky": 40.0,
-      "DW": 7.1,
-      "France24": 20.8,
-      "Guardian": 15.6,
-      "The Hill": 5.0,
+      "Sky": 20.0,
+      "DW": 6.4,
+      "France24": 25.0,
+      "Guardian": 17.8,
+      "The Hill": 3.0,
       "ZeroHedge": 8.0,
-      "TOI": 15.9,
-      "ABC-AU": 12.0,
-      "Vox": 0.0,
+      "TOI": 13.0,
+      "ABC-AU": 0.0,
       "Euronews": 20.0,
       "CNBC": 6.7,
       "ProPublica": 5.0,
-      "Dawn": 7.1,
+      "Dawn": 10.7,
       "Japan Times": 10.0,
-      "The Diplomat": 6.2,
+      "The Diplomat": 7.3,
       "Reason": 0.0,
       "The Hindu": 3.3,
-      "Jerusalem Post": 23.1,
-      "FOX News": 8.0,
-      "CNN": 11.0
+      "Jerusalem Post": 15.4,
+      "FOX News": 4.0,
+      "CNN": 10.0
     },
     "topics": {
-      "War": 34.3,
-      "Crime": 17.6,
+      "War": 36.7,
+      "Crime": 20.0,
       "Economy": 7.8,
       "Health": 7.8,
-      "Politics": 3.9,
-      "Disaster": 2.0
+      "Politics": 4.4
     },
     "top_keywords": [
       "war",
@@ -1827,19 +1825,19 @@
         "source": "TOI"
       },
       {
-        "title": "D.C. shooting leaves 1 person killed, 4 injured. Gunman dead",
-        "score": 49,
-        "source": "NPR"
+        "title": "Police, Shin Bet arrest terrorist suspected of arson, attempted stabbing attack in West Bank",
+        "score": 50,
+        "source": "Jerusalem Post"
       },
       {
-        "title": "Five Shot, One Killed In DC's Logan Circle Rampage; Suspect Dies After Shooting Self",
+        "title": "1 killed, 4 injured in shooting in D.C.; suspect is dead",
         "score": 49,
-        "source": "ZeroHedge"
+        "source": "CBS"
       },
       {
-        "title": "‘Labelled terrorists’: How France is using anti-terror powers to deter protests",
-        "score": 48,
-        "source": "France24"
+        "title": "News Wrap: 1 killed and 4 injured in D.C. shooting",
+        "score": 49,
+        "source": "PBS"
       }
     ]
   }
