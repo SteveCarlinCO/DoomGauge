@@ -1917,44 +1917,44 @@
   },
   {
     "date": "2026-11-14",
-    "score": 8.0,
+    "score": 7.8,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 10.0,
-      "BBC": 4.2,
-      "Al Jazeera": 20.0,
-      "CBS": 6.7,
-      "PBS": 15.0,
+      "BBC": 0.0,
+      "Al Jazeera": 12.0,
+      "CBS": 10.0,
+      "PBS": 5.0,
       "ABC": 4.0,
-      "NBC": 16.0,
+      "NBC": 8.0,
       "Sky": 14.3,
-      "DW": 4.7,
-      "France24": 4.2,
-      "Guardian": 13.3,
-      "The Hill": 7.0,
-      "ZeroHedge": 20.0,
+      "DW": 3.9,
+      "France24": 8.3,
+      "Guardian": 11.1,
+      "The Hill": 6.0,
+      "ZeroHedge": 16.0,
       "TOI": 8.5,
-      "ABC-AU": 0.0,
+      "ABC-AU": 8.0,
       "Slate": 0.0,
       "Vox": 0.0,
       "Euronews": 12.0,
-      "CNBC": 3.3,
+      "CNBC": 6.7,
       "ProPublica": 10.0,
       "Dawn": 7.4,
       "Japan Times": 10.0,
       "The Diplomat": 7.3,
       "Reason": 4.2,
-      "The Hindu": 0.0,
-      "Jerusalem Post": 15.4,
-      "FOX News": 4.0,
+      "The Hindu": 3.3,
+      "Jerusalem Post": 19.2,
+      "FOX News": 12.0,
       "CNN": 11.0
     },
     "topics": {
-      "War": 44.6,
-      "Economy": 10.8,
-      "Crime": 8.4,
-      "Health": 6.0,
-      "Disaster": 3.6,
+      "War": 42.7,
+      "Economy": 9.8,
+      "Crime": 9.8,
+      "Health": 6.1,
+      "Disaster": 4.9,
       "Politics": 2.4
     },
     "top_keywords": [
@@ -1963,6 +1963,11 @@
       "nuclear"
     ],
     "top": [
+      {
+        "title": "24 terrorists, 4 soldiers killed in separate clashes in Pak's Balochistan, Khyber Pakhtunkhwa",
+        "score": 63,
+        "source": "TOI"
+      },
       {
         "title": "Major among 4 troops martyred, 24 terrorists killed during operations in KP and Balochistan: ISPR",
         "score": 53,
@@ -1982,11 +1987,6 @@
         "title": "Investigators probe cause of deadly NYC building collapse",
         "score": 38,
         "source": "CBS"
-      },
-      {
-        "title": "China's 'Silent' War Drill: Taiwan Blockade Fears Put Conflict-Free Supply Chains In Focus",
-        "score": 38,
-        "source": "ZeroHedge"
       }
     ]
   }
