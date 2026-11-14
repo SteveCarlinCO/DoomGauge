@@ -1843,72 +1843,75 @@
   },
   {
     "date": "2026-11-13",
-    "score": 8.2,
+    "score": 8.6,
     "verdict": "Mostly survivable.",
     "sources": {
-      "BBC": 5.9,
-      "Al Jazeera": 32.0,
-      "CBS": 6.7,
-      "PBS": 10.0,
-      "ABC": 8.0,
+      "NPR": 0.0,
+      "BBC": 6.2,
+      "Al Jazeera": 24.0,
+      "CBS": 10.0,
+      "PBS": 15.0,
+      "ABC": 4.0,
+      "NBC": 12.0,
       "Sky": 20.0,
       "DW": 4.7,
       "France24": 20.8,
       "Guardian": 8.9,
       "The Hill": 5.0,
-      "ZeroHedge": 12.0,
-      "TOI": 8.5,
-      "ABC-AU": 0.0,
+      "ZeroHedge": 16.0,
+      "TOI": 8.7,
+      "ABC-AU": 8.0,
+      "Slate": 0.0,
       "Euronews": 16.0,
       "CNBC": 6.7,
       "ProPublica": 10.0,
-      "Dawn": 7.1,
-      "Japan Times": 3.3,
+      "Dawn": 3.4,
+      "Japan Times": 10.0,
       "The Diplomat": 7.3,
       "Reason": 4.2,
       "The Hindu": 3.3,
-      "Jerusalem Post": 11.5,
-      "FOX News": 12.0,
-      "CNN": 6.0
+      "Jerusalem Post": 19.2,
+      "FOX News": 16.0,
+      "CNN": 9.0
     },
     "topics": {
-      "War": 42.0,
-      "Economy": 11.1,
-      "Crime": 9.9,
-      "Health": 4.9,
-      "Disaster": 2.5,
-      "Politics": 1.2
+      "War": 36.0,
+      "Economy": 12.4,
+      "Crime": 6.7,
+      "Health": 4.5,
+      "Disaster": 2.2,
+      "Politics": 1.1
     },
     "top_keywords": [
       "war",
-      "killed",
+      "nuclear",
       "crash"
     ],
     "top": [
-      {
-        "title": "5 killed, 13 hurt in suicide car bombing at security checkpoint in Pakistan",
-        "score": 50,
-        "source": "TOI"
-      },
       {
         "title": "Iran honours fallen soldiers in Iran-Iraq war with missile display",
         "score": 42,
         "source": "Al Jazeera"
       },
       {
-        "title": "Driver arrested on murder and DUI charges after 3 killed in North Hollywood crash",
+        "title": "Father calls co-pilot daughter killed in Florida crash a ‘hero’",
         "score": 41,
-        "source": "CNN"
+        "source": "TOI"
+      },
+      {
+        "title": "4 Nagas killed in sniper attack on Manipur NH",
+        "score": 39,
+        "source": "TOI"
+      },
+      {
+        "title": "China's 'Silent' War Drill: Taiwan Blockade Fears Put Conflict-Free Supply Chains In Focus",
+        "score": 38,
+        "source": "ZeroHedge"
       },
       {
         "title": "US: Survivor pulled alive from rubble after deadly Brooklyn collapse",
         "score": 38,
         "source": "Euronews"
-      },
-      {
-        "title": "Grief reverberates through this church near the deadly Brooklyn collapse",
-        "score": 38,
-        "source": "CNN"
       }
     ]
   }
