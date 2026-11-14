@@ -1917,42 +1917,45 @@
   },
   {
     "date": "2026-11-14",
-    "score": 8.4,
+    "score": 8.0,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 0.0,
-      "Al Jazeera": 12.0,
-      "CBS": 13.3,
+      "NPR": 10.0,
+      "BBC": 4.2,
+      "Al Jazeera": 20.0,
+      "CBS": 6.7,
       "PBS": 15.0,
-      "ABC": 8.0,
-      "NBC": 12.0,
-      "Sky": 40.0,
+      "ABC": 4.0,
+      "NBC": 16.0,
+      "Sky": 14.3,
       "DW": 4.7,
-      "France24": 0.0,
-      "Guardian": 8.9,
-      "The Hill": 5.0,
-      "ZeroHedge": 16.0,
-      "TOI": 7.0,
-      "ABC-AU": 4.0,
+      "France24": 4.2,
+      "Guardian": 13.3,
+      "The Hill": 7.0,
+      "ZeroHedge": 20.0,
+      "TOI": 8.5,
+      "ABC-AU": 0.0,
       "Slate": 0.0,
-      "Euronews": 14.0,
-      "CNBC": 6.7,
+      "Vox": 0.0,
+      "Euronews": 12.0,
+      "CNBC": 3.3,
       "ProPublica": 10.0,
-      "Dawn": 8.0,
+      "Dawn": 7.4,
       "Japan Times": 10.0,
       "The Diplomat": 7.3,
       "Reason": 4.2,
-      "The Hindu": 5.0,
-      "Jerusalem Post": 23.1,
-      "FOX News": 12.0,
-      "CNN": 10.0
+      "The Hindu": 0.0,
+      "Jerusalem Post": 15.4,
+      "FOX News": 4.0,
+      "CNN": 11.0
     },
     "topics": {
-      "War": 35.3,
-      "Economy": 11.8,
-      "Crime": 7.1,
-      "Health": 5.9,
-      "Disaster": 3.5
+      "War": 44.6,
+      "Economy": 10.8,
+      "Crime": 8.4,
+      "Health": 6.0,
+      "Disaster": 3.6,
+      "Politics": 2.4
     },
     "top_keywords": [
       "war",
@@ -1961,14 +1964,9 @@
     ],
     "top": [
       {
-        "title": "2 soldiers martyred, 14 terrorists killed in North Waziristan operations: ISPR",
+        "title": "Major among 4 troops martyred, 24 terrorists killed during operations in KP and Balochistan: ISPR",
         "score": 53,
         "source": "Dawn"
-      },
-      {
-        "title": "UN says 25 seafarers killed in, around Hormuz since US-Israel war on Iran",
-        "score": 47,
-        "source": "Al Jazeera"
       },
       {
         "title": "Police foil attack on checkpost in KP's Bannu, eliminate four terrorists",
@@ -1976,14 +1974,19 @@
         "source": "Dawn"
       },
       {
-        "title": "America's air traffic control meltdown: How US flight crisis unfolded &amp; what next",
-        "score": 41,
-        "source": "TOI"
-      },
-      {
         "title": "Driver arrested on murder and DUI charges after 3 killed in North Hollywood crash",
         "score": 41,
         "source": "CNN"
+      },
+      {
+        "title": "Investigators probe cause of deadly NYC building collapse",
+        "score": 38,
+        "source": "CBS"
+      },
+      {
+        "title": "China's 'Silent' War Drill: Taiwan Blockade Fears Put Conflict-Free Supply Chains In Focus",
+        "score": 38,
+        "source": "ZeroHedge"
       }
     ]
   }
