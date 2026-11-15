@@ -1989,5 +1989,80 @@
         "source": "CNN"
       }
     ]
+  },
+  {
+    "date": "2026-11-15",
+    "score": 8.4,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 10.0,
+      "BBC": 3.6,
+      "Al Jazeera": 16.0,
+      "CBS": 10.0,
+      "PBS": 5.0,
+      "ABC": 4.0,
+      "NBC": 0.0,
+      "Sky": 28.6,
+      "DW": 3.9,
+      "France24": 12.5,
+      "Guardian": 11.1,
+      "The Hill": 6.0,
+      "ZeroHedge": 20.0,
+      "TOI": 15.2,
+      "ABC-AU": 12.0,
+      "Slate": 0.0,
+      "Vox": 0.0,
+      "Euronews": 10.0,
+      "CNBC": 6.7,
+      "ProPublica": 10.0,
+      "Dawn": 3.4,
+      "Japan Times": 0.0,
+      "The Diplomat": 7.3,
+      "Reason": 6.2,
+      "The Hindu": 11.7,
+      "Jerusalem Post": 26.9,
+      "FOX News": 4.0,
+      "CNN": 8.0
+    },
+    "topics": {
+      "War": 35.6,
+      "Crime": 11.5,
+      "Economy": 8.0,
+      "Health": 8.0,
+      "Disaster": 4.6,
+      "Politics": 2.3
+    },
+    "top_keywords": [
+      "war",
+      "killed",
+      "death"
+    ],
+    "top": [
+      {
+        "title": "Over 200 Arabs killed in crime violence this year, following grenade attack, fatal shooting",
+        "score": 81,
+        "source": "Jerusalem Post"
+      },
+      {
+        "title": "Jordan sentences three men to death by hanging after deadly church attack",
+        "score": 56,
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "Major among 4 troops martyred, 24 terrorists killed during operations in KP and Balochistan: ISPR",
+        "score": 53,
+        "source": "Dawn"
+      },
+      {
+        "title": "Hamas says senior commander killed in Israeli airstrike",
+        "score": 49,
+        "source": "Sky"
+      },
+      {
+        "title": "Perth man charged with murder after rural shooting death",
+        "score": 44,
+        "source": "ABC-AU"
+      }
+    ]
   }
 ]
