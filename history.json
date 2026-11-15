@@ -1992,23 +1992,24 @@
   },
   {
     "date": "2026-11-15",
-    "score": 7.3,
+    "score": 7.5,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 0.0,
-      "BBC": 10.7,
-      "Al Jazeera": 0.0,
+      "NPR": 10.0,
+      "BBC": 6.7,
+      "Al Jazeera": 12.0,
       "CBS": 3.3,
+      "PBS": 5.0,
       "ABC": 4.0,
       "NBC": 0.0,
       "Sky": 28.6,
       "DW": 3.1,
       "France24": 4.2,
-      "Guardian": 8.9,
-      "The Hill": 5.0,
+      "Guardian": 13.3,
+      "The Hill": 3.0,
       "ZeroHedge": 28.0,
-      "TOI": 8.3,
-      "ABC-AU": 20.0,
+      "TOI": 12.5,
+      "ABC-AU": 8.0,
       "Slate": 0.0,
       "Vox": 0.0,
       "Euronews": 8.0,
@@ -2017,38 +2018,34 @@
       "Japan Times": 0.0,
       "The Diplomat": 7.3,
       "Reason": 6.2,
-      "The Hindu": 6.7,
-      "Jerusalem Post": 15.4,
-      "FOX News": 12.0,
-      "CNN": 8.0
+      "The Hindu": 8.3,
+      "Jerusalem Post": 23.1,
+      "FOX News": 4.0,
+      "CNN": 6.0
     },
     "topics": {
-      "War": 35.6,
-      "Crime": 16.4,
-      "Economy": 9.6,
-      "Health": 5.5,
-      "Disaster": 2.7
+      "War": 34.7,
+      "Crime": 10.7,
+      "Economy": 8.0,
+      "Health": 5.3,
+      "Disaster": 1.3,
+      "Politics": 1.3
     },
     "top_keywords": [
       "war",
-      "killed",
-      "death"
+      "death",
+      "killed"
     ],
     "top": [
-      {
-        "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
-        "score": 62,
-        "source": "BBC"
-      },
       {
         "title": "J&amp;K terror attack: Search operation launched to hunt terrorists who attacked CRPF post",
         "score": 62,
         "source": "TOI"
       },
       {
-        "title": "Jordan sentences three men to death over deadly church attack",
+        "title": "Jordan sentences three men to death over deadly church attack in Karak",
         "score": 56,
-        "source": "ABC-AU"
+        "source": "Al Jazeera"
       },
       {
         "title": "Major among 4 troops martyred, 24 terrorists killed during operations in KP and Balochistan: ISPR",
@@ -2059,6 +2056,11 @@
         "title": "Hamas says senior commander killed in Israeli airstrike",
         "score": 49,
         "source": "Sky"
+      },
+      {
+        "title": "Driver arrested on murder and DUI charges after 3 killed in North Hollywood crash",
+        "score": 41,
+        "source": "CNN"
       }
     ]
   }
