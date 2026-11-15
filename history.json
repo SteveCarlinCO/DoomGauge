@@ -1922,37 +1922,37 @@
     "sources": {
       "NPR": 10.0,
       "BBC": 0.0,
-      "Al Jazeera": 12.0,
+      "Al Jazeera": 8.0,
       "CBS": 10.0,
       "PBS": 5.0,
       "ABC": 4.0,
-      "NBC": 8.0,
+      "NBC": 0.0,
       "Sky": 14.3,
       "DW": 3.9,
       "France24": 8.3,
-      "Guardian": 11.1,
+      "Guardian": 8.9,
       "The Hill": 6.0,
       "ZeroHedge": 16.0,
-      "TOI": 8.5,
-      "ABC-AU": 8.0,
+      "TOI": 8.7,
+      "ABC-AU": 16.0,
       "Slate": 0.0,
       "Vox": 0.0,
       "Euronews": 12.0,
       "CNBC": 6.7,
       "ProPublica": 10.0,
       "Dawn": 7.4,
-      "Japan Times": 10.0,
+      "Japan Times": 6.7,
       "The Diplomat": 7.3,
-      "Reason": 4.2,
-      "The Hindu": 3.3,
-      "Jerusalem Post": 19.2,
-      "FOX News": 12.0,
-      "CNN": 11.0
+      "Reason": 6.2,
+      "The Hindu": 5.0,
+      "Jerusalem Post": 26.9,
+      "FOX News": 8.0,
+      "CNN": 9.0
     },
     "topics": {
-      "War": 42.7,
-      "Economy": 9.8,
-      "Crime": 9.8,
+      "War": 37.8,
+      "Economy": 11.0,
+      "Crime": 11.0,
       "Health": 6.1,
       "Disaster": 4.9,
       "Politics": 2.4
@@ -1979,14 +1979,14 @@
         "source": "Dawn"
       },
       {
+        "title": "3 killed when SUV crashes into North Hollywood food stand",
+        "score": 41,
+        "source": "CBS"
+      },
+      {
         "title": "Driver arrested on murder and DUI charges after 3 killed in North Hollywood crash",
         "score": 41,
         "source": "CNN"
-      },
-      {
-        "title": "Investigators probe cause of deadly NYC building collapse",
-        "score": 38,
-        "source": "CBS"
       }
     ]
   }
