@@ -2062,5 +2062,80 @@
         "source": "Dawn"
       }
     ]
+  },
+  {
+    "date": "2026-11-16",
+    "score": 7.7,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 10.0,
+      "BBC": 5.9,
+      "Al Jazeera": 8.0,
+      "CBS": 23.3,
+      "PBS": 5.0,
+      "ABC": 8.0,
+      "NBC": 0.0,
+      "Sky": 22.2,
+      "DW": 3.1,
+      "France24": 0.0,
+      "Guardian": 15.6,
+      "The Hill": 3.0,
+      "ZeroHedge": 12.0,
+      "TOI": 12.8,
+      "ABC-AU": 16.0,
+      "Slate": 0.0,
+      "Vox": 0.0,
+      "Euronews": 2.0,
+      "CNBC": 0.0,
+      "ProPublica": 10.0,
+      "Dawn": 0.0,
+      "Japan Times": 10.0,
+      "The Diplomat": 7.3,
+      "Reason": 6.2,
+      "The Hindu": 11.7,
+      "Jerusalem Post": 23.1,
+      "FOX News": 12.0,
+      "CNN": 7.0
+    },
+    "topics": {
+      "War": 34.6,
+      "Crime": 9.9,
+      "Economy": 6.2,
+      "Disaster": 4.9,
+      "Health": 2.5,
+      "Politics": 1.2
+    },
+    "top_keywords": [
+      "killed",
+      "war",
+      "death"
+    ],
+    "top": [
+      {
+        "title": "Gold Star families demand answers for Iran war deaths: \"They killed those soldiers\"",
+        "score": 67,
+        "source": "CBS"
+      },
+      {
+        "title": "Terrorist killed in J&amp;K's Kulgam encounter days after attack on CRPF personnel",
+        "score": 67,
+        "source": "TOI"
+      },
+      {
+        "title": "Blinken warns US ground invasion of Iran would be 'absolute disaster' as Tehran escalates attacks",
+        "score": 67,
+        "source": "FOX News"
+      },
+      {
+        "title": "Hamas says senior commander killed in Israeli airstrike",
+        "score": 49,
+        "source": "Sky"
+      },
+      {
+        "title": "60 Minutes Transcript: Families of U.S. soldiers killed in Iran war",
+        "score": 47,
+        "source": "CBS"
+      }
+    ]
   }
 ]
