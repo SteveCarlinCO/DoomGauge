@@ -2065,66 +2065,60 @@
   },
   {
     "date": "2026-11-16",
-    "score": 7.7,
+    "score": 7.8,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 10.0,
-      "BBC": 5.9,
-      "Al Jazeera": 8.0,
-      "CBS": 23.3,
-      "PBS": 5.0,
-      "ABC": 8.0,
-      "NBC": 0.0,
+      "NPR": 0.0,
+      "BBC": 7.1,
+      "Al Jazeera": 4.0,
+      "CBS": 6.7,
+      "PBS": 25.0,
+      "ABC": 0.0,
+      "NBC": 4.0,
       "Sky": 22.2,
-      "DW": 3.1,
-      "France24": 0.0,
-      "Guardian": 15.6,
-      "The Hill": 3.0,
-      "ZeroHedge": 12.0,
-      "TOI": 12.8,
-      "ABC-AU": 16.0,
-      "Slate": 0.0,
+      "DW": 5.3,
+      "France24": 16.7,
+      "Guardian": 11.1,
+      "The Hill": 6.0,
+      "ZeroHedge": 16.0,
+      "TOI": 2.3,
+      "ABC-AU": 8.0,
       "Vox": 0.0,
-      "Euronews": 2.0,
+      "Euronews": 4.0,
       "CNBC": 0.0,
       "ProPublica": 10.0,
-      "Dawn": 0.0,
+      "Dawn": 3.6,
       "Japan Times": 10.0,
-      "The Diplomat": 7.3,
-      "Reason": 6.2,
-      "The Hindu": 11.7,
+      "The Diplomat": 8.3,
+      "Reason": 10.4,
+      "The Hindu": 6.7,
       "Jerusalem Post": 23.1,
-      "FOX News": 12.0,
-      "CNN": 7.0
+      "FOX News": 4.0,
+      "CNN": 8.0
     },
     "topics": {
-      "War": 34.6,
-      "Crime": 9.9,
-      "Economy": 6.2,
-      "Disaster": 4.9,
-      "Health": 2.5,
-      "Politics": 1.2
+      "War": 47.4,
+      "Crime": 6.4,
+      "Economy": 5.1,
+      "Health": 5.1,
+      "Disaster": 3.8,
+      "Politics": 3.8
     },
     "top_keywords": [
-      "killed",
       "war",
-      "death"
+      "killed",
+      "nuclear"
     ],
     "top": [
       {
-        "title": "Gold Star families demand answers for Iran war deaths: \"They killed those soldiers\"",
-        "score": 67,
-        "source": "CBS"
+        "title": "Ebola outbreak defies control as war and hunger fuel crisis six months in",
+        "score": 54,
+        "source": "Japan Times"
       },
       {
-        "title": "Terrorist killed in J&amp;K's Kulgam encounter days after attack on CRPF personnel",
-        "score": 67,
-        "source": "TOI"
-      },
-      {
-        "title": "Blinken warns US ground invasion of Iran would be 'absolute disaster' as Tehran escalates attacks",
-        "score": 67,
-        "source": "FOX News"
+        "title": "At least 17 killed in two South Africa mass shootings",
+        "score": 49,
+        "source": "Al Jazeera"
       },
       {
         "title": "Hamas says senior commander killed in Israeli airstrike",
@@ -2132,9 +2126,14 @@
         "source": "Sky"
       },
       {
-        "title": "60 Minutes Transcript: Families of U.S. soldiers killed in Iran war",
-        "score": 47,
-        "source": "CBS"
+        "title": "South Africa: 17 killed in separate mass shooting incidents",
+        "score": 49,
+        "source": "DW"
+      },
+      {
+        "title": "'Pentagon ignored warnings': US whistleblower on Iran attack that killed 6 troops",
+        "score": 49,
+        "source": "TOI"
       }
     ]
   }
