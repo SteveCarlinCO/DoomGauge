@@ -2136,5 +2136,79 @@
         "source": "CBS"
       }
     ]
+  },
+  {
+    "date": "2026-11-17",
+    "score": 8.3,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 10.0,
+      "BBC": 9.1,
+      "Al Jazeera": 12.0,
+      "CBS": 16.7,
+      "PBS": 15.0,
+      "ABC": 4.0,
+      "NBC": 8.0,
+      "Sky": 16.7,
+      "DW": 3.7,
+      "France24": 16.7,
+      "Guardian": 11.1,
+      "The Hill": 8.0,
+      "ZeroHedge": 8.0,
+      "TOI": 2.4,
+      "ABC-AU": 4.0,
+      "Vox": 0.0,
+      "Euronews": 4.0,
+      "CNBC": 3.3,
+      "ProPublica": 15.0,
+      "Dawn": 14.3,
+      "Japan Times": 3.3,
+      "The Diplomat": 7.3,
+      "Reason": 14.6,
+      "The Hindu": 3.3,
+      "Jerusalem Post": 19.2,
+      "FOX News": 0.0,
+      "CNN": 10.0
+    },
+    "topics": {
+      "War": 43.5,
+      "Crime": 8.2,
+      "Economy": 4.7,
+      "Politics": 4.7,
+      "Health": 3.5,
+      "Disaster": 2.4
+    },
+    "top_keywords": [
+      "war",
+      "killed",
+      "death"
+    ],
+    "top": [
+      {
+        "title": "East Jerusalem man indicted for plotting bombing, shooting attack near Temple Mount",
+        "score": 63,
+        "source": "Jerusalem Post"
+      },
+      {
+        "title": "Well-known journalist who reported death threats is killed on street",
+        "score": 57,
+        "source": "CBS"
+      },
+      {
+        "title": "At least 17 people killed in two separate shootings in South Africa",
+        "score": 49,
+        "source": "Sky"
+      },
+      {
+        "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
+        "score": 44,
+        "source": "NPR"
+      },
+      {
+        "title": "From Russia-Ukraine war to Iran-US conflict: The return of the 'dirty bomb' threat",
+        "score": 44,
+        "source": "TOI"
+      }
+    ]
   }
 ]
