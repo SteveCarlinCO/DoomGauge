@@ -2139,75 +2139,72 @@
   },
   {
     "date": "2026-11-17",
-    "score": 8.3,
+    "score": 8.4,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 10.0,
-      "BBC": 9.1,
+      "NPR": 0.0,
+      "BBC": 6.2,
       "Al Jazeera": 12.0,
-      "CBS": 16.7,
-      "PBS": 15.0,
-      "ABC": 4.0,
+      "CBS": 6.7,
+      "PBS": 10.0,
+      "ABC": 8.0,
       "NBC": 8.0,
-      "Sky": 16.7,
-      "DW": 3.7,
-      "France24": 16.7,
-      "Guardian": 11.1,
-      "The Hill": 8.0,
-      "ZeroHedge": 8.0,
-      "TOI": 2.4,
-      "ABC-AU": 4.0,
-      "Vox": 0.0,
-      "Euronews": 4.0,
-      "CNBC": 3.3,
+      "Sky": 25.0,
+      "DW": 4.5,
+      "France24": 4.2,
+      "Guardian": 6.7,
+      "The Hill": 4.0,
+      "ZeroHedge": 28.0,
+      "TOI": 14.6,
+      "ABC-AU": 8.0,
+      "Euronews": 8.0,
+      "CNBC": 6.7,
       "ProPublica": 15.0,
-      "Dawn": 14.3,
-      "Japan Times": 3.3,
+      "Dawn": 10.3,
       "The Diplomat": 7.3,
-      "Reason": 14.6,
+      "Reason": 12.5,
       "The Hindu": 3.3,
-      "Jerusalem Post": 19.2,
-      "FOX News": 0.0,
-      "CNN": 10.0
+      "Jerusalem Post": 15.4,
+      "FOX News": 12.0,
+      "CNN": 9.0
     },
     "topics": {
-      "War": 43.5,
-      "Crime": 8.2,
-      "Economy": 4.7,
-      "Politics": 4.7,
-      "Health": 3.5,
-      "Disaster": 2.4
+      "War": 45.8,
+      "Economy": 6.0,
+      "Crime": 4.8,
+      "Health": 4.8,
+      "Politics": 1.2
     },
     "top_keywords": [
       "war",
-      "killed",
-      "death"
+      "death",
+      "killed"
     ],
     "top": [
       {
-        "title": "East Jerusalem man indicted for plotting bombing, shooting attack near Temple Mount",
-        "score": 63,
-        "source": "Jerusalem Post"
-      },
-      {
-        "title": "Well-known journalist who reported death threats is killed on street",
-        "score": 57,
+        "title": "U.S. identifies remains of 6 soldiers killed in Korean War, including teens",
+        "score": 47,
         "source": "CBS"
       },
       {
-        "title": "At least 17 people killed in two separate shootings in South Africa",
-        "score": 49,
-        "source": "Sky"
-      },
-      {
-        "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
-        "score": 44,
-        "source": "NPR"
-      },
-      {
-        "title": "From Russia-Ukraine war to Iran-US conflict: The return of the 'dirty bomb' threat",
-        "score": 44,
+        "title": "Kulgam attack: Operation continues to track wounded terrorist",
+        "score": 42,
         "source": "TOI"
+      },
+      {
+        "title": "Russia military transport plane crashes in Siberia, all 17 on board killed",
+        "score": 41,
+        "source": "TOI"
+      },
+      {
+        "title": "A purr-fect reunion: How a soft meow led rescuers to a beloved cat missing since the deadly Brooklyn collapse",
+        "score": 38,
+        "source": "CNN"
+      },
+      {
+        "title": "\"They Killed My Wife\": 60 Minutes Whistleblower Says Army Leaders Ignored Warnings Before Iranian Drone Killed Six Soldiers In Kuwait",
+        "score": 35,
+        "source": "ZeroHedge"
       }
     ]
   }
