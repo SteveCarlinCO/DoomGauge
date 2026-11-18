@@ -2210,5 +2210,79 @@
         "source": "Al Jazeera"
       }
     ]
+  },
+  {
+    "date": "2026-11-18",
+    "score": 8.3,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "BBC": 9.1,
+      "Al Jazeera": 16.0,
+      "CBS": 6.7,
+      "PBS": 0.0,
+      "ABC": 4.0,
+      "NBC": 0.0,
+      "Sky": 28.6,
+      "DW": 4.5,
+      "France24": 8.3,
+      "Guardian": 8.9,
+      "The Hill": 4.0,
+      "ZeroHedge": 16.0,
+      "ReliefWeb": 20.0,
+      "TOI": 10.9,
+      "ABC-AU": 4.0,
+      "Slate": 4.0,
+      "Vox": 10.0,
+      "Euronews": 6.0,
+      "CNBC": 13.3,
+      "ProPublica": 15.0,
+      "Dawn": 11.5,
+      "Japan Times": 3.3,
+      "The Diplomat": 7.3,
+      "Reason": 10.4,
+      "The Hindu": 8.3,
+      "Jerusalem Post": 23.1,
+      "FOX News": 4.0,
+      "CNN": 8.0
+    },
+    "topics": {
+      "War": 42.7,
+      "Economy": 9.0,
+      "Crime": 4.5,
+      "Health": 3.4,
+      "Politics": 1.1
+    },
+    "top_keywords": [
+      "war",
+      "death",
+      "genocide"
+    ],
+    "top": [
+      {
+        "title": "J&K soon to be terror-free, only handful of foreign terrorists remain: L-G Sinha",
+        "score": 48,
+        "source": "The Hindu"
+      },
+      {
+        "title": "'Lateef killed': Forces celebrate as Kashmir’s last known active LeT terrorist falls",
+        "score": 47,
+        "source": "TOI"
+      },
+      {
+        "title": "Iran widens Gulf attacks after US strikes missile launch site",
+        "score": 44,
+        "source": "CNN"
+      },
+      {
+        "title": "Congress agrees on civilian plane locator mandate after deadly American Airlines-Black Hawk crash",
+        "score": 38,
+        "source": "The Hill"
+      },
+      {
+        "title": "A purr-fect reunion: How a soft meow led rescuers to a beloved cat missing since the deadly Brooklyn collapse",
+        "score": 38,
+        "source": "CNN"
+      }
+    ]
   }
 ]
