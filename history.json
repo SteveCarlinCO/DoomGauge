@@ -2139,62 +2139,65 @@
   },
   {
     "date": "2026-11-17",
-    "score": 8.4,
+    "score": 7.7,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 6.2,
-      "Al Jazeera": 12.0,
-      "CBS": 6.7,
-      "PBS": 10.0,
+      "BBC": 2.9,
+      "Al Jazeera": 16.0,
+      "CBS": 0.0,
+      "PBS": 0.0,
       "ABC": 8.0,
-      "NBC": 8.0,
-      "Sky": 25.0,
+      "NBC": 4.0,
+      "Sky": 20.0,
       "DW": 4.5,
-      "France24": 4.2,
+      "France24": 8.3,
       "Guardian": 6.7,
       "The Hill": 4.0,
-      "ZeroHedge": 28.0,
-      "TOI": 14.6,
-      "ABC-AU": 8.0,
+      "ZeroHedge": 32.0,
+      "ReliefWeb": 0.0,
+      "TOI": 6.5,
+      "ABC-AU": 4.0,
       "Euronews": 8.0,
-      "CNBC": 6.7,
+      "CNBC": 3.3,
       "ProPublica": 15.0,
-      "Dawn": 10.3,
+      "Dawn": 3.4,
+      "Japan Times": 10.0,
       "The Diplomat": 7.3,
       "Reason": 12.5,
-      "The Hindu": 3.3,
-      "Jerusalem Post": 15.4,
-      "FOX News": 12.0,
+      "The Hindu": 11.7,
+      "Jerusalem Post": 7.7,
+      "FOX News": 4.0,
       "CNN": 9.0
     },
     "topics": {
-      "War": 45.8,
-      "Economy": 6.0,
-      "Crime": 4.8,
-      "Health": 4.8,
-      "Politics": 1.2
+      "War": 42.3,
+      "Economy": 6.4,
+      "Crime": 6.4,
+      "Health": 3.8,
+      "Disaster": 2.6,
+      "Politics": 1.3
     },
     "top_keywords": [
       "war",
       "death",
-      "killed"
+      "crisis"
     ],
     "top": [
       {
-        "title": "U.S. identifies remains of 6 soldiers killed in Korean War, including teens",
-        "score": 47,
-        "source": "CBS"
+        "title": "Kulgam anti-terror ops. continue; body of LeT terrorist Lateef Bhat’s ‘accomplice’ retrieved from encounter site",
+        "score": 48,
+        "source": "The Hindu"
       },
       {
-        "title": "Kulgam attack: Operation continues to track wounded terrorist",
-        "score": 42,
-        "source": "TOI"
+        "title": "Ukraine strikes Russia’s Crimean bridge with drones and missiles as aerial attacks escalate",
+        "score": 44,
+        "source": "The Hindu"
       },
       {
-        "title": "Russia military transport plane crashes in Siberia, all 17 on board killed",
-        "score": 41,
-        "source": "TOI"
+        "title": "Congress agrees on civilian plane locator mandate after deadly American Airlines-Black Hawk crash",
+        "score": 38,
+        "source": "The Hill"
       },
       {
         "title": "A purr-fect reunion: How a soft meow led rescuers to a beloved cat missing since the deadly Brooklyn collapse",
@@ -2202,9 +2205,9 @@
         "source": "CNN"
       },
       {
-        "title": "\"They Killed My Wife\": 60 Minutes Whistleblower Says Army Leaders Ignored Warnings Before Iranian Drone Killed Six Soldiers In Kuwait",
-        "score": 35,
-        "source": "ZeroHedge"
+        "title": "Iran war live: Kuwait says intercepting ‘hostile’ drone attacks",
+        "score": 36,
+        "source": "Al Jazeera"
       }
     ]
   }
