@@ -2288,61 +2288,67 @@
   },
   {
     "date": "2026-11-19",
-    "score": 7.0,
+    "score": 8.4,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 10.0,
-      "BBC": 3.4,
-      "Al Jazeera": 32.0,
-      "CBS": 6.7,
-      "PBS": 5.0,
-      "ABC": 4.0,
-      "NBC": 0.0,
-      "Sky": 14.3,
+      "BBC": 6.5,
+      "Al Jazeera": 24.0,
+      "CBS": 10.0,
+      "PBS": 20.0,
+      "ABC": 0.0,
+      "NBC": 4.0,
+      "Sky": 16.7,
       "DW": 3.0,
       "France24": 16.7,
-      "Guardian": 13.3,
-      "The Hill": 5.0,
-      "ZeroHedge": 4.0,
-      "TOI": 9.1,
+      "Guardian": 20.0,
+      "The Hill": 10.0,
+      "ZeroHedge": 8.0,
+      "ReliefWeb": 5.0,
+      "TOI": 2.2,
       "ABC-AU": 12.0,
-      "Slate": 0.0,
+      "Slate": 8.0,
       "Vox": 10.0,
-      "Euronews": 8.0,
-      "CNBC": 6.7,
+      "Euronews": 10.0,
+      "CNBC": 3.3,
       "ProPublica": 10.0,
       "Dawn": 7.1,
-      "Japan Times": 6.7,
-      "The Diplomat": 7.3,
-      "Reason": 8.3,
-      "The Hindu": 6.7,
-      "Jerusalem Post": 23.1,
-      "FOX News": 24.0,
-      "CNN": 8.0
+      "Japan Times": 3.3,
+      "The Diplomat": 10.4,
+      "Reason": 2.1,
+      "The Hindu": 5.0,
+      "Jerusalem Post": 30.8,
+      "FOX News": 8.0,
+      "CNN": 11.0
     },
     "topics": {
-      "War": 45.2,
-      "Crime": 8.2,
-      "Economy": 4.1,
-      "Health": 4.1,
-      "Politics": 2.7,
-      "Disaster": 1.4
+      "War": 45.1,
+      "Crime": 6.6,
+      "Disaster": 3.3,
+      "Economy": 2.2,
+      "Politics": 1.1,
+      "Health": 1.1
     },
     "top_keywords": [
       "war",
-      "nuclear",
-      "genocide"
+      "genocide",
+      "nuclear"
     ],
     "top": [
       {
-        "title": "10,000 Rohingya killed, mass rapes: UN court delivers landmark Myanmar genocide verdict",
-        "score": 55,
-        "source": "TOI"
+        "title": "Saudi Arabia Calls Houthi Missile Strike On Sovereign Wealth Fund Tower A \"Terrorist Attack\"",
+        "score": 72,
+        "source": "ZeroHedge"
       },
       {
-        "title": "Top UN court finds that Myanmar committed genocide against Rohingya: Refugee crisis, timeline of the case, and more",
+        "title": "IDF targets Hezbollah missile facility after terrorists return to site in Lebanon",
+        "score": 48,
+        "source": "Jerusalem Post"
+      },
+      {
+        "title": "Photos: Genocide ruling spotlights human toll of 2017 Rohingya crisis",
         "score": 46,
-        "source": "The Hindu"
+        "source": "Al Jazeera"
       },
       {
         "title": "Iran widens Gulf attacks after US strikes missile launch site",
@@ -2350,14 +2356,9 @@
         "source": "CNN"
       },
       {
-        "title": "🔴 Historic trilateral summit live: Trump, Xi and Putin agree that a nuclear war must never be fought",
+        "title": "Cost of War Update: Gold Star husband briefed on wife's death",
         "score": 42,
-        "source": "France24"
-      },
-      {
-        "title": "Grand jury indicts Illinois man on terrorism and weapons charges in foiled Hindu temple shooting",
-        "score": 39,
-        "source": "CNN"
+        "source": "CBS"
       }
     ]
   }
