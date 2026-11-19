@@ -2213,75 +2213,76 @@
   },
   {
     "date": "2026-11-18",
-    "score": 8.9,
+    "score": 8.2,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 10.0,
-      "BBC": 13.8,
-      "Al Jazeera": 12.0,
-      "CBS": 6.7,
-      "ABC": 4.0,
+      "BBC": 12.9,
+      "Al Jazeera": 16.0,
+      "CBS": 10.0,
+      "PBS": 5.0,
+      "ABC": 8.0,
       "Sky": 25.0,
-      "DW": 3.8,
-      "France24": 8.3,
-      "Guardian": 8.9,
+      "DW": 3.0,
+      "France24": 12.5,
+      "Guardian": 11.1,
       "The Hill": 5.0,
-      "ZeroHedge": 20.0,
-      "ReliefWeb": 20.0,
-      "TOI": 15.9,
+      "ZeroHedge": 12.0,
+      "ReliefWeb": 0.0,
+      "TOI": 7.1,
       "ABC-AU": 20.0,
       "Slate": 4.0,
       "Vox": 10.0,
-      "Euronews": 6.0,
-      "CNBC": 3.3,
+      "Euronews": 8.0,
+      "CNBC": 0.0,
       "ProPublica": 15.0,
-      "Dawn": 17.9,
+      "Dawn": 17.2,
       "Japan Times": 3.3,
       "The Diplomat": 6.2,
-      "Reason": 12.5,
-      "The Hindu": 0.0,
-      "Jerusalem Post": 30.8,
-      "FOX News": 12.0,
+      "Reason": 10.4,
+      "The Hindu": 3.3,
+      "Jerusalem Post": 19.2,
+      "FOX News": 20.0,
       "CNN": 6.0
     },
     "topics": {
-      "War": 43.5,
-      "Economy": 8.7,
-      "Crime": 6.5,
-      "Health": 3.3,
-      "Disaster": 1.1,
-      "Politics": 1.1
+      "War": 45.3,
+      "Crime": 10.5,
+      "Economy": 4.7,
+      "Disaster": 3.5,
+      "Health": 2.3,
+      "Politics": 1.2
     },
     "top_keywords": [
       "war",
       "death",
-      "nuclear"
+      "genocide"
     ],
     "top": [
+      {
+        "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
+        "score": 60,
+        "source": "BBC"
+      },
       {
         "title": "Iran widens Gulf attacks after US strikes missile launch site",
         "score": 44,
         "source": "CNN"
       },
       {
+        "title": "Yalta 2.0 in making? Nuclear arms, two wars on the table as Trump, Xi and Putin meet",
+        "score": 42,
+        "source": "TOI"
+      },
+      {
+        "title": "Five men arrested in relation to fatal drive-by shooting",
+        "score": 42,
+        "source": "ABC-AU"
+      },
+      {
         "title": "Grand jury indicts Illinois man on terrorism and weapons charges in foiled Hindu temple shooting",
         "score": 39,
         "source": "CNN"
-      },
-      {
-        "title": "Congress agrees on civilian plane locator mandate after deadly American Airlines-Black Hawk crash",
-        "score": 38,
-        "source": "The Hill"
-      },
-      {
-        "title": "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling",
-        "score": 36,
-        "source": "Guardian"
-      },
-      {
-        "title": "'Own the crisis': Qld man's plea after near-death ambulance wait",
-        "score": 36,
-        "source": "ABC-AU"
       }
     ]
   }
