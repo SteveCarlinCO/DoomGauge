@@ -2288,46 +2288,46 @@
   },
   {
     "date": "2026-11-19",
-    "score": 8.4,
+    "score": 8.9,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 10.0,
-      "BBC": 6.5,
-      "Al Jazeera": 24.0,
-      "CBS": 10.0,
-      "PBS": 20.0,
-      "ABC": 0.0,
-      "NBC": 4.0,
-      "Sky": 16.7,
-      "DW": 3.0,
+      "BBC": 6.1,
+      "Al Jazeera": 36.0,
+      "CBS": 0.0,
+      "PBS": 5.0,
+      "ABC": 12.0,
+      "NBC": 0.0,
+      "Sky": 11.1,
+      "DW": 3.7,
       "France24": 16.7,
       "Guardian": 20.0,
-      "The Hill": 10.0,
-      "ZeroHedge": 8.0,
-      "ReliefWeb": 5.0,
-      "TOI": 2.2,
+      "The Hill": 8.0,
+      "ZeroHedge": 12.0,
+      "ReliefWeb": 10.0,
+      "TOI": 9.3,
       "ABC-AU": 12.0,
       "Slate": 8.0,
-      "Vox": 10.0,
+      "Vox": 20.0,
       "Euronews": 10.0,
-      "CNBC": 3.3,
+      "CNBC": 0.0,
       "ProPublica": 10.0,
-      "Dawn": 7.1,
-      "Japan Times": 3.3,
+      "Dawn": 6.9,
+      "Japan Times": 20.0,
       "The Diplomat": 10.4,
       "Reason": 2.1,
-      "The Hindu": 5.0,
+      "The Hindu": 1.7,
       "Jerusalem Post": 30.8,
       "FOX News": 8.0,
       "CNN": 11.0
     },
     "topics": {
-      "War": 45.1,
-      "Crime": 6.6,
-      "Disaster": 3.3,
-      "Economy": 2.2,
-      "Politics": 1.1,
-      "Health": 1.1
+      "War": 45.8,
+      "Crime": 6.2,
+      "Economy": 4.2,
+      "Disaster": 3.1,
+      "Politics": 1.0,
+      "Health": 1.0
     },
     "top_keywords": [
       "war",
@@ -2346,19 +2346,19 @@
         "source": "Jerusalem Post"
       },
       {
-        "title": "Photos: Genocide ruling spotlights human toll of 2017 Rohingya crisis",
-        "score": 46,
-        "source": "Al Jazeera"
-      },
-      {
         "title": "Iran widens Gulf attacks after US strikes missile launch site",
         "score": 44,
         "source": "CNN"
       },
       {
-        "title": "Cost of War Update: Gold Star husband briefed on wife's death",
-        "score": 42,
-        "source": "CBS"
+        "title": "Ten killed in Pakistan as bus crashes into gas tanker",
+        "score": 41,
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "Mother avoids jail for crash that killed 6yo daughter",
+        "score": 41,
+        "source": "ABC-AU"
       }
     ]
   }
