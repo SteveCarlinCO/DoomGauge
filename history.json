@@ -2364,75 +2364,76 @@
   },
   {
     "date": "2026-11-20",
-    "score": 9.5,
+    "score": 8.9,
     "verdict": "Mostly survivable.",
     "sources": {
-      "BBC": 9.1,
-      "Al Jazeera": 16.0,
-      "CBS": 3.3,
-      "PBS": 5.0,
-      "ABC": 8.0,
-      "NBC": 4.0,
-      "Sky": 22.2,
-      "DW": 3.7,
-      "France24": 12.5,
-      "Guardian": 13.3,
+      "NPR": 20.0,
+      "BBC": 20.7,
+      "Al Jazeera": 4.0,
+      "CBS": 13.3,
+      "PBS": 20.0,
+      "ABC": 16.0,
+      "NBC": 8.0,
+      "Sky": 28.6,
+      "DW": 2.2,
+      "France24": 4.2,
+      "Guardian": 20.0,
       "The Hill": 9.0,
-      "ZeroHedge": 24.0,
-      "ReliefWeb": 15.0,
-      "TOI": 11.6,
-      "ABC-AU": 20.0,
-      "Slate": 12.0,
-      "Vox": 10.0,
+      "ZeroHedge": 8.0,
+      "ReliefWeb": 10.0,
+      "TOI": 12.8,
+      "ABC-AU": 12.0,
+      "Slate": 4.0,
+      "Vox": 20.0,
       "Euronews": 12.0,
       "CNBC": 3.3,
       "ProPublica": 10.0,
-      "Dawn": 4.2,
+      "Dawn": 6.9,
       "Japan Times": 10.0,
-      "The Diplomat": 11.5,
+      "The Diplomat": 10.4,
       "Reason": 0.0,
       "The Hindu": 3.3,
-      "Jerusalem Post": 26.9,
-      "FOX News": 16.0,
-      "CNN": 10.0
+      "Jerusalem Post": 20.0,
+      "FOX News": 8.0,
+      "CNN": 7.0
     },
     "topics": {
-      "War": 45.1,
-      "Disaster": 3.9,
-      "Crime": 2.9,
-      "Health": 2.9,
-      "Economy": 2.0
+      "War": 39.2,
+      "Economy": 5.2,
+      "Disaster": 4.1,
+      "Crime": 3.1,
+      "Health": 2.1
     },
     "top_keywords": [
       "genocide",
       "war",
-      "nuclear"
+      "killed"
     ],
     "top": [
+      {
+        "title": "CTD says 3 terrorists, including mastermind of Kohat police lines attack, killed in IBO",
+        "score": 67,
+        "source": "Dawn"
+      },
       {
         "title": "Police foil major terror attack in KP’s Lakki Marwat, claim suspected suicide bomber killed",
         "score": 59,
         "source": "Dawn"
       },
       {
-        "title": "'Food Babe' declares war on the 'holiday death aisle' ahead of Thanksgiving",
-        "score": 42,
-        "source": "FOX News"
+        "title": "Russia's war spills into Poland as missile crashes near Ukraine border",
+        "score": 58,
+        "source": "TOI"
       },
       {
-        "title": "🔴 Live: Deadly Russian attacks damage two bridges in Kyiv, mayor says",
-        "score": 36,
-        "source": "France24"
+        "title": "Deadly Russian strikes hit 3 Kyiv bridges after Putin vows revenge for Crimea attacks",
+        "score": 46,
+        "source": "NBC"
       },
       {
-        "title": "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling",
-        "score": 36,
-        "source": "Guardian"
-      },
-      {
-        "title": "Ukraine: Four killed and at least 13 injured in Russian strike on Odesa",
-        "score": 35,
-        "source": "Euronews"
+        "title": "Iran widens Gulf attacks after US strikes missile launch site",
+        "score": 44,
+        "source": "CNN"
       }
     ]
   }
