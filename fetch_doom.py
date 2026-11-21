@@ -120,11 +120,38 @@ def titles_from_xml(raw):
     return out
 
 
+# Layoff pressure (Steve, 2026-11-21): the WARN source is scored on the
+# trailing-180-day total of workers named in WARN notices, as a share of the
+# BLS unemployed count. A grind of small weekly tolls accumulates into the
+# score even when no single week spikes. Anchor: a 5% share scores 15 (the
+# doom cutoff); the score scales linearly from there and caps at 100.
+PRESSURE_WINDOW_DAYS = 180
+PRESSURE_FULL_SHARE = 5.0
+FALLBACK_UNEMPLOYED = 7_068_000  # BLS Oct 2026 (USDL-26-1632), if API is down
+
+
+def fetch_unemployed():
+    """Latest BLS unemployed count (series LNS13000000, values in thousands).
+    Returns (count, 'YYYY-MM' period, source); source is 'BLS' or 'fallback'."""
+    try:
+        raw = fetch("https://api.bls.gov/publicAPI/v2/timeseries/data/"
+                    "LNS13000000?latest=true")
+        d = json.loads(raw)
+        pt = d["Results"]["series"][0]["data"][0]
+        return (int(float(pt["value"])) * 1000,
+                f"{pt['year']}-{pt['period'][1:]}", "BLS")
+    except Exception as ex:  # noqa: BLE001 - never let BLS kill the run
+        print(f"BLS FAIL: {type(ex).__name__}: {ex}", file=sys.stderr)
+        return FALLBACK_UNEMPLOYED, "2026-10", "fallback"
+
+
 def titles_from_warn_csv(raw):
     """NextChapter's layoffs CSV is the WARN filings themselves, collected
     daily from state labor departments - the same notices Kadoa republishes,
     as a data file instead of an HTML table. The newest 25 filings with a
-    worker count become headline-shaped items."""
+    worker count become headline-shaped items. Also returns the layoff
+    pressure info computed over the FULL file (see PRESSURE_* above), or
+    None when no filing carries a parseable notice date."""
     import csv
     import io
     text = raw.decode("utf-8-sig", "replace") if isinstance(raw, bytes) else raw
@@ -153,7 +180,32 @@ def titles_from_warn_csv(raw):
         out.append((f"{company} announces {workers:,} {noun} in {state}", link))
         if len(out) >= 25:
             break
-    return out
+    dated = []
+    for ns, w, *_ in rows:
+        try:
+            dated.append((datetime.strptime(ns, "%Y-%m-%d").date(), w))
+        except ValueError:
+            continue
+    info = None
+    if dated:
+        latest = max(d for d, _ in dated)
+
+        def _win(days):
+            return sum(w for d, w in dated if 0 <= (latest - d).days < days)
+
+        w180 = _win(PRESSURE_WINDOW_DAYS)
+        unemployed, period, src = fetch_unemployed()
+        share = round(100.0 * w180 / unemployed, 2) if unemployed else 0.0
+        info = {"workers_7d": _win(7), "workers_30d": _win(30),
+                "workers_90d": _win(90), "workers_180d": w180,
+                "unemployed": unemployed, "unemployed_period": period,
+                "unemployed_source": src, "share_pct": share,
+                "pressure_score": max(0, min(100, round(
+                    15.0 * share / PRESSURE_FULL_SHARE))),
+                "window_days": PRESSURE_WINDOW_DAYS,
+                "full_share_pct": PRESSURE_FULL_SHARE,
+                "as_of": latest.isoformat()}
+    return out, info
 
 
 def clean_gnews_title(t, url):
@@ -376,12 +428,24 @@ def main():
     per_source = []
     all_heads = []
     health = []
+    layoff_info = {}
     for f in feeds:
         name, url = f["name"], f["url"]
+        score_override = None
         try:
             raw = fetch(url)
             if f.get("type") == "warncsv":
-                items = titles_from_warn_csv(raw)
+                items, warn_info = titles_from_warn_csv(raw)
+                if warn_info:
+                    score_override = warn_info["pressure_score"]
+                    layoff_info.update(warn_info)
+                    print(f"LAYOFF PRESSURE {name}: "
+                          f"{warn_info['workers_180d']:,} workers / 180d = "
+                          f"{warn_info['share_pct']}% of "
+                          f"{warn_info['unemployed']:,} unemployed "
+                          f"({warn_info['unemployed_source']} "
+                          f"{warn_info['unemployed_period']}) -> score "
+                          f"{score_override}")
             else:
                 items = titles_from_xml(raw)
             if "news.google.com" in url:
@@ -391,7 +455,9 @@ def main():
             health.append({"name": name, "url": url, "ok": False, "headlines": 0,
                            "error": type(ex).__name__, "sample": []})
             continue
-        scored = [{"title": t, "link": l, "score": score_headline(t, patterns),
+        scored = [{"title": t, "link": l,
+                   "score": (score_override if score_override is not None
+                             else score_headline(t, patterns)),
                    "source": name} for t, l in items]
         health.append({"name": name, "url": url, "ok": True, "headlines": len(items),
                        "error": None,
@@ -497,6 +563,7 @@ def main():
         "top_contributor": contributor,
         "streak_days": streak,
         "feed_health": health,
+        "layoffs": layoff_info or None,
         "feed_count": len(per_source),
         "headline_count": len(all_heads),
         "unique_stories": len(unique),

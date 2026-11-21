@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-21T17:31:58.939881+00:00",
-  "fetched_at": "2026-11-21 10:31 MST",
+  "generated_at": "2026-11-21T17:44:51.092208+00:00",
+  "fetched_at": "2026-11-21 10:44 MST",
   "date": "2026-11-21",
-  "score": 8.0,
+  "score": 8.2,
   "stale": false,
   "verdict": "Mostly survivable.",
-  "delta": -1.2,
-  "delta_date": "2026-11-20",
+  "delta": -1.7,
+  "delta_date": "2026-10-19",
   "sources": [
     {
       "name": "NPR",
@@ -111,6 +111,12 @@
       "doom": 0
     },
     {
+      "name": "Times of Israel",
+      "score": 28.6,
+      "count": 14,
+      "doom": 4
+    },
+    {
       "name": "Vox",
       "score": 20.0,
       "count": 10,
@@ -185,7 +191,7 @@
     {
       "name": "MSNBC",
       "score": 0.0,
-      "count": 8,
+      "count": 0,
       "doom": 0
     },
     {
@@ -198,36 +204,57 @@
   "topics": [
     {
       "name": "War",
-      "count": 32,
-      "share": 37.6
+      "count": 33,
+      "share": 37.5
     },
     {
       "name": "Economy",
       "count": 4,
-      "share": 4.7
+      "share": 4.5
     },
     {
       "name": "Crime",
       "count": 3,
-      "share": 3.5
+      "share": 3.4
     },
     {
       "name": "Disaster",
       "count": 2,
-      "share": 2.4
+      "share": 2.3
     },
     {
       "name": "Politics",
       "count": 2,
-      "share": 2.4
+      "share": 2.3
     },
     {
       "name": "Health",
       "count": 1,
-      "share": 1.2
+      "share": 1.1
     }
   ],
   "headlines": [
+    {
+      "title": "Bondi terror attack first responders marry at beach after finding love in massacre’s aftermath",
+      "score": 64,
+      "source": "Times of Israel",
+      "link": "https://www.timesofisrael.com/bondi-terror-attack-first-responders-marry-at-beach-after-finding-love-in-massacres-aftermath/",
+      "topics": [],
+      "hits": [
+        {
+          "keyword": "massacre",
+          "weight": 30
+        },
+        {
+          "keyword": "terror",
+          "weight": 20
+        },
+        {
+          "keyword": "attack",
+          "weight": 14
+        }
+      ]
+    },
     {
       "title": "Lawsuits allege corner cutting, ignored warnings led to fatal Brooklyn building collapse",
       "score": 50,
@@ -364,31 +391,11 @@
           "weight": 14
         }
       ]
-    },
-    {
-      "title": "Ceuta Sexual Assaults Soar 650% After Migrant Invasion - Over Half The Cases Involve Kids",
-      "score": 33,
-      "source": "ZeroHedge",
-      "link": "https://www.zerohedge.com/geopolitical/ceuta-sexual-assaults-soar-650-after-migrant-invasion-over-half-cases-involve-kids",
-      "topics": [
-        "War",
-        "Crime"
-      ],
-      "hits": [
-        {
-          "keyword": "invasion",
-          "weight": 25
-        },
-        {
-          "keyword": "assault",
-          "weight": 8
-        }
-      ]
     }
   ],
   "top_contributor": {
     "name": "Guardian",
-    "share": 13.6
+    "share": 13.0
   },
   "streak_days": 0,
   "feed_health": [
@@ -528,14 +535,14 @@
           "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/florida-residents-turn-to-kayaks-and-rafts-as-floods-swamp-streets?traffic_source=rss"
         },
         {
+          "title": "Russian strike kills two, wounds 60, in Zelenskyy’s hometown",
+          "score": 10,
+          "link": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss"
+        },
+        {
           "title": "Israeli strike on vehicle distributing food aid in Gaza kills three",
           "score": 10,
           "link": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza?traffic_source=rss"
-        },
-        {
-          "title": "Chaudhary helps Australia beat England in T20 shake-off of scandal-hit run",
-          "score": 8,
-          "link": "https://www.aljazeera.com/sports/2026/11/21/chaudhary-helps-australia-beat-england-in-t20-shake-off-of-scandal-hit-run?traffic_source=rss"
         }
       ]
     },
@@ -621,6 +628,11 @@
           "link": "https://www.pbs.org/newshour/world/nato-calls-russian-missiles-landing-in-poland-a-grave-violation-of-airspace"
         },
         {
+          "title": "Trump auditions potential successors as Rubio and Vance join him for White House briefing",
+          "score": 0,
+          "link": "https://www.pbs.org/newshour/politics/trump-auditions-potential-successors-as-rubio-and-vance-join-him-for-white-house-briefing"
+        },
+        {
           "title": "Climate talks in overtime as nations wrestle with response to worsening global warming",
           "score": 0,
           "link": "https://www.pbs.org/newshour/world/climate-talks-in-overtime-as-nations-wrestle-with-response-to-worsening-global-warming"
@@ -629,11 +641,6 @@
           "title": "Texas says an execution went as planned. A witness says screams showed 'tremendous distress'",
           "score": 0,
           "link": "https://www.pbs.org/newshour/nation/texas-says-an-execution-went-as-planned-a-witness-says-screams-showed-tremendous-distress"
-        },
-        {
-          "title": "Bessent says no further restrictions are needed for Nvidia chip exports to China",
-          "score": 0,
-          "link": "https://www.pbs.org/newshour/politics/bessent-says-no-further-restrictions-are-needed-for-nvidia-chip-exports-to-china"
         }
       ]
     },
@@ -655,14 +662,14 @@
           "link": "https://abcnews.com/video/138305617/"
         },
         {
-          "title": "What's behind the uptick in attacks in the Strait of Hormuz?",
-          "score": 14,
-          "link": "https://abcnews.com/International/strait-hormuz-attacks-increased-highest-level-iran-war/story?id=138304456"
-        },
-        {
           "title": "WATCH:  New health warning on doomscrolling: What to know and tips to break the habit",
           "score": 10,
           "link": "https://abcnews.com/video/138324954/"
+        },
+        {
+          "title": "Iran live updates: Trump says Iran doesn't want to make a deal 'acceptable' to him",
+          "score": 0,
+          "link": "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
         },
         {
           "title": "LIVE:  ABC News Live",
@@ -1096,6 +1103,11 @@
           "link": "https://timesofindia.indiatimes.com/sports/badminton/lakshya-sens-title-hat-trick-bid-ends-as-satwik-chirag-also-crash-out-india-draw-blank-at-hong-kong-open/articleshow/136054292.cms"
         },
         {
+          "title": "Russian cargo vessel linked to defence ministry comes under drone attack near Finland",
+          "score": 14,
+          "link": "https://timesofindia.indiatimes.com/world/europe/russian-cargo-vessel-linked-to-defence-ministry-comes-under-drone-attack-near-finland/articleshow/136060025.cms"
+        },
+        {
           "title": "'Goondaism isn't a bug': BJP, BRS attack Congress over Meta office vandalism",
           "score": 14,
           "link": "https://timesofindia.indiatimes.com/india/goondaism-isnt-a-bug-bjp-brs-attack-congress-over-meta-office-vandalism/articleshow/136057934.cms"
@@ -1109,11 +1121,6 @@
           "title": "'We all made mistakes': Lehmann reveals 'dark place' after Sandpapergate scandal",
           "score": 8,
           "link": "https://timesofindia.indiatimes.com/sports/cricket/news/we-all-made-mistakes-darren-lehmann-stands-by-sandpapergate-version-reveals-dark-place-after-2018-scandal/articleshow/136053515.cms"
-        },
-        {
-          "title": "Cricketer Yuzvendra Chahal joins BJP, gets role in OBC committee",
-          "score": 0,
-          "link": "https://timesofindia.indiatimes.com/india/cricketer-yuzvendra-chahal-joins-bjp-gets-role-in-obc-morcha-executive-committee/articleshow/136059077.cms"
         }
       ]
     },
@@ -1182,6 +1189,16 @@
       "error": null,
       "sample": [
         {
+          "title": "My Partner Has a Disgusting Habit. I Asked Him to Stop, but He Insists On Doing It—In Front of Me and My Teenage Daughter.",
+          "score": 0,
+          "link": "https://slate.com/advice/2026/11/boyfriend-daughter-balls-advice-scratch-itch-habit.html?via=rss"
+        },
+        {
+          "title": "Slate Pears Game 464: Nov. 21, 2026",
+          "score": 0,
+          "link": "https://slate.com/life/2026/11/word-game-slate-pears-464-for-november-21-2026.html?via=rss"
+        },
+        {
           "title": "A Literary Great Wrote a Hockey Sex Romp and Refused to Claim It for Decades—Until Now",
           "score": 0,
           "link": "https://slate.com/culture/2026/11/don-delillo-books-amazons-cleo-birdwell-hockey-heated-rivalry.html?via=rss"
@@ -1197,39 +1214,70 @@
           "link": "https://slate.com/podcasts/slate-money/2026/11/anthropic-artificial-intelligence-public-company-claude-art-economy-silicon-valley-stock-market-outages-tech?via=rss"
         },
         {
-          "title": "My Mother-in-Law Is Banning Two Very Important People From Thanksgiving. She Called Them Nobodies!",
-          "score": 0,
-          "link": "https://slate.com/advice/2026/11/family-advice-thanksgiving-chosen-family.html?via=rss"
-        },
-        {
           "title": "My Mother-in-Law Only Wants to Talk About One Creepy Thing at Family Gatherings. I Can’t Take Another Minute.",
           "score": 0,
           "link": "https://slate.com/advice/2026/11/dear-prudence-mil-creepy-conversation.html?via=rss"
         },
         {
+          "title": "My Mother-in-Law Is Banning Two Very Important People From Thanksgiving. She Called Them Nobodies!",
+          "score": 0,
+          "link": "https://slate.com/advice/2026/11/family-advice-thanksgiving-chosen-family.html?via=rss"
+        },
+        {
           "title": "Emily St. John Mandel on her new novel <em>Exit Party</em>, parallel Americas, and the art of the bad first draft.",
           "score": 0,
           "link": "https://slate.com/news-and-politics/2026/11/emily-st-john-mandel-discusses-her-novel-exit-party-with-emily-bazelon-on-gabfest-reads.html?via=rss"
-        },
-        {
-          "title": "Emily St. John Mandel on her new novel Exit Party, the counter life of a nation, and the immortality of art",
-          "score": 0,
-          "link": "https://slate.com/podcasts/gabfestreads/2026/11/emily-st-john-mandel-discusses-exit-party-with-emily-bazelon-covering-the-surveillance-state-her-career-as-a-dancer-and-writing-without-an-outline?via=rss"
-        },
-        {
-          "title": "Slate Mini Crossword for Nov. 21, 2026",
-          "score": 0,
-          "link": "https://slate.com/life/2026/11/crossword-slate-mini-daily-puzzle-nov-21-2026.html?via=rss"
         }
       ]
     },
     {
       "name": "Times of Israel",
       "url": "https://www.timesofisrael.com/feed/",
-      "ok": false,
-      "headlines": 0,
-      "error": "HTTPError",
-      "sample": []
+      "ok": true,
+      "headlines": 14,
+      "error": null,
+      "sample": [
+        {
+          "title": "Bondi terror attack first responders marry at beach after finding love in massacre’s aftermath",
+          "score": 64,
+          "link": "https://www.timesofisrael.com/bondi-terror-attack-first-responders-marry-at-beach-after-finding-love-in-massacres-aftermath/"
+        },
+        {
+          "title": "Ramle crime families reach reconciliation deal after dozens killed in years-long feud",
+          "score": 25,
+          "link": "https://www.timesofisrael.com/ramle-crime-families-reach-reconciliation-deal-after-dozens-killed-in-years-long-feud/"
+        },
+        {
+          "title": "Briton swims in Strait of Hormuz to highlight Iran war’s wildlife impact",
+          "score": 22,
+          "link": "https://www.timesofisrael.com/man-swims-in-strait-of-hormuz-to-highlight-iran-wars-wildlife-impact/"
+        },
+        {
+          "title": "Yemen’s Houthis fire 3 missiles at Riyadh after Saudi coalition’s ‘special operation’",
+          "score": 20,
+          "link": "https://www.timesofisrael.com/yemens-houthis-fire-3-missiles-at-riyadh-after-saudi-coalitions-special-operation/"
+        },
+        {
+          "title": "Al-Qaeda affiliates calling to ’emulate’ attempted flydubai hijacking, US said to warn",
+          "score": 0,
+          "link": "https://www.timesofisrael.com/al-qaeda-affiliates-calling-to-emulate-attempted-flydubai-hijacking-us-said-to-warn/"
+        },
+        {
+          "title": "Century-old mistake fixed as Stars of David put on headstones of US Jewish WWI troops",
+          "score": 0,
+          "link": "https://www.timesofisrael.com/century-old-mistake-fixed-as-stars-of-david-put-on-headstones-of-us-jewish-wwi-troops/"
+        },
+        {
+          "title": "13-year-old shot dead at close range on his way to school in East Jerusalem’s Shuafat",
+          "score": 0,
+          "link": "https://www.timesofisrael.com/13-year-old-shot-dead-at-close-range-on-his-way-to-school-in-east-jerusalems-shuafat/"
+        },
+        {
+          "title": "After US midterm losses, Jewish conservatives confront a changing political landscape",
+          "score": 0,
+          "link": "https://www.timesofisrael.com/after-us-midterm-losses-jewish-conservatives-confront-a-changing-political-landscape/"
+        }
+      ]
     },
     {
       "name": "Vox",
@@ -1654,6 +1702,11 @@
           "link": "https://www.thehindu.com/news/cities/Madurai/truck-drivers-custodial-death-hc-permits-kin-to-view-police-station-cctv-footages/article71729039.ece"
         },
         {
+          "title": "Amid cold wave, students’ indefinite strike against J&K recruitment board scam gathers steam",
+          "score": 10,
+          "link": "https://www.thehindu.com/news/national/amid-cold-wave-students-indefinite-strike-against-jk-recruitment-board-scam-gathers-steam/article71729167.ece"
+        },
+        {
           "title": "Yemen's Houthis launch strikes after Saudi coalition's 'special operation'",
           "score": 10,
           "link": "https://www.thehindu.com/news/international/yemens-houthis-launch-strikes-after-saudi-coalitions-special-operation/article71729354.ece"
@@ -1664,19 +1717,14 @@
           "link": "https://www.thehindu.com/news/international/israeli-strike-kills-three-in-vehicle-distributing-aid-in-gaza-witnesses-say/article71729327.ece"
         },
         {
-          "title": "Amid cold wave, students’ indefinite strike against J&K recruitment board scam gathers steam",
-          "score": 10,
-          "link": "https://www.thehindu.com/news/national/amid-cold-wave-students-indefinite-strike-against-jk-recruitment-board-scam-gathers-steam/article71729167.ece"
+          "title": "Odisha government orders inquiry into foreign visits by former CM Naveen Patnaik, aide Pandian",
+          "score": 0,
+          "link": "https://www.thehindu.com/news/national/odisha/odisha-government-orders-inquiry-into-foreign-visits-by-former-cm-naveen-patnaik-aide-pandian/article71729218.ece"
         },
         {
           "title": "Books more important than ever in the age of AI, says Rammohan Naidu",
           "score": 0,
           "link": "https://www.thehindu.com/news/cities/Visakhapatnam/books-more-important-than-ever-in-the-age-of-ai-says-ram-mohan-naidu/article71727827.ece"
-        },
-        {
-          "title": "Sri Lanka's organised crime bill gets Supreme Court nod",
-          "score": 0,
-          "link": "https://www.thehindu.com/news/international/sri-lankas-organised-crime-bill-gets-supreme-court-nod/article71729357.ece"
         }
       ]
     },
@@ -1757,6 +1805,11 @@
           "link": "https://www.foxnews.com/opinion/americans-dont-choose-between-ai-future-ripping-off-copyright-owners"
         },
         {
+          "title": "Viral frozen yogurt shop becomes Gen Z’s new neighborhood bar as young adults ditch booze",
+          "score": 0,
+          "link": "https://www.foxnews.com/food-drink/viral-frozen-yogurt-shop-becomes-gen-z-neighborhood-bar-young-adults-ditch-booze"
+        },
+        {
           "title": "California school board defies state by passing policy banning trans athletes from girls sports",
           "score": 0,
           "link": "https://www.foxnews.com/outkick-sports/california-school-board-defies-state-passing-policy-banning-trans-athletes-girls-sports"
@@ -1770,11 +1823,6 @@
           "title": "Use Underdog Promo Code FOXNEWS: Play $10, Get $50 on CFB Including Tennessee-LSU, Georgia-South Carolina",
           "score": 0,
           "link": "https://www.foxnews.com/outkick-betting/use-underdog-promo-code-foxnews-play-10-get-50-cfb-including-tennessee-lsu-georgia-south-carolina"
-        },
-        {
-          "title": "Fanatics Sportsbook Promo Code FOXNEWS: $1000 in FanCash When Betting on Today’s CFB Action",
-          "score": 0,
-          "link": "https://www.foxnews.com/outkick-betting/fanatics-sportsbook-promo-code-foxnews-1000-fancash-when-betting-todays-cfb-action"
         }
       ]
     },
@@ -1831,50 +1879,9 @@
       "name": "MSNBC",
       "url": "https://news.google.com/rss/search?q=site%3Amsnbc.com&hl=en-US&gl=US&ceid=US%3Aen",
       "ok": true,
-      "headlines": 8,
+      "headlines": 0,
       "error": null,
-      "sample": [
-        {
-          "title": "Sign up for the The Tea, Spilled by Morning Joe newsletter",
-          "score": 0,
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9LWTJGeGQ0UE1BT1dnZEhuTzF6UWZIZVpqbE5Qa1E5UGI3UmE5UjQxWWRPRFhscml4dmdWb3lrTHRIeVlqSFMtQ1h2YU9ySU9QS1BzUXAxNUtJS0Z0Q3RV?oc=5"
-        },
-        {
-          "title": "Deadline: White House",
-          "score": 0,
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTERXRmduYThXUGVPRlBpckllN0NTaFlIR3pQckZ1b1FQTVZPbzZWV00xRGluLXFEQTgzbXVoOEJVc0Y5djRIVE9DY2RUbTNjVkcxb3VwczRub3ZZY2tuQ3VFbU42bzVBRkFuWFNRSDgxeTQ0alIyNkpxNjc1N0EwYTV3Zk8?oc=5"
-        },
-        {
-          "title": "MS NOW Daily | Sign Up",
-          "score": 0,
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hdG00c0czdy1kdjdMZGVvZXUtdWFYbGpaTFpUdFNQNjhNc2hjVVM1azBVNlFRd2hmRThpR3Rfa2FOMkRQZGwwSXlmTWFfWTN6bHotOFRKX19fVktUNDFV?oc=5"
-        },
-        {
-          "title": "MS NOW's We the People Newsletter | Sign Up",
-          "score": 0,
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYdTBMR0dnRTRtZ1VFNUtULWF0ekphWDd2VGJUTVJfTmNDMDA2YkJKRS1SYTBVY0pfaElKbURMM1lGM2tVdXV5NmlqM3hZQl91ZXVuSkJqNVRqc2JKMmo1M1ZOUXk?oc=5"
-        },
-        {
-          "title": "Contact MSNBC",
-          "score": 0,
-          "link": "https://news.google.com/rss/articles/CBMilANBVV95cUxNei01aGZVc2x0THZ1WkM2VTJPWVpuZ2VvUXRvTlFoQl9telkxTHotOXZSY28zc2NNNnlkbVI3bVE3d0pQWkdHbjBXQVB5TWdHd3EtbFlUbnNCazBwODliM3BrQVdRM2FnTlF2NC1zeVZGMzNGT0RKdXhld2NfTW10ODhYTWlGNFh2c19pNkRDSVAyRzdoejBmZkMtaG5mTW8wNnh4R2l6MVJoSml0dlFQal9oYzBFcm9STnNZZVR2TzFwbHRERG5yVUNGWENnR1Y1NFdZdnlYbXVfNWQtcTgzQmljMV81S0VJYm9kdmlSLUFpbGpucldseWxWeEZUaG9qQnIzejNXX3VYdVNMT1kwWkh3TldKOGVFbHNXb2xUNzByNHNPU2RIZkt6R1RvbFkyWUdQUzBlV29UMDdUczhNd3F0TS1zWlRBSWNWalVGWGZIV2RTczZlM2VqS2ZkckhtaFI3ak1EWjNNemhqdkZVZ1hVaVRWLUFxVkluY3d4cno2cHhkOEZmNUc5dlNLdmxCN2ZOSg?oc=5"
-        },
-        {
-          "title": "MS NOW (formerly MSNBC) - US News Today | Breaking News",
-          "score": 0,
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82aWFQdFdPdUp2TkVCNUVPU2M5QzIxLUxLZThuY0VzZjZta00wamlQM1h4aG9qOVVuZ05PVV9CZkJDcWJPZHdvVGdjOGFlaDZCSnJ0ZlpoUlZNZlpJR0g0Qjk1clVNZGh6YjZINw?oc=5"
-        },
-        {
-          "title": "All In with Chris Hayes",
-          "score": 0,
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5SaDZmdVI4R295aWlaZTlBM1I2S0w3SHFjQlVBU0tLQ3VxeXBHT1FsaXJvZ1Jac3Nja3U2MlJZTTBhbUtWcmhpRWt2SEpJYm9qS2l0bEp2TnFjdnJOSWh4bE1WZ0JiYVNBOXV0YVBpRkx2V1Bw?oc=5"
-        },
-        {
-          "title": "YouTube",
-          "score": 0,
-          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5iVWdLN2NhQVQ4VVdsUDhUZElyZnNPd01hblBpdlRIYlFnRjEzeUFDM1JTdV9jUGM5UTR5SFppMDNhdw?oc=5"
-        }
-      ]
+      "sample": []
     },
     {
       "name": "WARN Layoffs",
@@ -1885,50 +1892,64 @@
       "sample": [
         {
           "title": "Autokiniton announces 136 layoffs in MI",
-          "score": 8,
+          "score": 6,
           "link": "https://launchyournextchapter.com/layoffs/company/autokiniton"
         },
         {
           "title": "Amentum announces 41 layoffs in CO",
-          "score": 8,
+          "score": 6,
           "link": "https://launchyournextchapter.com/layoffs/company/amentum"
         },
         {
           "title": "WHC Payroll Company, dba The Westin Seattle announces 423 layoffs in WA",
-          "score": 8,
+          "score": 6,
           "link": "https://launchyournextchapter.com/layoffs/company/whc-payroll-company-dba-the-westin-seattle"
         },
         {
           "title": "Convey Health Solutions announces 126 layoffs in AZ",
-          "score": 8,
+          "score": 6,
           "link": "https://launchyournextchapter.com/layoffs/company/convey-health-solutions"
         },
         {
           "title": "Convey Health Solutions announces 75 layoffs in AZ",
-          "score": 8,
+          "score": 6,
           "link": "https://launchyournextchapter.com/layoffs/company/convey-health-solutions"
         },
         {
           "title": "Paper Bag Division announces 72 layoffs in CA",
-          "score": 8,
+          "score": 6,
           "link": "https://launchyournextchapter.com/layoffs/company/paper-bag-division"
         },
         {
           "title": "Crunchbase announces 67 layoffs in CA",
-          "score": 8,
+          "score": 6,
           "link": "https://launchyournextchapter.com/layoffs/company/crunchbase"
         },
         {
           "title": "Dole Packaged Foods announces 404 layoffs in CA",
-          "score": 8,
+          "score": 6,
           "link": "https://launchyournextchapter.com/layoffs/company/dole-packaged-foods"
         }
       ]
     }
   ],
-  "feed_count": 31,
-  "headline_count": 1168,
-  "unique_stories": 1060,
+  "layoffs": {
+    "workers_7d": 3335,
+    "workers_30d": 26293,
+    "workers_90d": 74657,
+    "workers_180d": 139258,
+    "unemployed": 7068000,
+    "unemployed_period": "2026-10",
+    "unemployed_source": "BLS",
+    "share_pct": 1.97,
+    "pressure_score": 6,
+    "window_days": 180,
+    "full_share_pct": 5.0,
+    "as_of": "2026-11-20"
+  },
+  "feed_count": 32,
+  "headline_count": 1174,
+  "unique_stories": 1072,
   "keyword_tally": [
     {
       "keyword": "genocide",
@@ -1951,6 +1972,10 @@
       "weight": 160
     },
     {
+      "keyword": "missile",
+      "weight": 100
+    },
+    {
       "keyword": "terrorist",
       "weight": 84
     },
@@ -1959,28 +1984,24 @@
       "weight": 80
     },
     {
-      "keyword": "missile",
-      "weight": 80
+      "keyword": "killed",
+      "weight": 75
     },
     {
       "keyword": "attack",
-      "weight": 56
+      "weight": 70
+    },
+    {
+      "keyword": "massacre",
+      "weight": 60
     },
     {
       "keyword": "strike",
       "weight": 50
     },
     {
-      "keyword": "killed",
-      "weight": 50
-    },
-    {
       "keyword": "collapse",
       "weight": 48
-    },
-    {
-      "keyword": "massacre",
-      "weight": 30
     },
     {
       "keyword": "emergency",
@@ -1999,19 +2020,25 @@
       "weight": 22
     },
     {
+      "keyword": "terror",
+      "weight": 20
+    },
+    {
       "keyword": "warns",
       "weight": 20
     },
     {
       "keyword": "weapon",
       "weight": 20
-    },
-    {
-      "keyword": "hostage",
-      "weight": 20
     }
   ],
   "all_headlines": [
+    [
+      "Bondi terror attack first responders marry at beach after finding love in massacre’s aftermath",
+      64,
+      "Times of Israel",
+      "https://www.timesofisrael.com/bondi-terror-attack-first-responders-marry-at-beach-after-finding-love-in-massacres-aftermath/"
+    ],
     [
       "Lawsuits allege corner cutting, ignored warnings led to fatal Brooklyn building collapse",
       50,
@@ -2209,6 +2236,12 @@
       25,
       "ABC-AU",
       "https://www.abc.net.au/news/2026-11-21/boy-11-dies-after-being-hit-by-ute-in-kirup/107412608"
+    ],
+    [
+      "Ramle crime families reach reconciliation deal after dozens killed in years-long feud",
+      25,
+      "Times of Israel",
+      "https://www.timesofisrael.com/ramle-crime-families-reach-reconciliation-deal-after-dozens-killed-in-years-long-feud/"
     ],
     [
       "The world’s most powerful frenemies talk nuclear weapons",
@@ -2427,6 +2460,12 @@
       "https://www.abc.net.au/news/2026-11-21/victoria-point-woman-seven-hours-ambulance-before-death/107412858"
     ],
     [
+      "Yemen’s Houthis fire 3 missiles at Riyadh after Saudi coalition’s ‘special operation’",
+      20,
+      "Times of Israel",
+      "https://www.timesofisrael.com/yemens-houthis-fire-3-missiles-at-riyadh-after-saudi-coalitions-special-operation/"
+    ],
+    [
       "217-day underwater patrol of UK's nuclear submarine HMS Vengeance worries experts",
       20,
       "Euronews",
@@ -2529,12 +2568,6 @@
       "https://www.aljazeera.com/video/newsfeed/2026/11/21/french-presidential-candidate-blames-media-for-racist-attack?traffic_source=rss"
     ],
     [
-      "What's behind the uptick in attacks in the Strait of Hormuz?",
-      14,
-      "ABC",
-      "https://abcnews.com/International/strait-hormuz-attacks-increased-highest-level-iran-war/story?id=138304456"
-    ],
-    [
       "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
       14,
       "France24",
@@ -2563,6 +2596,12 @@
       14,
       "ReliefWeb",
       "https://reliefweb.int/report/jamaica/iom-hurricane-melissa-situation-report-20"
+    ],
+    [
+      "Russian cargo vessel linked to defence ministry comes under drone attack near Finland",
+      14,
+      "TOI",
+      "https://timesofindia.indiatimes.com/world/europe/russian-cargo-vessel-linked-to-defence-ministry-comes-under-drone-attack-near-finland/articleshow/136060025.cms"
     ],
     [
       "'Goondaism isn't a bug': BJP, BRS attack Congress over Meta office vandalism",
@@ -2653,6 +2692,12 @@
       10,
       "BBC",
       "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "Russian strike kills two, wounds 60, in Zelenskyy’s hometown",
+      10,
+      "Al Jazeera",
+      "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss"
     ],
     [
       "Israeli strike on vehicle distributing food aid in Gaza kills three",
@@ -2865,96 +2910,6 @@
       "https://news.google.com/rss/articles/CBMieEFVX3lxTE9xWTRMMVRLWlJTa05fZEJNcHNzZ0ZhbTh3UUpMMEI0TlBza3p2cFVYQzlmZnZaa29wX2szalJWV1k0Y1hNX041RUlmM1cwMXhlVDN2U3pLSHVScWd3RWtpbHRoYXduelB3QWJSenhQci12WUhpVE13NA?oc=5"
     ],
     [
-      "Autokiniton announces 136 layoffs in MI",
-      8,
-      "WARN Layoffs",
-      "https://launchyournextchapter.com/layoffs/company/autokiniton"
-    ],
-    [
-      "WHC Payroll Company, dba The Westin Seattle announces 423 layoffs in WA",
-      8,
-      "WARN Layoffs",
-      "https://launchyournextchapter.com/layoffs/company/whc-payroll-company-dba-the-westin-seattle"
-    ],
-    [
-      "Convey Health Solutions announces 126 layoffs in AZ",
-      8,
-      "WARN Layoffs",
-      "https://launchyournextchapter.com/layoffs/company/convey-health-solutions"
-    ],
-    [
-      "Paper Bag Division announces 72 layoffs in CA",
-      8,
-      "WARN Layoffs",
-      "https://launchyournextchapter.com/layoffs/company/paper-bag-division"
-    ],
-    [
-      "Dole Packaged Foods announces 404 layoffs in CA",
-      8,
-      "WARN Layoffs",
-      "https://launchyournextchapter.com/layoffs/company/dole-packaged-foods"
-    ],
-    [
-      "Catholic Charities of the Archdiocese of Galveston-Houston announces 380 layoffs in TX",
-      8,
-      "WARN Layoffs",
-      "https://launchyournextchapter.com/layoffs/company/catholic-charities-of-the-archdiocese-of-galveston-houston"
-    ],
-    [
-      "Full Steam Staffing announces 357 layoffs in MD",
-      8,
-      "WARN Layoffs",
-      "https://launchyournextchapter.com/layoffs/company/full-steam-staffing"
-    ],
-    [
-      "One Source Housekeeping Solution announces 181 layoffs in CA",
-      8,
-      "WARN Layoffs",
-      "https://launchyournextchapter.com/layoffs/company/one-source-housekeeping-solution"
-    ],
-    [
-      "Quad/Graphics announces 48 layoffs in WI",
-      8,
-      "WARN Layoffs",
-      "https://launchyournextchapter.com/layoffs/company/quad-graphics"
-    ],
-    [
-      "Firaxis Games, Inc. announces 37 layoffs in MD",
-      8,
-      "WARN Layoffs",
-      "https://launchyournextchapter.com/layoffs/company/firaxis-games"
-    ],
-    [
-      "Ideal Cabinetry announces 165 layoffs in FL",
-      8,
-      "WARN Layoffs",
-      "https://launchyournextchapter.com/layoffs/company/ideal-cabinetry"
-    ],
-    [
-      "Thompson Hotel announces 140 layoffs in GA",
-      8,
-      "WARN Layoffs",
-      "https://launchyournextchapter.com/layoffs/company/thompson-hotel"
-    ],
-    [
-      "Triple Canopy announces 97 layoffs in WI",
-      8,
-      "WARN Layoffs",
-      "https://launchyournextchapter.com/layoffs/company/triple-canopy"
-    ],
-    [
-      "Sierra Monrovia Sub, LLC announces 74 layoffs in CA",
-      8,
-      "WARN Layoffs",
-      "https://launchyournextchapter.com/layoffs/company/sierra-monrovia-sub"
-    ],
-    [
-      "Demolition notices for buildings in Hebron provoke fear among Palestinians",
-      6,
-      "Al Jazeera",
-      "https://www.aljazeera.com/news/2026/11/21/demolition-notices-for-buildings-in-area-a-of-hebron-spark-fear-among-palestinians?traffic_source=rss"
-    ],
-    [
       "Alexander Zverev faces fresh lawsuit from ex-girlfriend",
       6,
       "DW",
@@ -3031,6 +2986,90 @@
       6,
       "CNN",
       "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYVlDaEVsVkNjNjVsTHhFZE03bXpoQkFJbGRncWRDRzdPZUZqOW95c0JyZXBoLV9DWTBVNEpMeWJ3YnAwdXY2R3lCem14Tkwtdk1aWnpaZWtyaVVwc0dVUFFrbWFRRWVkZkxwLXBralM2Z1ZEVmhpWXJQYllkRldRWnZ3MmJpUVRLVlg3bzlTd2lCUEl6MUV3?oc=5"
+    ],
+    [
+      "Autokiniton announces 136 layoffs in MI",
+      6,
+      "WARN Layoffs",
+      "https://launchyournextchapter.com/layoffs/company/autokiniton"
+    ],
+    [
+      "WHC Payroll Company, dba The Westin Seattle announces 423 layoffs in WA",
+      6,
+      "WARN Layoffs",
+      "https://launchyournextchapter.com/layoffs/company/whc-payroll-company-dba-the-westin-seattle"
+    ],
+    [
+      "Convey Health Solutions announces 126 layoffs in AZ",
+      6,
+      "WARN Layoffs",
+      "https://launchyournextchapter.com/layoffs/company/convey-health-solutions"
+    ],
+    [
+      "Paper Bag Division announces 72 layoffs in CA",
+      6,
+      "WARN Layoffs",
+      "https://launchyournextchapter.com/layoffs/company/paper-bag-division"
+    ],
+    [
+      "Dole Packaged Foods announces 404 layoffs in CA",
+      6,
+      "WARN Layoffs",
+      "https://launchyournextchapter.com/layoffs/company/dole-packaged-foods"
+    ],
+    [
+      "Catholic Charities of the Archdiocese of Galveston-Houston announces 380 layoffs in TX",
+      6,
+      "WARN Layoffs",
+      "https://launchyournextchapter.com/layoffs/company/catholic-charities-of-the-archdiocese-of-galveston-houston"
+    ],
+    [
+      "Full Steam Staffing announces 357 layoffs in MD",
+      6,
+      "WARN Layoffs",
+      "https://launchyournextchapter.com/layoffs/company/full-steam-staffing"
+    ],
+    [
+      "One Source Housekeeping Solution announces 181 layoffs in CA",
+      6,
+      "WARN Layoffs",
+      "https://launchyournextchapter.com/layoffs/company/one-source-housekeeping-solution"
+    ],
+    [
+      "Quad/Graphics announces 48 layoffs in WI",
+      6,
+      "WARN Layoffs",
+      "https://launchyournextchapter.com/layoffs/company/quad-graphics"
+    ],
+    [
+      "Firaxis Games, Inc. announces 37 layoffs in MD",
+      6,
+      "WARN Layoffs",
+      "https://launchyournextchapter.com/layoffs/company/firaxis-games"
+    ],
+    [
+      "Ideal Cabinetry announces 165 layoffs in FL",
+      6,
+      "WARN Layoffs",
+      "https://launchyournextchapter.com/layoffs/company/ideal-cabinetry"
+    ],
+    [
+      "Thompson Hotel announces 140 layoffs in GA",
+      6,
+      "WARN Layoffs",
+      "https://launchyournextchapter.com/layoffs/company/thompson-hotel"
+    ],
+    [
+      "Triple Canopy announces 97 layoffs in WI",
+      6,
+      "WARN Layoffs",
+      "https://launchyournextchapter.com/layoffs/company/triple-canopy"
+    ],
+    [
+      "Sierra Monrovia Sub, LLC announces 74 layoffs in CA",
+      6,
+      "WARN Layoffs",
+      "https://launchyournextchapter.com/layoffs/company/sierra-monrovia-sub"
     ],
     [
       "A capsizing cruise ship and a gutsy risk: How a quick-thinking police chief turned a looming tragedy into a miracle",
@@ -3219,6 +3258,18 @@
       "https://www.bbc.co.uk/iplayer/episode/m000pbnd?at_mid=nQHTb1sAnD&at_campaign=A_Simple_Favour&at_medium=display_ad&at_campaign_type=owned&at_nation=NET&at_audience_id=SS&at_product=iplayer&at_brand=m000pbnd&at_ptr_name=bbc&at_ptr_type=media&at_format=image&at_objective=consumption&at_link_title=A_Simple_Favour&at_bbc_team=BBC&at_creation=film"
     ],
     [
+      "Liverpool vs Manchester United: Premier League – teams, prediction, lineups",
+      0,
+      "Al Jazeera",
+      "https://www.aljazeera.com/sports/2026/11/21/liverpool-vs-manchester-united-premier-league-teams-prediction-lineups?traffic_source=rss"
+    ],
+    [
+      "Chelsea beaten 4-1 by Leeds United in shock home Premier League defeat",
+      0,
+      "Al Jazeera",
+      "https://www.aljazeera.com/sports/2026/11/21/chelsea-beaten-4-1-by-leeds-united-at-home-in-the-premier-league?traffic_source=rss"
+    ],
+    [
       "India’s opposition stages protests against Meta over account removals",
       0,
       "Al Jazeera",
@@ -3301,18 +3352,6 @@
       0,
       "Al Jazeera",
       "https://www.aljazeera.com/video/newsfeed/2026/11/21/migrants-caravan-in-mexico-walks-towards-us-border?traffic_source=rss"
-    ],
-    [
-      "Usman Khawaja and David Warner taken off air over Australia’s Sandpapergate",
-      0,
-      "Al Jazeera",
-      "https://www.aljazeera.com/sports/2026/11/21/usman-khawaja-and-david-warner-taken-off-air-over-australias-sandpapergate?traffic_source=rss"
-    ],
-    [
-      "Cavaliers’ Harden passes Bryant, closes on Jordan in NBA 50-point game list",
-      0,
-      "Al Jazeera",
-      "https://www.aljazeera.com/sports/2026/11/21/cavaliers-james-harden-closes-on-michael-jordan-in-nba-50-point-game-list?traffic_source=rss"
     ],
     [
       "Murder at Mount Hood | Post Mortem",
@@ -3471,6 +3510,12 @@
       "https://www.cbsnews.com/news/royals-kate-princess-of-wales-3-peaks-challenge-uk-cancer-mountains/"
     ],
     [
+      "Trump auditions potential successors as Rubio and Vance join him for White House briefing",
+      0,
+      "PBS",
+      "https://www.pbs.org/newshour/politics/trump-auditions-potential-successors-as-rubio-and-vance-join-him-for-white-house-briefing"
+    ],
+    [
       "Climate talks in overtime as nations wrestle with response to worsening global warming",
       0,
       "PBS",
@@ -3555,10 +3600,10 @@
       "https://www.pbs.org/newshour/politics/watch-cascade-of-tech-outages-separate-events-and-under-control-trump-says"
     ],
     [
-      "WATCH: Trump says he would love former Nvidia CEO Jensen Huang to 'be given a second chance'",
+      "Iran live updates: Trump says Iran doesn't want to make a deal 'acceptable' to him",
       0,
-      "PBS",
-      "https://www.pbs.org/newshour/politics/watch-trump-says-he-would-love-former-nvidia-ceo-jensen-huang-to-be-given-a-second-chance"
+      "ABC",
+      "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
     ],
     [
       "LIVE:  ABC News Live",
@@ -5529,28 +5574,28 @@
       "https://timesofindia.indiatimes.com/india/working-to-suppress-indias-rise-us-panel-report-flags-chinas-support-to-pakistan-during-operation-sindoor/articleshow/136056716.cms"
     ],
     [
-      "Trump says Iran deal could last 20 years, claims US removed Tehran leadership twice",
-      0,
-      "TOI",
-      "https://timesofindia.indiatimes.com/world/us/trump-says-iran-deal-could-last-20-years-claims-us-removed-tehran-leadership-twice-eyes-ultimate-regime-change/articleshow/136058892.cms"
-    ],
-    [
       "As Florida uses robot rabbits to catch pythons; study reveals when snakes climb trees",
       0,
       "TOI",
       "https://timesofindia.indiatimes.com/technology/tech-news/as-florida-uses-robot-rabbits-to-eliminate-growing-population-of-burmese-pythons-study-reveals-when-and-how-these-python-use-trees/articleshow/136048606.cms"
     ],
     [
-      "'Don't dislike BJP': Shehzad on quitting politics, says rift with brother ideological",
+      "Trump says Iran deal could last 20 years, claims US removed Tehran leadership twice",
       0,
       "TOI",
-      "https://timesofindia.indiatimes.com/india/dont-dislike-bjp-shehzad-poonawalla-on-quitting-politics-calls-rift-with-brother-ideological/articleshow/136058361.cms"
+      "https://timesofindia.indiatimes.com/world/us/trump-says-iran-deal-could-last-20-years-claims-us-removed-tehran-leadership-twice-eyes-ultimate-regime-change/articleshow/136058892.cms"
     ],
     [
       "Second judge blocks Trump's 250ft Washington arch, cites no Congress approval",
       0,
       "TOI",
       "https://timesofindia.indiatimes.com/world/us/second-federal-judge-blocks-trumps-proposed-250-foot-washington-arch-near-arlington-national-cemetery-calling-it-a-rushed-job-without-congressional-approval/articleshow/136037773.cms"
+    ],
+    [
+      "'Don't dislike BJP': Shehzad on quitting politics, says rift with brother ideological",
+      0,
+      "TOI",
+      "https://timesofindia.indiatimes.com/india/dont-dislike-bjp-shehzad-poonawalla-on-quitting-politics-calls-rift-with-brother-ideological/articleshow/136058361.cms"
     ],
     [
       "Why India still needs tanks in the age of drones, explained by the man who ran its nukes",
@@ -5595,12 +5640,6 @@
       "https://timesofindia.indiatimes.com/world/us/no-answers-no-funding-us-lawmaker-turns-up-heat-on-musk-over-ukraine-starshield-disruptions/articleshow/136058358.cms"
     ],
     [
-      "IB officer shot at by driver inside Haridwar office",
-      0,
-      "TOI",
-      "https://timesofindia.indiatimes.com/city/dehradun/ib-officer-shot-at-by-driver-inside-haridwar-office-rushed-to-aiims-rishikesh/articleshow/136056957.cms"
-    ],
-    [
       "WWE Survivor Series: Team USA reveals its fifth and final member on SmackDown",
       0,
       "TOI",
@@ -5611,6 +5650,12 @@
       0,
       "TOI",
       "https://timesofindia.indiatimes.com/sports/nfl/news/i-live-alone-and-i-dont-really-care-what-anybody-thinks-travis-kelces-mom-donna-kelce-opened-up-about-living-alone-and-life-away-from-her-sons/articleshow/136024109.cms"
+    ],
+    [
+      "IB officer shot at by driver inside Haridwar office",
+      0,
+      "TOI",
+      "https://timesofindia.indiatimes.com/city/dehradun/ib-officer-shot-at-by-driver-inside-haridwar-office-rushed-to-aiims-rishikesh/articleshow/136056957.cms"
     ],
     [
       "'Character remains same': PM Modi explains his 'don't buy gold' request",
@@ -5739,12 +5784,6 @@
       "https://timesofindia.indiatimes.com/india/no-easy-task-bhagwat-on-100-year-journey-of-akhand-deep-bats-for-discipline-and-dedication/articleshow/136054187.cms"
     ],
     [
-      "Man kills wife in Bengaluru over 'affair'; skeleton found in bag two months later",
-      0,
-      "TOI",
-      "https://timesofindia.indiatimes.com/city/bengaluru/man-kills-wife-in-bengaluru-over-suspected-affair-skeleton-found-two-months-later/articleshow/136032263.cms"
-    ],
-    [
       "Is the Australian Dream easier overseas? Three stories from Berlin",
       0,
       "ABC-AU",
@@ -5869,6 +5908,66 @@
       0,
       "ABC-AU",
       "https://www.abc.net.au/news/2026-11-21/alexandria-ocasio-cortez-aoc-possible-2028-presidential-campaign/107389828"
+    ],
+    [
+      "Al-Qaeda affiliates calling to ’emulate’ attempted flydubai hijacking, US said to warn",
+      0,
+      "Times of Israel",
+      "https://www.timesofisrael.com/al-qaeda-affiliates-calling-to-emulate-attempted-flydubai-hijacking-us-said-to-warn/"
+    ],
+    [
+      "Century-old mistake fixed as Stars of David put on headstones of US Jewish WWI troops",
+      0,
+      "Times of Israel",
+      "https://www.timesofisrael.com/century-old-mistake-fixed-as-stars-of-david-put-on-headstones-of-us-jewish-wwi-troops/"
+    ],
+    [
+      "13-year-old shot dead at close range on his way to school in East Jerusalem’s Shuafat",
+      0,
+      "Times of Israel",
+      "https://www.timesofisrael.com/13-year-old-shot-dead-at-close-range-on-his-way-to-school-in-east-jerusalems-shuafat/"
+    ],
+    [
+      "After US midterm losses, Jewish conservatives confront a changing political landscape",
+      0,
+      "Times of Israel",
+      "https://www.timesofisrael.com/after-us-midterm-losses-jewish-conservatives-confront-a-changing-political-landscape/"
+    ],
+    [
+      "Woman in her 30s dies of rabies after apparently contracting disease from stray dog",
+      0,
+      "Times of Israel",
+      "https://www.timesofisrael.com/woman-in-her-30s-dies-of-rabies-after-apparently-contracting-disease-from-stray-dog/"
+    ],
+    [
+      "‘Obvious Child’: Did you hear the one about the comedian who needed an abortion?",
+      0,
+      "Times of Israel",
+      "https://www.timesofisrael.com/obvious-child-did-you-hear-the-one-about-the-comedian-who-needed-an-abortion/"
+    ],
+    [
+      "Tech stocks plummet worldwide as Anthropic IPO fails to calm AI jitters",
+      0,
+      "Times of Israel",
+      "https://www.timesofisrael.com/tech-stocks-plummet-worldwide-as-anthropic-ipo-fails-to-calm-ai-jitters/"
+    ],
+    [
+      "How a US klezmer group helped Soviet refuseniks by hiding information in a musical cipher",
+      0,
+      "Times of Israel",
+      "https://www.timesofisrael.com/how-a-us-klezmer-group-helped-soviet-refuseniks-by-hiding-information-in-a-musical-cipher/"
+    ],
+    [
+      "Israeli envoy aims to stem damage after saying US troops will only come home when Iran defeated",
+      0,
+      "Times of Israel",
+      "https://www.timesofisrael.com/israeli-envoy-aims-to-stem-damage-after-saying-us-troops-will-only-come-home-when-iran-defeated/"
+    ],
+    [
+      "NFL suspends LA Rams star Puka Nacua after allegations of antisemitism, biting",
+      0,
+      "Times of Israel",
+      "https://www.timesofisrael.com/nfl-suspends-la-rams-star-puka-nacua-after-allegations-of-antisemitism-biting/"
     ],
     [
       "Is Raphael Warnock running for president?",
@@ -7395,6 +7494,12 @@
       "https://reason.com/2026/11/19/california-bans-waymo-from-freeways-is-that-really-safer/"
     ],
     [
+      "Odisha government orders inquiry into foreign visits by former CM Naveen Patnaik, aide Pandian",
+      0,
+      "The Hindu",
+      "https://www.thehindu.com/news/national/odisha/odisha-government-orders-inquiry-into-foreign-visits-by-former-cm-naveen-patnaik-aide-pandian/article71729218.ece"
+    ],
+    [
       "Books more important than ever in the age of AI, says Rammohan Naidu",
       0,
       "The Hindu",
@@ -7713,12 +7818,6 @@
       "https://www.thehindu.com/business/gold-copper-aluminium-dive-to-at-least-7-month-lows/article71729065.ece"
     ],
     [
-      "Human chain for awareness on prevention of child abuse held",
-      0,
-      "The Hindu",
-      "https://www.thehindu.com/news/cities/chennai/human-chain-for-awareness-on-prevention-of-child-abuse-held/article71728547.ece"
-    ],
-    [
       "Trump on Iran deal: 'Current leadership may be more reasonable, but very difficult to deal with'",
       0,
       "Jerusalem Post",
@@ -7839,6 +7938,12 @@
       "https://www.foxnews.com/opinion/americans-dont-choose-between-ai-future-ripping-off-copyright-owners"
     ],
     [
+      "Viral frozen yogurt shop becomes Gen Z’s new neighborhood bar as young adults ditch booze",
+      0,
+      "FOX News",
+      "https://www.foxnews.com/food-drink/viral-frozen-yogurt-shop-becomes-gen-z-neighborhood-bar-young-adults-ditch-booze"
+    ],
+    [
       "California school board defies state by passing policy banning trans athletes from girls sports",
       0,
       "FOX News",
@@ -7945,12 +8050,6 @@
       0,
       "FOX News",
       "https://www.foxnews.com/outkick-betting/college-football-week-12-picks-best-bets-utah-vs-tcu-ucla-vs-michigan-texas-tech-vs-baylor"
-    ],
-    [
-      "Inside the 'Lion’s Den': Real estate brothers bragged about 'hunting' women before 30-year prison terms",
-      0,
-      "FOX News",
-      "https://www.foxnews.com/us/inside-lions-den-real-estate-brothers-bragged-hunting-women-before-30-year-prison-terms"
     ],
     [
       "An extra ‘mini-moon’ will orbit Earth for the next months",
@@ -8133,28 +8232,22 @@
       "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV2JOVHM3SkRGZTR4aHZxQ01abldkTjJQWDBseUZSM3hUaVRwLTh2anlNbTlmLXptQzZER0ZsX3lHRVpRRDAydEVuR2xoREJDYTdnYjM1dUVQOFloc0FpX0hxU3BtZ2RqV0d6cjdxaFZYOU5hSk4yWG81UjhPaXU2Y3dRdWlWQVc0d2VkeFFhb1o?oc=5"
     ],
     [
-      "AI may eliminate jobs, but today’s children can still thrive in an uncertain future",
-      0,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQzdLU3p3dUY2cmppZXpFTXJ2Q3NKUEphT2NhTkJUbzlDSEx3bEZtemgyMGtjdndCNlFCekNFZlYtVmZLaE9PVzRJM3dBUlFPN1B6S1lrSkVYOGNGOGJXSk1jQ1gwRmlGdFk0T2tJSHRIQXVLU3Z3RnI0dThBcGtxMTB3?oc=5"
-    ],
-    [
       "Army’s planned explosion could spread lead dust across Iowa",
       0,
       "CNN",
       "https://news.google.com/rss/articles/CBMinwFBVV95cUxNM25oWUZONmVGV2x1Z0xJU1ZKaTZoeUxKZ2tLVHY3eUZ2S28yVDlGSk1kSm5nWTVUYnBFOHNueGFvcXFiV2hhWE9OTERlOF9xTlp6bGNPT2tRWVBQLTlSam1Ca2loNVJUVjgyakVFUldjVXRySkVvTnliVUlEOUtiMkRXdXdTajM4M0pDZUFIUmZVVVhkWURockdtVkFtRXM?oc=5"
     ],
     [
+      "AI may eliminate jobs, but today’s children can still thrive in an uncertain future",
+      0,
+      "CNN",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQzdLU3p3dUY2cmppZXpFTXJ2Q3NKUEphT2NhTkJUbzlDSEx3bEZtemgyMGtjdndCNlFCekNFZlYtVmZLaE9PVzRJM3dBUlFPN1B6S1lrSkVYOGNGOGJXSk1jQ1gwRmlGdFk0T2tJSHRIQXVLU3Z3RnI0dThBcGtxMTB3?oc=5"
+    ],
+    [
       "Trump doubles down on Putin as ‘my friend’",
       0,
       "CNN",
       "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZVJjRi03dzlGa2VMRjE1OUloVTFMbWlNTXZBY3hQLUFZbnY2WGg0RHJORzNVRkpvYXFPeW0wY1RGRFBvaEdsSzBNOVRGcFE4aFhvaDBSUW5LbkVsM2dOVmtydU1ocnNKLUpidlVCUUEyTU8xNXFUcTUxUEFNeFNUSFYzYTJNbFdONGZDcTZJdw?oc=5"
-    ],
-    [
-      "Outage at NSA’s highly classified communications network has been resolved, sources say",
-      0,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMijgFBVV95cUxOck9MTGhNNDNhVTQzZ2R1NkV2T1FpY1lrYmFfYUNRUE8wenByZGJhRHF5clMxNkh3Qmd3NmtkVjRxREYwYjZJdERnczcwT0FrZ0s0MFkxRlF1bFI5eFVDbktpdnY0Y3VsRTRPbFVvTVJoblQyYWNfVWVtTno0M0ZSaTY0YVI0R25TbUt5TWRn?oc=5"
     ],
     [
       "Storm set to snarl East Coast holiday travel after battering Florida",
@@ -8175,16 +8268,16 @@
       "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6MnZwRGZqSkdDdTRtbFp4R0thbVowazY1amN0cDFkMFJTZVlHZFp1YThFOUNwY0RreElPZ1d3Ym9CU3FpUC1wYWpLR2t1N0RweFlUcWdXZVBRN21YZDUtaVgtazVBenRBQlp3SzUyTWFRaEFlRmVUc3ZB?oc=5"
     ],
     [
-      "‘Drawing a line in the sand’: Democrats put Trump admin on notice over alleged document destruction",
-      0,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNVFWQ1R1Z1JQY1N2ckZPSjB0OTZoVzlENEN5RUQ4TUhya2VQWjg2OTBWaDFxd2pWM2kxbVNEdWx6MGN1RlI2c0lrMUgxb3pZTGg0b0JjUUhDcjc4bVdpbUVEeHZaWXhzdFRvdEFHbF95UEUzVmREcW1TWW9VVnV1aDlSYjdFbHZONjV1Y0JZN1FYSzVTaEJv?oc=5"
-    ],
-    [
       "Older people with religious or spiritual beliefs enjoy better quality of life, study suggests",
       0,
       "CNN",
       "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSDFXcElUYkNQQkEtQ0hpYUNLZTZMMjBaaGh2UkhmRHc1b2dKaUUzUklZU2tFMW92NFpta3NXVC1uRHZra3FfY0ZubWwxazJSOW8zZmFaMmJ2Qy05RVpLby1vdV9ITjM2Z3R0dWtTd3dBRWNMQTAyYkw3Y2FZXzlzTE1HQ2dsbk1XNUNWTjFzVGlJMmc?oc=5"
+    ],
+    [
+      "‘Drawing a line in the sand’: Democrats put Trump admin on notice over alleged document destruction",
+      0,
+      "CNN",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNVFWQ1R1Z1JQY1N2ckZPSjB0OTZoVzlENEN5RUQ4TUhya2VQWjg2OTBWaDFxd2pWM2kxbVNEdWx6MGN1RlI2c0lrMUgxb3pZTGg0b0JjUUhDcjc4bVdpbUVEeHZaWXhzdFRvdEFHbF95UEUzVmREcW1TWW9VVnV1aDlSYjdFbHZONjV1Y0JZN1FYSzVTaEJv?oc=5"
     ],
     [
       "More than a dozen charged in train heist ring that stole $22 million in goods",
@@ -8197,6 +8290,12 @@
       0,
       "CNN",
       "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XNWQ3Y2hUb1M3Vk43V1FqaXZBV29lbGZHeTZIYnRvek9nQ3JFZE9rQXgzNktfUHpVTUl1M1Z1cm05UlN1SnBRQlU2VlVjeEowZHFlZHZsOTNVbWZQNGRDRENDUWlsUFF0MEE5WU5xMU4?oc=5"
+    ],
+    [
+      "Outage at NSA’s highly classified communications network has been resolved, sources say",
+      0,
+      "CNN",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxOck9MTGhNNDNhVTQzZ2R1NkV2T1FpY1lrYmFfYUNRUE8wenByZGJhRHF5clMxNkh3Qmd3NmtkVjRxREYwYjZJdERnczcwT0FrZ0s0MFkxRlF1bFI5eFVDbktpdnY0Y3VsRTRPbFVvTVJoblQyYWNfVWVtTno0M0ZSaTY0YVI0R25TbUt5TWRn?oc=5"
     ],
     [
       "How the NBA’s master of movement, Hakeem Olajuwon, is shaping new players",
@@ -8223,12 +8322,6 @@
       "https://news.google.com/rss/articles/CBMifkFVX3lxTE9TRWROV19HUjJ2MDdNdmdfMXBRZDhXUkFxdjEzU01lSmFfdUpvbC1qdEtxRk1uSHFQVUJFMURpd002Zzllajh3NVE3RWN5MWxicFI2dzhfUzNMZkl0ci1DWElGX3dMaHRyNl9JQ0NUZWsyd3ZFS0M0YzZyS0ZLZw?oc=5"
     ],
     [
-      "Ten years on, is the UK preparing to undo Brexit?",
-      0,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMifEFVX3lxTFBxdDNQWlFzNk9WR3pLNGgzcFY0THFXbDg2cGZVMzRtckxxeU9sVEhMYjUyR0VMdDh3aTFoU2NRSWRqNkZ6UmJZdkl0dnZCdUhZOEs4ZUxPSTBGR3hJYW50RXI3bnpHZWF2X3ZpbkZyZldzTm5WRzRRUUVXMVU?oc=5"
-    ],
-    [
       "Cybersecurity expert tells Erin Burnett client attacked in 14 minutes, fastest breach he’s seen",
       0,
       "CNN",
@@ -8245,6 +8338,12 @@
       0,
       "CNN",
       "https://news.google.com/rss/articles/CBMifEFVX3lxTE16bUU5S2ZDSlZ3aGZMNFFjajdWQlpJUWNNbFNDVkpzX3lrR3k1azQybWVNVTZnTlplVU9xTXlrTTR1bFlYOFhQbjhhNUpFSmNhdXUwa2NGaHdoZDFRRC1STmJUeWx0SkpmamkxN21iX1UwZHNVRUZtUFBXeno?oc=5"
+    ],
+    [
+      "Ten years on, is the UK preparing to undo Brexit?",
+      0,
+      "CNN",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE1TZGJoeWlWWkgtMGFsaDNiLUhOWGFtSTlOZlR6c3QxMEE5U2FjNTN0aWZYTnlQYm9JbVhsblBMZ29SRndkYWhLTXViLWxtYk9TaklOVlIxVllNekFTcGQ3OW9VeC0ySHk5NWNXTjZaUTNVQkdDOFBn?oc=5"
     ],
     [
       "The world is experiencing ‘GTA VI’ together — players and spectators alike | CNN Business",
@@ -8271,10 +8370,10 @@
       "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQVVGb0VrWjU4RjZtdU1QNGdMUjJhNWtDRlF6NWFxUVBGN2pqdlFsRGg1emVXMTAzR3dUeEtYV0xsY0ZDMHk1N181blRKVTgxdXd0WkswMzFZVnV3MThKUjNNWnJtRDRsSDJISjVsbkVVNjBLZWhEbGxWVk1pc2RVd1U1NlRDRS14OGlQRQ?oc=5"
     ],
     [
-      "DHS pushes through billions for deportations, border projects as Democrats prepare to ramp up oversight",
+      "Georgia O’Keeffe painting found hidden away in a woman’s closet sells for over $4.8M",
       0,
       "CNN",
-      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbjF1dTMwc2JsaVN5b2Y1cV9TZW1Xa3ZRcVBWUDNuUzI4Qm9OR0RZdUk5bGVnWUtaS2FuV0JsbmpQVWxZX2oxdTZSV0s2aU9QbDNRb2FPY0NfSl8yWmhHOXZOTDRfTURUc053eW82T0FENWJBQU5Qb1lQVmJpUDB4R1l1T1kyU0hf?oc=5"
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRUNVYnBmR0FOZlZTMGdIc3JmZG1OYmhxQ2tCRk44WWl3VFBfWUlCaWdEcF9hX0pTX3h3aDdaSm1veTZlQ050aUZwMnJrS2hUNmNoR2tZNzdzV2dDY1VENmt1bWlBWDdCRXdSQ0JUQk0yWGhTVDBPV3Q1bF95OWduWEhFcjM3by1HUERnUVh4clBiUFBINEYxaDR3?oc=5"
     ],
     [
       "Iran’s oil leverage is weakening. That could push it toward escalation",
@@ -8283,16 +8382,16 @@
       "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSC1SbFVLc2F5bWFZaEVsbVZzeHRzY01aWWJIMjliY3R6SXdyRzAyWDJ1VnIzazBndzFsMUNaZll0NlpxV2g4clhMaUhQUGJ0b1VhNHp3cy0wR29OMjJXbTVoSFJrVWxKb1dQVEZCSHplcFA4ZnYxTk9TUEhPTnkybA?oc=5"
     ],
     [
-      "Behind the scenes with Kaitlan Collins: Trump meets with Xi and Putin at historic summit",
+      "DHS pushes through billions for deportations, border projects as Democrats prepare to ramp up oversight",
       0,
       "CNN",
-      "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ0RNOEV0dTlTczFKUUdwU2F5RXEwWnUtLTI3dGJmTzZVNE5DeXJUZnptb3ltaXU0YjlVYzlTV09pZ0l2SmNLSFFUckRoSWl0TUYzbDV2MXNDV1hOMDExRENBV1pZellDd1ZOQWZiX21fTnhEZ0NSYXZCRnk0MDhpaGZEUEZLSWJObkVpdjBLaGY5N2FrS2EteUVzNmUtaEdEeWRwaVJRLXhvMG93SzBSU0FqcE1STm9aWS04OUVyMVZBSWJHZHc?oc=5"
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbjF1dTMwc2JsaVN5b2Y1cV9TZW1Xa3ZRcVBWUDNuUzI4Qm9OR0RZdUk5bGVnWUtaS2FuV0JsbmpQVWxZX2oxdTZSV0s2aU9QbDNRb2FPY0NfSl8yWmhHOXZOTDRfTURUc053eW82T0FENWJBQU5Qb1lQVmJpUDB4R1l1T1kyU0hf?oc=5"
     ],
     [
-      "Georgia O’Keeffe painting found hidden away in a woman’s closet sells for over $4.8M",
+      "4DX: Sex scenes feel good in a place like this",
       0,
       "CNN",
-      "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMEc2X1U4aHVFVWtvaHllVVNwNU1uNFhfWXZGWlBBMVViX2lIOVVGcF8tbnlQckxhaWxRa1A4bTlaNHc5TE5nMWNEOXMzV0tGSURfOUhQM212TmZmWGVfYV82bGNNWUZDQ0w5d0l6UExzaTZ1c2lLc1dGQVpIRTF5YktkVzBScFRFQWRhemZIMDg1eVc3bGJ5WS1yQXZ5enM?oc=5"
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTE1UTWFOX0ZpMjJDQXlRN21ncUJ2cXlRTXlyQVY5NUEwLXpRVkNoR3RHamN4Mml0Z0hKOVM1d3pEUXE1N1lXaEVwVmtvdU9FYkRJMkloamVHSTZGM2ZFNFVpSXlBYjRXOEdldkd3cXFuWVJVZWRTNl9Sc0JR?oc=5"
     ],
     [
       "How two words could derail the world’s biggest climate conference",
@@ -8301,10 +8400,10 @@
       "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdHJzTXlIWUhVS01FTHRucXMwZGRvNURkZ3dxUzR3OFI5c2c0THZwd0otNERxR2xNRlMtdUhSc2ZJRGkzRmlmSk9JSG9Jai1lQ08zRUdNakZzUlpRVTZzSjVKZmUyVG54eWc5X0JuVFJ0a1RCV3JjbGpfV292NXhyMUx4NWRpVHhXd0tqZXREMFNId3BiMVE?oc=5"
     ],
     [
-      "4DX: Sex scenes feel good in a place like this",
+      "Behind the scenes with Kaitlan Collins: Trump meets with Xi and Putin at historic summit",
       0,
       "CNN",
-      "https://news.google.com/rss/articles/CBMiekFVX3lxTE1UTWFOX0ZpMjJDQXlRN21ncUJ2cXlRTXlyQVY5NUEwLXpRVkNoR3RHamN4Mml0Z0hKOVM1d3pEUXE1N1lXaEVwVmtvdU9FYkRJMkloamVHSTZGM2ZFNFVpSXlBYjRXOEdldkd3cXFuWVJVZWRTNl9Sc0JR?oc=5"
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ0RNOEV0dTlTczFKUUdwU2F5RXEwWnUtLTI3dGJmTzZVNE5DeXJUZnptb3ltaXU0YjlVYzlTV09pZ0l2SmNLSFFUckRoSWl0TUYzbDV2MXNDV1hOMDExRENBV1pZellDd1ZOQWZiX21fTnhEZ0NSYXZCRnk0MDhpaGZEUEZLSWJObkVpdjBLaGY5N2FrS2EteUVzNmUtaEdEeWRwaVJRLXhvMG93SzBSU0FqcE1STm9aWS04OUVyMVZBSWJHZHc?oc=5"
     ],
     [
       "Elon Musk distances himself from MAGA, says he feels ‘foolish’",
@@ -8365,12 +8464,6 @@
       0,
       "CNN",
       "https://news.google.com/rss/articles/CBMie0FVX3lxTE1oM3cyOWU5SUVoM0hFNXhMMXl4UjFlNy1YQlFRemV2NnN1c2EyTVhMMFlwc1ZKa2ppU3NWb3BXQk9RMDhheG50bUs2UFVuZ2dMa3QyRFhTa2RsU2hERmRpYk1EMjJJU3RSUWlEc3FrSzllOElwRVN6eXZLaw?oc=5"
-    ],
-    [
-      "NYT reporter: Alice Huang’s family has deep ties to China’s defense industry",
-      0,
-      "CNN",
-      "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbkt5c2dzZGEtZUUyNVg3REx0dWhUZVppb3Q5Uy1IeGFVSi1OTHE0b0doZlpCRWtpN2J5VVBiSVItTkJnM2VEZmw2akF4YU94YUdYSGZCODFBY0xOTmRrYms2U3ptOEstLVI4OGRBTHFCZUxoM19iWVZDYzZYSTRUV3FBaGQyTm9QVHptTDdoQTBuck9saV9F?oc=5"
     ]
   ]
 }
