@@ -2436,5 +2436,78 @@
         "source": "Al Jazeera"
       }
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "score": 8.5,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "BBC": 0.0,
+      "Al Jazeera": 32.0,
+      "CBS": 10.0,
+      "PBS": 25.0,
+      "ABC": 8.0,
+      "NBC": 16.0,
+      "Sky": 28.6,
+      "DW": 2.2,
+      "France24": 8.3,
+      "Guardian": 24.4,
+      "The Hill": 7.0,
+      "ZeroHedge": 8.0,
+      "TOI": 4.4,
+      "ABC-AU": 12.0,
+      "Slate": 4.0,
+      "Vox": 20.0,
+      "Euronews": 8.0,
+      "CNBC": 3.3,
+      "ProPublica": 10.0,
+      "Japan Times": 6.7,
+      "The Diplomat": 10.4,
+      "Reason": 2.1,
+      "The Hindu": 6.7,
+      "Jerusalem Post": 16.0,
+      "FOX News": 12.0,
+      "CNN": 5.0
+    },
+    "topics": {
+      "War": 36.4,
+      "Disaster": 4.5,
+      "Crime": 4.5,
+      "Economy": 2.3,
+      "Politics": 1.1,
+      "Health": 1.1
+    },
+    "top_keywords": [
+      "genocide",
+      "war",
+      "killed"
+    ],
+    "top": [
+      {
+        "title": "IDF strikes Hamas terror meeting in Gaza, one suspect killed in West Bank incident",
+        "score": 55,
+        "source": "Jerusalem Post"
+      },
+      {
+        "title": "Lawsuits allege corner cutting, ignored warnings led to fatal Brooklyn building collapse",
+        "score": 50,
+        "source": "PBS"
+      },
+      {
+        "title": "Nidal Hasan is set to be executed. The military's other death row cases are in limbo",
+        "score": 42,
+        "source": "ABC"
+      },
+      {
+        "title": "WATCH:  New video angle shows moment of Brooklyn apartment building's deadly collapse",
+        "score": 38,
+        "source": "ABC"
+      },
+      {
+        "title": "Verdict reached in Los Angeles retrial over 2025 Pacific Palisades wildfire that killed 12 people",
+        "score": 37,
+        "source": "FOX News"
+      }
+    ]
   }
 ]
