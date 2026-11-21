@@ -2364,24 +2364,23 @@
   },
   {
     "date": "2026-11-20",
-    "score": 8.9,
+    "score": 9.2,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 20.0,
-      "BBC": 20.7,
-      "Al Jazeera": 4.0,
-      "CBS": 13.3,
-      "PBS": 20.0,
-      "ABC": 16.0,
-      "NBC": 8.0,
-      "Sky": 28.6,
+      "BBC": 6.2,
+      "Al Jazeera": 20.0,
+      "CBS": 6.7,
+      "PBS": 25.0,
+      "ABC": 8.0,
+      "NBC": 24.0,
+      "Sky": 33.3,
       "DW": 2.2,
-      "France24": 4.2,
-      "Guardian": 20.0,
-      "The Hill": 9.0,
-      "ZeroHedge": 8.0,
-      "ReliefWeb": 10.0,
-      "TOI": 12.8,
+      "France24": 12.5,
+      "Guardian": 22.2,
+      "The Hill": 6.0,
+      "ZeroHedge": 4.0,
+      "ReliefWeb": 5.0,
+      "TOI": 17.0,
       "ABC-AU": 12.0,
       "Slate": 4.0,
       "Vox": 20.0,
@@ -2389,20 +2388,21 @@
       "CNBC": 3.3,
       "ProPublica": 10.0,
       "Dawn": 6.9,
-      "Japan Times": 10.0,
+      "Japan Times": 3.3,
       "The Diplomat": 10.4,
-      "Reason": 0.0,
-      "The Hindu": 3.3,
-      "Jerusalem Post": 20.0,
-      "FOX News": 8.0,
+      "Reason": 2.1,
+      "The Hindu": 5.0,
+      "Jerusalem Post": 41.7,
+      "FOX News": 12.0,
       "CNN": 7.0
     },
     "topics": {
-      "War": 39.2,
-      "Economy": 5.2,
-      "Disaster": 4.1,
-      "Crime": 3.1,
-      "Health": 2.1
+      "War": 35.0,
+      "Disaster": 8.0,
+      "Economy": 5.0,
+      "Crime": 3.0,
+      "Politics": 1.0,
+      "Health": 1.0
     },
     "top_keywords": [
       "genocide",
@@ -2421,19 +2421,19 @@
         "source": "Dawn"
       },
       {
-        "title": "Russia's war spills into Poland as missile crashes near Ukraine border",
-        "score": 58,
-        "source": "TOI"
+        "title": "IDF strikes Hamas terror meeting in Gaza, one suspect killed in West Bank incident",
+        "score": 55,
+        "source": "Jerusalem Post"
       },
       {
-        "title": "Deadly Russian strikes hit 3 Kyiv bridges after Putin vows revenge for Crimea attacks",
-        "score": 46,
-        "source": "NBC"
+        "title": "Lawsuits allege corner cutting, ignored warnings led to fatal Brooklyn building collapse",
+        "score": 50,
+        "source": "PBS"
       },
       {
-        "title": "Iran widens Gulf attacks after US strikes missile launch site",
-        "score": 44,
-        "source": "CNN"
+        "title": "Iran war live: Saudi-led coalition downs Houthi missiles",
+        "score": 42,
+        "source": "Al Jazeera"
       }
     ]
   }
