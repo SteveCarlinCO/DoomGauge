@@ -130,5 +130,10 @@
   {
     "name": "MSNBC",
     "url": "https://news.google.com/rss/search?q=site%3Amsnbc.com&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "name": "WARN Layoffs",
+    "url": "https://www.launchyournextchapter.com/data/layoffs.csv",
+    "type": "warncsv"
   }
 ]

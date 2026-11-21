@@ -14,6 +14,7 @@ import sys
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
+from html import unescape
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -116,6 +117,42 @@ def titles_from_xml(raw):
                 link = e.find("a:link", ns)
                 href = link.get("href", "") if link is not None else ""
                 out.append((t.strip(), href.strip()))
+    return out
+
+
+def titles_from_warn_csv(raw):
+    """NextChapter's layoffs CSV is the WARN filings themselves, collected
+    daily from state labor departments - the same notices Kadoa republishes,
+    as a data file instead of an HTML table. The newest 25 filings with a
+    worker count become headline-shaped items."""
+    import csv
+    import io
+    text = raw.decode("utf-8-sig", "replace") if isinstance(raw, bytes) else raw
+    rows = []
+    for r in csv.DictReader(io.StringIO(text)):
+        try:
+            workers = int((r.get("workers") or "").replace(",", "").strip())
+        except ValueError:
+            continue
+        company = (r.get("employer") or "").strip()
+        state = (r.get("state") or "").strip()
+        if workers <= 0 or not company or not state:
+            continue
+        link = ((r.get("nextchapter_url") or "").strip()
+                or (r.get("source_url") or "").strip())
+        rows.append(((r.get("notice_date") or "").strip(), workers, company,
+                     state, link))
+    rows.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    out, seen = [], set()
+    for _, workers, company, state, link in rows:
+        key = (company, state, workers)
+        if key in seen:
+            continue
+        seen.add(key)
+        noun = "layoff" if workers == 1 else "layoffs"
+        out.append((f"{company} announces {workers:,} {noun} in {state}", link))
+        if len(out) >= 25:
+            break
     return out
 
 
@@ -342,7 +379,11 @@ def main():
     for f in feeds:
         name, url = f["name"], f["url"]
         try:
-            items = titles_from_xml(fetch(url))
+            raw = fetch(url)
+            if f.get("type") == "warncsv":
+                items = titles_from_warn_csv(raw)
+            else:
+                items = titles_from_xml(raw)
             if "news.google.com" in url:
                 items = [(clean_gnews_title(t, url), l) for t, l in items]
         except Exception as ex:  # noqa: BLE001 - one bad feed must not kill the run

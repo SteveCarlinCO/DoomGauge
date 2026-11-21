@@ -100,7 +100,8 @@
     "Japan Times": "japantimes.co.jp", "The Diplomat": "thediplomat.com",
     "Reason": "reason.com", "The Hindu": "thehindu.com",
     "Jerusalem Post": "jpost.com", "FOX News": "foxnews.com",
-    "CNN": "cnn.com", "MSNBC": "msnbc.com", "CBC": "cbc.ca"
+    "CNN": "cnn.com", "MSNBC": "msnbc.com", "CBC": "cbc.ca",
+    "WARN Layoffs": "launchyournextchapter.com"
   };
   function logoFor(name) {
     var d = LOGOS[name];
