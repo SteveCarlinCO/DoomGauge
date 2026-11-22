@@ -77,61 +77,56 @@
   },
   {
     "date": "2026-11-21",
-    "score": 8.5,
+    "score": 9.1,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 10.0,
-      "BBC": 2.7,
-      "Al Jazeera": 8.0,
-      "CBS": 6.7,
+      "BBC": 0.0,
+      "Al Jazeera": 16.0,
+      "CBS": 10.0,
       "PBS": 15.0,
       "ABC": 8.0,
       "NBC": 8.0,
-      "Sky": 14.3,
+      "Sky": 16.7,
       "DW": 2.9,
       "France24": 8.3,
-      "Guardian": 31.1,
+      "Guardian": 28.9,
       "The Hill": 8.0,
       "ZeroHedge": 16.0,
       "ReliefWeb": 5.0,
-      "TOI": 11.4,
-      "ABC-AU": 12.0,
+      "TOI": 19.6,
+      "ABC-AU": 16.0,
       "Vox": 20.0,
       "Euronews": 6.0,
       "CNBC": 3.3,
       "ProPublica": 10.0,
-      "Dawn": 7.1,
+      "Dawn": 6.9,
       "Japan Times": 6.7,
       "The Diplomat": 10.4,
       "Reason": 2.1,
-      "The Hindu": 10.0,
-      "Jerusalem Post": 15.4,
-      "FOX News": 4.0,
-      "CNN": 6.0,
+      "The Hindu": 5.0,
+      "Jerusalem Post": 19.2,
+      "FOX News": 12.0,
+      "CNN": 7.0,
       "WARN Layoffs": 0.0
     },
     "topics": {
-      "War": 37.4,
-      "Crime": 9.9,
-      "Disaster": 3.3,
-      "Economy": 3.3,
-      "Politics": 2.2
+      "War": 37.8,
+      "Crime": 7.1,
+      "Economy": 5.1,
+      "Disaster": 3.1,
+      "Politics": 2.0
     },
     "top_keywords": [
-      "genocide",
       "war",
+      "genocide",
       "death"
     ],
     "top": [
       {
-        "title": "Mexico drug cartel leader's arrest sparks deadly violence in Sinaloa; 11 killed",
-        "score": 55,
+        "title": "Ohio shooting: 3 killed, 1 injured at event venue; two suspects in custody",
+        "score": 49,
         "source": "TOI"
-      },
-      {
-        "title": "Tasmania Police investigate man's death and shooting of officer",
-        "score": 44,
-        "source": "ABC-AU"
       },
       {
         "title": "Nidal Hasan is set to be executed. The military's other death row cases are in limbo",
@@ -139,14 +134,19 @@
         "source": "ABC"
       },
       {
-        "title": "WATCH:  New video angle shows moment of Brooklyn apartment building's deadly collapse",
-        "score": 38,
-        "source": "ABC"
+        "title": "Finland warns Ukraine war ‘spilling over’ after Baltic Sea drone strike on Russian cargo ship",
+        "score": 42,
+        "source": "CNN"
       },
       {
-        "title": "Deadly attack in Kyiv as Russia launches barrage against Ukraine",
-        "score": 36,
-        "source": "Al Jazeera"
+        "title": "9 family members killed as pilgrims' vehicle crashes into truck in Rajasthan",
+        "score": 41,
+        "source": "TOI"
+      },
+      {
+        "title": "Brooklyn musician says landlord ignored cracks before collapse killed 8; sues",
+        "score": 41,
+        "source": "TOI"
       }
     ]
   }
