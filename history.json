@@ -149,5 +149,78 @@
         "source": "TOI"
       }
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "score": 8.3,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 10.0,
+      "BBC": 2.8,
+      "Al Jazeera": 8.0,
+      "CBS": 10.0,
+      "PBS": 15.0,
+      "ABC": 8.0,
+      "NBC": 4.0,
+      "DW": 3.6,
+      "France24": 8.3,
+      "Guardian": 22.2,
+      "The Hill": 9.0,
+      "ZeroHedge": 16.0,
+      "TOI": 6.4,
+      "ABC-AU": 16.0,
+      "Vox": 20.0,
+      "Euronews": 6.0,
+      "CNBC": 3.3,
+      "ProPublica": 10.0,
+      "Dawn": 10.3,
+      "Japan Times": 0.0,
+      "The Diplomat": 10.4,
+      "Reason": 2.1,
+      "The Hindu": 6.7,
+      "Jerusalem Post": 15.4,
+      "FOX News": 16.0,
+      "CNN": 7.0,
+      "WARN Layoffs": 0.0
+    },
+    "topics": {
+      "War": 38.6,
+      "Economy": 6.8,
+      "Crime": 6.8,
+      "Disaster": 3.4,
+      "Politics": 3.4
+    },
+    "top_keywords": [
+      "war",
+      "genocide",
+      "killed"
+    ],
+    "top": [
+      {
+        "title": "3 TTP-linked terrorists killed in village on outskirts of Peshawar: CTD",
+        "score": 53,
+        "source": "Dawn"
+      },
+      {
+        "title": "Three killed, one injured in shooting at Ohio baby shower, police say",
+        "score": 49,
+        "source": "FOX News"
+      },
+      {
+        "title": "Nidal Hasan is set to be executed. The military's other death row cases are in limbo",
+        "score": 42,
+        "source": "ABC"
+      },
+      {
+        "title": "Iran wants no more war, Trump insists on nuclear guarantees",
+        "score": 42,
+        "source": "The Hindu"
+      },
+      {
+        "title": "Finland warns Ukraine war ‘spilling over’ after Baltic Sea drone strike on Russian cargo ship",
+        "score": 42,
+        "source": "CNN"
+      }
+    ]
   }
 ]
