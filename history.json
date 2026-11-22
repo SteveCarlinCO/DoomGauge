@@ -152,47 +152,46 @@
   },
   {
     "date": "2026-11-22",
-    "score": 8.3,
+    "score": 7.8,
     "verdict": "Mostly survivable.",
     "sources": {
-      "NPR": 10.0,
-      "BBC": 2.8,
-      "Al Jazeera": 8.0,
-      "CBS": 10.0,
-      "PBS": 15.0,
+      "BBC": 3.7,
+      "Al Jazeera": 20.0,
+      "PBS": 5.0,
       "ABC": 8.0,
-      "NBC": 4.0,
-      "DW": 3.6,
+      "DW": 2.9,
       "France24": 8.3,
       "Guardian": 22.2,
-      "The Hill": 9.0,
-      "ZeroHedge": 16.0,
-      "TOI": 6.4,
-      "ABC-AU": 16.0,
-      "Vox": 20.0,
-      "Euronews": 6.0,
+      "The Hill": 7.0,
+      "ZeroHedge": 8.0,
+      "ReliefWeb": 5.0,
+      "TOI": 8.5,
+      "ABC-AU": 4.0,
+      "Vox": 10.0,
+      "Euronews": 4.0,
       "CNBC": 3.3,
       "ProPublica": 10.0,
       "Dawn": 10.3,
-      "Japan Times": 0.0,
+      "Japan Times": 6.7,
       "The Diplomat": 10.4,
       "Reason": 2.1,
       "The Hindu": 6.7,
       "Jerusalem Post": 15.4,
-      "FOX News": 16.0,
-      "CNN": 7.0,
+      "FOX News": 12.0,
+      "CNN": 8.0,
       "WARN Layoffs": 0.0
     },
     "topics": {
-      "War": 38.6,
-      "Economy": 6.8,
-      "Crime": 6.8,
-      "Disaster": 3.4,
-      "Politics": 3.4
+      "War": 30.4,
+      "Crime": 6.3,
+      "Economy": 5.1,
+      "Politics": 2.5,
+      "Disaster": 1.3,
+      "Health": 1.3
     },
     "top_keywords": [
-      "war",
       "genocide",
+      "war",
       "killed"
     ],
     "top": [
@@ -202,24 +201,24 @@
         "source": "Dawn"
       },
       {
-        "title": "Three killed, one injured in shooting at Ohio baby shower, police say",
+        "title": "3 killed and 1 wounded in shooting at Ohio baby shower, police say; 1 man in custody",
         "score": 49,
-        "source": "FOX News"
+        "source": "CNN"
+      },
+      {
+        "title": "Indonesia factory hit by deadly blaze: Three killed and 36 missing",
+        "score": 47,
+        "source": "France24"
+      },
+      {
+        "title": "Japan death-row inmate in 1970s corporate bombings dies",
+        "score": 45,
+        "source": "Japan Times"
       },
       {
         "title": "Nidal Hasan is set to be executed. The military's other death row cases are in limbo",
         "score": 42,
         "source": "ABC"
-      },
-      {
-        "title": "Iran wants no more war, Trump insists on nuclear guarantees",
-        "score": 42,
-        "source": "The Hindu"
-      },
-      {
-        "title": "Finland warns Ukraine war ‘spilling over’ after Baltic Sea drone strike on Russian cargo ship",
-        "score": 42,
-        "source": "CNN"
       }
     ]
   }
