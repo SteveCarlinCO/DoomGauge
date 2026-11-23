@@ -152,46 +152,47 @@
   },
   {
     "date": "2026-11-22",
-    "score": 7.8,
+    "score": 7.9,
     "verdict": "Mostly survivable.",
     "sources": {
-      "BBC": 3.7,
-      "Al Jazeera": 20.0,
+      "NPR": 10.0,
+      "BBC": 0.0,
+      "Al Jazeera": 16.0,
       "PBS": 5.0,
       "ABC": 8.0,
       "DW": 2.9,
-      "France24": 8.3,
-      "Guardian": 22.2,
+      "France24": 4.2,
+      "Guardian": 17.8,
       "The Hill": 7.0,
-      "ZeroHedge": 8.0,
-      "ReliefWeb": 5.0,
-      "TOI": 8.5,
-      "ABC-AU": 4.0,
+      "ZeroHedge": 12.0,
+      "ReliefWeb": 15.0,
+      "TOI": 8.9,
+      "ABC-AU": 12.0,
       "Vox": 10.0,
       "Euronews": 4.0,
       "CNBC": 3.3,
       "ProPublica": 10.0,
       "Dawn": 10.3,
-      "Japan Times": 6.7,
+      "Japan Times": 10.0,
       "The Diplomat": 10.4,
       "Reason": 2.1,
-      "The Hindu": 6.7,
-      "Jerusalem Post": 15.4,
+      "The Hindu": 8.3,
+      "Jerusalem Post": 7.7,
       "FOX News": 12.0,
-      "CNN": 8.0,
+      "CNN": 9.0,
       "WARN Layoffs": 0.0
     },
     "topics": {
-      "War": 30.4,
-      "Crime": 6.3,
-      "Economy": 5.1,
-      "Politics": 2.5,
-      "Disaster": 1.3,
-      "Health": 1.3
+      "War": 32.1,
+      "Economy": 4.9,
+      "Crime": 4.9,
+      "Politics": 3.7,
+      "Disaster": 2.5,
+      "Health": 2.5
     },
     "top_keywords": [
-      "genocide",
       "war",
+      "genocide",
       "killed"
     ],
     "top": [
@@ -216,9 +217,9 @@
         "source": "Japan Times"
       },
       {
-        "title": "Nidal Hasan is set to be executed. The military's other death row cases are in limbo",
-        "score": 42,
-        "source": "ABC"
+        "title": "Iran war live: Tankers set ablaze in Hormuz as IRGC warns of unrest threat",
+        "score": 44,
+        "source": "Al Jazeera"
       }
     ]
   }
