@@ -222,5 +222,77 @@
         "source": "Al Jazeera"
       }
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "score": 7.2,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 20.0,
+      "BBC": 9.1,
+      "Al Jazeera": 4.0,
+      "CBS": 3.3,
+      "PBS": 5.0,
+      "ABC": 8.0,
+      "NBC": 0.0,
+      "DW": 2.9,
+      "France24": 8.3,
+      "Guardian": 17.8,
+      "The Hill": 7.0,
+      "ZeroHedge": 8.0,
+      "TOI": 9.1,
+      "ABC-AU": 20.0,
+      "Vox": 10.0,
+      "Euronews": 4.0,
+      "CNBC": 6.7,
+      "ProPublica": 10.0,
+      "Dawn": 0.0,
+      "Japan Times": 0.0,
+      "The Diplomat": 11.5,
+      "Reason": 2.1,
+      "The Hindu": 1.7,
+      "Jerusalem Post": 11.5,
+      "FOX News": 16.0,
+      "WARN Layoffs": 0.0
+    },
+    "topics": {
+      "War": 33.8,
+      "Economy": 11.8,
+      "Crime": 4.4,
+      "Disaster": 2.9,
+      "Politics": 2.9
+    },
+    "top_keywords": [
+      "genocide",
+      "war",
+      "killed"
+    ],
+    "top": [
+      {
+        "title": "Indonesia factory hit by deadly blaze: Three killed and 36 missing",
+        "score": 47,
+        "source": "France24"
+      },
+      {
+        "title": "Final charges dropped in cold case shooting death of Omega Ruston",
+        "score": 44,
+        "source": "ABC-AU"
+      },
+      {
+        "title": "Nidal Hasan is set to be executed. The military's other death row cases are in limbo",
+        "score": 42,
+        "source": "ABC"
+      },
+      {
+        "title": "Two youths killed as bike crashes into footpath in Kochi",
+        "score": 41,
+        "source": "The Hindu"
+      },
+      {
+        "title": "WATCH:  New video angle shows moment of Brooklyn apartment building's deadly collapse",
+        "score": 38,
+        "source": "ABC"
+      }
+    ]
   }
 ]
