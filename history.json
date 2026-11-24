@@ -299,5 +299,82 @@
         "source": "ABC"
       }
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "score": 9.8,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 0.0,
+      "BBC": 6.2,
+      "Al Jazeera": 20.0,
+      "CBS": 3.3,
+      "PBS": 10.0,
+      "ABC": 4.0,
+      "NBC": 16.0,
+      "Sky": 25.0,
+      "DW": 6.3,
+      "France24": 12.5,
+      "Guardian": 11.1,
+      "The Hill": 6.0,
+      "ZeroHedge": 8.0,
+      "ReliefWeb": 10.0,
+      "TOI": 11.1,
+      "ABC-AU": 8.0,
+      "Slate": 8.0,
+      "Vox": 0.0,
+      "Euronews": 14.0,
+      "CNBC": 6.7,
+      "ProPublica": 10.0,
+      "Dawn": 12.0,
+      "Japan Times": 13.3,
+      "The Diplomat": 12.5,
+      "Reason": 2.1,
+      "The Hindu": 6.7,
+      "Jerusalem Post": 23.1,
+      "FOX News": 24.0,
+      "CNN": 11.0,
+      "WARN Layoffs": 0.0
+    },
+    "topics": {
+      "War": 28.3,
+      "Economy": 7.5,
+      "Crime": 4.7,
+      "Disaster": 3.8,
+      "Health": 3.8,
+      "Politics": 1.9
+    },
+    "top_keywords": [
+      "war",
+      "death",
+      "killed"
+    ],
+    "top": [
+      {
+        "title": "Leaked data suggests 500,000 Russian soldiers killed since start of Ukraine invasion",
+        "score": 50,
+        "source": "France24"
+      },
+      {
+        "title": "3 killed and 1 wounded in shooting at Ohio baby shower, police say; 1 man in custody",
+        "score": 49,
+        "source": "CNN"
+      },
+      {
+        "title": "Indians among 13 killed in UAE bus-truck crash, 14 injured",
+        "score": 41,
+        "source": "TOI"
+      },
+      {
+        "title": "Ex-Russian president warns Ukraine of nuclear strike: What options does Moscow have",
+        "score": 40,
+        "source": "TOI"
+      },
+      {
+        "title": "Russia-Ukraine war live: Moscow will ‘respond’ to attacks on oil refineries",
+        "score": 36,
+        "source": "Al Jazeera"
+      }
+    ]
   }
 ]
