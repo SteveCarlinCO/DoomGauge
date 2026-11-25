@@ -302,63 +302,68 @@
   },
   {
     "date": "2026-11-24",
-    "score": 9.8,
+    "score": 9.1,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 6.2,
-      "Al Jazeera": 20.0,
-      "CBS": 3.3,
-      "PBS": 10.0,
-      "ABC": 4.0,
-      "NBC": 16.0,
-      "Sky": 25.0,
-      "DW": 6.3,
+      "BBC": 9.4,
+      "Al Jazeera": 24.0,
+      "CBS": 6.7,
+      "PBS": 0.0,
+      "ABC": 12.0,
+      "NBC": 12.0,
+      "Sky": 30.0,
+      "DW": 5.6,
       "France24": 12.5,
-      "Guardian": 11.1,
-      "The Hill": 6.0,
+      "Guardian": 17.8,
+      "The Hill": 4.0,
       "ZeroHedge": 8.0,
-      "ReliefWeb": 10.0,
-      "TOI": 11.1,
-      "ABC-AU": 8.0,
+      "ReliefWeb": 0.0,
+      "TOI": 8.7,
+      "ABC-AU": 4.0,
       "Slate": 8.0,
       "Vox": 0.0,
       "Euronews": 14.0,
-      "CNBC": 6.7,
-      "ProPublica": 10.0,
-      "Dawn": 12.0,
+      "CNBC": 0.0,
+      "ProPublica": 5.0,
+      "Dawn": 11.1,
       "Japan Times": 13.3,
-      "The Diplomat": 12.5,
-      "Reason": 2.1,
-      "The Hindu": 6.7,
-      "Jerusalem Post": 23.1,
-      "FOX News": 24.0,
-      "CNN": 11.0,
+      "The Diplomat": 13.5,
+      "Reason": 4.2,
+      "The Hindu": 3.3,
+      "Jerusalem Post": 19.2,
+      "FOX News": 20.0,
+      "CNN": 13.0,
       "WARN Layoffs": 0.0
     },
     "topics": {
-      "War": 28.3,
-      "Economy": 7.5,
-      "Crime": 4.7,
-      "Disaster": 3.8,
-      "Health": 3.8,
-      "Politics": 1.9
+      "War": 32.3,
+      "Economy": 11.1,
+      "Politics": 4.0,
+      "Disaster": 2.0,
+      "Crime": 2.0,
+      "Health": 2.0
     },
     "top_keywords": [
       "war",
-      "death",
-      "killed"
+      "genocide",
+      "death"
     ],
     "top": [
-      {
-        "title": "Leaked data suggests 500,000 Russian soldiers killed since start of Ukraine invasion",
-        "score": 50,
-        "source": "France24"
-      },
       {
         "title": "3 killed and 1 wounded in shooting at Ohio baby shower, police say; 1 man in custody",
         "score": 49,
         "source": "CNN"
+      },
+      {
+        "title": "One every four minutes: 720,000 Russian soldiers killed since start of Ukraine war, new data suggests",
+        "score": 47,
+        "source": "CNN"
+      },
+      {
+        "title": "Russia's own figures show almost 500,000 deaths in war in Ukraine",
+        "score": 42,
+        "source": "BBC"
       },
       {
         "title": "Indians among 13 killed in UAE bus-truck crash, 14 injured",
@@ -366,14 +371,9 @@
         "source": "TOI"
       },
       {
-        "title": "Ex-Russian president warns Ukraine of nuclear strike: What options does Moscow have",
-        "score": 40,
-        "source": "TOI"
-      },
-      {
-        "title": "Russia-Ukraine war live: Moscow will ‘respond’ to attacks on oil refineries",
-        "score": 36,
-        "source": "Al Jazeera"
+        "title": "India pledges €1.4bn to help Nepal rebuild after deadly glacier flood",
+        "score": 34,
+        "source": "Euronews"
       }
     ]
   }
