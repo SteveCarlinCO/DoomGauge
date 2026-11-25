@@ -376,5 +376,81 @@
         "source": "Euronews"
       }
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "score": 9.7,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "BBC": 8.6,
+      "Al Jazeera": 8.0,
+      "CBS": 16.7,
+      "PBS": 0.0,
+      "ABC": 12.0,
+      "NBC": 8.0,
+      "Sky": 30.0,
+      "DW": 4.2,
+      "France24": 16.7,
+      "Guardian": 20.0,
+      "The Hill": 4.0,
+      "ZeroHedge": 12.0,
+      "ReliefWeb": 25.0,
+      "TOI": 19.6,
+      "ABC-AU": 20.0,
+      "Slate": 0.0,
+      "Vox": 0.0,
+      "Euronews": 14.0,
+      "CNBC": 0.0,
+      "ProPublica": 10.0,
+      "Dawn": 14.3,
+      "Japan Times": 3.3,
+      "The Diplomat": 13.5,
+      "Reason": 4.2,
+      "The Hindu": 5.0,
+      "Jerusalem Post": 7.7,
+      "FOX News": 4.0,
+      "CNN": 13.0,
+      "WARN Layoffs": 0.0
+    },
+    "topics": {
+      "War": 34.9,
+      "Disaster": 6.6,
+      "Crime": 5.7,
+      "Economy": 4.7,
+      "Politics": 1.9,
+      "Health": 1.9
+    },
+    "top_keywords": [
+      "war",
+      "death",
+      "killed"
+    ],
+    "top": [
+      {
+        "title": "Leaked Russian records reveal nearly 500,000 killed since start of invasion",
+        "score": 50,
+        "source": "TOI"
+      },
+      {
+        "title": "One every four minutes: 720,000 Russian soldiers killed since start of Ukraine war, new data suggests",
+        "score": 47,
+        "source": "CNN"
+      },
+      {
+        "title": "🔴 Colombia president says all hostages freed, one assailant killed after supermarket hostage siege",
+        "score": 45,
+        "source": "France24"
+      },
+      {
+        "title": "‘Papa’s security was removed so that he got killed,’ says Rahul Gandhi on Rajiv Gandhi’s death",
+        "score": 45,
+        "source": "The Hindu"
+      },
+      {
+        "title": "WATCH:  Tourist killed in wild elephant attack while hiking with tour group",
+        "score": 39,
+        "source": "ABC"
+      }
+    ]
   }
 ]
