@@ -450,5 +450,81 @@
         "source": "BBC"
       }
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "score": 9.8,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 20.0,
+      "BBC": 20.0,
+      "Al Jazeera": 20.0,
+      "CBS": 3.3,
+      "PBS": 5.0,
+      "ABC": 12.0,
+      "NBC": 12.0,
+      "Sky": 37.5,
+      "DW": 5.6,
+      "France24": 12.5,
+      "Guardian": 22.2,
+      "The Hill": 3.0,
+      "ZeroHedge": 8.0,
+      "ReliefWeb": 10.0,
+      "TOI": 9.3,
+      "ABC-AU": 4.0,
+      "Slate": 4.0,
+      "Euronews": 16.0,
+      "CNBC": 13.3,
+      "ProPublica": 10.0,
+      "Dawn": 7.4,
+      "Japan Times": 16.7,
+      "The Diplomat": 13.5,
+      "Reason": 6.2,
+      "The Hindu": 1.7,
+      "Jerusalem Post": 30.8,
+      "FOX News": 8.0,
+      "CNN": 10.0,
+      "WARN Layoffs": 0.0
+    },
+    "topics": {
+      "War": 35.5,
+      "Disaster": 9.3,
+      "Economy": 5.6,
+      "Politics": 4.7,
+      "Health": 2.8,
+      "Crime": 1.9
+    },
+    "top_keywords": [
+      "war",
+      "killed",
+      "nuclear"
+    ],
+    "top": [
+      {
+        "title": "More than 700,000 Russian soldiers killed in Ukraine war, new estimate suggests",
+        "score": 47,
+        "source": "NBC"
+      },
+      {
+        "title": "18 Years After 26/11, Is India Finally Winning the War Against Terror?",
+        "score": 42,
+        "source": "The Diplomat"
+      },
+      {
+        "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+        "score": 41,
+        "source": "Guardian"
+      },
+      {
+        "title": "Six killed in plane crash off Mississippi coast",
+        "score": 41,
+        "source": "CNN"
+      },
+      {
+        "title": "WATCH:  Tourist killed in wild elephant attack while hiking with tour group",
+        "score": 39,
+        "source": "ABC"
+      }
+    ]
   }
 ]
