@@ -601,5 +601,80 @@
         "source": "The Hindu"
       }
     ]
+  },
+  {
+    "date": "2026-11-28",
+    "score": 8.4,
+    "verdict": "Mostly survivable.",
+    "sources": {
+      "NPR": 10.0,
+      "BBC": 12.9,
+      "Al Jazeera": 20.0,
+      "CBS": 3.3,
+      "ABC": 0.0,
+      "NBC": 4.0,
+      "Sky": 42.9,
+      "DW": 5.5,
+      "France24": 8.3,
+      "Guardian": 15.6,
+      "The Hill": 9.0,
+      "ZeroHedge": 8.0,
+      "ReliefWeb": 0.0,
+      "TOI": 4.3,
+      "ABC-AU": 8.0,
+      "Vox": 10.0,
+      "Euronews": 12.0,
+      "CNBC": 6.7,
+      "ProPublica": 10.0,
+      "Dawn": 11.5,
+      "Japan Times": 3.3,
+      "The Diplomat": 13.5,
+      "Reason": 4.2,
+      "The Hindu": 3.3,
+      "Jerusalem Post": 12.0,
+      "FOX News": 0.0,
+      "CNN": 14.0,
+      "WARN Layoffs": 0.0
+    },
+    "topics": {
+      "War": 36.0,
+      "Economy": 6.7,
+      "Disaster": 4.5,
+      "Politics": 2.2,
+      "Crime": 1.1,
+      "Health": 1.1
+    },
+    "top_keywords": [
+      "killed",
+      "war",
+      "genocide"
+    ],
+    "top": [
+      {
+        "title": "Two Italians killed in Kuwait drone attack; Trump says Iran war ends ‘whenever I want it’",
+        "score": 61,
+        "source": "CNBC"
+      },
+      {
+        "title": "Seven terrorists killed in Bannu operation",
+        "score": 53,
+        "source": "Dawn"
+      },
+      {
+        "title": "18 Years After 26/11, Is India Finally Winning the War Against Terror?",
+        "score": 42,
+        "source": "The Diplomat"
+      },
+      {
+        "title": "Driver suspected of causing tanker crash in Egypt that killed 31 detained",
+        "score": 41,
+        "source": "Sky"
+      },
+      {
+        "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+        "score": 41,
+        "source": "Guardian"
+      }
+    ]
   }
 ]
