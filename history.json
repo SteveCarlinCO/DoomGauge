@@ -529,25 +529,24 @@
   },
   {
     "date": "2026-11-27",
-    "score": 8.3,
+    "score": 9.2,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 0.0,
-      "BBC": 9.4,
-      "Al Jazeera": 12.0,
+      "BBC": 3.1,
+      "Al Jazeera": 20.0,
       "CBS": 3.3,
-      "PBS": 5.0,
       "ABC": 0.0,
-      "NBC": 0.0,
+      "NBC": 4.0,
       "Sky": 44.4,
       "DW": 6.2,
-      "France24": 16.7,
+      "France24": 12.5,
       "Guardian": 15.6,
-      "The Hill": 7.0,
-      "ZeroHedge": 8.0,
+      "The Hill": 9.0,
+      "ZeroHedge": 12.0,
       "ReliefWeb": 0.0,
-      "TOI": 2.3,
-      "ABC-AU": 0.0,
+      "TOI": 4.3,
+      "ABC-AU": 8.0,
       "Vox": 10.0,
       "Euronews": 12.0,
       "CNBC": 6.7,
@@ -555,20 +554,20 @@
       "Dawn": 10.7,
       "Japan Times": 6.7,
       "The Diplomat": 13.5,
-      "Reason": 6.2,
-      "The Hindu": 0.0,
-      "Jerusalem Post": 11.5,
-      "FOX News": 16.0,
-      "CNN": 15.0,
+      "Reason": 4.2,
+      "The Hindu": 3.3,
+      "Jerusalem Post": 29.2,
+      "FOX News": 4.0,
+      "CNN": 14.0,
       "WARN Layoffs": 0.0
     },
     "topics": {
-      "War": 42.2,
-      "Economy": 11.1,
-      "Politics": 4.4,
-      "Disaster": 3.3,
-      "Crime": 3.3,
-      "Health": 1.1
+      "War": 43.9,
+      "Economy": 7.1,
+      "Politics": 5.1,
+      "Disaster": 4.1,
+      "Crime": 4.1,
+      "Health": 1.0
     },
     "top_keywords": [
       "war",
@@ -582,24 +581,24 @@
         "source": "CNBC"
       },
       {
+        "title": "Iran war live: Italy says drone in deadly Kuwait attack was made in Iran",
+        "score": 58,
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "IDF kills 10 Hamas, PIJ terrorists in Gaza, including four who participated in October 7 massacre",
+        "score": 58,
+        "source": "Jerusalem Post"
+      },
+      {
         "title": "720,000 Russian soldiers killed since start of Ukraine war, new data suggests",
         "score": 47,
         "source": "CNN"
       },
       {
-        "title": "18 Years After 26/11, Is India Finally Winning the War Against Terror?",
-        "score": 42,
-        "source": "The Diplomat"
-      },
-      {
-        "title": "Driver suspected of causing tanker crash in Egypt that killed 31 detained",
-        "score": 41,
-        "source": "Sky"
-      },
-      {
-        "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
-        "score": 41,
-        "source": "Guardian"
+        "title": "Killed Bihar youth’s mother sits on fast-unto-death protest, MP Pappu Yadav meets her, demands CBI probe",
+        "score": 45,
+        "source": "The Hindu"
       }
     ]
   }
