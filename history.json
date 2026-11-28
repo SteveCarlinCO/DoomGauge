@@ -604,49 +604,51 @@
   },
   {
     "date": "2026-11-28",
-    "score": 8.4,
+    "score": 10.2,
     "verdict": "Mostly survivable.",
     "sources": {
       "NPR": 10.0,
-      "BBC": 12.9,
-      "Al Jazeera": 20.0,
-      "CBS": 3.3,
-      "ABC": 0.0,
-      "NBC": 4.0,
+      "BBC": 13.0,
+      "Al Jazeera": 28.0,
+      "CBS": 13.3,
+      "PBS": 10.0,
+      "ABC": 4.0,
+      "NBC": 12.0,
       "Sky": 42.9,
-      "DW": 5.5,
-      "France24": 8.3,
-      "Guardian": 15.6,
+      "DW": 6.2,
+      "France24": 12.5,
+      "Guardian": 22.2,
       "The Hill": 9.0,
-      "ZeroHedge": 8.0,
+      "ZeroHedge": 20.0,
       "ReliefWeb": 0.0,
-      "TOI": 4.3,
+      "TOI": 8.7,
       "ABC-AU": 8.0,
+      "Slate": 0.0,
       "Vox": 10.0,
-      "Euronews": 12.0,
-      "CNBC": 6.7,
+      "Euronews": 10.0,
+      "CNBC": 10.0,
       "ProPublica": 10.0,
       "Dawn": 11.5,
       "Japan Times": 3.3,
       "The Diplomat": 13.5,
       "Reason": 4.2,
-      "The Hindu": 3.3,
-      "Jerusalem Post": 12.0,
-      "FOX News": 0.0,
-      "CNN": 14.0,
+      "The Hindu": 5.0,
+      "Jerusalem Post": 19.2,
+      "FOX News": 4.0,
+      "CNN": 16.0,
       "WARN Layoffs": 0.0
     },
     "topics": {
-      "War": 36.0,
-      "Economy": 6.7,
-      "Disaster": 4.5,
-      "Politics": 2.2,
-      "Crime": 1.1,
-      "Health": 1.1
+      "War": 37.8,
+      "Disaster": 9.9,
+      "Economy": 8.1,
+      "Politics": 2.7,
+      "Health": 2.7,
+      "Crime": 1.8
     },
     "top_keywords": [
-      "killed",
       "war",
+      "killed",
       "genocide"
     ],
     "top": [
@@ -656,24 +658,24 @@
         "source": "CNBC"
       },
       {
+        "title": "Years after deadly Sandy Hook shooting, US Supreme Court considers overturning assault weapons ban",
+        "score": 59,
+        "source": "Jerusalem Post"
+      },
+      {
+        "title": "Iran points to Europe’s war role after Italians killed in Kuwait strike",
+        "score": 57,
+        "source": "Al Jazeera"
+      },
+      {
         "title": "Seven terrorists killed in Bannu operation",
         "score": 53,
         "source": "Dawn"
       },
       {
-        "title": "18 Years After 26/11, Is India Finally Winning the War Against Terror?",
-        "score": 42,
-        "source": "The Diplomat"
-      },
-      {
-        "title": "Driver suspected of causing tanker crash in Egypt that killed 31 detained",
-        "score": 41,
-        "source": "Sky"
-      },
-      {
-        "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
-        "score": 41,
-        "source": "Guardian"
+        "title": "Watch: Zelensky Calls Putin \"A Killer\"... Wants Crimea Bridge \"Demolished Completely\" As Russia Warns Nuclear War 'Inching Closer'",
+        "score": 52,
+        "source": "ZeroHedge"
       }
     ]
   }
